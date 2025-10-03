@@ -1,0 +1,310 @@
+{
+  "rotate": {
+    "0": {
+      "$type": "number",
+      "$value": "0"
+    },
+    "30": {
+      "$type": "number",
+      "$value": "0"
+    },
+    "45": {
+      "$type": "number",
+      "$value": "0"
+    },
+    "90": {
+      "$type": "number",
+      "$value": "0"
+    },
+    "180": {
+      "$type": "number",
+      "$value": "0"
+    },
+    "270": {
+      "$type": "number",
+      "$value": "0"
+    },
+    "315": {
+      "$type": "number",
+      "$value": "0"
+    },
+    "330": {
+      "$type": "number",
+      "$value": "0"
+    }
+  },
+  "opacity": {
+    "0": {
+      "$type": "opacity",
+      "$value": "0"
+    },
+    "5": {
+      "$type": "opacity",
+      "$value": "5%"
+    },
+    "10": {
+      "$type": "opacity",
+      "$value": "10%"
+    },
+    "15": {
+      "$type": "opacity",
+      "$value": "15%"
+    },
+    "20": {
+      "$type": "opacity",
+      "$value": "20%"
+    },
+    "25": {
+      "$type": "opacity",
+      "$value": "25%"
+    },
+    "30": {
+      "$type": "opacity",
+      "$value": "30%"
+    },
+    "35": {
+      "$type": "opacity",
+      "$value": "35%"
+    },
+    "40": {
+      "$type": "opacity",
+      "$value": "40%"
+    },
+    "45": {
+      "$type": "opacity",
+      "$value": "45%"
+    },
+    "50": {
+      "$type": "opacity",
+      "$value": "50%"
+    },
+    "55": {
+      "$type": "opacity",
+      "$value": "55%"
+    },
+    "60": {
+      "$type": "opacity",
+      "$value": "60%"
+    },
+    "65": {
+      "$type": "opacity",
+      "$value": "65%"
+    },
+    "70": {
+      "$type": "opacity",
+      "$value": "70%"
+    },
+    "75": {
+      "$type": "opacity",
+      "$value": "75%"
+    },
+    "80": {
+      "$type": "opacity",
+      "$value": "80%"
+    },
+    "85": {
+      "$type": "opacity",
+      "$value": "85%"
+    },
+    "90": {
+      "$type": "opacity",
+      "$value": "90%"
+    },
+    "95": {
+      "$type": "opacity",
+      "$value": "95%"
+    },
+    "100": {
+      "$type": "opacity",
+      "$value": "100%"
+    }
+  },
+  "dimension": {
+    "fixed": {
+      "0": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.base} * 0"
+      },
+      "2": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.base} * 0.25"
+      },
+      "5": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.base} * 0.5"
+      },
+      "7": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.base} * 0.75"
+      },
+      "10": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.base} * 1"
+      },
+      "15": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.base} * 1.5"
+      },
+      "20": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.base} * 2"
+      },
+      "25": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.base} * 2.5"
+      },
+      "30": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.base} * 3"
+      },
+      "40": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.base} * 4"
+      },
+      "50": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.base} * 5"
+      },
+      "60": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.base} * 6"
+      },
+      "80": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.base} * 8"
+      }
+    }
+  },
+  "dimensions": {
+    "size": {
+      "l": {
+        "$type": "sizing",
+        "$value": "32px"
+      },
+      "m": {
+        "$type": "sizing",
+        "$value": "24px"
+      },
+      "s": {
+        "$type": "sizing",
+        "$value": "16px"
+      },
+      "xl": {
+        "$type": "sizing",
+        "$value": "40px"
+      },
+      "xs": {
+        "$type": "sizing",
+        "$value": "12px"
+      },
+      "2xl": {
+        "$type": "sizing",
+        "$value": "48px"
+      },
+      "3xl": {
+        "$type": "sizing",
+        "$value": "56px"
+      },
+      "4xl": {
+        "$type": "sizing",
+        "$value": "72px"
+      }
+    },
+    "radius": {
+      "l": {
+        "$type": "borderRadius",
+        "$value": "{dimension.fixed.15}"
+      },
+      "m": {
+        "$type": "borderRadius",
+        "$value": "{dimension.fixed.10}"
+      },
+      "s": {
+        "$type": "borderRadius",
+        "$value": "{dimension.fixed.7}"
+      },
+      "xl": {
+        "$type": "borderRadius",
+        "$value": "{dimension.fixed.20}"
+      },
+      "xs": {
+        "$type": "borderRadius",
+        "$value": "{dimension.fixed.5}"
+      },
+      "2xl": {
+        "$type": "borderRadius",
+        "$value": "{dimension.fixed.25}"
+      },
+      "2xs": {
+        "$type": "borderRadius",
+        "$value": "{dimension.fixed.2}"
+      },
+      "3xl": {
+        "$type": "borderRadius",
+        "$value": "{dimension.fixed.30}"
+      },
+      "4xl": {
+        "$type": "borderRadius",
+        "$value": "{dimension.fixed.40}"
+      },
+      "full": {
+        "$type": "borderRadius",
+        "$value": "9999"
+      },
+      "none": {
+        "$type": "borderRadius",
+        "$value": "{dimension.fixed.0}"
+      }
+    },
+    "screen": {
+      "l": {
+        "$type": "sizing",
+        "$value": "992"
+      },
+      "m": {
+        "$type": "sizing",
+        "$value": "768"
+      },
+      "s": {
+        "$type": "sizing",
+        "$value": "576"
+      },
+      "xl": {
+        "$type": "sizing",
+        "$value": "1248"
+      },
+      "xs": {
+        "$type": "sizing",
+        "$value": "320"
+      }
+    },
+    "container": {
+      "width-xl": {
+        "$type": "sizing",
+        "$value": "1200"
+      }
+    },
+    "border-width": {
+      "l": {
+        "$type": "borderWidth",
+        "$value": "4px"
+      },
+      "m": {
+        "$type": "borderWidth",
+        "$value": "2px"
+      },
+      "s": {
+        "$type": "borderWidth",
+        "$value": "1px"
+      },
+      "xs": {
+        "$type": "borderWidth",
+        "$value": "0.5px"
+      },
+      "none": {
+        "$type": "borderWidth",
+        "$value": "0"
+      }
+    }
+  }
+}

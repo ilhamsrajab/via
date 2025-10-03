@@ -1,0 +1,40 @@
+{
+  "font-family": {
+    "mono": {
+      "$type": "fontFamilies",
+      "$value": "Menlo"
+    },
+    "serif": {
+      "$type": "fontFamilies",
+      "$value": "Georgia"
+    },
+    "default": {
+      "$type": "fontFamilies",
+      "$value": "Noto Sans"
+    }
+  },
+  "brand-colors": {
+    "primary": {
+      "base": {
+        "$type": "color",
+        "$value": "{colors.red.60}"
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "{colors.red.70}"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "{colors.red.30}"
+      },
+      "darker": {
+        "$type": "color",
+        "$value": "{colors.red.90}"
+      },
+      "lighter": {
+        "$type": "color",
+        "$value": "{colors.red.10}"
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "font-family": {
+    "mono": {
+      "$type": "fontFamilies",
+      "$value": "Menlo"
+    },
+    "serif": {
+      "$type": "fontFamilies",
+      "$value": "Georgia"
+    },
+    "default": {
+      "$type": "fontFamilies",
+      "$value": "Satoshi"
+    }
+  },
+  "brand-colors": {
+    "accent": {
+      "base": {
+        "$type": "color",
+        "$value": "#d98b06"
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#92610e"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#fcbb4d"
+      },
+      "darker": {
+        "$type": "color",
+        "$value": "#78510f"
+      },
+      "lighter": {
+        "$type": "color",
+        "$value": "#feeac7"
+      }
+    },
+    "primary": {
+      "base": {
+        "$type": "color",
+        "$value": "#2563eb"
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#1d58d8"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#93b4fd"
+      },
+      "darker": {
+        "$type": "color",
+        "$value": "#1e408a"
+      },
+      "lighter": {
+        "$type": "color",
+        "$value": "#dbe6fe"
+      }
+    }
+  }
+}

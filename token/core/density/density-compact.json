@@ -1,0 +1,10 @@
+{
+  "dimension": {
+    "fixed": {
+      "base": {
+        "$type": "dimension",
+        "$value": "4px"
+      }
+    }
+  }
+}

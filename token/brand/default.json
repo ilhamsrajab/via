@@ -1,0 +1,291 @@
+{
+  "font-family": {
+    "mono": {
+      "$type": "fontFamilies",
+      "$value": "Menlo"
+    },
+    "serif": {
+      "$type": "fontFamilies",
+      "$value": "Georgia"
+    },
+    "default": {
+      "$type": "fontFamilies",
+      "$value": "Plus Jakarta Sans"
+    }
+  },
+  "brand-colors": {
+    "primary": {
+      "base": {
+        "$type": "color",
+        "$value": "{colors.lime.60}"
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "{colors.lime.70}"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "{colors.lime.30}"
+      },
+      "darker": {
+        "$type": "color",
+        "$value": "{colors.lime.90}"
+      },
+      "lighter": {
+        "$type": "color",
+        "$value": "{colors.lime.10}"
+      }
+    }
+  },
+  "theme-colors": {
+    "info": {
+      "icon": {
+        "default": {
+          "$type": "color",
+          "$value": "{colors.blue.60}",
+          "$description": "Used for informative icons and should be paired with text that conveys the same meaning."
+        }
+      },
+      "text": {
+        "default": {
+          "$type": "color",
+          "$value": "{colors.blue.70}",
+          "$description": " Used to convey informative messages, link, etc."
+        }
+      },
+      "background": {
+        "low": {
+          "$type": "color",
+          "$value": "{colors.blue.10}",
+          "$description": "Secondary background color is used when there is a need to emphasize specific semantics."
+        },
+        "high": {
+          "$type": "color",
+          "$value": "{colors.blue.60}",
+          "$description": "Brand color is exclusively reserved for Buttons and should be used sparingly for the most prominent object in the UI."
+        },
+        "medium": {
+          "$type": "color",
+          "$value": "{colors.blue.20}",
+          "$description": "Tertiary background color is used for prominent semantics, generally for selection, info, etc."
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{colors.blue.5}",
+          "$description": " Primary background color for informative component."
+        }
+      }
+    },
+    "danger": {
+      "icon": {
+        "default": {
+          "$type": "color",
+          "$value": "{colors.red.60}",
+          "$description": "Used for critical icons and should be paired with text that conveys the same meaning."
+        }
+      },
+      "text": {
+        "default": {
+          "$type": "color",
+          "$value": "{colors.red.70}",
+          "$description": "Used to indicate critical or potentially harmful situations."
+        }
+      },
+      "background": {
+        "low": {
+          "$type": "color",
+          "$value": "{colors.red.10}",
+          "$description": "Secondary background color for critical component."
+        },
+        "high": {
+          "$type": "color",
+          "$value": "{colors.red.60}",
+          "$description": "Brand accent colors are frequently used on supporting main components, such as tags."
+        },
+        "medium": {
+          "$type": "color",
+          "$value": "{colors.red.20}",
+          "$description": "Tertiary background color is used for prominent semantics, generally for negative/critical meanings, etc.Tertiary background color is used for prominent semantics, generally for negative/critical meanings, etc."
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{colors.red.5}",
+          "$description": " Primary background color for critical component."
+        }
+      }
+    },
+    "neutral": {
+      "text": {
+        "low": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "space": "lch",
+                "value": "0.6"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{colors.gray.90}",
+          "$description": "Used for trivial information and should be used sparingly."
+        },
+        "high": {
+          "$type": "color",
+          "$value": "{colors.gray.90}",
+          "$description": " Used for high-importance text, such as heading and titles."
+        },
+        "medium": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "space": "lch",
+                "value": "0.75"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{colors.gray.90}",
+          "$description": "Commonly used for body text or any other content."
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{colors.gray.5}",
+          "$description": "Used for typography on dark or colored backgrounds."
+        },
+        "disabled": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "space": "lch",
+                "value": "0.5"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{colors.gray.90}",
+          "$description": "Used for inactive or disabled text."
+        },
+        "inverse-disabled": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "space": "lch",
+                "value": "0.5"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{colors.gray.5}",
+          "$description": "Used for disabled text on dark or colored backgrounds."
+        }
+      },
+      "background": {
+        "low": {
+          "$type": "color",
+          "$value": "{colors.gray.5}",
+          "$description": "Secondary background color for components that require a lower visual weight."
+        },
+        "high": {
+          "$type": "color",
+          "$value": "{colors.gray.90}",
+          "$description": " High contrast and used for the prominent background color."
+        },
+        "medium": {
+          "$type": "color",
+          "$value": "{colors.gray.10}",
+          "$description": "Tertiary background color, generally used for clickable objects on a white background, such as text fields, etc."
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{colors.gray.0}",
+          "$description": "Primary background color for most components and sections of the interface."
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{colors.gray.20}",
+          "$description": " Inactive or unavailable component background color."
+        }
+      }
+    },
+    "success": {
+      "icon": {
+        "default": {
+          "$type": "color",
+          "$value": "{colors.green.60}",
+          "$description": "Used for success icons and should be paired with text that conveys the same meaning."
+        }
+      },
+      "text": {
+        "default": {
+          "$type": "color",
+          "$value": "{colors.green.70}",
+          "$description": " Used to indicate successful or positive outcomes."
+        }
+      },
+      "background": {
+        "low": {
+          "$type": "color",
+          "$value": "{colors.green.10}",
+          "$description": " Secondary background color for positive outcomes."
+        },
+        "high": {
+          "$type": "color",
+          "$value": "{colors.green.60}",
+          "$description": "Brand accent colors are frequently used on supporting main components, such as tags."
+        },
+        "medium": {
+          "$type": "color",
+          "$value": "{colors.green.20}",
+          "$description": "Tertiary background color is used for prominent semantics, such as success or positive meanings."
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{colors.green.5}",
+          "$description": " Primary background color for positive outcomes."
+        }
+      }
+    },
+    "warning": {
+      "icon": {
+        "default": {
+          "$type": "color",
+          "$value": "{colors.yellow.60}",
+          "$description": "Used for alert icons and should be paired with text that conveys the same meaning."
+        }
+      },
+      "text": {
+        "default": {
+          "$type": "color",
+          "$value": "{colors.yellow.70}",
+          "$description": " Used to indicate that the user needs to pay attention."
+        }
+      },
+      "background": {
+        "low": {
+          "$type": "color",
+          "$value": "{colors.yellow.10}",
+          "$description": "Secondary background color for alert component."
+        },
+        "high": {
+          "$type": "color",
+          "$value": "{colors.yellow.60}",
+          "$description": "Brand accent colors are frequently used on supporting main components, such as tags."
+        },
+        "medium": {
+          "$type": "color",
+          "$value": "{colors.yellow.20}",
+          "$description": "Tertiary background color is used for prominent semantics, generally for alert/warning."
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{colors.yellow.5}",
+          "$description": " Primary background color for alert component."
+        }
+      }
+    }
+  }
+}

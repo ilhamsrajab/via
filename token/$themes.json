@@ -1,0 +1,94 @@
+[
+  {
+    "id": "Brand-Default",
+    "name": "Default",
+    "group": "Brand",
+    "selectedTokenSets": {
+      "brand/default": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": null
+  },
+  {
+    "id": "Brand-Tiketux",
+    "name": "Tiketux",
+    "group": "Brand",
+    "selectedTokenSets": {
+      "brand/tiketux": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": null
+  },
+  {
+    "id": "Brand-Aragon",
+    "name": "Aragon",
+    "group": "Brand",
+    "selectedTokenSets": {
+      "brand/aragon": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": null
+  },
+  {
+    "id": "Brand-Baraya Travel",
+    "name": "Baraya Travel",
+    "group": "Brand",
+    "selectedTokenSets": {
+      "brand/baraya": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": null
+  },
+  {
+    "id": "Primitive-primitive",
+    "name": "primitive",
+    "group": "Primitive",
+    "selectedTokenSets": {
+      "core/colors": "source",
+      "core/dimensions": "source",
+      "core/defaults": "source"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": null
+  },
+  {
+    "id": "Density-Compact",
+    "name": "Compact",
+    "group": "Density",
+    "selectedTokenSets": {
+      "core/density/density-compact": "source"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": null
+  },
+  {
+    "id": "Density-Default",
+    "name": "Default",
+    "group": "Density",
+    "selectedTokenSets": {
+      "core/density/density-default": "source"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": null
+  },
+  {
+    "id": "Density-Cozy",
+    "name": "Cozy",
+    "group": "Density",
+    "selectedTokenSets": {
+      "core/density/density-cozy": "source"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": null
+  },
+  {
+    "id": "Density-Spacious",
+    "name": "Spacious",
+    "group": "Density",
+    "selectedTokenSets": {
+      "core/density/density-spacious": "source"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": null
+  }
+]
