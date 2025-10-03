@@ -1,0 +1,17 @@
+{
+  "tokenSetOrder": [
+    "core/colors",
+    "core/density/density-compact",
+    "core/density/density-default",
+    "core/density/density-cozy",
+    "core/density/density-spacious",
+    "core/dimensions",
+    "core/defaults",
+    "brand/default",
+    "brand/tiketux",
+    "brand/aragon",
+    "brand/baraya",
+    "theme/light",
+    "theme/dark"
+  ]
+}
