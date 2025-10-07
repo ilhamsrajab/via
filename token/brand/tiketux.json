@@ -1,20 +1,28 @@
 {
   "font-family": {
-    "mono": {
+    "default": {
       "$type": "fontFamilies",
-      "$value": "Menlo"
+      "$value": "Satoshi"
     },
     "serif": {
       "$type": "fontFamilies",
       "$value": "Georgia"
     },
-    "default": {
+    "mono": {
       "$type": "fontFamilies",
-      "$value": "Satoshi"
+      "$value": "Menlo"
     }
   },
   "brand-colors": {
     "accent": {
+      "lighter": {
+        "$type": "color",
+        "$value": "#feeac7"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#fcbb4d"
+      },
       "base": {
         "$type": "color",
         "$value": "#d98b06"
@@ -23,20 +31,20 @@
         "$type": "color",
         "$value": "#92610e"
       },
-      "light": {
-        "$type": "color",
-        "$value": "#fcbb4d"
-      },
       "darker": {
         "$type": "color",
         "$value": "#78510f"
-      },
-      "lighter": {
-        "$type": "color",
-        "$value": "#feeac7"
       }
     },
     "primary": {
+      "lighter": {
+        "$type": "color",
+        "$value": "#dbe6fe"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#93b4fd"
+      },
       "base": {
         "$type": "color",
         "$value": "#2563eb"
@@ -45,17 +53,9 @@
         "$type": "color",
         "$value": "#1d58d8"
       },
-      "light": {
-        "$type": "color",
-        "$value": "#93b4fd"
-      },
       "darker": {
         "$type": "color",
         "$value": "#1e408a"
-      },
-      "lighter": {
-        "$type": "color",
-        "$value": "#dbe6fe"
       }
     }
   }

@@ -1,28 +1,28 @@
 {
   "tracking": {
-    "wide": {
+    "tighter": {
       "$type": "letterSpacing",
-      "$value": "0.025rem"
+      "$value": "-0.05rem"
     },
     "tight": {
       "$type": "letterSpacing",
       "$value": "-0.025rem"
     },
-    "wider": {
-      "$type": "letterSpacing",
-      "$value": "0.05rem"
-    },
     "normal": {
       "$type": "letterSpacing",
       "$value": "0rem"
     },
+    "wide": {
+      "$type": "letterSpacing",
+      "$value": "0.025rem"
+    },
+    "wider": {
+      "$type": "letterSpacing",
+      "$value": "0.05rem"
+    },
     "widest": {
       "$type": "letterSpacing",
       "$value": "0.1rem"
-    },
-    "tighter": {
-      "$type": "letterSpacing",
-      "$value": "-0.05rem"
     }
   },
   "font-size": {
@@ -80,41 +80,41 @@
     }
   },
   "fontWeight": {
-    "bold": {
-      "$type": "fontWeights",
-      "$value": "700"
-    },
     "thin": {
       "$type": "fontWeights",
       "$value": "100"
     },
-    "black": {
+    "extralight": {
       "$type": "fontWeights",
-      "$value": "900"
+      "$value": "200"
     },
     "light": {
       "$type": "fontWeights",
       "$value": "300"
     },
-    "medium": {
-      "$type": "fontWeights",
-      "$value": "500"
-    },
     "normal": {
       "$type": "fontWeights",
       "$value": "400"
+    },
+    "medium": {
+      "$type": "fontWeights",
+      "$value": "500"
     },
     "semibold": {
       "$type": "fontWeights",
       "$value": "600"
     },
+    "bold": {
+      "$type": "fontWeights",
+      "$value": "700"
+    },
     "extrabold": {
       "$type": "fontWeights",
       "$value": "800"
     },
-    "extralight": {
+    "black": {
       "$type": "fontWeights",
-      "$value": "200"
+      "$value": "900"
     }
   },
   "lineHeight": {
@@ -164,17 +164,17 @@
     }
   },
   "font-family": {
-    "mono": {
+    "default": {
       "$type": "fontFamilies",
-      "$value": "Menlo"
+      "$value": "Inter"
     },
     "serif": {
       "$type": "fontFamilies",
       "$value": "Georgia"
     },
-    "default": {
+    "mono": {
       "$type": "fontFamilies",
-      "$value": "Inter"
+      "$value": "Menlo"
     }
   },
   "textTransform": {

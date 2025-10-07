@@ -1,20 +1,28 @@
 {
   "font-family": {
-    "mono": {
+    "default": {
       "$type": "fontFamilies",
-      "$value": "Menlo"
+      "$value": "Noto Sans"
     },
     "serif": {
       "$type": "fontFamilies",
       "$value": "Georgia"
     },
-    "default": {
+    "mono": {
       "$type": "fontFamilies",
-      "$value": "Noto Sans"
+      "$value": "Menlo"
     }
   },
   "brand-colors": {
     "primary": {
+      "lighter": {
+        "$type": "color",
+        "$value": "{colors.red.10}"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "{colors.red.30}"
+      },
       "base": {
         "$type": "color",
         "$value": "{colors.red.60}"
@@ -23,17 +31,9 @@
         "$type": "color",
         "$value": "{colors.red.70}"
       },
-      "light": {
-        "$type": "color",
-        "$value": "{colors.red.30}"
-      },
       "darker": {
         "$type": "color",
         "$value": "{colors.red.90}"
-      },
-      "lighter": {
-        "$type": "color",
-        "$value": "{colors.red.10}"
       }
     }
   }

@@ -1,20 +1,28 @@
 {
   "font-family": {
-    "mono": {
+    "default": {
       "$type": "fontFamilies",
-      "$value": "Menlo"
+      "$value": "Oxygen"
     },
     "serif": {
       "$type": "fontFamilies",
       "$value": "Georgia"
     },
-    "default": {
+    "mono": {
       "$type": "fontFamilies",
-      "$value": "Oxygen"
+      "$value": "Menlo"
     }
   },
   "brand-colors": {
     "primary": {
+      "lighter": {
+        "$type": "color",
+        "$value": "#e5e7f8"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#cbd0f1"
+      },
       "base": {
         "$type": "color",
         "$value": "#5b73d4"
@@ -23,17 +31,9 @@
         "$type": "color",
         "$value": "#2a3c7c"
       },
-      "light": {
-        "$type": "color",
-        "$value": "#cbd0f1"
-      },
       "darker": {
         "$type": "color",
         "$value": "#152149"
-      },
-      "lighter": {
-        "$type": "color",
-        "$value": "#e5e7f8"
       }
     }
   }
