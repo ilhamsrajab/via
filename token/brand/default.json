@@ -21,12 +21,12 @@
         "$type": "typography",
         "$value": {
           "fontSize": "{font-size.24}",
-          "textCase": "{textTransform.none}",
+          "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.bold}",
-          "lineHeight": "{lineHeight.150}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "{line-height.150}",
           "letterSpacing": "{tracking.tight}",
-          "textDecoration": "{textDecoration.none}"
+          "textDecoration": "{text-decoration.none}"
         },
         "$description": "Used for smaller subheadings or section headings."
       },
@@ -34,12 +34,12 @@
         "$type": "typography",
         "$value": {
           "fontSize": "{font-size.32}",
-          "textCase": "{textTransform.none}",
+          "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.bold}",
-          "lineHeight": "{lineHeight.150}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "{line-height.150}",
           "letterSpacing": "{tracking.tight}",
-          "textDecoration": "{textDecoration.none}"
+          "textDecoration": "{text-decoration.none}"
         },
         "$description": "Used for subheadings or section headings."
       },
@@ -47,12 +47,12 @@
         "$type": "typography",
         "$value": {
           "fontSize": "{font-size.40}",
-          "textCase": "{textTransform.none}",
+          "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.bold}",
-          "lineHeight": "{lineHeight.150}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "{line-height.150}",
           "letterSpacing": "{tracking.tight}",
-          "textDecoration": "{textDecoration.none}"
+          "textDecoration": "{text-decoration.none}"
         },
         "$description": "Used for the main heading of a page or section."
       }
@@ -62,12 +62,12 @@
         "$type": "typography",
         "$value": {
           "fontSize": "{font-size.18}",
-          "textCase": "{textTransform.none}",
+          "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.semibold}",
-          "lineHeight": "{lineHeight.24}",
+          "fontWeight": "{font-weight.semibold}",
+          "lineHeight": "{line-height.24}",
           "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{textDecoration.none}"
+          "textDecoration": "{text-decoration.none}"
         },
         "$description": "Used for secondary titles or headings."
       },
@@ -75,12 +75,12 @@
         "$type": "typography",
         "$value": {
           "fontSize": "{font-size.20}",
-          "textCase": "{textTransform.none}",
+          "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.semibold}",
-          "lineHeight": "{lineHeight.24}",
+          "fontWeight": "{font-weight.semibold}",
+          "lineHeight": "{line-height.24}",
           "letterSpacing": "{tracking.tight}",
-          "textDecoration": "{textDecoration.none}"
+          "textDecoration": "{text-decoration.none}"
         },
         "$description": "Used for prominent titles."
       }
@@ -90,12 +90,12 @@
         "$type": "typography",
         "$value": {
           "fontSize": "{font-size.14}",
-          "textCase": "{textTransform.none}",
+          "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.semibold}",
-          "lineHeight": "{lineHeight.18}",
+          "fontWeight": "{font-weight.semibold}",
+          "lineHeight": "{line-height.18}",
           "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{textDecoration.none}"
+          "textDecoration": "{text-decoration.none}"
         },
         "$description": " Used for smaller subtitles."
       },
@@ -103,12 +103,12 @@
         "$type": "typography",
         "$value": {
           "fontSize": "{font-size.16}",
-          "textCase": "{textTransform.none}",
+          "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.semibold}",
-          "lineHeight": "{lineHeight.20}",
+          "fontWeight": "{font-weight.semibold}",
+          "lineHeight": "{line-height.20}",
           "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{textDecoration.none}"
+          "textDecoration": "{text-decoration.none}"
         },
         "$description": " Used for subtitles."
       }
@@ -118,12 +118,12 @@
         "$type": "typography",
         "$value": {
           "fontSize": "{font-size.14}",
-          "textCase": "{textTransform.none}",
+          "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.normal}",
-          "lineHeight": "{lineHeight.20}",
+          "fontWeight": "{font-weight.normal}",
+          "lineHeight": "{line-height.20}",
           "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{textDecoration.none}"
+          "textDecoration": "{text-decoration.none}"
         },
         "$description": "Used for main body text."
       },
@@ -131,12 +131,12 @@
         "$type": "typography",
         "$value": {
           "fontSize": "{font-size.16}",
-          "textCase": "{textTransform.none}",
+          "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.normal}",
-          "lineHeight": "{lineHeight.24}",
+          "fontWeight": "{font-weight.normal}",
+          "lineHeight": "{line-height.24}",
           "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{textDecoration.none}"
+          "textDecoration": "{text-decoration.none}"
         },
         "$description": "Used for emphasizing more prominent text than the main body."
       }
@@ -146,12 +146,12 @@
         "$type": "typography",
         "$value": {
           "fontSize": "{font-size.12}",
-          "textCase": "{textTransform.none}",
+          "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.medium}",
-          "lineHeight": "{lineHeight.20}",
+          "fontWeight": "{font-weight.medium}",
+          "lineHeight": "{line-height.20}",
           "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{textDecoration.none}"
+          "textDecoration": "{text-decoration.none}"
         },
         "$description": "Used for labeling."
       }
@@ -161,12 +161,12 @@
         "$type": "typography",
         "$value": {
           "fontSize": "{font-size.10}",
-          "textCase": "{textTransform.none}",
+          "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.normal}",
-          "lineHeight": "{lineHeight.14}",
+          "fontWeight": "{font-weight.normal}",
+          "lineHeight": "{line-height.14}",
           "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{textDecoration.none}"
+          "textDecoration": "{text-decoration.none}"
         },
         "$description": "Used for smaller captions or footnotes."
       },
@@ -174,12 +174,12 @@
         "$type": "typography",
         "$value": {
           "fontSize": "{font-size.12}",
-          "textCase": "{textTransform.none}",
+          "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.normal}",
-          "lineHeight": "{lineHeight.20}",
+          "fontWeight": "{font-weight.normal}",
+          "lineHeight": "{line-height.20}",
           "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{textDecoration.none}"
+          "textDecoration": "{text-decoration.none}"
         },
         "$description": "Used for small captions."
       }

@@ -79,7 +79,7 @@
       "$value": "96"
     }
   },
-  "fontWeight": {
+  "font-weight": {
     "thin": {
       "$type": "fontWeights",
       "$value": "100"
@@ -117,7 +117,7 @@
       "$value": "900"
     }
   },
-  "lineHeight": {
+  "line-height": {
     "14": {
       "$type": "lineHeights",
       "$value": "14px"
@@ -177,7 +177,7 @@
       "$value": "Menlo"
     }
   },
-  "textTransform": {
+  "text-transform": {
     "none": {
       "$type": "textCase",
       "$value": "none"
@@ -195,7 +195,7 @@
       "$value": "capitalize"
     }
   },
-  "textDecoration": {
+  "text-decoration": {
     "none": {
       "$type": "textDecoration",
       "$value": "none"
