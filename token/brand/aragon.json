@@ -1,39 +1,105 @@
 {
-  "font-family": {
-    "default": {
-      "$type": "fontFamilies",
-      "$value": "Noto Sans"
-    },
-    "serif": {
-      "$type": "fontFamilies",
-      "$value": "Georgia"
-    },
-    "mono": {
-      "$type": "fontFamilies",
-      "$value": "Menlo"
+  "brand-font": {
+    "font-family": {
+      "default": {
+        "$type": "fontFamilies",
+        "$value": "Noto Sans"
+      },
+      "serif": {
+        "$type": "fontFamilies",
+        "$value": "Georgia"
+      },
+      "mono": {
+        "$type": "fontFamilies",
+        "$value": "Menlo"
+      }
     }
   },
   "brand-colors": {
     "primary": {
-      "lighter": {
+      "5": {
+        "$type": "color",
+        "$value": "{colors.red.5}"
+      },
+      "10": {
         "$type": "color",
         "$value": "{colors.red.10}"
       },
-      "light": {
+      "20": {
+        "$type": "color",
+        "$value": "{colors.red.20}"
+      },
+      "30": {
         "$type": "color",
         "$value": "{colors.red.30}"
       },
-      "base": {
+      "40": {
+        "$type": "color",
+        "$value": "{colors.red.40}"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "{colors.red.50}"
+      },
+      "60": {
         "$type": "color",
         "$value": "{colors.red.60}"
       },
-      "dark": {
+      "70": {
         "$type": "color",
         "$value": "{colors.red.70}"
       },
-      "darker": {
+      "80": {
+        "$type": "color",
+        "$value": "{colors.red.80}"
+      },
+      "90": {
         "$type": "color",
         "$value": "{colors.red.90}"
+      },
+      "95": {
+        "$type": "color",
+        "$value": "{colors.red.95}"
+      }
+    },
+    "icon": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "text": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.70}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "border": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "background": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
+      },
+      "medium": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.50}"
       }
     }
   }

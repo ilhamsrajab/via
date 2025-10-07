@@ -1,41 +1,21 @@
 {
-  "font-family": {
-    "default": {
-      "$type": "fontFamilies",
-      "$value": "Satoshi"
-    },
-    "serif": {
-      "$type": "fontFamilies",
-      "$value": "Georgia"
-    },
-    "mono": {
-      "$type": "fontFamilies",
-      "$value": "Menlo"
+  "brand-font": {
+    "font-family": {
+      "default": {
+        "$type": "fontFamilies",
+        "$value": "Satoshi"
+      },
+      "serif": {
+        "$type": "fontFamilies",
+        "$value": "Georgia"
+      },
+      "mono": {
+        "$type": "fontFamilies",
+        "$value": "Menlo"
+      }
     }
   },
   "brand-colors": {
-    "accent": {
-      "lighter": {
-        "$type": "color",
-        "$value": "#feeac7"
-      },
-      "light": {
-        "$type": "color",
-        "$value": "#fcbb4d"
-      },
-      "base": {
-        "$type": "color",
-        "$value": "#d98b06"
-      },
-      "dark": {
-        "$type": "color",
-        "$value": "#92610e"
-      },
-      "darker": {
-        "$type": "color",
-        "$value": "#78510f"
-      }
-    },
     "primary": {
       "lighter": {
         "$type": "color",
@@ -56,6 +36,28 @@
       "darker": {
         "$type": "color",
         "$value": "#1e408a"
+      }
+    },
+    "accent": {
+      "lighter": {
+        "$type": "color",
+        "$value": "#feeac7"
+      },
+      "light": {
+        "$type": "color",
+        "$value": "#fcbb4d"
+      },
+      "base": {
+        "$type": "color",
+        "$value": "#d98b06"
+      },
+      "dark": {
+        "$type": "color",
+        "$value": "#92610e"
+      },
+      "darker": {
+        "$type": "color",
+        "$value": "#78510f"
       }
     }
   }

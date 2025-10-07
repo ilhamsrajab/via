@@ -16,105 +16,6 @@
     }
   },
   "brand-text": {
-    "body": {
-      "small": {
-        "$type": "typography",
-        "$value": {
-          "fontSize": "{font-size.14}",
-          "textCase": "{textTransform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.normal}",
-          "lineHeight": "{lineHeight.18}",
-          "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "$description": "Used for main body text."
-      },
-      "large": {
-        "$type": "typography",
-        "$value": {
-          "fontSize": "{font-size.16}",
-          "textCase": "{textTransform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.normal}",
-          "lineHeight": "{lineHeight.20}",
-          "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "$description": "Used for emphasizing more prominent text than the main body."
-      }
-    },
-    "label": {
-      "default": {
-        "$type": "typography",
-        "$value": {
-          "fontSize": "{font-size.12}",
-          "textCase": "{textTransform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.medium}",
-          "lineHeight": "{lineHeight.20}",
-          "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "$description": "Used for labeling."
-      }
-    },
-    "title": {
-      "small": {
-        "$type": "typography",
-        "$value": {
-          "fontSize": "{font-size.18}",
-          "textCase": "{textTransform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.semibold}",
-          "lineHeight": "{lineHeight.24}",
-          "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "$description": "Used for secondary titles or headings."
-      },
-      "large": {
-        "$type": "typography",
-        "$value": {
-          "fontSize": "{font-size.20}",
-          "textCase": "{textTransform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.semibold}",
-          "lineHeight": "{lineHeight.24}",
-          "letterSpacing": "{tracking.tight}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "$description": "Used for prominent titles."
-      }
-    },
-    "caption": {
-      "small": {
-        "$type": "typography",
-        "$value": {
-          "fontSize": "{font-size.10}",
-          "textCase": "{textTransform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.normal}",
-          "lineHeight": "{lineHeight.14}",
-          "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "$description": "Used for smaller captions or footnotes."
-      },
-      "large": {
-        "$type": "typography",
-        "$value": {
-          "fontSize": "{font-size.12}",
-          "textCase": "{textTransform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{fontWeight.normal}",
-          "lineHeight": "{lineHeight.20}",
-          "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{textDecoration.none}"
-        },
-        "$description": "Used for small captions."
-      }
-    },
     "headline": {
       "small": {
         "$type": "typography",
@@ -156,6 +57,34 @@
         "$description": "Used for the main heading of a page or section."
       }
     },
+    "title": {
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.18}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.semibold}",
+          "lineHeight": "{lineHeight.24}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": "Used for secondary titles or headings."
+      },
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.20}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.semibold}",
+          "lineHeight": "{lineHeight.24}",
+          "letterSpacing": "{tracking.tight}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": "Used for prominent titles."
+      }
+    },
     "subtitle": {
       "small": {
         "$type": "typography",
@@ -183,29 +112,164 @@
         },
         "$description": " Used for subtitles."
       }
+    },
+    "body": {
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.14}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.normal}",
+          "lineHeight": "{lineHeight.20}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": "Used for main body text."
+      },
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.16}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.normal}",
+          "lineHeight": "{lineHeight.24}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": "Used for emphasizing more prominent text than the main body."
+      }
+    },
+    "label": {
+      "default": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.12}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.medium}",
+          "lineHeight": "{lineHeight.20}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": "Used for labeling."
+      }
+    },
+    "caption": {
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.10}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.normal}",
+          "lineHeight": "{lineHeight.14}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": "Used for smaller captions or footnotes."
+      },
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.12}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.normal}",
+          "lineHeight": "{lineHeight.20}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": "Used for small captions."
+      }
     }
   },
   "brand-colors": {
     "primary": {
-      "lighter": {
+      "5": {
+        "$type": "color",
+        "$value": "{colors.lime.5}"
+      },
+      "10": {
         "$type": "color",
         "$value": "{colors.lime.10}"
       },
-      "light": {
+      "20": {
+        "$type": "color",
+        "$value": "{colors.lime.20}"
+      },
+      "30": {
         "$type": "color",
         "$value": "{colors.lime.30}"
       },
-      "base": {
+      "40": {
+        "$type": "color",
+        "$value": "{colors.lime.40}"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "{colors.lime.50}"
+      },
+      "60": {
         "$type": "color",
         "$value": "{colors.lime.60}"
       },
-      "dark": {
+      "70": {
         "$type": "color",
         "$value": "{colors.lime.70}"
       },
-      "darker": {
+      "80": {
+        "$type": "color",
+        "$value": "{colors.lime.80}"
+      },
+      "90": {
         "$type": "color",
         "$value": "{colors.lime.90}"
+      },
+      "95": {
+        "$type": "color",
+        "$value": "{colors.lime.95}"
+      }
+    },
+    "icon": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "text": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.70}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "border": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "background": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
+      },
+      "medium": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.50}"
       }
     }
   },
@@ -313,11 +377,6 @@
     "neutral": {
       "icon": {
         "default": {
-          "$extensions": {
-            "studio.tokens": {
-              "modify": null
-            }
-          },
           "$type": "color",
           "$value": "{colors.gray.60}",
           "$description": "Use for icon-only buttons, or icons paired with neutral.text.med"
@@ -512,22 +571,6 @@
         }
       }
     },
-    "overlay": {
-      "default": {
-        "$extensions": {
-          "studio.tokens": {
-            "modify": {
-              "type": "alpha",
-              "space": "lch",
-              "value": "0.75"
-            }
-          }
-        },
-        "$type": "color",
-        "$value": "{colors.gray.100}",
-        "$description": "Translucent background layer over the content to indicate a modal or overlay that requires user interaction or focus."
-      }
-    },
     "success": {
       "icon": {
         "default": {
@@ -626,6 +669,22 @@
           "$value": "{colors.yellow.60}",
           "$description": "Brand accent colors are frequently used on supporting main components, such as tags."
         }
+      }
+    },
+    "overlay": {
+      "default": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "space": "lch",
+              "value": "0.75"
+            }
+          }
+        },
+        "$type": "color",
+        "$value": "{colors.gray.100}",
+        "$description": "Translucent background layer over the content to indicate a modal or overlay that requires user interaction or focus."
       }
     }
   },

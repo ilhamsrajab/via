@@ -1,16 +1,18 @@
 {
-  "font-family": {
-    "default": {
-      "$type": "fontFamilies",
-      "$value": "Oxygen"
-    },
-    "serif": {
-      "$type": "fontFamilies",
-      "$value": "Georgia"
-    },
-    "mono": {
-      "$type": "fontFamilies",
-      "$value": "Menlo"
+  "brand-font": {
+    "font-family": {
+      "default": {
+        "$type": "fontFamilies",
+        "$value": "Oxygen"
+      },
+      "serif": {
+        "$type": "fontFamilies",
+        "$value": "Georgia"
+      },
+      "mono": {
+        "$type": "fontFamilies",
+        "$value": "Menlo"
+      }
     }
   },
   "brand-colors": {
