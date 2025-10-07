@@ -4,8 +4,8 @@
       "brand": {
         "default": {
           "background-color": {
-            "value": "{brand-colors.background.default}",
-            "type": "color"
+            "$type": "color",
+            "$value": "{brand-colors.background.default}"
           }
         }
       }
