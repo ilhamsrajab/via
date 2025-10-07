@@ -1,39 +1,13 @@
 {
-  "font-family": {
-    "default": {
-      "$type": "fontFamilies",
-      "$value": "Noto Sans"
-    },
-    "serif": {
-      "$type": "fontFamilies",
-      "$value": "Georgia"
-    },
-    "mono": {
-      "$type": "fontFamilies",
-      "$value": "Menlo"
-    }
-  },
-  "brand-colors": {
-    "primary": {
-      "lighter": {
-        "$type": "color",
-        "$value": "{colors.red.10}"
-      },
-      "light": {
-        "$type": "color",
-        "$value": "{colors.red.30}"
-      },
-      "base": {
-        "$type": "color",
-        "$value": "{colors.red.60}"
-      },
-      "dark": {
-        "$type": "color",
-        "$value": "{colors.red.70}"
-      },
-      "darker": {
-        "$type": "color",
-        "$value": "{colors.red.90}"
+  "button": {
+    "cta-button": {
+      "brand": {
+        "default": {
+          "background-color": {
+            "value": "{brand-colors.background.default}",
+            "type": "color"
+          }
+        }
       }
     }
   }

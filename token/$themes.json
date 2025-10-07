@@ -5,7 +5,8 @@
     "selectedTokenSets": {
       "core/colors": "source",
       "core/dimensions": "source",
-      "core/defaults": "source"
+      "core/defaults": "source",
+      "brand/default": "source"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": null,
@@ -65,8 +66,7 @@
     "id": "Brand-Tiketux",
     "name": "Tiketux",
     "selectedTokenSets": {
-      "brand/tiketux": "enabled",
-      "brand/default": "enabled"
+      "brand/tiketux": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": null,
@@ -76,8 +76,7 @@
     "id": "Brand-Aragon",
     "name": "Aragon",
     "selectedTokenSets": {
-      "brand/aragon": "enabled",
-      "brand/default": "enabled"
+      "brand/aragon": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": null,
@@ -87,8 +86,7 @@
     "id": "Brand-Baraya Travel",
     "name": "Baraya Travel",
     "selectedTokenSets": {
-      "brand/baraya": "enabled",
-      "brand/default": "enabled"
+      "brand/baraya": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": null,
