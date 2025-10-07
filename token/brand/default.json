@@ -1,16 +1,188 @@
 {
-  "font-family": {
-    "mono": {
-      "$type": "fontFamilies",
-      "$value": "Menlo"
+  "brand-font": {
+    "font-family": {
+      "mono": {
+        "$type": "fontFamilies",
+        "$value": "Menlo"
+      },
+      "serif": {
+        "$type": "fontFamilies",
+        "$value": "Georgia"
+      },
+      "default": {
+        "$type": "fontFamilies",
+        "$value": "Plus Jakarta Sans"
+      }
+    }
+  },
+  "brand-text": {
+    "body": {
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.16}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.normal}",
+          "lineHeight": "{lineHeight.20}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": "Used for emphasizing more prominent text than the main body."
+      },
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.14}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.normal}",
+          "lineHeight": "{lineHeight.18}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": "Used for main body text."
+      }
     },
-    "serif": {
-      "$type": "fontFamilies",
-      "$value": "Georgia"
+    "label": {
+      "default": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.12}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.medium}",
+          "lineHeight": "{lineHeight.20}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": "Used for labeling."
+      }
     },
-    "default": {
-      "$type": "fontFamilies",
-      "$value": "Plus Jakarta Sans"
+    "title": {
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.20}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.semibold}",
+          "lineHeight": "{lineHeight.24}",
+          "letterSpacing": "{tracking.tight}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": "Used for prominent titles."
+      },
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.18}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.semibold}",
+          "lineHeight": "{lineHeight.24}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": "Used for secondary titles or headings."
+      }
+    },
+    "caption": {
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.12}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.normal}",
+          "lineHeight": "{lineHeight.20}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": "Used for small captions."
+      },
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.10}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.normal}",
+          "lineHeight": "{lineHeight.14}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": "Used for smaller captions or footnotes."
+      }
+    },
+    "headline": {
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.40}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.bold}",
+          "lineHeight": "{lineHeight.150}",
+          "letterSpacing": "{tracking.tight}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": "Used for the main heading of a page or section."
+      },
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.24}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.bold}",
+          "lineHeight": "{lineHeight.150}",
+          "letterSpacing": "{tracking.tight}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": "Used for smaller subheadings or section headings."
+      },
+      "medium": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.32}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.bold}",
+          "lineHeight": "{lineHeight.150}",
+          "letterSpacing": "{tracking.tight}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": "Used for subheadings or section headings."
+      }
+    },
+    "subtitle": {
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.16}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.semibold}",
+          "lineHeight": "{lineHeight.20}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": " Used for subtitles."
+      },
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.14}",
+          "textCase": "{textTransform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{fontWeight.semibold}",
+          "lineHeight": "{lineHeight.18}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{textDecoration.none}"
+        },
+        "$description": " Used for smaller subtitles."
+      }
     }
   },
   "brand-colors": {
@@ -53,6 +225,18 @@
           "$description": " Used to convey informative messages, link, etc."
         }
       },
+      "border": {
+        "low": {
+          "$type": "color",
+          "$value": "{colors.blue.20}",
+          "$description": "Used for secondary borders or dividers indicating information."
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{colors.blue.60}",
+          "$description": " Used for primary borders or dividers indicating information."
+        }
+      },
       "background": {
         "low": {
           "$type": "color",
@@ -91,6 +275,18 @@
           "$description": "Used to indicate critical or potentially harmful situations."
         }
       },
+      "border": {
+        "low": {
+          "$type": "color",
+          "$value": "{colors.red.20}",
+          "$description": "Used for secondary borders or dividers indicating critical."
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{colors.red.60}",
+          "$description": " Used for primary borders or dividers indicating critical."
+        }
+      },
       "background": {
         "low": {
           "$type": "color",
@@ -115,6 +311,84 @@
       }
     },
     "neutral": {
+      "icon": {
+        "low": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "space": "lch",
+                "value": "0.4"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{colors.gray.90}",
+          "$description": "Use for icons paired with neutral.text.low"
+        },
+        "high": {
+          "$type": "color",
+          "$value": "{colors.gray.90}",
+          "$description": " Use for icons paired with neutral.text.high"
+        },
+        "medium": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "space": "lch",
+                "value": "0.6"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{colors.gray.90}",
+          "$description": " Use for icons paired with neutral.text.medium"
+        },
+        "default": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": null
+            }
+          },
+          "$type": "color",
+          "$value": "{colors.gray.60}",
+          "$description": "Use for icon-only buttons, or icons paired with neutral.text.med"
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{colors.gray.5}",
+          "$description": "Used for icon on dark or colored backgrounds."
+        },
+        "disabled": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "space": "lch",
+                "value": "0.5"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{colors.gray.90}",
+          "$description": "Used for inactive or disabled icon."
+        },
+        "inverse-disabled": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "space": "lch",
+                "value": "0.5"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{colors.gray.5}",
+          "$description": " Used for disabled icon on dark or colored backgrounds."
+        }
+      },
       "text": {
         "low": {
           "$extensions": {
@@ -122,7 +396,7 @@
               "modify": {
                 "type": "alpha",
                 "space": "lch",
-                "value": "0.6"
+                "value": "0.4"
               }
             }
           },
@@ -141,7 +415,7 @@
               "modify": {
                 "type": "alpha",
                 "space": "lch",
-                "value": "0.75"
+                "value": "0.6"
               }
             }
           },
@@ -183,6 +457,33 @@
           "$description": "Used for disabled text on dark or colored backgrounds."
         }
       },
+      "border": {
+        "low": {
+          "$type": "color",
+          "$value": "{colors.gray.10}",
+          "$description": "Used for trivial items or secondary dividers."
+        },
+        "high": {
+          "$type": "color",
+          "$value": "{colors.gray.95}",
+          "$description": " Prominent border for emphasize of focused accessibility."
+        },
+        "medium": {
+          "$type": "color",
+          "$value": "{colors.gray.20}",
+          "$description": " The secondary choice is used for grouping items or dividers."
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{colors.gray.30}",
+          "$description": "The primary choice is used for for clickable items."
+        },
+        "inverse": {
+          "$type": "color",
+          "$value": "{colors.gray.5}",
+          "$description": "Used for border on dark or colored backgrounds."
+        }
+      },
       "background": {
         "low": {
           "$type": "color",
@@ -211,6 +512,22 @@
         }
       }
     },
+    "overlay": {
+      "default": {
+        "$extensions": {
+          "studio.tokens": {
+            "modify": {
+              "type": "alpha",
+              "space": "lch",
+              "value": "0.75"
+            }
+          }
+        },
+        "$type": "color",
+        "$value": "{colors.gray.100}",
+        "$description": "Translucent background layer over the content to indicate a modal or overlay that requires user interaction or focus."
+      }
+    },
     "success": {
       "icon": {
         "default": {
@@ -224,6 +541,18 @@
           "$type": "color",
           "$value": "{colors.green.70}",
           "$description": " Used to indicate successful or positive outcomes."
+        }
+      },
+      "border": {
+        "low": {
+          "$type": "color",
+          "$value": "{colors.green.20}",
+          "$description": "Used for secondary borders or dividers indicating success."
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{colors.green.60}",
+          "$description": " Used for primary borders or dividers indicating success."
         }
       },
       "background": {
@@ -264,6 +593,18 @@
           "$description": " Used to indicate that the user needs to pay attention."
         }
       },
+      "border": {
+        "low": {
+          "$type": "color",
+          "$value": "{colors.yellow.20}",
+          "$description": "Used for secondary borders or dividers indicating alert."
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{colors.yellow.60}",
+          "$description": " Used for primary borders or dividers indicating alert."
+        }
+      },
       "background": {
         "low": {
           "$type": "color",
@@ -285,6 +626,211 @@
           "$value": "{colors.yellow.5}",
           "$description": " Primary background color for alert component."
         }
+      }
+    }
+  },
+  "theme-radius": {
+    "border": {
+      "radius": {
+        "l": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.l}"
+        },
+        "m": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.m}"
+        },
+        "s": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.s}"
+        },
+        "xl": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.xl}"
+        },
+        "xs": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.xs}"
+        },
+        "2xl": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.2xl}"
+        },
+        "2xs": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.2xs}"
+        },
+        "3xl": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.3xl}"
+        },
+        "4xl": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.4xl}"
+        },
+        "full": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.full}"
+        },
+        "none": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.none}"
+        }
+      }
+    }
+  },
+  "theme-sizing": {
+    "scale": {
+      "size": {
+        "l": {
+          "$type": "sizing",
+          "$value": "{dimensions.size.l}"
+        },
+        "m": {
+          "$type": "sizing",
+          "$value": "{dimensions.size.m}"
+        },
+        "s": {
+          "$type": "sizing",
+          "$value": "{dimensions.size.s}"
+        },
+        "xl": {
+          "$type": "sizing",
+          "$value": "{dimensions.size.xl}"
+        },
+        "xs": {
+          "$type": "sizing",
+          "$value": "{dimensions.size.xs}"
+        },
+        "2xl": {
+          "$type": "sizing",
+          "$value": "{dimensions.size.2xl}"
+        },
+        "3xl": {
+          "$type": "sizing",
+          "$value": "{dimensions.size.3xl}"
+        },
+        "4xl": {
+          "$type": "sizing",
+          "$value": "{dimensions.size.4xl}"
+        }
+      }
+    }
+  },
+  "theme-opacity": {
+    "opacity": {
+      "low": {
+        "$type": "opacity",
+        "$value": "{opacity.40}",
+        "$description": "It applies a 40% opacity to an element."
+      },
+      "med": {
+        "$type": "opacity",
+        "$value": "{opacity.60}",
+        "$description": "It applies a 60% opacity to an element."
+      },
+      "full": {
+        "$type": "opacity",
+        "$value": "{opacity.100}",
+        "$description": "It applies a 100% opacity to an element."
+      },
+      "high": {
+        "$type": "opacity",
+        "$value": "{opacity.90}",
+        "$description": "It applies a 90% opacity to an element."
+      },
+      "disabled": {
+        "$type": "opacity",
+        "$value": "{opacity.50}",
+        "$description": "It applies a 50% opacity to an element."
+      }
+    }
+  },
+  "theme-spacing": {
+    "padding": {
+      "l": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.25}"
+      },
+      "m": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.20}"
+      },
+      "s": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.15}"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.30}"
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.10}"
+      },
+      "2xl": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.40}"
+      },
+      "2xs": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.7}"
+      },
+      "3xl": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.50}"
+      },
+      "3xs": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.5}"
+      },
+      "4xl": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.60}"
+      },
+      "4xs": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.2}"
+      },
+      "5xl": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.80}"
+      },
+      "none": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.0}"
+      }
+    }
+  },
+  "brand-elevation": {
+    "shadow": {
+      "high": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "{dimension.fixed.0}",
+            "y": "{dimension.fixed.5}",
+            "blur": "{dimension.fixed.30}",
+            "type": "dropShadow",
+            "color": "{colors.gray.20}",
+            "spread": "{dimension.fixed.0}"
+          }
+        ],
+        "$description": "Used for stronger sense of depth and emphasis for important components or elements."
+      },
+      "default": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "{dimension.fixed.0}",
+            "y": "{dimension.fixed.5}",
+            "blur": "{dimension.fixed.15}",
+            "type": "dropShadow",
+            "color": "{colors.gray.10}",
+            "spread": "{dimension.fixed.0}"
+          }
+        ],
+        "$description": "Default elevation style."
       }
     }
   }

@@ -2,35 +2,35 @@
   "rotate": {
     "0": {
       "$type": "number",
-      "$value": "0"
+      "$value": 0
     },
     "30": {
       "$type": "number",
-      "$value": "0"
+      "$value": 30
     },
     "45": {
       "$type": "number",
-      "$value": "0"
+      "$value": 45
     },
     "90": {
       "$type": "number",
-      "$value": "0"
+      "$value": 90
     },
     "180": {
       "$type": "number",
-      "$value": "0"
+      "$value": 180
     },
     "270": {
       "$type": "number",
-      "$value": "0"
+      "$value": 270
     },
     "315": {
       "$type": "number",
-      "$value": "0"
+      "$value": 315
     },
     "330": {
       "$type": "number",
-      "$value": "0"
+      "$value": 330
     }
   },
   "opacity": {
