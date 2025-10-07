@@ -1,94 +1,115 @@
 [
   {
-    "id": "Brand-Default",
-    "name": "Default",
-    "group": "Brand",
-    "selectedTokenSets": {
-      "brand/default": "enabled"
-    },
-    "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null
-  },
-  {
-    "id": "Brand-Tiketux",
-    "name": "Tiketux",
-    "group": "Brand",
-    "selectedTokenSets": {
-      "brand/tiketux": "enabled"
-    },
-    "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null
-  },
-  {
-    "id": "Brand-Aragon",
-    "name": "Aragon",
-    "group": "Brand",
-    "selectedTokenSets": {
-      "brand/aragon": "enabled"
-    },
-    "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null
-  },
-  {
-    "id": "Brand-Baraya Travel",
-    "name": "Baraya Travel",
-    "group": "Brand",
-    "selectedTokenSets": {
-      "brand/baraya": "enabled"
-    },
-    "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null
-  },
-  {
     "id": "Primitive-primitive",
     "name": "primitive",
-    "group": "Primitive",
     "selectedTokenSets": {
       "core/colors": "source",
       "core/dimensions": "source",
       "core/defaults": "source"
     },
     "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null
+    "$figmaVariableReferences": null,
+    "group": "Primitive"
   },
   {
     "id": "Density-Compact",
     "name": "Compact",
-    "group": "Density",
     "selectedTokenSets": {
       "core/density/density-compact": "source"
     },
     "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null
+    "$figmaVariableReferences": null,
+    "group": "Density"
   },
   {
     "id": "Density-Default",
     "name": "Default",
-    "group": "Density",
     "selectedTokenSets": {
       "core/density/density-default": "source"
     },
     "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null
+    "$figmaVariableReferences": null,
+    "group": "Density"
   },
   {
     "id": "Density-Cozy",
     "name": "Cozy",
-    "group": "Density",
     "selectedTokenSets": {
       "core/density/density-cozy": "source"
     },
     "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null
+    "$figmaVariableReferences": null,
+    "group": "Density"
   },
   {
     "id": "Density-Spacious",
     "name": "Spacious",
-    "group": "Density",
     "selectedTokenSets": {
       "core/density/density-spacious": "source"
     },
     "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null
+    "$figmaVariableReferences": null,
+    "group": "Density"
+  },
+  {
+    "id": "Brand-Default",
+    "name": "Default",
+    "selectedTokenSets": {
+      "brand/default": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": null,
+    "group": "Brand"
+  },
+  {
+    "id": "Brand-Tiketux",
+    "name": "Tiketux",
+    "selectedTokenSets": {
+      "brand/tiketux": "enabled",
+      "brand/default": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": null,
+    "group": "Brand"
+  },
+  {
+    "id": "Brand-Aragon",
+    "name": "Aragon",
+    "selectedTokenSets": {
+      "brand/aragon": "enabled",
+      "brand/default": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": null,
+    "group": "Brand"
+  },
+  {
+    "id": "Brand-Baraya Travel",
+    "name": "Baraya Travel",
+    "selectedTokenSets": {
+      "brand/baraya": "enabled",
+      "brand/default": "enabled"
+    },
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": null,
+    "group": "Brand"
+  },
+  {
+    "id": "b658b7b5ab0b379b65c25ec080f75055cb96932d",
+    "name": "Light",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "theme/light": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "05117f7475cc251415e18920a2ff586c898e0492",
+    "name": "Dark",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "theme/dark": "enabled"
+    },
+    "group": "Theme"
   }
 ]
