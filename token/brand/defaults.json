@@ -283,7 +283,7 @@
             "y": "{dimension.fixed.5}",
             "blur": "{dimension.fixed.15}",
             "type": "dropShadow",
-            "color": "{colors.gray.10}",
+            "color": "{theme-colors.mode.neutral.border.default}",
             "spread": "{dimension.fixed.0}"
           }
         ],
@@ -297,7 +297,7 @@
             "y": "{dimension.fixed.5}",
             "blur": "{dimension.fixed.30}",
             "type": "dropShadow",
-            "color": "{colors.gray.20}",
+            "color": "{theme-colors.mode.neutral.border.default}",
             "spread": "{dimension.fixed.0}"
           }
         ],

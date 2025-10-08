@@ -8,6 +8,7 @@
     "core/dimensions",
     "core/defaults",
     "theme/light",
+    "theme/dark",
     "brand/defaults",
     "brand/tiketux",
     "brand/aragon",

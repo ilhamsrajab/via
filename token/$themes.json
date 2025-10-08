@@ -105,7 +105,9 @@
     "id": "05117f7475cc251415e18920a2ff586c898e0492",
     "name": "Dark",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {},
+    "selectedTokenSets": {
+      "theme/dark": "enabled"
+    },
     "group": "Theme"
   }
 ]
