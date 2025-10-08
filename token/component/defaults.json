@@ -1,0 +1,22 @@
+{
+  "actions": {
+    "cta-button": {
+      "primary": {
+        "default": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{brand-colors.background.default}",
+            "$description": "Warna latar utama"
+          }
+        },
+        "hover": {
+          "background-color": {
+            "$type": "color",
+            "$value": "{brand-colors.background.medium}",
+            "$description": "Warna latar hover"
+          }
+        }
+      }
+    }
+  }
+}

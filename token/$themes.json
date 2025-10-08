@@ -109,5 +109,19 @@
       "theme/dark": "enabled"
     },
     "group": "Theme"
+  },
+  {
+    "id": "97a35db4e20ab74d82f776122c3cd7b64c016353",
+    "name": "Default",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "core/colors": "source",
+      "core/density/density-default": "source",
+      "core/dimensions": "source",
+      "core/defaults": "source",
+      "theme/light": "enabled",
+      "component/defaults": "enabled"
+    },
+    "group": "Component"
   }
 ]
