@@ -1,13 +1,591 @@
 {
-  "button": {
-    "cta-button": {
-      "brand": {
-        "default": {
-          "background-color": {
+  "theme-colors": {
+    "mode": {
+      "info": {
+        "icon": {
+          "default": {
             "$type": "color",
-            "$value": "{brand-colors.background.default}"
+            "$value": "{colors.blue.60}",
+            "$description": "Used for informative icons and should be paired with text that conveys the same meaning."
+          }
+        },
+        "text": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.blue.70}",
+            "$description": " Used to convey informative messages, link, etc."
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.blue.60}",
+            "$description": " Used for primary borders or dividers indicating information."
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{colors.blue.20}",
+            "$description": "Used for secondary borders or dividers indicating information."
+          }
+        },
+        "background": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.blue.5}",
+            "$description": " Primary background color for informative component."
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{colors.blue.10}",
+            "$description": "Secondary background color is used when there is a need to emphasize specific semantics."
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{colors.blue.20}",
+            "$description": "Tertiary background color is used for prominent semantics, generally for selection, info, etc."
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{colors.blue.60}",
+            "$description": "Brand color is exclusively reserved for Buttons and should be used sparingly for the most prominent object in the UI."
           }
         }
+      },
+      "danger": {
+        "icon": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.red.60}",
+            "$description": "Used for critical icons and should be paired with text that conveys the same meaning."
+          }
+        },
+        "text": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.red.70}",
+            "$description": "Used to indicate critical or potentially harmful situations."
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.red.60}",
+            "$description": " Used for primary borders or dividers indicating critical."
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{colors.red.20}",
+            "$description": "Used for secondary borders or dividers indicating critical."
+          }
+        },
+        "background": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.red.5}",
+            "$description": " Primary background color for critical component."
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{colors.red.10}",
+            "$description": "Secondary background color for critical component."
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{colors.red.20}",
+            "$description": "Tertiary background color is used for prominent semantics, generally for negative/critical meanings, etc.Tertiary background color is used for prominent semantics, generally for negative/critical meanings, etc."
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{colors.red.60}",
+            "$description": "Brand accent colors are frequently used on supporting main components, such as tags."
+          }
+        }
+      },
+      "neutral": {
+        "icon": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.gray.60}",
+            "$description": "Use for icon-only buttons, or icons paired with neutral.text.med"
+          },
+          "low": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "space": "lch",
+                  "value": "0.4"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{colors.gray.90}",
+            "$description": "Use for icons paired with neutral.text.low"
+          },
+          "medium": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "space": "lch",
+                  "value": "0.6"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{colors.gray.90}",
+            "$description": " Use for icons paired with neutral.text.medium"
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{colors.gray.90}",
+            "$description": " Use for icons paired with neutral.text.high"
+          },
+          "disabled": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "space": "lch",
+                  "value": "0.5"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{colors.gray.90}",
+            "$description": "Used for inactive or disabled icon."
+          },
+          "inverse": {
+            "$type": "color",
+            "$value": "{colors.gray.5}",
+            "$description": "Used for icon on dark or colored backgrounds."
+          },
+          "inverse-disabled": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "space": "lch",
+                  "value": "0.5"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{colors.gray.5}",
+            "$description": " Used for disabled icon on dark or colored backgrounds."
+          }
+        },
+        "text": {
+          "low": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "space": "lch",
+                  "value": "0.4"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{colors.gray.90}",
+            "$description": "Used for trivial information and should be used sparingly."
+          },
+          "medium": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "space": "lch",
+                  "value": "0.6"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{colors.gray.90}",
+            "$description": "Commonly used for body text or any other content."
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{colors.gray.90}",
+            "$description": " Used for high-importance text, such as heading and titles."
+          },
+          "disabled": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "space": "lch",
+                  "value": "0.5"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{colors.gray.90}",
+            "$description": "Used for inactive or disabled text."
+          },
+          "inverse": {
+            "$type": "color",
+            "$value": "{colors.gray.5}",
+            "$description": "Used for typography on dark or colored backgrounds."
+          },
+          "inverse-disabled": {
+            "$extensions": {
+              "studio.tokens": {
+                "modify": {
+                  "type": "alpha",
+                  "space": "lch",
+                  "value": "0.5"
+                }
+              }
+            },
+            "$type": "color",
+            "$value": "{colors.gray.5}",
+            "$description": "Used for disabled text on dark or colored backgrounds."
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.gray.30}",
+            "$description": "The primary choice is used for for clickable items."
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{colors.gray.10}",
+            "$description": "Used for trivial items or secondary dividers."
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{colors.gray.20}",
+            "$description": " The secondary choice is used for grouping items or dividers."
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{colors.gray.95}",
+            "$description": " Prominent border for emphasize of focused accessibility."
+          },
+          "inverse": {
+            "$type": "color",
+            "$value": "{colors.gray.5}",
+            "$description": "Used for border on dark or colored backgrounds."
+          }
+        },
+        "background": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.gray.0}",
+            "$description": "Primary background color for most components and sections of the interface."
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{colors.gray.5}",
+            "$description": "Secondary background color for components that require a lower visual weight."
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{colors.gray.10}",
+            "$description": "Tertiary background color, generally used for clickable objects on a white background, such as text fields, etc."
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{colors.gray.90}",
+            "$description": " High contrast and used for the prominent background color."
+          },
+          "disabled": {
+            "$type": "color",
+            "$value": "{colors.gray.20}",
+            "$description": " Inactive or unavailable component background color."
+          }
+        }
+      },
+      "success": {
+        "icon": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.green.60}",
+            "$description": "Used for success icons and should be paired with text that conveys the same meaning."
+          }
+        },
+        "text": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.green.70}",
+            "$description": " Used to indicate successful or positive outcomes."
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.green.60}",
+            "$description": " Used for primary borders or dividers indicating success."
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{colors.green.20}",
+            "$description": "Used for secondary borders or dividers indicating success."
+          }
+        },
+        "background": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.green.5}",
+            "$description": " Primary background color for positive outcomes."
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{colors.green.10}",
+            "$description": " Secondary background color for positive outcomes."
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{colors.green.20}",
+            "$description": "Tertiary background color is used for prominent semantics, such as success or positive meanings."
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{colors.green.60}",
+            "$description": "Brand accent colors are frequently used on supporting main components, such as tags."
+          }
+        }
+      },
+      "warning": {
+        "icon": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.yellow.60}",
+            "$description": "Used for alert icons and should be paired with text that conveys the same meaning."
+          }
+        },
+        "text": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.yellow.70}",
+            "$description": " Used to indicate that the user needs to pay attention."
+          }
+        },
+        "border": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.yellow.60}",
+            "$description": " Used for primary borders or dividers indicating alert."
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{colors.yellow.20}",
+            "$description": "Used for secondary borders or dividers indicating alert."
+          }
+        },
+        "background": {
+          "default": {
+            "$type": "color",
+            "$value": "{colors.yellow.5}",
+            "$description": " Primary background color for alert component."
+          },
+          "low": {
+            "$type": "color",
+            "$value": "{colors.yellow.10}",
+            "$description": "Secondary background color for alert component."
+          },
+          "medium": {
+            "$type": "color",
+            "$value": "{colors.yellow.20}",
+            "$description": "Tertiary background color is used for prominent semantics, generally for alert/warning."
+          },
+          "high": {
+            "$type": "color",
+            "$value": "{colors.yellow.60}",
+            "$description": "Brand accent colors are frequently used on supporting main components, such as tags."
+          }
+        }
+      },
+      "overlay": {
+        "default": {
+          "$extensions": {
+            "studio.tokens": {
+              "modify": {
+                "type": "alpha",
+                "space": "lch",
+                "value": "0.75"
+              }
+            }
+          },
+          "$type": "color",
+          "$value": "{colors.gray.100}",
+          "$description": "Translucent background layer over the content to indicate a modal or overlay that requires user interaction or focus."
+        }
+      }
+    }
+  },
+  "theme-radius": {
+    "border": {
+      "radius": {
+        "2xs": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.2xs}"
+        },
+        "xs": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.xs}"
+        },
+        "s": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.s}"
+        },
+        "m": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.m}"
+        },
+        "l": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.l}"
+        },
+        "xl": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.xl}"
+        },
+        "2xl": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.2xl}"
+        },
+        "3xl": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.3xl}"
+        },
+        "4xl": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.4xl}"
+        },
+        "full": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.full}"
+        },
+        "none": {
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.none}"
+        }
+      }
+    }
+  },
+  "theme-sizing": {
+    "scale": {
+      "size": {
+        "xs": {
+          "$type": "sizing",
+          "$value": "{dimensions.size.xs}"
+        },
+        "s": {
+          "$type": "sizing",
+          "$value": "{dimensions.size.s}"
+        },
+        "m": {
+          "$type": "sizing",
+          "$value": "{dimensions.size.m}"
+        },
+        "l": {
+          "$type": "sizing",
+          "$value": "{dimensions.size.l}"
+        },
+        "xl": {
+          "$type": "sizing",
+          "$value": "{dimensions.size.xl}"
+        },
+        "2xl": {
+          "$type": "sizing",
+          "$value": "{dimensions.size.2xl}"
+        },
+        "3xl": {
+          "$type": "sizing",
+          "$value": "{dimensions.size.3xl}"
+        },
+        "4xl": {
+          "$type": "sizing",
+          "$value": "{dimensions.size.4xl}"
+        }
+      }
+    }
+  },
+  "theme-opacity": {
+    "opacity": {
+      "low": {
+        "$type": "opacity",
+        "$value": "{opacity.40}",
+        "$description": "It applies a 40% opacity to an element."
+      },
+      "med": {
+        "$type": "opacity",
+        "$value": "{opacity.60}",
+        "$description": "It applies a 60% opacity to an element."
+      },
+      "high": {
+        "$type": "opacity",
+        "$value": "{opacity.90}",
+        "$description": "It applies a 90% opacity to an element."
+      },
+      "full": {
+        "$type": "opacity",
+        "$value": "{opacity.100}",
+        "$description": "It applies a 100% opacity to an element."
+      },
+      "disabled": {
+        "$type": "opacity",
+        "$value": "{opacity.50}",
+        "$description": "It applies a 50% opacity to an element."
+      }
+    }
+  },
+  "theme-spacing": {
+    "padding": {
+      "4xs": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.2}"
+      },
+      "3xs": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.5}"
+      },
+      "2xs": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.7}"
+      },
+      "xs": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.10}"
+      },
+      "s": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.15}"
+      },
+      "m": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.20}"
+      },
+      "l": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.25}"
+      },
+      "xl": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.30}"
+      },
+      "2xl": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.40}"
+      },
+      "3xl": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.50}"
+      },
+      "4xl": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.60}"
+      },
+      "5xl": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.80}"
+      },
+      "none": {
+        "$type": "dimension",
+        "$value": "{dimension.fixed.0}"
       }
     }
   }

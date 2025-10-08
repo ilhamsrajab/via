@@ -1,0 +1,308 @@
+{
+  "brand-font": {
+    "font-family": {
+      "default": {
+        "$type": "fontFamilies",
+        "$value": "Plus Jakarta Sans"
+      },
+      "serif": {
+        "$type": "fontFamilies",
+        "$value": "Georgia"
+      },
+      "mono": {
+        "$type": "fontFamilies",
+        "$value": "Menlo"
+      }
+    }
+  },
+  "brand-text": {
+    "headline": {
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.24}",
+          "textCase": "{text-transform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "{line-height.150}",
+          "letterSpacing": "{tracking.tight}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "Used for smaller subheadings or section headings."
+      },
+      "medium": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.32}",
+          "textCase": "{text-transform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "{line-height.150}",
+          "letterSpacing": "{tracking.tight}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "Used for subheadings or section headings."
+      },
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.40}",
+          "textCase": "{text-transform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{font-weight.bold}",
+          "lineHeight": "{line-height.150}",
+          "letterSpacing": "{tracking.tight}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "Used for the main heading of a page or section."
+      }
+    },
+    "title": {
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.18}",
+          "textCase": "{text-transform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{font-weight.semibold}",
+          "lineHeight": "{line-height.24}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "Used for secondary titles or headings."
+      },
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.20}",
+          "textCase": "{text-transform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{font-weight.semibold}",
+          "lineHeight": "{line-height.24}",
+          "letterSpacing": "{tracking.tight}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "Used for prominent titles."
+      }
+    },
+    "subtitle": {
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.14}",
+          "textCase": "{text-transform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{font-weight.semibold}",
+          "lineHeight": "{line-height.18}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": " Used for smaller subtitles."
+      },
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.16}",
+          "textCase": "{text-transform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{font-weight.semibold}",
+          "lineHeight": "{line-height.20}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": " Used for subtitles."
+      }
+    },
+    "body": {
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.14}",
+          "textCase": "{text-transform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{font-weight.normal}",
+          "lineHeight": "{line-height.20}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "Used for main body text."
+      },
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.16}",
+          "textCase": "{text-transform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{font-weight.normal}",
+          "lineHeight": "{line-height.24}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "Used for emphasizing more prominent text than the main body."
+      }
+    },
+    "label": {
+      "default": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.12}",
+          "textCase": "{text-transform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{font-weight.medium}",
+          "lineHeight": "{line-height.20}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "Used for labeling."
+      }
+    },
+    "caption": {
+      "small": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.10}",
+          "textCase": "{text-transform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{font-weight.normal}",
+          "lineHeight": "{line-height.14}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "Used for smaller captions or footnotes."
+      },
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.12}",
+          "textCase": "{text-transform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{font-weight.normal}",
+          "lineHeight": "{line-height.20}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": "Used for small captions."
+      }
+    }
+  },
+  "brand-colors": {
+    "primary": {
+      "5": {
+        "$type": "color",
+        "$value": "{colors.lime.5}"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "{colors.lime.10}"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "{colors.lime.20}"
+      },
+      "30": {
+        "$type": "color",
+        "$value": "{colors.lime.30}"
+      },
+      "40": {
+        "$type": "color",
+        "$value": "{colors.lime.40}"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "{colors.lime.50}"
+      },
+      "60": {
+        "$type": "color",
+        "$value": "{colors.lime.60}"
+      },
+      "70": {
+        "$type": "color",
+        "$value": "{colors.lime.70}"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "{colors.lime.80}"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "{colors.lime.90}"
+      },
+      "95": {
+        "$type": "color",
+        "$value": "{colors.lime.95}"
+      }
+    },
+    "icon": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "text": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.70}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "border": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "background": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
+      },
+      "medium": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.50}"
+      }
+    }
+  },
+  "brand-elevation": {
+    "shadow": {
+      "default": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "{dimension.fixed.0}",
+            "y": "{dimension.fixed.5}",
+            "blur": "{dimension.fixed.15}",
+            "type": "dropShadow",
+            "color": "{colors.gray.10}",
+            "spread": "{dimension.fixed.0}"
+          }
+        ],
+        "$description": "Default elevation style."
+      },
+      "high": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "{dimension.fixed.0}",
+            "y": "{dimension.fixed.5}",
+            "blur": "{dimension.fixed.30}",
+            "type": "dropShadow",
+            "color": "{colors.gray.20}",
+            "spread": "{dimension.fixed.0}"
+          }
+        ],
+        "$description": "Used for stronger sense of depth and emphasis for important components or elements."
+      }
+    }
+  }
+}

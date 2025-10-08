@@ -7,10 +7,11 @@
     "core/density/density-spacious",
     "core/dimensions",
     "core/defaults",
-    "brand/default",
+    "theme/light",
+    "brand/defaults",
     "brand/tiketux",
     "brand/aragon",
     "brand/baraya",
-    "theme/light"
+    "components/defaults"
   ]
 }

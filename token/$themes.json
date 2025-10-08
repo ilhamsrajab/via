@@ -6,7 +6,7 @@
       "core/colors": "source",
       "core/dimensions": "source",
       "core/defaults": "source",
-      "brand/default": "source"
+      "brand/defaults": "source"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": null,
@@ -56,7 +56,7 @@
     "id": "Brand-Default",
     "name": "Default",
     "selectedTokenSets": {
-      "brand/default": "enabled"
+      "brand/defaults": "enabled"
     },
     "$figmaStyleReferences": {},
     "$figmaVariableReferences": null,
