@@ -187,6 +187,10 @@
   },
   "brand-colors": {
     "primary": {
+      "1": {
+        "$type": "color",
+        "$value": "{colors.lime.1}"
+      },
       "5": {
         "$type": "color",
         "$value": "{colors.lime.5}"
@@ -230,6 +234,10 @@
       "95": {
         "$type": "color",
         "$value": "{colors.lime.95}"
+      },
+      "99": {
+        "$type": "color",
+        "$value": "{colors.lime.99}"
       }
     },
     "icon": {
