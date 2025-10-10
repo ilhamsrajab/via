@@ -293,7 +293,7 @@
           },
           "disabled": {
             "$type": "color",
-            "$value": "{colors.gray.70}",
+            "$value": "{colors.gray.90}",
             "$description": " Inactive or unavailable component background color."
           }
         }
