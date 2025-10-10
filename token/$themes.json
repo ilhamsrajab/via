@@ -1,18 +1,5 @@
 [
   {
-    "id": "Primitive-primitive",
-    "name": "primitive",
-    "selectedTokenSets": {
-      "core/colors": "source",
-      "core/dimensions": "source",
-      "core/defaults": "source",
-      "brand/defaults": "source"
-    },
-    "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null,
-    "group": "Primitive"
-  },
-  {
     "id": "Density-Compact",
     "name": "Compact",
     "selectedTokenSets": {
@@ -116,11 +103,10 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core/colors": "source",
-      "core/density/density-default": "source",
       "core/dimensions": "source",
       "core/defaults": "source",
-      "theme/light": "enabled",
-      "component/defaults": "enabled"
+      "component/defaults": "enabled",
+      "brand/defaults": "source"
     },
     "group": "Component"
   }

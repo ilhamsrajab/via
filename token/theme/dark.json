@@ -273,12 +273,12 @@
         "background": {
           "default": {
             "$type": "color",
-            "$value": "{colors.gray.95}",
+            "$value": "{colors.gray.99}",
             "$description": "Primary background color for most components and sections of the interface."
           },
           "low": {
             "$type": "color",
-            "$value": "{colors.gray.90}",
+            "$value": "{colors.gray.95}",
             "$description": "Secondary background color for components that require a lower visual weight."
           },
           "medium": {

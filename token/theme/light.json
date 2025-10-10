@@ -278,12 +278,12 @@
           },
           "low": {
             "$type": "color",
-            "$value": "{colors.gray.5}",
+            "$value": "{colors.gray.1}",
             "$description": "Secondary background color for components that require a lower visual weight."
           },
           "medium": {
             "$type": "color",
-            "$value": "{colors.gray.10}",
+            "$value": "{colors.gray.5}",
             "$description": "Tertiary background color, generally used for clickable objects on a white background, such as text fields, etc."
           },
           "high": {

@@ -3,59 +3,59 @@
     "gray": {
       "0": {
         "$type": "color",
-        "$value": "oklch(100% 0 0)"
+        "$value": "oklch(100% 0 137.33)"
       },
       "1": {
         "$type": "color",
-        "$value": "oklch(93% 0 0)"
+        "$value": "oklch(97.5% 0 137.33)"
       },
       "5": {
         "$type": "color",
-        "$value": "oklch(85.5% 0 0)"
+        "$value": "oklch(94.5% 0 137.33)"
       },
       "10": {
         "$type": "color",
-        "$value": "oklch(78.5% 0 0)"
+        "$value": "oklch(91% 0 137.33)"
       },
       "20": {
         "$type": "color",
-        "$value": "oklch(71.5% 0 0)"
+        "$value": "oklch(87% 0 137.33)"
       },
       "30": {
         "$type": "color",
-        "$value": "oklch(64.5% 0 0)"
+        "$value": "oklch(81% 0 137.33)"
       },
       "40": {
         "$type": "color",
-        "$value": "oklch(57% 0 0)"
+        "$value": "oklch(74% 0 137.33)"
       },
       "50": {
         "$type": "color",
-        "$value": "oklch(50% 0 0)"
+        "$value": "oklch(66% 0 137.33)"
       },
       "60": {
         "$type": "color",
-        "$value": "oklch(43% 0 0)"
+        "$value": "oklch(56.5% 0 137.33)"
       },
       "70": {
         "$type": "color",
-        "$value": "oklch(35.5% 0 0)"
+        "$value": "oklch(47% 0 137.33)"
       },
       "80": {
         "$type": "color",
-        "$value": "oklch(28.5% 0 0)"
+        "$value": "oklch(37% 0 137.33)"
       },
       "90": {
         "$type": "color",
-        "$value": "oklch(21.5% 0 0)"
+        "$value": "oklch(27.5% 0 137.33)"
       },
       "95": {
         "$type": "color",
-        "$value": "oklch(14.5% 0 0)"
+        "$value": "oklch(18% 0 137.33)"
       },
       "99": {
         "$type": "color",
-        "$value": "oklch(7% 0 0)"
+        "$value": "oklch(9% 0 137.33)"
       },
       "100": {
         "$type": "color",
