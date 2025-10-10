@@ -279,6 +279,60 @@
         "$type": "color",
         "$value": "{brand-colors.primary.50}"
       }
+    },
+    "accent": {
+      "1": {
+        "$type": "color",
+        "$value": "{colors.lime.1}"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "{colors.lime.5}"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "{colors.lime.10}"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "{colors.lime.20}"
+      },
+      "30": {
+        "$type": "color",
+        "$value": "{colors.lime.30}"
+      },
+      "40": {
+        "$type": "color",
+        "$value": "{colors.lime.40}"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "{colors.lime.50}"
+      },
+      "60": {
+        "$type": "color",
+        "$value": "{colors.lime.60}"
+      },
+      "70": {
+        "$type": "color",
+        "$value": "{colors.lime.70}"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "{colors.lime.80}"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "{colors.lime.90}"
+      },
+      "95": {
+        "$type": "color",
+        "$value": "{colors.lime.95}"
+      },
+      "99": {
+        "$type": "color",
+        "$value": "{colors.lime.99}"
+      }
     }
   },
   "brand-elevation": {
