@@ -6,7 +6,7 @@
       "core/density/density-compact": "source"
     },
     "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null,
+    "$figmaVariableReferences": {},
     "group": "Density"
   },
   {
@@ -16,7 +16,7 @@
       "core/density/density-default": "source"
     },
     "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null,
+    "$figmaVariableReferences": {},
     "group": "Density"
   },
   {
@@ -26,7 +26,7 @@
       "core/density/density-cozy": "source"
     },
     "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null,
+    "$figmaVariableReferences": {},
     "group": "Density"
   },
   {
@@ -36,7 +36,7 @@
       "core/density/density-spacious": "source"
     },
     "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null,
+    "$figmaVariableReferences": {},
     "group": "Density"
   },
   {
@@ -46,7 +46,7 @@
       "brand/defaults": "enabled"
     },
     "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null,
+    "$figmaVariableReferences": {},
     "group": "Brand"
   },
   {
@@ -56,7 +56,7 @@
       "brand/tiketux": "enabled"
     },
     "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null,
+    "$figmaVariableReferences": {},
     "group": "Brand"
   },
   {
@@ -66,7 +66,7 @@
       "brand/aragon": "enabled"
     },
     "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null,
+    "$figmaVariableReferences": {},
     "group": "Brand"
   },
   {
@@ -76,7 +76,7 @@
       "brand/baraya": "enabled"
     },
     "$figmaStyleReferences": {},
-    "$figmaVariableReferences": null,
+    "$figmaVariableReferences": {},
     "group": "Brand"
   },
   {
@@ -86,7 +86,8 @@
     "selectedTokenSets": {
       "theme/light": "enabled"
     },
-    "group": "Theme"
+    "group": "Theme",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "05117f7475cc251415e18920a2ff586c898e0492",
@@ -95,7 +96,8 @@
     "selectedTokenSets": {
       "theme/dark": "enabled"
     },
-    "group": "Theme"
+    "group": "Theme",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "97a35db4e20ab74d82f776122c3cd7b64c016353",
@@ -108,6 +110,7 @@
       "component/defaults": "enabled",
       "brand/defaults": "source"
     },
-    "group": "Component"
+    "group": "Component",
+    "$figmaVariableReferences": {}
   }
 ]

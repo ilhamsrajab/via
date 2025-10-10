@@ -3,17 +3,15 @@
     "cta-button": {
       "primary": {
         "default": {
-          "background-color": {
-            "$type": "color",
-            "$value": "{brand-colors.background.default}",
-            "$description": "Warna latar utama"
-          }
-        },
-        "hover": {
-          "background-color": {
-            "$type": "color",
-            "$value": "{brand-colors.background.medium}",
-            "$description": "Warna latar hover"
+          "container": {
+            "border-color": {
+              "$type": "color",
+              "$value": "{brand-colors.background.default}"
+            },
+            "background-color": {
+              "$type": "color",
+              "$value": "{brand-colors.border.default}"
+            }
           }
         }
       }
