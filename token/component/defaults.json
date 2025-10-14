@@ -14,6 +14,24 @@
             }
           }
         }
+      },
+      "standard": {
+        "rest": {
+          "container": {
+            "border-width": {
+              "$type": "borderWidth",
+              "$value": "{dimensions.border-width.m}"
+            },
+            "border-radius": {
+              "$type": "borderRadius",
+              "$value": "{dimensions.radius.m}"
+            },
+            "padding": {
+              "$type": "spacing",
+              "$value": "{theme-spacing.padding.s} {theme-spacing.padding.l}"
+            }
+          }
+        }
       }
     }
   }
