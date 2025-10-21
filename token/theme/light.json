@@ -57,7 +57,7 @@
           },
           "disabled": {
             "$type": "color",
-            "$value": "{colors.gray.40}",
+            "$value": "{colors.gray.50}",
             "$description": "Used for inactive or disabled text."
           },
           "inverse": {
