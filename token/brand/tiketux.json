@@ -166,7 +166,7 @@
     },
     "border": {
       "default": {
-        "value": "{brand-colors.primary.60}",
+        "value": "{brand-colors.primary.50}",
         "type": "color"
       },
       "inverse": {
@@ -186,11 +186,11 @@
     },
     "background": {
       "default": {
-        "value": "{brand-colors.primary.50}",
+        "value": "{brand-colors.primary.60}",
         "type": "color"
       },
       "medium": {
-        "value": "{brand-colors.primary.60}",
+        "value": "{brand-colors.primary.70}",
         "type": "color"
       }
     },

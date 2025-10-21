@@ -58,6 +58,16 @@
               "value": "{tracking.normal}",
               "type": "letterSpacing"
             }
+          },
+          "icon": {
+            "color": {
+              "value": "{brand-colors.icon.inverse}",
+              "type": "color"
+            },
+            "size": {
+              "value": "{dimensions.size.s}",
+              "type": "sizing"
+            }
           }
         }
       }
