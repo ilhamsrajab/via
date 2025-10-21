@@ -2,24 +2,23 @@
   "brand-font": {
     "font-family": {
       "default": {
-        "$type": "fontFamilies",
-        "$value": "Plus Jakarta Sans"
+        "value": "Plus Jakarta Sans",
+        "type": "fontFamilies"
       },
       "serif": {
-        "$type": "fontFamilies",
-        "$value": "Georgia"
+        "value": "Georgia",
+        "type": "fontFamilies"
       },
       "mono": {
-        "$type": "fontFamilies",
-        "$value": "Menlo"
+        "value": "Menlo",
+        "type": "fontFamilies"
       }
     }
   },
   "brand-text": {
     "headline": {
       "small": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font-size.24}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -28,11 +27,11 @@
           "letterSpacing": "{tracking.tight}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "Used for smaller subheadings or section headings."
+        "description": "Used for smaller subheadings or section headings.",
+        "type": "typography"
       },
       "medium": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font-size.32}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -41,11 +40,11 @@
           "letterSpacing": "{tracking.tight}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "Used for subheadings or section headings."
+        "description": "Used for subheadings or section headings.",
+        "type": "typography"
       },
       "large": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font-size.40}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -54,13 +53,13 @@
           "letterSpacing": "{tracking.tight}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "Used for the main heading of a page or section."
+        "description": "Used for the main heading of a page or section.",
+        "type": "typography"
       }
     },
     "title": {
       "small": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font-size.18}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -69,11 +68,11 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "Used for secondary titles or headings."
+        "description": "Used for secondary titles or headings.",
+        "type": "typography"
       },
       "large": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font-size.20}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -82,13 +81,13 @@
           "letterSpacing": "{tracking.tight}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "Used for prominent titles."
+        "description": "Used for prominent titles.",
+        "type": "typography"
       }
     },
     "subtitle": {
       "small": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font-size.14}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -97,11 +96,11 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": " Used for smaller subtitles."
+        "description": " Used for smaller subtitles.",
+        "type": "typography"
       },
       "large": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font-size.16}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -110,13 +109,13 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": " Used for subtitles."
+        "description": " Used for subtitles.",
+        "type": "typography"
       }
     },
     "body": {
       "small": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font-size.14}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -125,11 +124,11 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "Used for main body text."
+        "description": "Used for main body text.",
+        "type": "typography"
       },
       "large": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font-size.16}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -138,13 +137,13 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "Used for emphasizing more prominent text than the main body."
+        "description": "Used for emphasizing more prominent text than the main body.",
+        "type": "typography"
       }
     },
     "label": {
       "default": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font-size.12}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -153,13 +152,13 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "Used for labeling."
+        "description": "Used for labeling.",
+        "type": "typography"
       }
     },
     "caption": {
       "small": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font-size.10}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -168,11 +167,11 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "Used for smaller captions or footnotes."
+        "description": "Used for smaller captions or footnotes.",
+        "type": "typography"
       },
       "large": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font-size.12}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -181,229 +180,230 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text-decoration.none}"
         },
-        "$description": "Used for small captions."
+        "description": "Used for small captions.",
+        "type": "typography"
       }
     }
   },
   "brand-colors": {
     "primary": {
       "1": {
-        "$type": "color",
-        "$value": "{colors.lime.1}"
+        "value": "{colors.lime.1}",
+        "type": "color"
       },
       "5": {
-        "$type": "color",
-        "$value": "{colors.lime.5}"
+        "value": "{colors.lime.5}",
+        "type": "color"
       },
       "10": {
-        "$type": "color",
-        "$value": "{colors.lime.10}"
+        "value": "{colors.lime.10}",
+        "type": "color"
       },
       "20": {
-        "$type": "color",
-        "$value": "{colors.lime.20}"
+        "value": "{colors.lime.20}",
+        "type": "color"
       },
       "30": {
-        "$type": "color",
-        "$value": "{colors.lime.30}"
+        "value": "{colors.lime.30}",
+        "type": "color"
       },
       "40": {
-        "$type": "color",
-        "$value": "{colors.lime.40}"
+        "value": "{colors.lime.40}",
+        "type": "color"
       },
       "50": {
-        "$type": "color",
-        "$value": "{colors.lime.50}"
+        "value": "{colors.lime.50}",
+        "type": "color"
       },
       "60": {
-        "$type": "color",
-        "$value": "{colors.lime.60}"
+        "value": "{colors.lime.60}",
+        "type": "color"
       },
       "70": {
-        "$type": "color",
-        "$value": "{colors.lime.70}"
+        "value": "{colors.lime.70}",
+        "type": "color"
       },
       "80": {
-        "$type": "color",
-        "$value": "{colors.lime.80}"
+        "value": "{colors.lime.80}",
+        "type": "color"
       },
       "90": {
-        "$type": "color",
-        "$value": "{colors.lime.90}"
+        "value": "{colors.lime.90}",
+        "type": "color"
       },
       "95": {
-        "$type": "color",
-        "$value": "{colors.lime.95}"
+        "value": "{colors.lime.95}",
+        "type": "color"
       },
       "99": {
-        "$type": "color",
-        "$value": "{colors.lime.99}"
+        "value": "{colors.lime.99}",
+        "type": "color"
       }
     },
     "accent": {
       "1": {
-        "$type": "color",
-        "$value": "{colors.yellow.1}"
+        "value": "{colors.yellow.1}",
+        "type": "color"
       },
       "5": {
-        "$type": "color",
-        "$value": "{colors.yellow.5}"
+        "value": "{colors.yellow.5}",
+        "type": "color"
       },
       "10": {
-        "$type": "color",
-        "$value": "{colors.yellow.10}"
+        "value": "{colors.yellow.10}",
+        "type": "color"
       },
       "20": {
-        "$type": "color",
-        "$value": "{colors.yellow.20}"
+        "value": "{colors.yellow.20}",
+        "type": "color"
       },
       "30": {
-        "$type": "color",
-        "$value": "{colors.yellow.30}"
+        "value": "{colors.yellow.30}",
+        "type": "color"
       },
       "40": {
-        "$type": "color",
-        "$value": "{colors.yellow.40}"
+        "value": "{colors.yellow.40}",
+        "type": "color"
       },
       "50": {
-        "$type": "color",
-        "$value": "{colors.yellow.50}"
+        "value": "{colors.yellow.50}",
+        "type": "color"
       },
       "60": {
-        "$type": "color",
-        "$value": "{colors.yellow.60}"
+        "value": "{colors.yellow.60}",
+        "type": "color"
       },
       "70": {
-        "$type": "color",
-        "$value": "{colors.yellow.70}"
+        "value": "{colors.yellow.70}",
+        "type": "color"
       },
       "80": {
-        "$type": "color",
-        "$value": "{colors.yellow.80}"
+        "value": "{colors.yellow.80}",
+        "type": "color"
       },
       "90": {
-        "$type": "color",
-        "$value": "{colors.yellow.90}"
+        "value": "{colors.yellow.90}",
+        "type": "color"
       },
       "95": {
-        "$type": "color",
-        "$value": "{colors.yellow.95}"
+        "value": "{colors.yellow.95}",
+        "type": "color"
       },
       "99": {
-        "$type": "color",
-        "$value": "{colors.yellow.99}"
+        "value": "{colors.yellow.99}",
+        "type": "color"
       }
     },
     "icon": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.60}"
+        "value": "{brand-colors.primary.60}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "icon-accent": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.60}"
+        "value": "{brand-colors.accent.60}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "text": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.70}"
+        "value": "{brand-colors.primary.70}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "text-accent": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.70}"
+        "value": "{brand-colors.accent.70}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "border": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.50}"
+        "value": "{brand-colors.primary.60}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "border-accent": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.50}"
+        "value": "{brand-colors.accent.50}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "background": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.60}"
+        "value": "{brand-colors.primary.50}",
+        "type": "color"
       },
       "medium": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.50}"
+        "value": "{brand-colors.primary.60}",
+        "type": "color"
       }
     },
     "background-accent": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.60}"
+        "value": "{brand-colors.accent.60}",
+        "type": "color"
       },
       "medium": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.50}"
+        "value": "{brand-colors.accent.50}",
+        "type": "color"
       }
     }
   },
   "brand-elevation": {
     "shadow": {
       "default": {
-        "$type": "boxShadow",
-        "$value": [
+        "value": [
           {
-            "x": "{dimension.fixed.0}",
-            "y": "{dimension.fixed.5}",
-            "blur": "{dimension.fixed.15}",
+            "x": "{dimensions.fixed.0}",
+            "y": "{dimensions.fixed.5}",
+            "blur": "{dimensions.fixed.15}",
             "type": "dropShadow",
             "color": "{theme-colors.mode.neutral.border.default}",
-            "spread": "{dimension.fixed.0}"
+            "spread": "{dimensions.fixed.0}"
           }
         ],
-        "$description": "Default elevation style."
+        "description": "Default elevation style.",
+        "type": "boxShadow"
       },
       "high": {
-        "$type": "boxShadow",
-        "$value": [
+        "value": [
           {
-            "x": "{dimension.fixed.0}",
-            "y": "{dimension.fixed.5}",
-            "blur": "{dimension.fixed.30}",
+            "x": "{dimensions.fixed.0}",
+            "y": "{dimensions.fixed.5}",
+            "blur": "{dimensions.fixed.30}",
             "type": "dropShadow",
             "color": "{theme-colors.mode.neutral.border.default}",
-            "spread": "{dimension.fixed.0}"
+            "spread": "{dimensions.fixed.0}"
           }
         ],
-        "$description": "Used for stronger sense of depth and emphasis for important components or elements."
+        "description": "Used for stronger sense of depth and emphasis for important components or elements.",
+        "type": "boxShadow"
       }
     }
   },
@@ -411,48 +411,48 @@
     "border": {
       "radius": {
         "2xs": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.2xs}"
+          "value": "{dimensions.radius.2xs}",
+          "type": "borderRadius"
         },
         "xs": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.xs}"
+          "value": "{dimensions.radius.xs}",
+          "type": "borderRadius"
         },
         "s": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.s}"
+          "value": "{dimensions.radius.s}",
+          "type": "borderRadius"
         },
         "m": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.m}"
+          "value": "{dimensions.radius.m}",
+          "type": "borderRadius"
         },
         "l": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.l}"
+          "value": "{dimensions.radius.l}",
+          "type": "borderRadius"
         },
         "xl": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.xl}"
+          "value": "{dimensions.radius.xl}",
+          "type": "borderRadius"
         },
         "2xl": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.2xl}"
+          "value": "{dimensions.radius.2xl}",
+          "type": "borderRadius"
         },
         "3xl": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.3xl}"
+          "value": "{dimensions.radius.3xl}",
+          "type": "borderRadius"
         },
         "4xl": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.4xl}"
+          "value": "{dimensions.radius.4xl}",
+          "type": "borderRadius"
         },
         "full": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.full}"
+          "value": "{dimensions.radius.full}",
+          "type": "borderRadius"
         },
         "none": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.none}"
+          "value": "{dimensions.radius.none}",
+          "type": "borderRadius"
         }
       }
     }
@@ -461,36 +461,36 @@
     "scale": {
       "size": {
         "xs": {
-          "$type": "sizing",
-          "$value": "{dimensions.size.xs}"
+          "value": "{dimensions.size.xs}",
+          "type": "sizing"
         },
         "s": {
-          "$type": "sizing",
-          "$value": "{dimensions.size.s}"
+          "value": "{dimensions.size.s}",
+          "type": "sizing"
         },
         "m": {
-          "$type": "sizing",
-          "$value": "{dimensions.size.m}"
+          "value": "{dimensions.size.m}",
+          "type": "sizing"
         },
         "l": {
-          "$type": "sizing",
-          "$value": "{dimensions.size.l}"
+          "value": "{dimensions.size.l}",
+          "type": "sizing"
         },
         "xl": {
-          "$type": "sizing",
-          "$value": "{dimensions.size.xl}"
+          "value": "{dimensions.size.xl}",
+          "type": "sizing"
         },
         "2xl": {
-          "$type": "sizing",
-          "$value": "{dimensions.size.2xl}"
+          "value": "{dimensions.size.2xl}",
+          "type": "sizing"
         },
         "3xl": {
-          "$type": "sizing",
-          "$value": "{dimensions.size.3xl}"
+          "value": "{dimensions.size.3xl}",
+          "type": "sizing"
         },
         "4xl": {
-          "$type": "sizing",
-          "$value": "{dimensions.size.4xl}"
+          "value": "{dimensions.size.4xl}",
+          "type": "sizing"
         }
       }
     }
@@ -498,85 +498,85 @@
   "theme-opacity": {
     "opacity": {
       "low": {
-        "$type": "opacity",
-        "$value": "{opacity.40}",
-        "$description": "It applies a 40% opacity to an element."
+        "value": "{opacity.40}",
+        "description": "It applies a 40% opacity to an element.",
+        "type": "opacity"
       },
       "med": {
-        "$type": "opacity",
-        "$value": "{opacity.60}",
-        "$description": "It applies a 60% opacity to an element."
+        "value": "{opacity.60}",
+        "description": "It applies a 60% opacity to an element.",
+        "type": "opacity"
       },
       "high": {
-        "$type": "opacity",
-        "$value": "{opacity.90}",
-        "$description": "It applies a 90% opacity to an element."
+        "value": "{opacity.90}",
+        "description": "It applies a 90% opacity to an element.",
+        "type": "opacity"
       },
       "full": {
-        "$type": "opacity",
-        "$value": "{opacity.100}",
-        "$description": "It applies a 100% opacity to an element."
+        "value": "{opacity.100}",
+        "description": "It applies a 100% opacity to an element.",
+        "type": "opacity"
       },
       "disabled": {
-        "$type": "opacity",
-        "$value": "{opacity.50}",
-        "$description": "It applies a 50% opacity to an element."
+        "value": "{opacity.50}",
+        "description": "It applies a 50% opacity to an element.",
+        "type": "opacity"
       }
     }
   },
   "theme-spacing": {
     "padding": {
       "4xs": {
-        "$type": "dimension",
-        "$value": "{dimension.fixed.2}"
+        "value": "{dimensions.fixed.2}",
+        "type": "dimension"
       },
       "3xs": {
-        "$type": "dimension",
-        "$value": "{dimension.fixed.5}"
+        "value": "{dimensions.fixed.5}",
+        "type": "dimension"
       },
       "2xs": {
-        "$type": "dimension",
-        "$value": "{dimension.fixed.7}"
+        "value": "{dimensions.fixed.7}",
+        "type": "dimension"
       },
       "xs": {
-        "$type": "dimension",
-        "$value": "{dimension.fixed.10}"
+        "value": "{dimensions.fixed.10}",
+        "type": "dimension"
       },
       "s": {
-        "$type": "dimension",
-        "$value": "{dimension.fixed.15}"
+        "value": "{dimensions.fixed.15}",
+        "type": "dimension"
       },
       "m": {
-        "$type": "dimension",
-        "$value": "{dimension.fixed.20}"
+        "value": "{dimensions.fixed.20}",
+        "type": "dimension"
       },
       "l": {
-        "$type": "dimension",
-        "$value": "{dimension.fixed.25}"
+        "value": "{dimensions.fixed.25}",
+        "type": "dimension"
       },
       "xl": {
-        "$type": "dimension",
-        "$value": "{dimension.fixed.30}"
+        "value": "{dimensions.fixed.30}",
+        "type": "dimension"
       },
       "2xl": {
-        "$type": "dimension",
-        "$value": "{dimension.fixed.40}"
+        "value": "{dimensions.fixed.40}",
+        "type": "dimension"
       },
       "3xl": {
-        "$type": "dimension",
-        "$value": "{dimension.fixed.50}"
+        "value": "{dimensions.fixed.50}",
+        "type": "dimension"
       },
       "4xl": {
-        "$type": "dimension",
-        "$value": "{dimension.fixed.60}"
+        "value": "{dimensions.fixed.60}",
+        "type": "dimension"
       },
       "5xl": {
-        "$type": "dimension",
-        "$value": "{dimension.fixed.80}"
+        "value": "{dimensions.fixed.80}",
+        "type": "dimension"
       },
       "none": {
-        "$type": "dimension",
-        "$value": "{dimension.fixed.0}"
+        "value": "{dimensions.fixed.0}",
+        "type": "dimension"
       }
     }
   }

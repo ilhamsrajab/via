@@ -2,206 +2,206 @@
   "brand-font": {
     "font-family": {
       "default": {
-        "$type": "fontFamilies",
-        "$value": "Noto Sans"
+        "value": "Noto Sans",
+        "type": "fontFamilies"
       },
       "serif": {
-        "$type": "fontFamilies",
-        "$value": "Georgia"
+        "value": "Georgia",
+        "type": "fontFamilies"
       },
       "mono": {
-        "$type": "fontFamilies",
-        "$value": "Menlo"
+        "value": "Menlo",
+        "type": "fontFamilies"
       }
     }
   },
   "brand-colors": {
     "primary": {
       "1": {
-        "$type": "color",
-        "$value": "{colors.red.1}"
+        "value": "{colors.red.1}",
+        "type": "color"
       },
       "5": {
-        "$type": "color",
-        "$value": "{colors.red.5}"
+        "value": "{colors.red.5}",
+        "type": "color"
       },
       "10": {
-        "$type": "color",
-        "$value": "{colors.red.10}"
+        "value": "{colors.red.10}",
+        "type": "color"
       },
       "20": {
-        "$type": "color",
-        "$value": "{colors.red.20}"
+        "value": "{colors.red.20}",
+        "type": "color"
       },
       "30": {
-        "$type": "color",
-        "$value": "{colors.red.30}"
+        "value": "{colors.red.30}",
+        "type": "color"
       },
       "40": {
-        "$type": "color",
-        "$value": "{colors.red.40}"
+        "value": "{colors.red.40}",
+        "type": "color"
       },
       "50": {
-        "$type": "color",
-        "$value": "{colors.red.50}"
+        "value": "{colors.red.50}",
+        "type": "color"
       },
       "60": {
-        "$type": "color",
-        "$value": "{colors.red.60}"
+        "value": "{colors.red.60}",
+        "type": "color"
       },
       "70": {
-        "$type": "color",
-        "$value": "{colors.red.70}"
+        "value": "{colors.red.70}",
+        "type": "color"
       },
       "80": {
-        "$type": "color",
-        "$value": "{colors.red.80}"
+        "value": "{colors.red.80}",
+        "type": "color"
       },
       "90": {
-        "$type": "color",
-        "$value": "{colors.red.90}"
+        "value": "{colors.red.90}",
+        "type": "color"
       },
       "95": {
-        "$type": "color",
-        "$value": "{colors.red.95}"
+        "value": "{colors.red.95}",
+        "type": "color"
       },
       "99": {
-        "$type": "color",
-        "$value": "{colors.red.99}"
+        "value": "{colors.red.99}",
+        "type": "color"
       }
     },
     "accent": {
       "1": {
-        "$type": "color",
-        "$value": "oklch(0% 0 0)"
+        "value": "oklch(0% 0 0)",
+        "type": "color"
       },
       "5": {
-        "$type": "color",
-        "$value": "oklch(0% 0 0)"
+        "value": "oklch(0% 0 0)",
+        "type": "color"
       },
       "10": {
-        "$type": "color",
-        "$value": "oklch(0% 0 0)"
+        "value": "oklch(0% 0 0)",
+        "type": "color"
       },
       "20": {
-        "$type": "color",
-        "$value": "oklch(0% 0 0)"
+        "value": "oklch(0% 0 0)",
+        "type": "color"
       },
       "30": {
-        "$type": "color",
-        "$value": "oklch(0% 0 0)"
+        "value": "oklch(0% 0 0)",
+        "type": "color"
       },
       "40": {
-        "$type": "color",
-        "$value": "oklch(0% 0 0)"
+        "value": "oklch(0% 0 0)",
+        "type": "color"
       },
       "50": {
-        "$type": "color",
-        "$value": "oklch(0% 0 0)"
+        "value": "oklch(0% 0 0)",
+        "type": "color"
       },
       "60": {
-        "$type": "color",
-        "$value": "oklch(0% 0 0)"
+        "value": "oklch(0% 0 0)",
+        "type": "color"
       },
       "70": {
-        "$type": "color",
-        "$value": "oklch(0% 0 0)"
+        "value": "oklch(0% 0 0)",
+        "type": "color"
       },
       "80": {
-        "$type": "color",
-        "$value": "oklch(0% 0 0)"
+        "value": "oklch(0% 0 0)",
+        "type": "color"
       },
       "90": {
-        "$type": "color",
-        "$value": "oklch(0% 0 0)"
+        "value": "oklch(0% 0 0)",
+        "type": "color"
       },
       "95": {
-        "$type": "color",
-        "$value": "oklch(0% 0 0)"
+        "value": "oklch(0% 0 0)",
+        "type": "color"
       },
       "99": {
-        "$type": "color",
-        "$value": "oklch(0% 0 0)"
+        "value": "oklch(0% 0 0)",
+        "type": "color"
       }
     },
     "icon": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.60}"
+        "value": "{brand-colors.primary.60}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "icon-accent": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.60}"
+        "value": "{brand-colors.accent.60}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "text": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.70}"
+        "value": "{brand-colors.primary.70}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "text-accent": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.70}"
+        "value": "{brand-colors.accent.70}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "border": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.50}"
+        "value": "{brand-colors.primary.60}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "border-accent": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.50}"
+        "value": "{brand-colors.accent.50}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "background": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.60}"
+        "value": "{brand-colors.primary.50}",
+        "type": "color"
       },
       "medium": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.50}"
+        "value": "{brand-colors.primary.60}",
+        "type": "color"
       }
     },
     "background-accent": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.60}"
+        "value": "{brand-colors.accent.60}",
+        "type": "color"
       },
       "medium": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.50}"
+        "value": "{brand-colors.accent.50}",
+        "type": "color"
       }
     }
   }

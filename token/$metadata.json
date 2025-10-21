@@ -13,6 +13,12 @@
     "brand/tiketux",
     "brand/aragon",
     "brand/baraya",
-    "component/defaults"
+    "component/button",
+    "component/input",
+    "component/card",
+    "component/toast",
+    "component/badge",
+    "component/tooltip",
+    "component/modal"
   ]
 }

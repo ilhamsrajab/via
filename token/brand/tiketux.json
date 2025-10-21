@@ -2,206 +2,206 @@
   "brand-font": {
     "font-family": {
       "default": {
-        "$type": "fontFamilies",
-        "$value": "Satoshi"
+        "value": "Satoshi",
+        "type": "fontFamilies"
       },
       "serif": {
-        "$type": "fontFamilies",
-        "$value": "Georgia"
+        "value": "Georgia",
+        "type": "fontFamilies"
       },
       "mono": {
-        "$type": "fontFamilies",
-        "$value": "Menlo"
+        "value": "Menlo",
+        "type": "fontFamilies"
       }
     }
   },
   "brand-colors": {
     "primary": {
       "1": {
-        "$type": "color",
-        "$value": "oklch(95% 0.017 262.62)"
+        "value": "oklch(95% 0.017 262.62)",
+        "type": "color"
       },
       "5": {
-        "$type": "color",
-        "$value": "oklch(93% 0.025 262.62)"
+        "value": "oklch(93% 0.025 262.62)",
+        "type": "color"
       },
       "10": {
-        "$type": "color",
-        "$value": "oklch(89% 0.044 262.62)"
+        "value": "oklch(89% 0.044 262.62)",
+        "type": "color"
       },
       "20": {
-        "$type": "color",
-        "$value": "oklch(85% 0.063 262.62)"
+        "value": "oklch(85% 0.063 262.62)",
+        "type": "color"
       },
       "30": {
-        "$type": "color",
-        "$value": "oklch(81% 0.085 262.62)"
+        "value": "oklch(81% 0.085 262.62)",
+        "type": "color"
       },
       "40": {
-        "$type": "color",
-        "$value": "oklch(76% 0.114 262.62)"
+        "value": "oklch(76% 0.114 262.62)",
+        "type": "color"
       },
       "50": {
-        "$type": "color",
-        "$value": "oklch(64% 0.179 262.62)"
+        "value": "oklch(64% 0.179 262.62)",
+        "type": "color"
       },
       "60": {
-        "$type": "color",
-        "$value": "oklch(55% 0.231 262.62)"
+        "value": "oklch(55% 0.231 262.62)",
+        "type": "color"
       },
       "70": {
-        "$type": "color",
-        "$value": "oklch(50% 0.226 262.62)"
+        "value": "oklch(50% 0.226 262.62)",
+        "type": "color"
       },
       "80": {
-        "$type": "color",
-        "$value": "oklch(46% 0.209 262.62)"
+        "value": "oklch(46% 0.209 262.62)",
+        "type": "color"
       },
       "90": {
-        "$type": "color",
-        "$value": "oklch(42% 0.19 262.62)"
+        "value": "oklch(42% 0.19 262.62)",
+        "type": "color"
       },
       "95": {
-        "$type": "color",
-        "$value": "oklch(38% 0.172 262.62)"
+        "value": "oklch(38% 0.172 262.62)",
+        "type": "color"
       },
       "99": {
-        "$type": "color",
-        "$value": "oklch(36% 0.163 262.62)"
+        "value": "oklch(36% 0.163 262.62)",
+        "type": "color"
       }
     },
     "accent": {
       "1": {
-        "$type": "color",
-        "$value": "oklch(95% 0.028 70.08)"
+        "value": "oklch(95% 0.028 70.08)",
+        "type": "color"
       },
       "5": {
-        "$type": "color",
-        "$value": "oklch(93% 0.042 70.08)"
+        "value": "oklch(93% 0.042 70.08)",
+        "type": "color"
       },
       "10": {
-        "$type": "color",
-        "$value": "oklch(89% 0.073 70.08)"
+        "value": "oklch(89% 0.073 70.08)",
+        "type": "color"
       },
       "20": {
-        "$type": "color",
-        "$value": "oklch(85% 0.108 70.08)"
+        "value": "oklch(85% 0.108 70.08)",
+        "type": "color"
       },
       "30": {
-        "$type": "color",
-        "$value": "oklch(81% 0.146 70.08)"
+        "value": "oklch(81% 0.146 70.08)",
+        "type": "color"
       },
       "40": {
-        "$type": "color",
-        "$value": "oklch(76% 0.163 70.08)"
+        "value": "oklch(76% 0.163 70.08)",
+        "type": "color"
       },
       "50": {
-        "$type": "color",
-        "$value": "oklch(64% 0.137 70.08)"
+        "value": "oklch(64% 0.137 70.08)",
+        "type": "color"
       },
       "60": {
-        "$type": "color",
-        "$value": "oklch(55% 0.118 70.08)"
+        "value": "oklch(55% 0.118 70.08)",
+        "type": "color"
       },
       "70": {
-        "$type": "color",
-        "$value": "oklch(50% 0.107 70.08)"
+        "value": "oklch(50% 0.107 70.08)",
+        "type": "color"
       },
       "80": {
-        "$type": "color",
-        "$value": "oklch(46% 0.098 70.08)"
+        "value": "oklch(46% 0.098 70.08)",
+        "type": "color"
       },
       "90": {
-        "$type": "color",
-        "$value": "oklch(42% 0.09 70.08)"
+        "value": "oklch(42% 0.09 70.08)",
+        "type": "color"
       },
       "95": {
-        "$type": "color",
-        "$value": "oklch(38% 0.082 70.08)"
+        "value": "oklch(38% 0.082 70.08)",
+        "type": "color"
       },
       "99": {
-        "$type": "color",
-        "$value": "oklch(36% 0.077 70.08)"
+        "value": "oklch(36% 0.077 70.08)",
+        "type": "color"
       }
     },
     "icon": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.60}"
+        "value": "{brand-colors.primary.60}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "icon-accent": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.60}"
+        "value": "{brand-colors.accent.60}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "text": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.70}"
+        "value": "{brand-colors.primary.70}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "text-accent": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.70}"
+        "value": "{brand-colors.accent.70}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "border": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.50}"
+        "value": "{brand-colors.primary.60}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "border-accent": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.50}"
+        "value": "{brand-colors.accent.50}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "background": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.60}"
+        "value": "{brand-colors.primary.50}",
+        "type": "color"
       },
       "medium": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.50}"
+        "value": "{brand-colors.primary.60}",
+        "type": "color"
       }
     },
     "background-accent": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.60}"
+        "value": "{brand-colors.accent.60}",
+        "type": "color"
       },
       "medium": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.50}"
+        "value": "{brand-colors.accent.50}",
+        "type": "color"
       }
     }
   }
