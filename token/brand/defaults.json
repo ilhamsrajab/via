@@ -2,23 +2,24 @@
   "brand-font": {
     "font-family": {
       "default": {
-        "value": "Plus Jakarta Sans",
-        "type": "fontFamilies"
+        "$type": "fontFamilies",
+        "$value": "Plus Jakarta Sans"
       },
       "serif": {
-        "value": "Georgia",
-        "type": "fontFamilies"
+        "$type": "fontFamilies",
+        "$value": "Georgia"
       },
       "mono": {
-        "value": "Menlo",
-        "type": "fontFamilies"
+        "$type": "fontFamilies",
+        "$value": "Menlo"
       }
     }
   },
   "brand-text": {
     "headline": {
       "small": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontSize": "{font-size.24}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -27,11 +28,11 @@
           "letterSpacing": "{tracking.tight}",
           "textDecoration": "{text-decoration.none}"
         },
-        "description": "Used for smaller subheadings or section headings.",
-        "type": "typography"
+        "$description": "Used for smaller subheadings or section headings."
       },
       "medium": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontSize": "{font-size.32}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -40,11 +41,11 @@
           "letterSpacing": "{tracking.tight}",
           "textDecoration": "{text-decoration.none}"
         },
-        "description": "Used for subheadings or section headings.",
-        "type": "typography"
+        "$description": "Used for subheadings or section headings."
       },
       "large": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontSize": "{font-size.40}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -53,13 +54,13 @@
           "letterSpacing": "{tracking.tight}",
           "textDecoration": "{text-decoration.none}"
         },
-        "description": "Used for the main heading of a page or section.",
-        "type": "typography"
+        "$description": "Used for the main heading of a page or section."
       }
     },
     "title": {
       "small": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontSize": "{font-size.18}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -68,11 +69,11 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text-decoration.none}"
         },
-        "description": "Used for secondary titles or headings.",
-        "type": "typography"
+        "$description": "Used for secondary titles or headings."
       },
       "large": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontSize": "{font-size.20}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -81,27 +82,14 @@
           "letterSpacing": "{tracking.tight}",
           "textDecoration": "{text-decoration.none}"
         },
-        "description": "Used for prominent titles.",
-        "type": "typography"
+        "$description": "Used for prominent titles."
       }
     },
     "subtitle": {
       "small": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontSize": "{font-size.14}",
-          "textCase": "{text-transform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font-weight.semibold}",
-          "lineHeight": "{line-height.18}",
-          "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{text-decoration.none}"
-        },
-        "description": " Used for smaller subtitles.",
-        "type": "typography"
-      },
-      "large": {
-        "value": {
-          "fontSize": "{font-size.16}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
           "fontWeight": "{font-weight.semibold}",
@@ -109,13 +97,26 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text-decoration.none}"
         },
-        "description": " Used for subtitles.",
-        "type": "typography"
+        "$description": " Used for smaller subtitles."
+      },
+      "large": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "{font-size.16}",
+          "textCase": "{text-transform.none}",
+          "fontFamily": "{brand-font.font-family.default}",
+          "fontWeight": "{font-weight.semibold}",
+          "lineHeight": "{line-height.24}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{text-decoration.none}"
+        },
+        "$description": " Used for subtitles."
       }
     },
     "body": {
       "small": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontSize": "{font-size.14}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -124,11 +125,11 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text-decoration.none}"
         },
-        "description": "Used for main body text.",
-        "type": "typography"
+        "$description": "Used for main body text."
       },
       "large": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontSize": "{font-size.16}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -137,13 +138,13 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text-decoration.none}"
         },
-        "description": "Used for emphasizing more prominent text than the main body.",
-        "type": "typography"
+        "$description": "Used for emphasizing more prominent text than the main body."
       }
     },
     "label": {
       "default": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontSize": "{font-size.12}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -152,13 +153,13 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text-decoration.none}"
         },
-        "description": "Used for labeling.",
-        "type": "typography"
+        "$description": "Used for labeling."
       }
     },
     "caption": {
       "small": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontSize": "{font-size.10}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -167,11 +168,11 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text-decoration.none}"
         },
-        "description": "Used for smaller captions or footnotes.",
-        "type": "typography"
+        "$description": "Used for smaller captions or footnotes."
       },
       "large": {
-        "value": {
+        "$type": "typography",
+        "$value": {
           "fontSize": "{font-size.12}",
           "textCase": "{text-transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -180,205 +181,205 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text-decoration.none}"
         },
-        "description": "Used for small captions.",
-        "type": "typography"
+        "$description": "Used for small captions."
       }
     }
   },
   "brand-colors": {
     "primary": {
       "1": {
-        "value": "{colors.lime.1}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.lime.1}"
       },
       "5": {
-        "value": "{colors.lime.5}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.lime.5}"
       },
       "10": {
-        "value": "{colors.lime.10}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.lime.10}"
       },
       "20": {
-        "value": "{colors.lime.20}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.lime.20}"
       },
       "30": {
-        "value": "{colors.lime.30}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.lime.30}"
       },
       "40": {
-        "value": "{colors.lime.40}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.lime.40}"
       },
       "50": {
-        "value": "{colors.lime.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.lime.50}"
       },
       "60": {
-        "value": "{colors.lime.60}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.lime.60}"
       },
       "70": {
-        "value": "{colors.lime.70}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.lime.70}"
       },
       "80": {
-        "value": "{colors.lime.80}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.lime.80}"
       },
       "90": {
-        "value": "{colors.lime.90}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.lime.90}"
       },
       "95": {
-        "value": "{colors.lime.95}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.lime.95}"
       },
       "99": {
-        "value": "{colors.lime.99}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.lime.99}"
       }
     },
     "accent": {
       "1": {
-        "value": "{colors.yellow.1}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.yellow.1}"
       },
       "5": {
-        "value": "{colors.yellow.5}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.yellow.5}"
       },
       "10": {
-        "value": "{colors.yellow.10}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.yellow.10}"
       },
       "20": {
-        "value": "{colors.yellow.20}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.yellow.20}"
       },
       "30": {
-        "value": "{colors.yellow.30}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.yellow.30}"
       },
       "40": {
-        "value": "{colors.yellow.40}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.yellow.40}"
       },
       "50": {
-        "value": "{colors.yellow.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.yellow.50}"
       },
       "60": {
-        "value": "{colors.yellow.60}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.yellow.60}"
       },
       "70": {
-        "value": "{colors.yellow.70}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.yellow.70}"
       },
       "80": {
-        "value": "{colors.yellow.80}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.yellow.80}"
       },
       "90": {
-        "value": "{colors.yellow.90}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.yellow.90}"
       },
       "95": {
-        "value": "{colors.yellow.95}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.yellow.95}"
       },
       "99": {
-        "value": "{colors.yellow.99}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.yellow.99}"
       }
     },
     "icon": {
       "default": {
-        "value": "{brand-colors.primary.60}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
       },
       "inverse": {
-        "value": "{colors.gray.0}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.gray.0}"
       }
     },
     "icon-accent": {
       "default": {
-        "value": "{brand-colors.accent.60}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{brand-colors.accent.60}"
       },
       "inverse": {
-        "value": "{colors.gray.0}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.gray.0}"
       }
     },
     "text": {
       "default": {
-        "value": "{brand-colors.primary.70}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{brand-colors.primary.70}"
       },
       "inverse": {
-        "value": "{colors.gray.0}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.gray.0}"
       }
     },
     "text-accent": {
       "default": {
-        "value": "{brand-colors.accent.70}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{brand-colors.accent.70}"
       },
       "inverse": {
-        "value": "{colors.gray.0}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.gray.0}"
       }
     },
     "border": {
       "default": {
-        "value": "{brand-colors.primary.60}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
       },
       "inverse": {
-        "value": "{colors.gray.0}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.gray.0}"
       }
     },
     "border-accent": {
       "default": {
-        "value": "{brand-colors.accent.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{brand-colors.accent.50}"
       },
       "inverse": {
-        "value": "{colors.gray.0}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{colors.gray.0}"
       }
     },
     "background": {
       "default": {
-        "value": "{brand-colors.primary.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{brand-colors.primary.50}"
       },
       "medium": {
-        "value": "{brand-colors.primary.60}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
       }
     },
     "background-accent": {
       "default": {
-        "value": "{brand-colors.accent.60}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{brand-colors.accent.60}"
       },
       "medium": {
-        "value": "{brand-colors.accent.50}",
-        "type": "color"
+        "$type": "color",
+        "$value": "{brand-colors.accent.50}"
       }
     }
   },
   "brand-elevation": {
     "shadow": {
       "default": {
-        "value": [
+        "$type": "boxShadow",
+        "$value": [
           {
             "x": "{dimensions.fixed.0}",
             "y": "{dimensions.fixed.5}",
@@ -388,11 +389,11 @@
             "spread": "{dimensions.fixed.0}"
           }
         ],
-        "description": "Default elevation style.",
-        "type": "boxShadow"
+        "$description": "Default elevation style."
       },
       "high": {
-        "value": [
+        "$type": "boxShadow",
+        "$value": [
           {
             "x": "{dimensions.fixed.0}",
             "y": "{dimensions.fixed.5}",
@@ -402,8 +403,7 @@
             "spread": "{dimensions.fixed.0}"
           }
         ],
-        "description": "Used for stronger sense of depth and emphasis for important components or elements.",
-        "type": "boxShadow"
+        "$description": "Used for stronger sense of depth and emphasis for important components or elements."
       }
     }
   },
@@ -411,48 +411,48 @@
     "border": {
       "radius": {
         "2xs": {
-          "value": "{dimensions.radius.2xs}",
-          "type": "borderRadius"
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.2xs}"
         },
         "xs": {
-          "value": "{dimensions.radius.xs}",
-          "type": "borderRadius"
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.xs}"
         },
         "s": {
-          "value": "{dimensions.radius.s}",
-          "type": "borderRadius"
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.s}"
         },
         "m": {
-          "value": "{dimensions.radius.m}",
-          "type": "borderRadius"
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.m}"
         },
         "l": {
-          "value": "{dimensions.radius.l}",
-          "type": "borderRadius"
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.l}"
         },
         "xl": {
-          "value": "{dimensions.radius.xl}",
-          "type": "borderRadius"
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.xl}"
         },
         "2xl": {
-          "value": "{dimensions.radius.2xl}",
-          "type": "borderRadius"
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.2xl}"
         },
         "3xl": {
-          "value": "{dimensions.radius.3xl}",
-          "type": "borderRadius"
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.3xl}"
         },
         "4xl": {
-          "value": "{dimensions.radius.4xl}",
-          "type": "borderRadius"
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.4xl}"
         },
         "full": {
-          "value": "{dimensions.radius.full}",
-          "type": "borderRadius"
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.full}"
         },
         "none": {
-          "value": "{dimensions.radius.none}",
-          "type": "borderRadius"
+          "$type": "borderRadius",
+          "$value": "{dimensions.radius.none}"
         }
       }
     }
@@ -461,36 +461,36 @@
     "scale": {
       "size": {
         "xs": {
-          "value": "{dimensions.size.xs}",
-          "type": "sizing"
+          "$type": "sizing",
+          "$value": "{dimensions.size.xs}"
         },
         "s": {
-          "value": "{dimensions.size.s}",
-          "type": "sizing"
+          "$type": "sizing",
+          "$value": "{dimensions.size.s}"
         },
         "m": {
-          "value": "{dimensions.size.m}",
-          "type": "sizing"
+          "$type": "sizing",
+          "$value": "{dimensions.size.m}"
         },
         "l": {
-          "value": "{dimensions.size.l}",
-          "type": "sizing"
+          "$type": "sizing",
+          "$value": "{dimensions.size.l}"
         },
         "xl": {
-          "value": "{dimensions.size.xl}",
-          "type": "sizing"
+          "$type": "sizing",
+          "$value": "{dimensions.size.xl}"
         },
         "2xl": {
-          "value": "{dimensions.size.2xl}",
-          "type": "sizing"
+          "$type": "sizing",
+          "$value": "{dimensions.size.2xl}"
         },
         "3xl": {
-          "value": "{dimensions.size.3xl}",
-          "type": "sizing"
+          "$type": "sizing",
+          "$value": "{dimensions.size.3xl}"
         },
         "4xl": {
-          "value": "{dimensions.size.4xl}",
-          "type": "sizing"
+          "$type": "sizing",
+          "$value": "{dimensions.size.4xl}"
         }
       }
     }
@@ -498,85 +498,85 @@
   "theme-opacity": {
     "opacity": {
       "low": {
-        "value": "{opacity.40}",
-        "description": "It applies a 40% opacity to an element.",
-        "type": "opacity"
+        "$type": "opacity",
+        "$value": "{opacity.40}",
+        "$description": "It applies a 40% opacity to an element."
       },
       "med": {
-        "value": "{opacity.60}",
-        "description": "It applies a 60% opacity to an element.",
-        "type": "opacity"
+        "$type": "opacity",
+        "$value": "{opacity.60}",
+        "$description": "It applies a 60% opacity to an element."
       },
       "high": {
-        "value": "{opacity.90}",
-        "description": "It applies a 90% opacity to an element.",
-        "type": "opacity"
+        "$type": "opacity",
+        "$value": "{opacity.90}",
+        "$description": "It applies a 90% opacity to an element."
       },
       "full": {
-        "value": "{opacity.100}",
-        "description": "It applies a 100% opacity to an element.",
-        "type": "opacity"
+        "$type": "opacity",
+        "$value": "{opacity.100}",
+        "$description": "It applies a 100% opacity to an element."
       },
       "disabled": {
-        "value": "{opacity.50}",
-        "description": "It applies a 50% opacity to an element.",
-        "type": "opacity"
+        "$type": "opacity",
+        "$value": "{opacity.50}",
+        "$description": "It applies a 50% opacity to an element."
       }
     }
   },
   "theme-spacing": {
     "padding": {
       "4xs": {
-        "value": "{dimensions.fixed.2}",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{dimensions.fixed.2}"
       },
       "3xs": {
-        "value": "{dimensions.fixed.5}",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{dimensions.fixed.5}"
       },
       "2xs": {
-        "value": "{dimensions.fixed.7}",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{dimensions.fixed.7}"
       },
       "xs": {
-        "value": "{dimensions.fixed.10}",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{dimensions.fixed.10}"
       },
       "s": {
-        "value": "{dimensions.fixed.15}",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{dimensions.fixed.15}"
       },
       "m": {
-        "value": "{dimensions.fixed.20}",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{dimensions.fixed.20}"
       },
       "l": {
-        "value": "{dimensions.fixed.25}",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{dimensions.fixed.25}"
       },
       "xl": {
-        "value": "{dimensions.fixed.30}",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{dimensions.fixed.30}"
       },
       "2xl": {
-        "value": "{dimensions.fixed.40}",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{dimensions.fixed.40}"
       },
       "3xl": {
-        "value": "{dimensions.fixed.50}",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{dimensions.fixed.50}"
       },
       "4xl": {
-        "value": "{dimensions.fixed.60}",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{dimensions.fixed.60}"
       },
       "5xl": {
-        "value": "{dimensions.fixed.80}",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{dimensions.fixed.80}"
       },
       "none": {
-        "value": "{dimensions.fixed.0}",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "{dimensions.fixed.0}"
       }
     }
   }
