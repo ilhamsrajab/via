@@ -839,8 +839,6 @@
       "actions.button.primary.default.icon.size": "d7b85d6b7cd4dad812711bf931947a293f26e0e3",
       "actions.button.primary.hover.container.background-color": "9b9565f11b97c44bb7a71568ddfe82e1b5440498",
       "actions.button.primary.hover.container.border-color": "a050c6840a84fc98db0b31a11c10199a104250dd",
-      "actions.button.primary.hover.label.color": "c721599142bf216612df6ebb9cf6d0af6747ccc8",
-      "actions.button.primary.hover.icon.color": "2f23fb6ff50f732a807607545a0c7f0e0f77eeeb",
       "actions.button.primary.disabled.container.opacity": "24b0127164eb24a5ca3e6ae26b872e6c125e795f",
       "actions.button.primary.disabled.container.background-color": "28e4920d59cc97d3ca359512da6b996c37c33b62",
       "actions.button.primary.disabled.container.border-color": "3685fc2ea0cb0732faff773fe4e527fca4612bcb",
