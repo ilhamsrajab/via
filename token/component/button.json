@@ -183,6 +183,82 @@
             }
           }
         }
+      },
+      "accent": {
+        "default": {
+          "container": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{brand-colors.background-accent.default}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{brand-colors.border-accent.default}"
+            }
+          },
+          "label": {
+            "color": {
+              "$type": "color",
+              "$value": "{brand-colors.text.inverse}"
+            }
+          },
+          "icon": {
+            "color": {
+              "$type": "color",
+              "$value": "{brand-colors.icon.inverse}"
+            }
+          }
+        },
+        "hover": {
+          "container": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{brand-colors.background-accent.medium}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{brand-colors.border-accent.default}"
+            }
+          }
+        }
+      },
+      "outline": {
+        "default": {
+          "container": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.neutral.background.default}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{brand-colors.border.default}"
+            }
+          },
+          "label": {
+            "color": {
+              "$type": "color",
+              "$value": "{brand-colors.text.default}"
+            }
+          },
+          "icon": {
+            "color": {
+              "$type": "color",
+              "$value": "{brand-colors.icon.default}"
+            }
+          }
+        },
+        "hover": {
+          "container": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.neutral.background.low}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{brand-colors.border.default}"
+            }
+          }
+        }
       }
     }
   }
