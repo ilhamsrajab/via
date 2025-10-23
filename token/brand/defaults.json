@@ -339,6 +339,10 @@
         "$type": "color",
         "$value": "{brand-colors.primary.60}"
       },
+      "low": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.10}"
+      },
       "inverse": {
         "$type": "color",
         "$value": "{colors.gray.0}"
@@ -357,9 +361,17 @@
     "background": {
       "default": {
         "$type": "color",
-        "$value": "{brand-colors.primary.50}"
+        "$value": "{brand-colors.primary.1}"
+      },
+      "low": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.5}"
       },
       "medium": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.50}"
+      },
+      "high": {
         "$type": "color",
         "$value": "{brand-colors.primary.60}"
       }

@@ -169,6 +169,10 @@
         "$type": "color",
         "$value": "{brand-colors.primary.50}"
       },
+      "low": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.10}"
+      },
       "inverse": {
         "$type": "color",
         "$value": "{colors.gray.0}"
