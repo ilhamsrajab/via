@@ -331,7 +331,6 @@
       "brand-colors.border.inverse": "1ff2c3b5103b44a9e31b4fb1f893539a09e63a17",
       "brand-colors.border-accent.default": "6e09e957e7b3f3ae34d5e96da2dd868a5797c080",
       "brand-colors.border-accent.inverse": "5d6410971736f1cf1905088652b8fee8a2c9f394",
-      "brand-colors.background.default": "0a3fe726e1ea83137be0bd69e8d007a47f66e543",
       "brand-colors.background.medium": "7ff5f7c8870da154d3ef22198be77b339cd77a27",
       "brand-colors.background-accent.default": "b435dd9da14178d6b6666caeb1e634821a2d1d86",
       "brand-colors.background-accent.medium": "0f023cb2ef3df44c9078dbaae85467e4222a8c08",
@@ -371,7 +370,8 @@
       "theme-spacing.padding.3xl": "076d2e72722db89eaafcc53a3e9dcabc3a2995d4",
       "theme-spacing.padding.4xl": "d940213d30d12d4aa34c241dcdf1a66cd23c017b",
       "theme-spacing.padding.5xl": "b30661d492734cf62c1f995a8bc2d39e008fc34b",
-      "theme-spacing.padding.none": "af12f677304fb0e416db804790483ffdb0f376c3"
+      "theme-spacing.padding.none": "af12f677304fb0e416db804790483ffdb0f376c3",
+      "brand-colors.background.default": "0a3fe726e1ea83137be0bd69e8d007a47f66e543"
     },
     "$figmaCollectionId": "VariableCollectionId:9366:25490",
     "$figmaModeId": "9366:4",
@@ -427,7 +427,6 @@
       "brand-colors.border.inverse": "1ff2c3b5103b44a9e31b4fb1f893539a09e63a17",
       "brand-colors.border-accent.default": "6e09e957e7b3f3ae34d5e96da2dd868a5797c080",
       "brand-colors.border-accent.inverse": "5d6410971736f1cf1905088652b8fee8a2c9f394",
-      "brand-colors.background.default": "0a3fe726e1ea83137be0bd69e8d007a47f66e543",
       "brand-colors.background.medium": "7ff5f7c8870da154d3ef22198be77b339cd77a27",
       "brand-colors.background-accent.default": "b435dd9da14178d6b6666caeb1e634821a2d1d86",
       "brand-colors.background-accent.medium": "0f023cb2ef3df44c9078dbaae85467e4222a8c08",
@@ -467,7 +466,8 @@
       "theme-spacing.padding.3xl": "076d2e72722db89eaafcc53a3e9dcabc3a2995d4",
       "theme-spacing.padding.4xl": "d940213d30d12d4aa34c241dcdf1a66cd23c017b",
       "theme-spacing.padding.5xl": "b30661d492734cf62c1f995a8bc2d39e008fc34b",
-      "theme-spacing.padding.none": "af12f677304fb0e416db804790483ffdb0f376c3"
+      "theme-spacing.padding.none": "af12f677304fb0e416db804790483ffdb0f376c3",
+      "brand-colors.background.default": "0a3fe726e1ea83137be0bd69e8d007a47f66e543"
     },
     "$figmaCollectionId": "VariableCollectionId:9366:25490",
     "$figmaModeId": "9366:5",
@@ -523,7 +523,6 @@
       "brand-colors.border.inverse": "1ff2c3b5103b44a9e31b4fb1f893539a09e63a17",
       "brand-colors.border-accent.default": "6e09e957e7b3f3ae34d5e96da2dd868a5797c080",
       "brand-colors.border-accent.inverse": "5d6410971736f1cf1905088652b8fee8a2c9f394",
-      "brand-colors.background.default": "0a3fe726e1ea83137be0bd69e8d007a47f66e543",
       "brand-colors.background.medium": "7ff5f7c8870da154d3ef22198be77b339cd77a27",
       "brand-colors.background-accent.default": "b435dd9da14178d6b6666caeb1e634821a2d1d86",
       "brand-colors.background-accent.medium": "0f023cb2ef3df44c9078dbaae85467e4222a8c08",
@@ -563,7 +562,8 @@
       "theme-spacing.padding.3xl": "076d2e72722db89eaafcc53a3e9dcabc3a2995d4",
       "theme-spacing.padding.4xl": "d940213d30d12d4aa34c241dcdf1a66cd23c017b",
       "theme-spacing.padding.5xl": "b30661d492734cf62c1f995a8bc2d39e008fc34b",
-      "theme-spacing.padding.none": "af12f677304fb0e416db804790483ffdb0f376c3"
+      "theme-spacing.padding.none": "af12f677304fb0e416db804790483ffdb0f376c3",
+      "brand-colors.background.default": "0a3fe726e1ea83137be0bd69e8d007a47f66e543"
     },
     "$figmaCollectionId": "VariableCollectionId:9366:25490",
     "$figmaModeId": "9366:6",
@@ -634,7 +634,6 @@
       "brand-colors.border.inverse": "1ff2c3b5103b44a9e31b4fb1f893539a09e63a17",
       "brand-colors.border-accent.default": "6e09e957e7b3f3ae34d5e96da2dd868a5797c080",
       "brand-colors.border-accent.inverse": "5d6410971736f1cf1905088652b8fee8a2c9f394",
-      "brand-colors.background.default": "0a3fe726e1ea83137be0bd69e8d007a47f66e543",
       "brand-colors.background.medium": "7ff5f7c8870da154d3ef22198be77b339cd77a27",
       "brand-colors.background-accent.default": "b435dd9da14178d6b6666caeb1e634821a2d1d86",
       "brand-colors.background-accent.medium": "0f023cb2ef3df44c9078dbaae85467e4222a8c08",
@@ -674,7 +673,8 @@
       "theme-spacing.padding.3xl": "076d2e72722db89eaafcc53a3e9dcabc3a2995d4",
       "theme-spacing.padding.4xl": "d940213d30d12d4aa34c241dcdf1a66cd23c017b",
       "theme-spacing.padding.5xl": "b30661d492734cf62c1f995a8bc2d39e008fc34b",
-      "theme-spacing.padding.none": "af12f677304fb0e416db804790483ffdb0f376c3"
+      "theme-spacing.padding.none": "af12f677304fb0e416db804790483ffdb0f376c3",
+      "brand-colors.background.default": "0a3fe726e1ea83137be0bd69e8d007a47f66e543"
     },
     "$figmaCollectionId": "VariableCollectionId:9366:25490",
     "$figmaModeId": "9366:7",

@@ -187,11 +187,19 @@
     "background": {
       "default": {
         "$type": "color",
-        "$value": "{brand-colors.primary.60}"
+        "$value": "{brand-colors.primary.1}"
+      },
+      "low": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.5}"
       },
       "medium": {
         "$type": "color",
-        "$value": "{brand-colors.primary.70}"
+        "$value": "{brand-colors.primary.50}"
+      },
+      "high": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
       }
     },
     "background-accent": {
