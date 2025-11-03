@@ -1,0 +1,220 @@
+{
+  "brand-font": {
+    "font-family": {
+      "default": {
+        "$type": "fontFamilies",
+        "$value": "Onest"
+      },
+      "serif": {
+        "$type": "fontFamilies",
+        "$value": "Georgia"
+      },
+      "mono": {
+        "$type": "fontFamilies",
+        "$value": "Menlo"
+      }
+    }
+  },
+  "brand-colors": {
+    "primary": {
+      "1": {
+        "$type": "color",
+        "$value": "oklch(98% 0.008 54.84)"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "oklch(89.5% 0.06 54.55)"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "oklch(81.5% 0.122 55.99)"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "oklch(74% 0.176 58.28)"
+      },
+      "30": {
+        "$type": "color",
+        "$value": "oklch(67% 0.155 60.92)"
+      },
+      "40": {
+        "$type": "color",
+        "$value": "oklch(61% 0.138 64)"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "oklch(55% 0.121 67.39)"
+      },
+      "60": {
+        "$type": "color",
+        "$value": "oklch(49.5% 0.106 70.78)"
+      },
+      "70": {
+        "$type": "color",
+        "$value": "oklch(45% 0.095 74.33)"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "oklch(41% 0.085 78.01)"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "oklch(38% 0.078 81.05)"
+      },
+      "95": {
+        "$type": "color",
+        "$value": "oklch(36% 0.074 78.89)"
+      },
+      "99": {
+        "$type": "color",
+        "$value": "oklch(35% 0.073 76.14)"
+      }
+    },
+    "accent": {
+      "1": {
+        "$type": "color",
+        "$value": "oklch(0% 0 0)"
+      },
+      "5": {
+        "$type": "color",
+        "$value": "oklch(0% 0 0)"
+      },
+      "10": {
+        "$type": "color",
+        "$value": "oklch(0% 0 0)"
+      },
+      "20": {
+        "$type": "color",
+        "$value": "oklch(0% 0 0)"
+      },
+      "30": {
+        "$type": "color",
+        "$value": "oklch(0% 0 0)"
+      },
+      "40": {
+        "$type": "color",
+        "$value": "oklch(0% 0 0)"
+      },
+      "50": {
+        "$type": "color",
+        "$value": "oklch(0% 0 0)"
+      },
+      "60": {
+        "$type": "color",
+        "$value": "oklch(0% 0 0)"
+      },
+      "70": {
+        "$type": "color",
+        "$value": "oklch(0% 0 0)"
+      },
+      "80": {
+        "$type": "color",
+        "$value": "oklch(0% 0 0)"
+      },
+      "90": {
+        "$type": "color",
+        "$value": "oklch(0% 0 0)"
+      },
+      "95": {
+        "$type": "color",
+        "$value": "oklch(0% 0 0)"
+      },
+      "99": {
+        "$type": "color",
+        "$value": "oklch(0% 0 0)"
+      }
+    },
+    "icon": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "icon-accent": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.accent.60}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "text": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.70}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "text-accent": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.accent.70}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "border": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
+      },
+      "low": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.10}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "border-accent": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.accent.50}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "background": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.1}"
+      },
+      "low": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.5}"
+      },
+      "medium": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.50}"
+      },
+      "high": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
+      }
+    },
+    "background-accent": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.accent.60}"
+      },
+      "medium": {
+        "$type": "color",
+        "$value": "{brand-colors.accent.50}"
+      }
+    }
+  }
+}

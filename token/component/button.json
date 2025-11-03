@@ -269,7 +269,7 @@
             },
             "border-color": {
               "$type": "color",
-              "$value": "{brand-colors.border.low}"
+              "$value": "{brand-colors.border.default}"
             }
           },
           "label": {

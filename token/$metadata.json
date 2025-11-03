@@ -13,12 +13,9 @@
     "brand/tiketux",
     "brand/aragon",
     "brand/baraya",
-    "component/button",
-    "component/input",
-    "component/card",
-    "component/toast",
-    "component/badge",
-    "component/tooltip",
-    "component/modal"
+    "brand/cgtrans",
+    "brand/putra-remaja",
+    "brand/kruzz",
+    "component/button"
   ]
 }
