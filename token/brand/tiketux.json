@@ -3,7 +3,7 @@
     "font-family": {
       "default": {
         "$type": "fontFamilies",
-        "$value": "Satoshi"
+        "$value": "Onest"
       },
       "serif": {
         "$type": "fontFamilies",

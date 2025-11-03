@@ -826,7 +826,7 @@
       "actions.button.primary.focus.focus-ring.color": "S:5e57df5b29658819e60bd861b3576842bb950adb,"
     },
     "selectedTokenSets": {
-      "component/button": "enabled"
+      "component/button/button": "enabled"
     },
     "$figmaVariableReferences": {
       "actions.button.primary.default.container.background-color": "4156e51bdda84e617c1a050772b0a0ac1dff4352",
@@ -848,7 +848,7 @@
       "actions.button.secondary.default.container.background-color": "098393b6a1a33a3bd672802b899d51247a03f24f",
       "actions.button.secondary.default.container.border-color": "497648fc9e672e1736976528b9983f3336cd5517",
       "actions.button.secondary.default.label.color": "e5ed2cb7c0a301a0889a48f443c2a11aebf767ff",
-      "actions.button.primary.default.container.border-radius-m": "bb87248d4c526e2f5993460dc136b4f9292f3517"
+      "actions.button.primary.default.container.border-radius": "bb87248d4c526e2f5993460dc136b4f9292f3517"
     },
     "$figmaCollectionId": "VariableCollectionId:9366:25492",
     "$figmaModeId": "9366:10",

@@ -16,17 +16,9 @@
               "$type": "borderWidth",
               "$value": "{dimensions.border-width.m}"
             },
-            "border-radius-none": {
+            "border-radius": {
               "$type": "borderRadius",
-              "$value": "{theme-radius.border.radius.none}"
-            },
-            "border-radius-m": {
-              "$type": "borderRadius",
-              "$value": "{dimensions.radius.m}"
-            },
-            "border-radius-full": {
-              "$type": "borderRadius",
-              "$value": "{dimensions.radius.full}"
+              "$value": "{theme-radius.border.radius.m}"
             },
             "opacity": {
               "$type": "opacity",
