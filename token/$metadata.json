@@ -1,12 +1,10 @@
 {
   "tokenSetOrder": [
-    "core/colors",
+    "core/global",
     "core/density/density-compact",
     "core/density/density-default",
     "core/density/density-cozy",
     "core/density/density-spacious",
-    "core/dimensions",
-    "core/defaults",
     "theme/light",
     "theme/dark",
     "brand/defaults",
@@ -16,6 +14,7 @@
     "brand/cgtrans",
     "brand/putra-remaja",
     "brand/kruzz",
-    "component/button/button"
+    "component/button/button",
+    "component/button/button_archived"
   ]
 }

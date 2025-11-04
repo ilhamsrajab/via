@@ -4,9 +4,7 @@
     "name": "Primitive",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "core/colors": "enabled",
-      "core/dimensions": "enabled",
-      "core/defaults": "enabled"
+      "core/global": "enabled"
     },
     "$figmaCollectionId": "VariableCollectionId:9366:25493",
     "$figmaModeId": "9366:11",
@@ -269,9 +267,7 @@
     "name": "Default",
     "selectedTokenSets": {
       "brand/defaults": "enabled",
-      "core/colors": "source",
-      "core/dimensions": "source",
-      "core/defaults": "source"
+      "core/global": "source"
     },
     "$figmaStyleReferences": {
       "brand-text.headline.small": "S:6979dfdaa1198a3f117538a48bd03b7458c47a33,",
