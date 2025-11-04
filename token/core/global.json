@@ -545,35 +545,35 @@
   },
   "rotate": {
     "0": {
-      "value": 0,
+      "value": "0",
       "type": "number"
     },
     "30": {
-      "value": 30,
+      "value": "30",
       "type": "number"
     },
     "45": {
-      "value": 45,
+      "value": "45",
       "type": "number"
     },
     "90": {
-      "value": 90,
+      "value": "90",
       "type": "number"
     },
     "180": {
-      "value": 180,
+      "value": "180",
       "type": "number"
     },
     "270": {
-      "value": 270,
+      "value": "270",
       "type": "number"
     },
     "315": {
-      "value": 315,
+      "value": "315",
       "type": "number"
     },
     "330": {
-      "value": 330,
+      "value": "330",
       "type": "number"
     }
   },

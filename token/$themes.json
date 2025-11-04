@@ -827,12 +827,9 @@
     "$figmaVariableReferences": {
       "actions.button.primary.default.container.background-color": "4156e51bdda84e617c1a050772b0a0ac1dff4352",
       "actions.button.primary.default.container.border-color": "4b160c9cc739b0a46045b3c459e30cc2070acaef",
-      "actions.button.primary.default.container.border-width": "7114e6470730acf0e104c5458059aff3a9aeda44",
       "actions.button.primary.default.container.opacity": "f2091f492ad3b0eb27e234d6225b0a5eff32961e",
-      "actions.button.primary.default.container.gap": "36e0630658ff98578c98945ca92389f585f15e9c",
       "actions.button.primary.default.label.color": "047591b03ef4d8d550699b8acd1569f7b4e55015",
       "actions.button.primary.default.icon.color": "81a22ae2f92b723ecc0f0ae68f408fb445fe261c",
-      "actions.button.primary.default.icon.size": "d7b85d6b7cd4dad812711bf931947a293f26e0e3",
       "actions.button.primary.hover.container.background-color": "9b9565f11b97c44bb7a71568ddfe82e1b5440498",
       "actions.button.primary.hover.container.border-color": "a050c6840a84fc98db0b31a11c10199a104250dd",
       "actions.button.primary.disabled.container.opacity": "24b0127164eb24a5ca3e6ae26b872e6c125e795f",
@@ -840,11 +837,13 @@
       "actions.button.primary.disabled.container.border-color": "3685fc2ea0cb0732faff773fe4e527fca4612bcb",
       "actions.button.primary.disabled.label.color": "8c29a2db0581ce5e8d8020afc17cd2cca098344b",
       "actions.button.primary.disabled.icon.color": "c053e99054ce535a2f09e77dbecb77bc86b17484",
-      "actions.button.secondary.default.container.border-width": "e2856cc54f8884a3a7859254519b1bd1b11b3366",
       "actions.button.secondary.default.container.background-color": "098393b6a1a33a3bd672802b899d51247a03f24f",
       "actions.button.secondary.default.container.border-color": "497648fc9e672e1736976528b9983f3336cd5517",
       "actions.button.secondary.default.label.color": "e5ed2cb7c0a301a0889a48f443c2a11aebf767ff",
-      "actions.button.primary.default.container.border-radius": "bb87248d4c526e2f5993460dc136b4f9292f3517"
+      "actions.button.structure.radius": "bb87248d4c526e2f5993460dc136b4f9292f3517",
+      "actions.button.structure.border-width": "7114e6470730acf0e104c5458059aff3a9aeda44",
+      "actions.button.structure.gap": "36e0630658ff98578c98945ca92389f585f15e9c",
+      "actions.button.structure.icon-size": "d7b85d6b7cd4dad812711bf931947a293f26e0e3"
     },
     "$figmaCollectionId": "VariableCollectionId:9366:25492",
     "$figmaModeId": "9366:10",
