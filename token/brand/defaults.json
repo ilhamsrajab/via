@@ -293,58 +293,6 @@
         "value": "{colors.yellow.99}",
         "type": "color"
       }
-    },
-    "icon": {
-      "default": {
-        "value": "{brand-colors.primary.60}",
-        "type": "color"
-      },
-      "inverse": {
-        "value": "{colors.gray.0}",
-        "type": "color"
-      }
-    },
-    "text": {
-      "default": {
-        "value": "{brand-colors.primary.70}",
-        "type": "color"
-      },
-      "inverse": {
-        "value": "{colors.gray.0}",
-        "type": "color"
-      }
-    },
-    "border": {
-      "default": {
-        "value": "{brand-colors.primary.60}",
-        "type": "color"
-      },
-      "low": {
-        "value": "{brand-colors.primary.10}",
-        "type": "color"
-      },
-      "inverse": {
-        "value": "{colors.gray.0}",
-        "type": "color"
-      }
-    },
-    "background": {
-      "default": {
-        "value": "{brand-colors.primary.1}",
-        "type": "color"
-      },
-      "low": {
-        "value": "{brand-colors.primary.5}",
-        "type": "color"
-      },
-      "medium": {
-        "value": "{brand-colors.primary.50}",
-        "type": "color"
-      },
-      "high": {
-        "value": "{brand-colors.primary.60}",
-        "type": "color"
-      }
     }
   },
   "brand-elevation": {

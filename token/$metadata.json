@@ -5,8 +5,6 @@
     "core/density/density-default",
     "core/density/density-cozy",
     "core/density/density-spacious",
-    "theme/light",
-    "theme/dark",
     "brand/defaults",
     "brand/tiketux",
     "brand/aragon",
@@ -14,7 +12,8 @@
     "brand/cgtrans",
     "brand/putra-remaja",
     "brand/kruzz",
-    "component/button/button",
-    "component/button/button_archived"
+    "theme/light",
+    "theme/dark",
+    "component/button/button"
   ]
 }
