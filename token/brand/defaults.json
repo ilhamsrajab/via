@@ -635,5 +635,48 @@
         }
       }
     }
+  },
+  "structure-space-gap": {
+    "global": {
+      "container": {
+        "default": {
+          "s": {
+            "value": "{dimensions.fixed.5}",
+            "type": "spacing",
+            "description": "Gap kecil standar global, digunakan untuk komponen kecil seperti badge group atau label set."
+          },
+          "m": {
+            "value": "{dimensions.fixed.7}",
+            "type": "spacing",
+            "description": "Gap kecil menengah untuk grup elemen yang rapat seperti ikon dan teks di tombol."
+          },
+          "l": {
+            "value": "{dimensions.fixed.10}",
+            "type": "spacing",
+            "description": "Gap menengah sebagai jarak antar elemen standar di seluruh sistem Via."
+          },
+          "xl": {
+            "value": "{dimensions.fixed.20}",
+            "type": "spacing",
+            "description": "Gap besar untuk pemisahan visual antar blok layout atau section UI."
+          },
+          "2xl": {
+            "value": "{dimensions.fixed.40}",
+            "type": "spacing",
+            "description": "Gap ekstra besar untuk area layout luas dan section yang memiliki ruang napas."
+          }
+        }
+      }
+    },
+    "action": {
+      "container": {
+        "default": {
+          "brand": {
+            "value": "{dimensions.fixed.0}",
+            "type": "spacing"
+          }
+        }
+      }
+    }
   }
 }
