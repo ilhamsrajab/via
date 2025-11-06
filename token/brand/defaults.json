@@ -15,7 +15,7 @@
       }
     }
   },
-  "brand-text": {
+  "brand-typography": {
     "headline": {
       "small": {
         "value": {
@@ -295,208 +295,344 @@
       }
     }
   },
-  "brand-elevation": {
-    "shadow": {
-      "default": {
-        "value": [
-          {
-            "x": "{dimensions.fixed.0}",
-            "y": "{dimensions.fixed.5}",
-            "blur": "{dimensions.fixed.15}",
-            "type": "dropShadow",
-            "color": "{theme-colors.mode.neutral.border.default}",
-            "spread": "{dimensions.fixed.0}"
+  "structure-radius": {
+    "global": {
+      "container": {
+        "default": {
+          "none": {
+            "value": "{dimensions.radius.none}",
+            "type": "borderRadius",
+            "description": "No radius. Used for flat, square surfaces that require no rounding."
+          },
+          "s": {
+            "value": "{dimensions.radius.s}",
+            "type": "borderRadius",
+            "description": "Small corner radius for minimal rounding. Applied to compact UI surfaces."
+          },
+          "m": {
+            "value": "{dimensions.radius.m}",
+            "type": "borderRadius",
+            "description": "Medium corner radius. Default structural rounding across Via components."
+          },
+          "l": {
+            "value": "{dimensions.radius.l}",
+            "type": "borderRadius",
+            "description": "Large radius for high-emphasis surfaces like modals or cards."
+          },
+          "pill": {
+            "value": "{dimensions.radius.full}",
+            "type": "borderRadius",
+            "description": "Fully rounded radius for pill-shaped or circular elements."
           }
-        ],
-        "description": "Default elevation style.",
-        "type": "boxShadow"
-      },
-      "high": {
-        "value": [
-          {
-            "x": "{dimensions.fixed.0}",
-            "y": "{dimensions.fixed.5}",
-            "blur": "{dimensions.fixed.30}",
-            "type": "dropShadow",
-            "color": "{theme-colors.mode.neutral.border.default}",
-            "spread": "{dimensions.fixed.0}"
-          }
-        ],
-        "description": "Used for stronger sense of depth and emphasis for important components or elements.",
-        "type": "boxShadow"
+        }
       }
-    }
-  },
-  "theme-radius": {
-    "border": {
-      "radius": {
-        "2xs": {
-          "value": "{dimensions.radius.2xs}",
-          "type": "borderRadius"
-        },
-        "xs": {
-          "value": "{dimensions.radius.xs}",
-          "type": "borderRadius"
-        },
-        "s": {
-          "value": "{dimensions.radius.s}",
-          "type": "borderRadius"
-        },
-        "m": {
-          "value": "{dimensions.radius.m}",
-          "type": "borderRadius"
-        },
-        "l": {
-          "value": "{dimensions.radius.l}",
-          "type": "borderRadius"
-        },
-        "xl": {
-          "value": "{dimensions.radius.xl}",
-          "type": "borderRadius"
-        },
-        "2xl": {
-          "value": "{dimensions.radius.2xl}",
-          "type": "borderRadius"
-        },
-        "3xl": {
-          "value": "{dimensions.radius.3xl}",
-          "type": "borderRadius"
-        },
-        "4xl": {
-          "value": "{dimensions.radius.4xl}",
-          "type": "borderRadius"
-        },
-        "full": {
-          "value": "{dimensions.radius.full}",
-          "type": "borderRadius"
-        },
-        "none": {
-          "value": "{dimensions.radius.none}",
-          "type": "borderRadius"
+    },
+    "action": {
+      "container": {
+        "default": {
+          "brand": {
+            "value": "{structure-radius.global.container.default.m}",
+            "type": "borderRadius",
+            "description": "Brand-aligned button radius that defines Via’s interactive shape personality."
+          }
+        }
+      }
+    },
+    "feedback": {
+      "surface": {
+        "default": {
+          "subtle": {
+            "value": "{structure-radius.global.container.default.s}",
+            "type": "borderRadius",
+            "description": "Subtle radius for feedback components like badges and toasts."
+          }
+        }
+      }
+    },
+    "form": {
+      "field": {
+        "default": {
+          "brand": {
+            "value": "{structure-radius.global.container.default.m}",
+            "type": "borderRadius",
+            "description": "Radius for input fields reflecting Via’s brand softness and accessibility standards."
+          }
+        }
+      }
+    },
+    "overlay": {
+      "surface": {
+        "default": {
+          "brand": {
+            "value": "{structure-radius.global.container.default.m}",
+            "type": "borderRadius",
+            "description": "Rounded corners for modal and overlay surfaces for smoother brand expression."
+          }
+        }
+      }
+    },
+    "navigation": {
+      "item": {
+        "default": {
+          "brand": {
+            "value": "{structure-radius.global.container.default.s}",
+            "type": "borderRadius",
+            "description": "Slight rounding for navigation items to enhance spatial rhythm and focus."
+          }
         }
       }
     }
   },
-  "theme-sizing": {
-    "scale": {
-      "size": {
-        "xs": {
-          "value": "{dimensions.size.xs}",
-          "type": "sizing"
-        },
-        "s": {
-          "value": "{dimensions.size.s}",
-          "type": "sizing"
-        },
-        "m": {
-          "value": "{dimensions.size.m}",
-          "type": "sizing"
-        },
-        "l": {
-          "value": "{dimensions.size.l}",
-          "type": "sizing"
-        },
-        "xl": {
-          "value": "{dimensions.size.xl}",
-          "type": "sizing"
-        },
-        "2xl": {
-          "value": "{dimensions.size.2xl}",
-          "type": "sizing"
-        },
-        "3xl": {
-          "value": "{dimensions.size.3xl}",
-          "type": "sizing"
-        },
-        "4xl": {
-          "value": "{dimensions.size.4xl}",
-          "type": "sizing"
+  "structure-border": {
+    "global": {
+      "container": {
+        "default": {
+          "thin": {
+            "value": "{dimensions.border-width.xs}",
+            "type": "borderWidth",
+            "description": "Thin border used for subtle visual separation and low-emphasis outlines."
+          },
+          "medium": {
+            "value": "{dimensions.border-width.s}",
+            "type": "borderWidth",
+            "description": "Medium border thickness for standard element definition and contrast."
+          },
+          "thick": {
+            "value": "{dimensions.border-width.m}",
+            "type": "borderWidth",
+            "description": "Thick border for strong emphasis or key visual boundaries."
+          }
+        }
+      }
+    },
+    "action": {
+      "container": {
+        "default": {
+          "brand": {
+            "value": "{structure-border.global.container.default.medium}",
+            "type": "borderWidth",
+            "description": "Brand-standard border thickness for action components such as buttons."
+          }
+        }
+      }
+    },
+    "form": {
+      "field": {
+        "default": {
+          "brand": {
+            "value": "{structure-border.global.container.default.medium}",
+            "type": "borderWidth",
+            "description": "Input field border width ensuring visual consistency and brand balance."
+          }
+        }
+      }
+    },
+    "overlay": {
+      "surface": {
+        "default": {
+          "brand": {
+            "value": "{structure-border.global.container.default.medium}",
+            "type": "borderWidth",
+            "description": "Thin border for overlays or popups providing subtle definition without distraction."
+          }
         }
       }
     }
   },
-  "theme-opacity": {
-    "opacity": {
-      "low": {
-        "value": "{opacity.40}",
-        "description": "It applies a 40% opacity to an element.",
-        "type": "opacity"
-      },
-      "med": {
-        "value": "{opacity.60}",
-        "description": "It applies a 60% opacity to an element.",
-        "type": "opacity"
-      },
-      "high": {
-        "value": "{opacity.90}",
-        "description": "It applies a 90% opacity to an element.",
-        "type": "opacity"
-      },
-      "full": {
-        "value": "{opacity.100}",
-        "description": "It applies a 100% opacity to an element.",
-        "type": "opacity"
-      },
-      "disabled": {
-        "value": "{opacity.50}",
-        "description": "It applies a 50% opacity to an element.",
-        "type": "opacity"
+  "structure-elevation": {
+    "global": {
+      "surface": {
+        "default": {
+          "flat": {
+            "value": {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "0",
+              "color": "{colors.gray.100}",
+              "type": "dropShadow"
+            },
+            "type": "boxShadow",
+            "description": "Tanpa bayangan. Digunakan untuk lapisan dasar seperti background atau konten statis."
+          },
+          "raised": {
+            "value": [
+              {
+                "x": "0",
+                "y": "1",
+                "blur": "2",
+                "spread": "0",
+                "color": "rgba(0, 0, 0, 0.06)",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "2",
+                "blur": "4",
+                "spread": "0",
+                "color": "rgba(0, 0, 0, 0.04)",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow",
+            "description": "Bayangan lembut dua lapis untuk permukaan utama seperti kartu atau container kecil."
+          },
+          "overlay": {
+            "value": [
+              {
+                "x": "0",
+                "y": "4",
+                "blur": "12",
+                "spread": "0",
+                "color": "rgba(0, 0, 0, 0.10)",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "8",
+                "blur": "24",
+                "spread": "0",
+                "color": "rgba(0, 0, 0, 0.08)",
+                "type": "dropShadow"
+              }
+            ],
+            "type": "boxShadow",
+            "description": "Bayangan menengah untuk lapisan yang mengambang di atas permukaan lain, seperti dropdown atau popover."
+          }
+        }
+      }
+    },
+    "action": {
+      "surface": {
+        "default": {
+          "brand": {
+            "value": "{structure-elevation.global.surface.default.flat}",
+            "type": "boxShadow",
+            "description": "Bayangan tombol khas Via dalam keadaan normal (rest). Memberi kesan elevasi ringan dan interaktif."
+          }
+        },
+        "hover": {
+          "brand": {
+            "value": "{structure-elevation.global.surface.default.raised}",
+            "type": "boxShadow",
+            "description": "Bayangan yang sedikit lebih tinggi untuk tombol saat hover, menegaskan interaktivitas."
+          }
+        },
+        "pressed": {
+          "brand": {
+            "value": "{structure-elevation.global.surface.default.raised}",
+            "type": "boxShadow",
+            "description": "Bayangan redup saat tombol ditekan, menciptakan ilusi 'menyentuh permukaan'."
+          }
+        },
+        "focus": {
+          "brand": {
+            "value": "{structure-elevation.global.surface.default.raised}",
+            "type": "boxShadow",
+            "description": "Bayangan fokus dengan outline biru lembut untuk aksesibilitas dan visual feedback."
+          }
+        }
+      }
+    },
+    "overlay": {
+      "surface": {
+        "default": {
+          "brand": {
+            "value": "{structure-elevation.global.surface.default.overlay}",
+            "type": "boxShadow",
+            "description": "Bayangan dalam dan lebar untuk modal, dialog, dan overlay utama."
+          },
+          "subtle": {
+            "value": "{structure-elevation.global.surface.default.flat}",
+            "type": "boxShadow",
+            "description": "Bayangan ringan untuk overlay kecil seperti tooltip dan popover."
+          }
+        }
+      }
+    },
+    "feedback": {
+      "surface": {
+        "default": {
+          "brand": {
+            "value": "0px 2px 6px rgba(0, 0, 0, 0.06)",
+            "type": "boxShadow",
+            "description": "Bayangan lembut untuk komponen feedback (toast, badge) agar tetap terlihat ringan dan tidak mendominasi."
+          }
+        }
+      }
+    },
+    "form": {
+      "field": {
+        "focus": {
+          "brand": {
+            "value": "{structure-elevation.global.surface.default.raised}",
+            "type": "boxShadow",
+            "description": "Outline shadow fokus untuk bidang input, membantu pengguna melihat elemen aktif."
+          }
+        }
+      }
+    },
+    "navigation": {
+      "item": {
+        "default": {
+          "brand": {
+            "value": "{structure-elevation.global.surface.default.flat}",
+            "type": "boxShadow",
+            "description": "Bayangan ringan untuk item navigasi atau tab, memberi kesan hierarki yang lembut."
+          }
+        },
+        "active": {
+          "brand": {
+            "value": "{structure-elevation.global.surface.default.flat}",
+            "type": "boxShadow",
+            "description": "Bayangan untuk item navigasi aktif agar terlihat lebih menonjol dari daftar lainnya."
+          }
+        }
       }
     }
   },
-  "theme-spacing": {
-    "padding": {
-      "4xs": {
-        "value": "{dimensions.fixed.2}",
-        "type": "dimension"
-      },
-      "3xs": {
-        "value": "{dimensions.fixed.5}",
-        "type": "dimension"
-      },
-      "2xs": {
-        "value": "{dimensions.fixed.7}",
-        "type": "dimension"
-      },
-      "xs": {
-        "value": "{dimensions.fixed.10}",
-        "type": "dimension"
-      },
-      "s": {
-        "value": "{dimensions.fixed.15}",
-        "type": "dimension"
-      },
-      "m": {
-        "value": "{dimensions.fixed.20}",
-        "type": "dimension"
-      },
-      "l": {
-        "value": "{dimensions.fixed.25}",
-        "type": "dimension"
-      },
-      "xl": {
-        "value": "{dimensions.fixed.30}",
-        "type": "dimension"
-      },
-      "2xl": {
-        "value": "{dimensions.fixed.40}",
-        "type": "dimension"
-      },
-      "3xl": {
-        "value": "{dimensions.fixed.50}",
-        "type": "dimension"
-      },
-      "4xl": {
-        "value": "{dimensions.fixed.60}",
-        "type": "dimension"
-      },
-      "5xl": {
-        "value": "{dimensions.fixed.80}",
-        "type": "dimension"
-      },
-      "none": {
-        "value": "{dimensions.fixed.0}",
-        "type": "dimension"
+  "structure-space": {
+    "global": {
+      "container": {
+        "default": {
+          "s": {
+            "value": "{dimensions.fixed.5} {dimensions.fixed.10}",
+            "type": "spacing",
+            "description": "Small horizontal space for balanced layout density."
+          },
+          "m": {
+            "value": "{dimensions.fixed.7} {dimensions.fixed.12}",
+            "type": "spacing",
+            "description": "Medium horizontal padding, the default spacing across Via layout components."
+          },
+          "l": {
+            "value": "{dimensions.fixed.10} {dimensions.fixed.15}",
+            "type": "spacing",
+            "description": "Large horizontal space for generous layout breathing room."
+          }
+        }
+      }
+    },
+    "action": {
+      "container": {
+        "default": {
+          "brand": {
+            "value": "{structure-space.global.container.default.l}",
+            "type": "spacing",
+            "description": "Horizontal padding for brand-aligned action components (e.g., buttons)."
+          }
+        }
+      }
+    },
+    "form": {
+      "field": {
+        "default": {
+          "brand": {
+            "value": "{structure-space.global.container.default.l}",
+            "type": "spacing",
+            "description": "Vertical spacing for form fields maintaining alignment and accessibility standards."
+          }
+        }
       }
     }
   }

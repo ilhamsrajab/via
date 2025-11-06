@@ -1,7 +1,7 @@
 [
   {
     "id": "05e602556451ebb093098ac3f3eeb31da49e97d0",
-    "name": "Primitive",
+    "name": "Core",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "core/global": "enabled"
@@ -204,7 +204,7 @@
       "font-family.serif": "245c38e9bbd67b431d9173ae5cec47206a7a675f",
       "font-family.mono": "21ff50c62a9a7024ff910c1dc7b6d6a0024d8059"
     },
-    "group": "Primitive"
+    "group": "Core"
   },
   {
     "id": "Density-Compact",
