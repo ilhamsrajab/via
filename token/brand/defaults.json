@@ -189,55 +189,55 @@
     "primary": {
       "1": {
         "$type": "color",
-        "$value": "{colors.lime.1}"
+        "$value": "#f2fdeb"
       },
       "5": {
         "$type": "color",
-        "$value": "{colors.lime.5}"
+        "$value": "#cfefbb"
       },
       "10": {
         "$type": "color",
-        "$value": "{colors.lime.10}"
+        "$value": "#b1de93"
       },
       "20": {
         "$type": "color",
-        "$value": "{colors.lime.20}"
+        "$value": "#96cb71"
       },
       "30": {
         "$type": "color",
-        "$value": "{colors.lime.30}"
+        "$value": "#7eb653"
       },
       "40": {
         "$type": "color",
-        "$value": "{colors.lime.40}"
+        "$value": "#69a23c"
       },
       "50": {
         "$type": "color",
-        "$value": "{colors.lime.50}"
+        "$value": "#588d29"
       },
       "60": {
         "$type": "color",
-        "$value": "{colors.lime.60}"
+        "$value": "#49781e"
       },
       "70": {
         "$type": "color",
-        "$value": "{colors.lime.70}"
+        "$value": "#3b6415"
       },
       "80": {
         "$type": "color",
-        "$value": "{colors.lime.80}"
+        "$value": "#2e500e"
       },
       "90": {
         "$type": "color",
-        "$value": "{colors.lime.90}"
+        "$value": "#223d0a"
       },
       "95": {
         "$type": "color",
-        "$value": "{colors.lime.95}"
+        "$value": "#172a06"
       },
       "99": {
         "$type": "color",
-        "$value": "{colors.lime.99}"
+        "$value": "#0a1801"
       }
     },
     "accent": {
