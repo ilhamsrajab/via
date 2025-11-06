@@ -8,11 +8,15 @@
         },
         "icon-size": {
           "$type": "sizing",
-          "$value": "{theme-sizing.scale.size.s}"
+          "$value": "{structure-size.action.button.icon.default.standard}"
         },
         "min-width": {
           "$type": "sizing",
-          "$value": "{theme-sizing.scale.size.4xl}"
+          "$value": "{structure-size.action.button.container.min-width.standard}"
+        },
+        "min-height": {
+          "$type": "sizing",
+          "$value": "{structure-size.action.button.container.min-height.standard}"
         },
         "focus-ring": {
           "$type": "boxShadow",
@@ -49,7 +53,7 @@
         },
         "padding-s": {
           "$type": "spacing",
-          "$value": "{theme-spacing.padding.2xs} {theme-spacing.padding.xs}"
+          "$value": "{structure-space.action.container-small.default.standard}"
         },
         "padding": {
           "$type": "spacing",
@@ -69,7 +73,7 @@
             },
             "opacity": {
               "$type": "opacity",
-              "$value": "{theme-opacity.opacity.full}"
+              "$value": "{structure-opacity.action.surface.default.standard}"
             }
           },
           "label": {
@@ -79,7 +83,7 @@
             },
             "text": {
               "$type": "typography",
-              "$value": "{brand-text.subtitle.small}"
+              "$value": "{brand-typography.subtitle.small}"
             }
           },
           "icon": {
@@ -105,7 +109,7 @@
           "container": {
             "opacity": {
               "$type": "opacity",
-              "$value": "{theme-opacity.opacity.disabled}"
+              "$value": "{structure-opacity.action.surface.disabled.standard}"
             }
           }
         }

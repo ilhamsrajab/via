@@ -554,7 +554,7 @@
         "default": {
           "standard": {
             "$type": "spacing",
-            "$value": "{dimensions.fixed.7} {dimensions.fixed.12}",
+            "$value": "{dimensions.fixed.7} {dimensions.fixed.10}",
             "$description": "Padding for brand-aligned action components (e.g., buttons)."
           }
         }
@@ -628,6 +628,47 @@
             "$type": "opacity",
             "$value": "100%",
             "$description": "Opacity penuh untuk navigasi aktif, mempertegas konteks posisi pengguna."
+          }
+        }
+      }
+    }
+  },
+  "structure-size": {
+    "action": {
+      "button": {
+        "icon": {
+          "default": {
+            "standard": {
+              "$type": "sizing",
+              "$value": "{dimensions.size.s}",
+              "$description": "Ukuran ikon kecil di dalam tombol kecil (small button). Cocok untuk toolbar atau UI kompak."
+            }
+          }
+        },
+        "container": {
+          "min-height": {
+            "small": {
+              "$type": "sizing",
+              "$value": "{dimensions.size.l}",
+              "$description": "Tinggi minimum untuk tombol kecil (small). Menyediakan area sentuh minimum yang tetap aksesibel."
+            },
+            "standard": {
+              "$type": "sizing",
+              "$value": "{dimensions.size.xl}",
+              "$description": "Tinggi minimum tombol standar (default). Digunakan untuk mayoritas kasus UI."
+            }
+          },
+          "min-width": {
+            "small": {
+              "$type": "sizing",
+              "$value": "{dimensions.size.4xl}",
+              "$description": "Lebar minimum tombol kecil agar teks tetap terbaca dan tidak terlalu sempit."
+            },
+            "standard": {
+              "$type": "sizing",
+              "$value": "88px",
+              "$description": "Lebar minimum tombol standar, sesuai pedoman aksesibilitas."
+            }
           }
         }
       }
