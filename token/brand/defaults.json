@@ -296,42 +296,11 @@
     }
   },
   "structure-radius": {
-    "global": {
-      "container": {
-        "default": {
-          "none": {
-            "value": "{dimensions.radius.none}",
-            "type": "borderRadius",
-            "description": "No radius. Used for flat, square surfaces that require no rounding."
-          },
-          "s": {
-            "value": "{dimensions.radius.s}",
-            "type": "borderRadius",
-            "description": "Small corner radius for minimal rounding. Applied to compact UI surfaces."
-          },
-          "m": {
-            "value": "{dimensions.radius.m}",
-            "type": "borderRadius",
-            "description": "Medium corner radius. Default structural rounding across Via components."
-          },
-          "l": {
-            "value": "{dimensions.radius.l}",
-            "type": "borderRadius",
-            "description": "Large radius for high-emphasis surfaces like modals or cards."
-          },
-          "pill": {
-            "value": "{dimensions.radius.full}",
-            "type": "borderRadius",
-            "description": "Fully rounded radius for pill-shaped or circular elements."
-          }
-        }
-      }
-    },
     "action": {
       "container": {
         "default": {
           "brand": {
-            "value": "{structure-radius.global.container.default.m}",
+            "value": "{dimensions.radius.m}",
             "type": "borderRadius",
             "description": "Brand-aligned button radius that defines Via’s interactive shape personality."
           }
@@ -342,7 +311,7 @@
       "surface": {
         "default": {
           "subtle": {
-            "value": "{structure-radius.global.container.default.s}",
+            "value": "{dimensions.radius.s}",
             "type": "borderRadius",
             "description": "Subtle radius for feedback components like badges and toasts."
           }
@@ -353,7 +322,7 @@
       "field": {
         "default": {
           "brand": {
-            "value": "{structure-radius.global.container.default.m}",
+            "value": "{dimensions.radius.m}",
             "type": "borderRadius",
             "description": "Radius for input fields reflecting Via’s brand softness and accessibility standards."
           }
@@ -364,7 +333,7 @@
       "surface": {
         "default": {
           "brand": {
-            "value": "{structure-radius.global.container.default.m}",
+            "value": "{dimensions.radius.m}",
             "type": "borderRadius",
             "description": "Rounded corners for modal and overlay surfaces for smoother brand expression."
           }
@@ -375,7 +344,7 @@
       "item": {
         "default": {
           "brand": {
-            "value": "{structure-radius.global.container.default.s}",
+            "value": "{dimensions.radius.s}",
             "type": "borderRadius",
             "description": "Slight rounding for navigation items to enhance spatial rhythm and focus."
           }
@@ -384,32 +353,11 @@
     }
   },
   "structure-border": {
-    "global": {
-      "container": {
-        "default": {
-          "thin": {
-            "value": "{dimensions.border-width.xs}",
-            "type": "borderWidth",
-            "description": "Thin border used for subtle visual separation and low-emphasis outlines."
-          },
-          "medium": {
-            "value": "{dimensions.border-width.s}",
-            "type": "borderWidth",
-            "description": "Medium border thickness for standard element definition and contrast."
-          },
-          "thick": {
-            "value": "{dimensions.border-width.m}",
-            "type": "borderWidth",
-            "description": "Thick border for strong emphasis or key visual boundaries."
-          }
-        }
-      }
-    },
     "action": {
       "container": {
         "default": {
           "brand": {
-            "value": "{structure-border.global.container.default.medium}",
+            "value": "{dimensions.border-width.s}",
             "type": "borderWidth",
             "description": "Brand-standard border thickness for action components such as buttons."
           }
@@ -420,7 +368,7 @@
       "field": {
         "default": {
           "brand": {
-            "value": "{structure-border.global.container.default.medium}",
+            "value": "{dimensions.border-width.s}",
             "type": "borderWidth",
             "description": "Input field border width ensuring visual consistency and brand balance."
           }
@@ -431,7 +379,7 @@
       "surface": {
         "default": {
           "brand": {
-            "value": "{structure-border.global.container.default.medium}",
+            "value": "{dimensions.border-width.s}",
             "type": "borderWidth",
             "description": "Thin border for overlays or popups providing subtle definition without distraction."
           }
@@ -592,34 +540,22 @@
     }
   },
   "structure-space": {
-    "global": {
-      "container": {
-        "default": {
-          "s": {
-            "value": "{dimensions.fixed.5} {dimensions.fixed.10}",
-            "type": "spacing",
-            "description": "Small horizontal space for balanced layout density."
-          },
-          "m": {
-            "value": "{dimensions.fixed.7} {dimensions.fixed.12}",
-            "type": "spacing",
-            "description": "Medium horizontal padding, the default spacing across Via layout components."
-          },
-          "l": {
-            "value": "{dimensions.fixed.10} {dimensions.fixed.15}",
-            "type": "spacing",
-            "description": "Large horizontal space for generous layout breathing room."
-          }
-        }
-      }
-    },
     "action": {
       "container": {
         "default": {
-          "brand": {
-            "value": "{structure-space.global.container.default.l}",
+          "standard": {
+            "value": "{dimensions.fixed.10} {dimensions.fixed.15}",
             "type": "spacing",
-            "description": "Horizontal padding for brand-aligned action components (e.g., buttons)."
+            "description": "Padding for brand-aligned action components (e.g., buttons)."
+          }
+        }
+      },
+      "container-small": {
+        "default": {
+          "standard": {
+            "value": "{dimensions.fixed.7} {dimensions.fixed.12}",
+            "type": "spacing",
+            "description": "Padding for brand-aligned action components (e.g., buttons)."
           }
         }
       }
@@ -627,8 +563,8 @@
     "form": {
       "field": {
         "default": {
-          "brand": {
-            "value": "{structure-space.global.container.default.l}",
+          "standard": {
+            "value": "{dimensions.fixed.10} {dimensions.fixed.15}",
             "type": "spacing",
             "description": "Vertical spacing for form fields maintaining alignment and accessibility standards."
           }
@@ -637,43 +573,61 @@
     }
   },
   "structure-space-gap": {
-    "global": {
+    "action": {
       "container": {
         "default": {
-          "s": {
+          "standard": {
             "value": "{dimensions.fixed.5}",
-            "type": "spacing",
-            "description": "Gap kecil standar global, digunakan untuk komponen kecil seperti badge group atau label set."
-          },
-          "m": {
-            "value": "{dimensions.fixed.7}",
-            "type": "spacing",
-            "description": "Gap kecil menengah untuk grup elemen yang rapat seperti ikon dan teks di tombol."
-          },
-          "l": {
-            "value": "{dimensions.fixed.10}",
-            "type": "spacing",
-            "description": "Gap menengah sebagai jarak antar elemen standar di seluruh sistem Via."
-          },
-          "xl": {
-            "value": "{dimensions.fixed.20}",
-            "type": "spacing",
-            "description": "Gap besar untuk pemisahan visual antar blok layout atau section UI."
-          },
-          "2xl": {
-            "value": "{dimensions.fixed.40}",
-            "type": "spacing",
-            "description": "Gap ekstra besar untuk area layout luas dan section yang memiliki ruang napas."
+            "type": "spacing"
+          }
+        }
+      }
+    }
+  },
+  "structure-opacity": {
+    "action": {
+      "surface": {
+        "disabled": {
+          "standard": {
+            "value": "{opacity.50}",
+            "type": "opacity",
+            "description": "Transparansi tinggi untuk menandai elemen aksi yang tidak aktif (disabled)."
+          }
+        },
+        "default": {
+          "standard": {
+            "value": "{opacity.100}",
+            "type": "opacity",
+            "description": "Transparansi tinggi untuk menandai elemen aksi yang tidak aktif (disabled)."
           }
         }
       }
     },
-    "action": {
-      "container": {
+    "overlay": {
+      "backdrop": {
         "default": {
-          "brand": {
-            "value": "{dimensions.fixed.0}",
-            "type": "spacing"
+          "standard": {
+            "value": "{opacity.75}",
+            "type": "opacity",
+            "description": "Backdrop lebih gelap untuk modal atau dialog dengan fokus tinggi."
+          }
+        }
+      }
+    },
+    "navigation": {
+      "item": {
+        "inactive": {
+          "standard": {
+            "value": "60%",
+            "type": "opacity",
+            "description": "Opacity untuk item navigasi non-aktif agar tidak mendominasi tampilan."
+          }
+        },
+        "active": {
+          "standard": {
+            "value": "100%",
+            "type": "opacity",
+            "description": "Opacity penuh untuk navigasi aktif, mempertegas konteks posisi pengguna."
           }
         }
       }
