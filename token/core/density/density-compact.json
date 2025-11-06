@@ -2,8 +2,8 @@
   "dimensions": {
     "fixed": {
       "base": {
-        "value": "4px",
-        "type": "dimension"
+        "$type": "dimension",
+        "$value": "4px"
       }
     }
   }
