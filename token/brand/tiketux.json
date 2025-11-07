@@ -172,5 +172,40 @@
         "$value": "{brand-colors.primary.70}"
       }
     }
+  },
+  "structure-border": {
+    "action": {
+      "container": {
+        "default": {
+          "brand": {
+            "$type": "borderWidth",
+            "$value": "{dimensions.border-width.none}",
+            "$description": "Brand-standard border thickness for action components such as buttons."
+          }
+        }
+      }
+    },
+    "form": {
+      "field": {
+        "default": {
+          "brand": {
+            "$type": "borderWidth",
+            "$value": "{dimensions.border-width.s}",
+            "$description": "Input field border width ensuring visual consistency and brand balance."
+          }
+        }
+      }
+    },
+    "overlay": {
+      "surface": {
+        "default": {
+          "brand": {
+            "$type": "borderWidth",
+            "$value": "{dimensions.border-width.s}",
+            "$description": "Thin border for overlays or popups providing subtle definition without distraction."
+          }
+        }
+      }
+    }
   }
 }

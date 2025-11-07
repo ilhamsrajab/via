@@ -104,8 +104,17 @@
               "$value": "{structure-elevation.action.surface.hover.brand}"
             },
             "background-color": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "0.1",
+                    "space": "lch"
+                  }
+                }
+              },
               "$type": "color",
-              "$value": "{brand-colors.background.high}"
+              "$value": "{actions.button.primary.default.container.background-color}"
             },
             "border-color": {
               "$type": "color",
@@ -151,7 +160,7 @@
           "container": {
             "background-color": {
               "$type": "color",
-              "$value": "{brand-colors.background.medium}"
+              "$value": "{brand-colors.background.low}"
             },
             "border-color": {
               "$type": "color",
@@ -189,7 +198,7 @@
           "container": {
             "background-color": {
               "$type": "color",
-              "$value": "{theme-colors.mode.neutral.background.low}"
+              "$value": "{brand-colors.background.low}"
             },
             "border-color": {
               "$type": "color",
@@ -227,7 +236,7 @@
           "container": {
             "background-color": {
               "$type": "color",
-              "$value": "{theme-colors.mode.neutral.background.low}"
+              "$value": "{brand-colors.background.low}"
             },
             "border-color": {
               "$type": "color",
@@ -252,12 +261,161 @@
         "hover": {
           "container": {
             "background-color": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "0.1",
+                    "space": "lch"
+                  }
+                }
+              },
               "$type": "color",
-              "$value": "{theme-colors.mode.danger.background.medium}"
+              "$value": "{actions.button.danger.default.container.background-color}"
             },
             "border-color": {
               "$type": "color",
               "$value": "{theme-colors.mode.danger.border.default}"
+            }
+          }
+        }
+      },
+      "neutral": {
+        "default": {
+          "container": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.neutral.background.high}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.neutral.border.default}"
+            }
+          }
+        },
+        "hover": {
+          "container": {
+            "background-color": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "lighten",
+                    "value": "0.1",
+                    "space": "lch"
+                  }
+                }
+              },
+              "$type": "color",
+              "$value": "{actions.button.neutral.default.container.background-color}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.neutral.border.default}"
+            }
+          }
+        }
+      },
+      "warning": {
+        "default": {
+          "container": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.warning.background.high}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.warning.border.default}"
+            }
+          }
+        },
+        "hover": {
+          "container": {
+            "background-color": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "0.1",
+                    "space": "lch"
+                  }
+                }
+              },
+              "$type": "color",
+              "$value": "{actions.button.warning.default.container.background-color}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.warning.border.default}"
+            }
+          }
+        }
+      },
+      "success": {
+        "default": {
+          "container": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.success.background.high}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.success.border.default}"
+            }
+          }
+        },
+        "hover": {
+          "container": {
+            "background-color": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "0.1",
+                    "space": "lch"
+                  }
+                }
+              },
+              "$type": "color",
+              "$value": "{actions.button.success.default.container.background-color}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.success.border.default}"
+            }
+          }
+        }
+      },
+      "info": {
+        "default": {
+          "container": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.info.background.high}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.info.border.default}"
+            }
+          }
+        },
+        "hover": {
+          "container": {
+            "background-color": {
+              "$extensions": {
+                "studio.tokens": {
+                  "modify": {
+                    "type": "darken",
+                    "value": "0.1",
+                    "space": "lch"
+                  }
+                }
+              },
+              "$type": "color",
+              "$value": "{actions.button.info.default.container.background-color}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.info.border.default}"
             }
           }
         }

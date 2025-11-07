@@ -321,13 +321,21 @@
       },
       "inverse": {
         "$type": "color",
-        "$value": "{colors.gray.0}"
+        "$value": "{brand-colors.border.low}"
       }
     },
     "background": {
       "default": {
         "$type": "color",
         "$value": "{brand-colors.primary.60}"
+      },
+      "low": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.1}"
+      },
+      "medium": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.5}"
       },
       "high": {
         "$type": "color",
@@ -398,7 +406,7 @@
         "default": {
           "brand": {
             "$type": "borderWidth",
-            "$value": "{dimensions.border-width.none}",
+            "$value": "{dimensions.border-width.s}",
             "$description": "Brand-standard border thickness for action components such as buttons."
           }
         }
