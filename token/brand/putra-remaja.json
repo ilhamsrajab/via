@@ -197,10 +197,6 @@
         "$type": "color",
         "$value": "{brand-colors.primary.5}"
       },
-      "medium": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.50}"
-      },
       "high": {
         "$type": "color",
         "$value": "{brand-colors.primary.60}"

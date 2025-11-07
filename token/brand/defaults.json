@@ -293,6 +293,46 @@
         "$type": "color",
         "$value": "{colors.yellow.99}"
       }
+    },
+    "icon": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "text": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.70}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "border": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.50}"
+      },
+      "inverse": {
+        "$type": "color",
+        "$value": "{colors.gray.0}"
+      }
+    },
+    "background": {
+      "default": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.60}"
+      },
+      "high": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.70}"
+      }
     }
   },
   "structure-radius": {
@@ -358,7 +398,7 @@
         "default": {
           "brand": {
             "$type": "borderWidth",
-            "$value": "{dimensions.border-width.s}",
+            "$value": "{dimensions.border-width.none}",
             "$description": "Brand-standard border thickness for action components such as buttons."
           }
         }

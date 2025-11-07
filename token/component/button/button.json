@@ -39,13 +39,13 @@
             }
           ]
         },
-        "shadow": {
-          "$type": "boxShadow",
-          "$value": "{structure-elevation.action.surface.focus.brand}"
-        },
         "border-width": {
           "$type": "borderWidth",
           "$value": "{structure-border.action.container.default.brand}"
+        },
+        "border-width-override": {
+          "$type": "borderWidth",
+          "$value": "{dimensions.border-width.s}"
         },
         "radius": {
           "$type": "borderRadius",
@@ -65,7 +65,7 @@
           "container": {
             "background-color": {
               "$type": "color",
-              "$value": "{brand-colors.mode.background.high}"
+              "$value": "{brand-colors.background.default}"
             },
             "border-color": {
               "$type": "color",
@@ -74,6 +74,10 @@
             "opacity": {
               "$type": "opacity",
               "$value": "{structure-opacity.action.surface.default.standard}"
+            },
+            "shadow": {
+              "$type": "boxShadow",
+              "$value": "{structure-elevation.action.surface.default.brand}"
             }
           },
           "label": {
@@ -95,9 +99,13 @@
         },
         "hover": {
           "container": {
+            "shadow": {
+              "$type": "boxShadow",
+              "$value": "{structure-elevation.action.surface.hover.brand}"
+            },
             "background-color": {
               "$type": "color",
-              "$value": "{brand-colors.background.medium}"
+              "$value": "{brand-colors.background.high}"
             },
             "border-color": {
               "$type": "color",
@@ -114,32 +122,6 @@
           }
         }
       },
-      "destructive": {
-        "default": {
-          "container": {
-            "background-color": {
-              "$type": "color",
-              "$value": "{theme-colors.mode.danger.background.high}"
-            },
-            "border-color": {
-              "$type": "color",
-              "$value": "{theme-colors.mode.danger.border.default}"
-            }
-          }
-        },
-        "hover": {
-          "container": {
-            "background-color": {
-              "$type": "color",
-              "$value": "{theme-colors.mode.danger.background.medium}"
-            },
-            "border-color": {
-              "$type": "color",
-              "$value": "{theme-colors.mode.danger.border.default}"
-            }
-          }
-        }
-      },
       "secondary": {
         "default": {
           "icon": {
@@ -151,7 +133,7 @@
           "container": {
             "background-color": {
               "$type": "color",
-              "$value": "{brand-colors.background.default}"
+              "$value": "{brand-colors.background.low}"
             },
             "border-color": {
               "$type": "color",
@@ -169,7 +151,7 @@
           "container": {
             "background-color": {
               "$type": "color",
-              "$value": "{brand-colors.background.low}"
+              "$value": "{brand-colors.background.medium}"
             },
             "border-color": {
               "$type": "color",
@@ -211,31 +193,7 @@
             },
             "border-color": {
               "$type": "color",
-              "$value": "{brand-colors.border.low}"
-            }
-          }
-        }
-      },
-      "ghost": {
-        "default": {
-          "label": {
-            "color": {
-              "$type": "color",
-              "$value": "{brand-colors.text.default}"
-            }
-          },
-          "icon": {
-            "color": {
-              "$type": "color",
-              "$value": "{brand-colors.icon.default}"
-            }
-          }
-        },
-        "hover": {
-          "container": {
-            "background-color": {
-              "$type": "color",
-              "$value": "{brand-colors.background.low}"
+              "$value": "{brand-colors.border.default}"
             }
           }
         }
@@ -274,6 +232,32 @@
             "border-color": {
               "$type": "color",
               "$value": "{brand-colors.border.inverse}"
+            }
+          }
+        }
+      },
+      "danger": {
+        "default": {
+          "container": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.danger.background.high}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.danger.border.default}"
+            }
+          }
+        },
+        "hover": {
+          "container": {
+            "background-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.danger.background.medium}"
+            },
+            "border-color": {
+              "$type": "color",
+              "$value": "{theme-colors.mode.danger.border.default}"
             }
           }
         }

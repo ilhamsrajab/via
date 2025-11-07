@@ -134,30 +134,10 @@
         "$value": "{colors.gray.0}"
       }
     },
-    "icon-accent": {
-      "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.60}"
-      },
-      "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
-      }
-    },
     "text": {
       "default": {
         "$type": "color",
         "$value": "{brand-colors.primary.70}"
-      },
-      "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
-      }
-    },
-    "text-accent": {
-      "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.50}"
       },
       "inverse": {
         "$type": "color",
@@ -169,20 +149,6 @@
         "$type": "color",
         "$value": "{brand-colors.primary.50}"
       },
-      "low": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.10}"
-      },
-      "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
-      }
-    },
-    "border-accent": {
-      "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.30}"
-      },
       "inverse": {
         "$type": "color",
         "$value": "{colors.gray.0}"
@@ -191,29 +157,19 @@
     "background": {
       "default": {
         "$type": "color",
-        "$value": "{brand-colors.primary.1}"
+        "$value": "{brand-colors.primary.60}"
       },
       "low": {
         "$type": "color",
-        "$value": "{brand-colors.primary.5}"
+        "$value": "{brand-colors.primary.1}"
       },
       "medium": {
         "$type": "color",
-        "$value": "{brand-colors.primary.50}"
+        "$value": "{brand-colors.primary.5}"
       },
       "high": {
         "$type": "color",
-        "$value": "{brand-colors.primary.60}"
-      }
-    },
-    "background-accent": {
-      "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.40}"
-      },
-      "medium": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.30}"
+        "$value": "{brand-colors.primary.70}"
       }
     }
   }
