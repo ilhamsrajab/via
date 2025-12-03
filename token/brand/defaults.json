@@ -321,7 +321,7 @@
       },
       "inverse": {
         "$type": "color",
-        "$value": "{brand-colors.border.low}"
+        "$value": "{colors.gray.0}"
       }
     },
     "background": {
