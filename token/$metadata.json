@@ -1,14 +1,10 @@
 {
   "tokenSetOrder": [
-    "core/colors",
+    "core/global",
     "core/density/density-compact",
     "core/density/density-default",
     "core/density/density-cozy",
     "core/density/density-spacious",
-    "core/dimensions",
-    "core/defaults",
-    "theme/light",
-    "theme/dark",
     "brand/defaults",
     "brand/tiketux",
     "brand/aragon",
@@ -16,6 +12,8 @@
     "brand/cgtrans",
     "brand/putra-remaja",
     "brand/kruzz",
+    "theme/light",
+    "theme/dark",
     "component/button/button"
   ]
 }

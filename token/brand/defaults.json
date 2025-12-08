@@ -15,7 +15,7 @@
       }
     }
   },
-  "brand-text": {
+  "brand-typography": {
     "headline": {
       "small": {
         "$type": "typography",
@@ -189,55 +189,55 @@
     "primary": {
       "1": {
         "$type": "color",
-        "$value": "{colors.lime.1}"
+        "$value": "oklch(98% 0.026 133.47)"
       },
       "5": {
         "$type": "color",
-        "$value": "{colors.lime.5}"
+        "$value": "oklch(91.5% 0.076 133.47)"
       },
       "10": {
         "$type": "color",
-        "$value": "{colors.lime.10}"
+        "$value": "oklch(85% 0.11 133.47)"
       },
       "20": {
         "$type": "color",
-        "$value": "{colors.lime.20}"
+        "$value": "oklch(78.5% 0.132 133.47)"
       },
       "30": {
         "$type": "color",
-        "$value": "{colors.lime.30}"
+        "$value": "oklch(71.5% 0.144 133.47)"
       },
       "40": {
         "$type": "color",
-        "$value": "{colors.lime.40}"
+        "$value": "oklch(65% 0.146 133.47)"
       },
       "50": {
         "$type": "color",
-        "$value": "{colors.lime.50}"
+        "$value": "oklch(58.5% 0.142 133.47)"
       },
       "60": {
         "$type": "color",
-        "$value": "{colors.lime.60}"
+        "$value": "oklch(52% 0.13 133.47)"
       },
       "70": {
         "$type": "color",
-        "$value": "{colors.lime.70}"
+        "$value": "oklch(45.5% 0.116 133.47)"
       },
       "80": {
         "$type": "color",
-        "$value": "{colors.lime.80}"
+        "$value": "oklch(39% 0.1 133.47)"
       },
       "90": {
         "$type": "color",
-        "$value": "{colors.lime.90}"
+        "$value": "oklch(32.5% 0.082 133.47)"
       },
       "95": {
         "$type": "color",
-        "$value": "{colors.lime.95}"
+        "$value": "oklch(26% 0.064 133.47)"
       },
       "99": {
         "$type": "color",
-        "$value": "{colors.lime.99}"
+        "$value": "oklch(19% 0.05 133.47)"
       }
     },
     "accent": {
@@ -304,16 +304,6 @@
         "$value": "{colors.gray.0}"
       }
     },
-    "icon-accent": {
-      "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.60}"
-      },
-      "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
-      }
-    },
     "text": {
       "default": {
         "$type": "color",
@@ -324,34 +314,10 @@
         "$value": "{colors.gray.0}"
       }
     },
-    "text-accent": {
-      "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.70}"
-      },
-      "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
-      }
-    },
     "border": {
       "default": {
         "$type": "color",
-        "$value": "{brand-colors.primary.60}"
-      },
-      "low": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.10}"
-      },
-      "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
-      }
-    },
-    "border-accent": {
-      "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.50}"
+        "$value": "{brand-colors.primary.50}"
       },
       "inverse": {
         "$type": "color",
@@ -361,234 +327,398 @@
     "background": {
       "default": {
         "$type": "color",
-        "$value": "{brand-colors.primary.1}"
+        "$value": "{brand-colors.primary.60}"
       },
       "low": {
+        "$type": "color",
+        "$value": "{brand-colors.primary.1}"
+      },
+      "medium": {
         "$type": "color",
         "$value": "{brand-colors.primary.5}"
       },
-      "medium": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.50}"
-      },
       "high": {
         "$type": "color",
-        "$value": "{brand-colors.primary.60}"
+        "$value": "{brand-colors.primary.70}"
+      }
+    }
+  },
+  "structure-radius": {
+    "action": {
+      "container": {
+        "default": {
+          "brand": {
+            "$type": "borderRadius",
+            "$value": "{dimensions.radius.m}",
+            "$description": "Brand-aligned button radius that defines Via’s interactive shape personality."
+          }
+        }
       }
     },
-    "background-accent": {
-      "default": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.60}"
-      },
-      "medium": {
-        "$type": "color",
-        "$value": "{brand-colors.accent.50}"
-      }
-    }
-  },
-  "brand-elevation": {
-    "shadow": {
-      "default": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "{dimensions.fixed.0}",
-            "y": "{dimensions.fixed.5}",
-            "blur": "{dimensions.fixed.15}",
-            "type": "dropShadow",
-            "color": "{theme-colors.mode.neutral.border.default}",
-            "spread": "{dimensions.fixed.0}"
+    "feedback": {
+      "surface": {
+        "default": {
+          "subtle": {
+            "$type": "borderRadius",
+            "$value": "{dimensions.radius.s}",
+            "$description": "Subtle radius for feedback components like badges and toasts."
           }
-        ],
-        "$description": "Default elevation style."
-      },
-      "high": {
-        "$type": "boxShadow",
-        "$value": [
-          {
-            "x": "{dimensions.fixed.0}",
-            "y": "{dimensions.fixed.5}",
-            "blur": "{dimensions.fixed.30}",
-            "type": "dropShadow",
-            "color": "{theme-colors.mode.neutral.border.default}",
-            "spread": "{dimensions.fixed.0}"
-          }
-        ],
-        "$description": "Used for stronger sense of depth and emphasis for important components or elements."
+        }
       }
-    }
-  },
-  "theme-radius": {
-    "border": {
-      "radius": {
-        "2xs": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.2xs}"
-        },
-        "xs": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.xs}"
-        },
-        "s": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.s}"
-        },
-        "m": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.m}"
-        },
-        "l": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.l}"
-        },
-        "xl": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.xl}"
-        },
-        "2xl": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.2xl}"
-        },
-        "3xl": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.3xl}"
-        },
-        "4xl": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.4xl}"
-        },
-        "full": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.full}"
-        },
-        "none": {
-          "$type": "borderRadius",
-          "$value": "{dimensions.radius.none}"
+    },
+    "form": {
+      "field": {
+        "default": {
+          "brand": {
+            "$type": "borderRadius",
+            "$value": "{dimensions.radius.m}",
+            "$description": "Radius for input fields reflecting Via’s brand softness and accessibility standards."
+          }
+        }
+      }
+    },
+    "overlay": {
+      "surface": {
+        "default": {
+          "brand": {
+            "$type": "borderRadius",
+            "$value": "{dimensions.radius.m}",
+            "$description": "Rounded corners for modal and overlay surfaces for smoother brand expression."
+          }
+        }
+      }
+    },
+    "navigation": {
+      "item": {
+        "default": {
+          "brand": {
+            "$type": "borderRadius",
+            "$value": "{dimensions.radius.s}",
+            "$description": "Slight rounding for navigation items to enhance spatial rhythm and focus."
+          }
         }
       }
     }
   },
-  "theme-sizing": {
-    "scale": {
-      "size": {
-        "xs": {
-          "$type": "sizing",
-          "$value": "{dimensions.size.xs}"
-        },
-        "s": {
-          "$type": "sizing",
-          "$value": "{dimensions.size.s}"
-        },
-        "m": {
-          "$type": "sizing",
-          "$value": "{dimensions.size.m}"
-        },
-        "l": {
-          "$type": "sizing",
-          "$value": "{dimensions.size.l}"
-        },
-        "xl": {
-          "$type": "sizing",
-          "$value": "{dimensions.size.xl}"
-        },
-        "2xl": {
-          "$type": "sizing",
-          "$value": "{dimensions.size.2xl}"
-        },
-        "3xl": {
-          "$type": "sizing",
-          "$value": "{dimensions.size.3xl}"
-        },
-        "4xl": {
-          "$type": "sizing",
-          "$value": "{dimensions.size.4xl}"
+  "structure-border": {
+    "action": {
+      "container": {
+        "default": {
+          "brand": {
+            "$type": "borderWidth",
+            "$value": "{dimensions.border-width.s}",
+            "$description": "Brand-standard border thickness for action components such as buttons."
+          }
+        }
+      }
+    },
+    "form": {
+      "field": {
+        "default": {
+          "brand": {
+            "$type": "borderWidth",
+            "$value": "{dimensions.border-width.s}",
+            "$description": "Input field border width ensuring visual consistency and brand balance."
+          }
+        }
+      }
+    },
+    "overlay": {
+      "surface": {
+        "default": {
+          "brand": {
+            "$type": "borderWidth",
+            "$value": "{dimensions.border-width.s}",
+            "$description": "Thin border for overlays or popups providing subtle definition without distraction."
+          }
         }
       }
     }
   },
-  "theme-opacity": {
-    "opacity": {
-      "low": {
-        "$type": "opacity",
-        "$value": "{opacity.40}",
-        "$description": "It applies a 40% opacity to an element."
-      },
-      "med": {
-        "$type": "opacity",
-        "$value": "{opacity.60}",
-        "$description": "It applies a 60% opacity to an element."
-      },
-      "high": {
-        "$type": "opacity",
-        "$value": "{opacity.90}",
-        "$description": "It applies a 90% opacity to an element."
-      },
-      "full": {
-        "$type": "opacity",
-        "$value": "{opacity.100}",
-        "$description": "It applies a 100% opacity to an element."
-      },
-      "disabled": {
-        "$type": "opacity",
-        "$value": "{opacity.50}",
-        "$description": "It applies a 50% opacity to an element."
+  "structure-elevation": {
+    "global": {
+      "surface": {
+        "default": {
+          "flat": {
+            "$type": "boxShadow",
+            "$value": {
+              "x": "0",
+              "y": "0",
+              "blur": "0",
+              "spread": "0",
+              "color": "{colors.gray.100}",
+              "type": "dropShadow"
+            },
+            "$description": "Tanpa bayangan. Digunakan untuk lapisan dasar seperti background atau konten statis."
+          },
+          "raised": {
+            "$type": "boxShadow",
+            "$value": [
+              {
+                "x": "0",
+                "y": "1",
+                "blur": "2",
+                "spread": "0",
+                "color": "rgba(0, 0, 0, 0.06)",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "2",
+                "blur": "4",
+                "spread": "0",
+                "color": "rgba(0, 0, 0, 0.04)",
+                "type": "dropShadow"
+              }
+            ],
+            "$description": "Bayangan lembut dua lapis untuk permukaan utama seperti kartu atau container kecil."
+          },
+          "overlay": {
+            "$type": "boxShadow",
+            "$value": [
+              {
+                "x": "0",
+                "y": "4",
+                "blur": "12",
+                "spread": "0",
+                "color": "rgba(0, 0, 0, 0.10)",
+                "type": "dropShadow"
+              },
+              {
+                "x": "0",
+                "y": "8",
+                "blur": "24",
+                "spread": "0",
+                "color": "rgba(0, 0, 0, 0.08)",
+                "type": "dropShadow"
+              }
+            ],
+            "$description": "Bayangan menengah untuk lapisan yang mengambang di atas permukaan lain, seperti dropdown atau popover."
+          }
+        }
+      }
+    },
+    "action": {
+      "surface": {
+        "default": {
+          "brand": {
+            "$type": "boxShadow",
+            "$value": "{structure-elevation.global.surface.default.flat}",
+            "$description": "Bayangan tombol khas Via dalam keadaan normal (rest). Memberi kesan elevasi ringan dan interaktif."
+          }
+        },
+        "hover": {
+          "brand": {
+            "$type": "boxShadow",
+            "$value": "{structure-elevation.global.surface.default.raised}",
+            "$description": "Bayangan yang sedikit lebih tinggi untuk tombol saat hover, menegaskan interaktivitas."
+          }
+        },
+        "pressed": {
+          "brand": {
+            "$type": "boxShadow",
+            "$value": "{structure-elevation.global.surface.default.raised}",
+            "$description": "Bayangan redup saat tombol ditekan, menciptakan ilusi 'menyentuh permukaan'."
+          }
+        },
+        "focus": {
+          "brand": {
+            "$type": "boxShadow",
+            "$value": "{structure-elevation.global.surface.default.raised}",
+            "$description": "Bayangan fokus dengan outline biru lembut untuk aksesibilitas dan visual feedback."
+          }
+        }
+      }
+    },
+    "overlay": {
+      "surface": {
+        "default": {
+          "brand": {
+            "$type": "boxShadow",
+            "$value": "{structure-elevation.global.surface.default.overlay}",
+            "$description": "Bayangan dalam dan lebar untuk modal, dialog, dan overlay utama."
+          },
+          "subtle": {
+            "$type": "boxShadow",
+            "$value": "{structure-elevation.global.surface.default.flat}",
+            "$description": "Bayangan ringan untuk overlay kecil seperti tooltip dan popover."
+          }
+        }
+      }
+    },
+    "feedback": {
+      "surface": {
+        "default": {
+          "brand": {
+            "$type": "boxShadow",
+            "$value": "0px 2px 6px rgba(0, 0, 0, 0.06)",
+            "$description": "Bayangan lembut untuk komponen feedback (toast, badge) agar tetap terlihat ringan dan tidak mendominasi."
+          }
+        }
+      }
+    },
+    "form": {
+      "field": {
+        "focus": {
+          "brand": {
+            "$type": "boxShadow",
+            "$value": "{structure-elevation.global.surface.default.raised}",
+            "$description": "Outline shadow fokus untuk bidang input, membantu pengguna melihat elemen aktif."
+          }
+        }
+      }
+    },
+    "navigation": {
+      "item": {
+        "default": {
+          "brand": {
+            "$type": "boxShadow",
+            "$value": "{structure-elevation.global.surface.default.flat}",
+            "$description": "Bayangan ringan untuk item navigasi atau tab, memberi kesan hierarki yang lembut."
+          }
+        },
+        "active": {
+          "brand": {
+            "$type": "boxShadow",
+            "$value": "{structure-elevation.global.surface.default.flat}",
+            "$description": "Bayangan untuk item navigasi aktif agar terlihat lebih menonjol dari daftar lainnya."
+          }
+        }
       }
     }
   },
-  "theme-spacing": {
-    "padding": {
-      "4xs": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.2}"
+  "structure-space": {
+    "action": {
+      "container": {
+        "default": {
+          "standard": {
+            "$type": "spacing",
+            "$value": "{dimensions.fixed.10} {dimensions.fixed.15}",
+            "$description": "Padding for brand-aligned action components (e.g., buttons)."
+          }
+        }
       },
-      "3xs": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.5}"
-      },
-      "2xs": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.7}"
-      },
-      "xs": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.10}"
-      },
-      "s": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.15}"
-      },
-      "m": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.20}"
-      },
-      "l": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.25}"
-      },
-      "xl": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.30}"
-      },
-      "2xl": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.40}"
-      },
-      "3xl": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.50}"
-      },
-      "4xl": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.60}"
-      },
-      "5xl": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.80}"
-      },
-      "none": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.0}"
+      "container-small": {
+        "default": {
+          "standard": {
+            "$type": "spacing",
+            "$value": "{dimensions.fixed.7} {dimensions.fixed.10}",
+            "$description": "Padding for brand-aligned action components (e.g., buttons)."
+          }
+        }
+      }
+    },
+    "form": {
+      "field": {
+        "default": {
+          "standard": {
+            "$type": "spacing",
+            "$value": "{dimensions.fixed.10} {dimensions.fixed.15}",
+            "$description": "Vertical spacing for form fields maintaining alignment and accessibility standards."
+          }
+        }
+      }
+    }
+  },
+  "structure-space-gap": {
+    "action": {
+      "container": {
+        "default": {
+          "standard": {
+            "$type": "spacing",
+            "$value": "{dimensions.fixed.5}"
+          }
+        }
+      }
+    }
+  },
+  "structure-opacity": {
+    "action": {
+      "surface": {
+        "disabled": {
+          "standard": {
+            "$type": "opacity",
+            "$value": "{opacity.50}",
+            "$description": "Transparansi tinggi untuk menandai elemen aksi yang tidak aktif (disabled)."
+          }
+        },
+        "default": {
+          "standard": {
+            "$type": "opacity",
+            "$value": "{opacity.100}",
+            "$description": "Transparansi tinggi untuk menandai elemen aksi yang tidak aktif (disabled)."
+          }
+        }
+      }
+    },
+    "overlay": {
+      "backdrop": {
+        "default": {
+          "standard": {
+            "$type": "opacity",
+            "$value": "{opacity.75}",
+            "$description": "Backdrop lebih gelap untuk modal atau dialog dengan fokus tinggi."
+          }
+        }
+      }
+    },
+    "navigation": {
+      "item": {
+        "inactive": {
+          "standard": {
+            "$type": "opacity",
+            "$value": "60%",
+            "$description": "Opacity untuk item navigasi non-aktif agar tidak mendominasi tampilan."
+          }
+        },
+        "active": {
+          "standard": {
+            "$type": "opacity",
+            "$value": "100%",
+            "$description": "Opacity penuh untuk navigasi aktif, mempertegas konteks posisi pengguna."
+          }
+        }
+      }
+    }
+  },
+  "structure-size": {
+    "action": {
+      "button": {
+        "icon": {
+          "default": {
+            "standard": {
+              "$type": "sizing",
+              "$value": "{dimensions.size.s}",
+              "$description": "Ukuran ikon kecil di dalam tombol kecil (small button). Cocok untuk toolbar atau UI kompak."
+            }
+          }
+        },
+        "container": {
+          "min-height": {
+            "small": {
+              "$type": "sizing",
+              "$value": "{dimensions.size.l}",
+              "$description": "Tinggi minimum untuk tombol kecil (small). Menyediakan area sentuh minimum yang tetap aksesibel."
+            },
+            "standard": {
+              "$type": "sizing",
+              "$value": "{dimensions.size.xl}",
+              "$description": "Tinggi minimum tombol standar (default). Digunakan untuk mayoritas kasus UI."
+            }
+          },
+          "min-width": {
+            "small": {
+              "$type": "sizing",
+              "$value": "{dimensions.size.4xl}",
+              "$description": "Lebar minimum tombol kecil agar teks tetap terbaca dan tidak terlalu sempit."
+            },
+            "standard": {
+              "$type": "sizing",
+              "$value": "88px",
+              "$description": "Lebar minimum tombol standar, sesuai pedoman aksesibilitas."
+            }
+          }
+        }
       }
     }
   }

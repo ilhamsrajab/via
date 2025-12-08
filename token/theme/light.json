@@ -280,26 +280,26 @@
         "icon": {
           "default": {
             "$type": "color",
-            "$value": "{colors.yellow.60}",
+            "$value": "{colors.yellow.50}",
             "$description": "Used for alert icons and should be paired with text that conveys the same meaning."
           }
         },
         "text": {
           "default": {
             "$type": "color",
-            "$value": "{colors.yellow.70}",
+            "$value": "{colors.yellow.60}",
             "$description": "Used to indicate that the user needs to pay attention."
           }
         },
         "border": {
           "default": {
             "$type": "color",
-            "$value": "{colors.yellow.50}",
+            "$value": "{colors.yellow.40}",
             "$description": "Used for primary borders or dividers indicating alert."
           },
           "low": {
             "$type": "color",
-            "$value": "{colors.yellow.10}",
+            "$value": "{colors.yellow.1}",
             "$description": "Used for secondary borders or dividers indicating alert."
           }
         },
@@ -316,12 +316,12 @@
           },
           "medium": {
             "$type": "color",
-            "$value": "{colors.yellow.50}",
+            "$value": "{colors.yellow.20}",
             "$description": "Tertiary background color is used for prominent semantics, generally for alert/warning."
           },
           "high": {
             "$type": "color",
-            "$value": "{colors.yellow.60}",
+            "$value": "{colors.yellow.30}",
             "$description": "Brand accent colors are frequently used on supporting main components, such as tags."
           }
         }
