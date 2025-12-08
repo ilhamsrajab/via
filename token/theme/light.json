@@ -230,26 +230,26 @@
         "icon": {
           "default": {
             "$type": "color",
-            "$value": "{colors.green.50}",
+            "$value": "{colors.green.60}",
             "$description": "Used for success icons and should be paired with text that conveys the same meaning."
           }
         },
         "text": {
           "default": {
             "$type": "color",
-            "$value": "{colors.green.60}",
+            "$value": "{colors.green.70}",
             "$description": "Used to indicate successful or positive outcomes."
           }
         },
         "border": {
           "default": {
             "$type": "color",
-            "$value": "{colors.green.40}",
+            "$value": "{colors.green.50}",
             "$description": "Used for primary borders or dividers indicating success."
           },
           "low": {
             "$type": "color",
-            "$value": "{colors.green.5}",
+            "$value": "{colors.green.10}",
             "$description": "Used for secondary borders or dividers indicating success."
           }
         },
@@ -266,12 +266,12 @@
           },
           "medium": {
             "$type": "color",
-            "$value": "{colors.green.20}",
+            "$value": "{colors.green.50}",
             "$description": "Tertiary background color is used for prominent semantics, such as success or positive meanings."
           },
           "high": {
             "$type": "color",
-            "$value": "{colors.green.40}",
+            "$value": "{colors.green.60}",
             "$description": "Brand accent colors are frequently used on supporting main components, such as tags."
           }
         }
