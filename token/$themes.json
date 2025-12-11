@@ -367,9 +367,6 @@
       "brand-elevation.shadow.high": "S:b07971a7f21a872f2b2e2dfd13e357c279dffb8e,"
     },
     "$figmaVariableReferences": {
-      "brand-font.font-family.default": "adf780ffec142134dcab5b3883ab39a67fb2e8ba",
-      "brand-font.font-family.serif": "506192ee5300b4561c631d11e7a234f27b632763",
-      "brand-font.font-family.mono": "160911a897343392f47a053d2a20f07fd6726188",
       "brand-colors.primary.1": "4aba330e790c13ee9cd1e4dab11515fa3a823e83",
       "brand-colors.primary.5": "164f04d11a16f701fb71085fb9f1000318096072",
       "brand-colors.primary.10": "3d1e6722d538765668594dee7af30828569dc907",
@@ -424,7 +421,10 @@
       "structure-size.button.container.min-height.small": "1a10d0f0df6ff000c997b678fdc2cf690612e00b",
       "structure-size.button.container.min-height.standard": "87e902f1d2d458da82846e8e2b58d6435d4c9b8e",
       "structure-size.button.container.min-width.small": "5731c534535a45b9e2453e7224aa55f00b337bb9",
-      "structure-size.button.container.min-width.standard": "fbfc0c8fa4a729d9ce2d3edd16da4d991171f76f"
+      "structure-size.button.container.min-width.standard": "fbfc0c8fa4a729d9ce2d3edd16da4d991171f76f",
+      "brand.font.family.heading": "adf780ffec142134dcab5b3883ab39a67fb2e8ba",
+      "brand.font.family.body": "506192ee5300b4561c631d11e7a234f27b632763",
+      "brand.font.family.code": "160911a897343392f47a053d2a20f07fd6726188"
     },
     "$figmaCollectionId": "VariableCollectionId:9759:3683",
     "$figmaModeId": "9759:5",
@@ -476,9 +476,6 @@
       "brand-colors.background.high": "S:ded719b50488d21ad99476583a61f477a803ad14,"
     },
     "$figmaVariableReferences": {
-      "brand-font.font-family.default": "adf780ffec142134dcab5b3883ab39a67fb2e8ba",
-      "brand-font.font-family.serif": "506192ee5300b4561c631d11e7a234f27b632763",
-      "brand-font.font-family.mono": "160911a897343392f47a053d2a20f07fd6726188",
       "brand-colors.primary.1": "4aba330e790c13ee9cd1e4dab11515fa3a823e83",
       "brand-colors.primary.5": "164f04d11a16f701fb71085fb9f1000318096072",
       "brand-colors.primary.10": "3d1e6722d538765668594dee7af30828569dc907",
@@ -533,7 +530,10 @@
       "structure-size.button.container.min-height.small": "1a10d0f0df6ff000c997b678fdc2cf690612e00b",
       "structure-size.button.container.min-height.standard": "87e902f1d2d458da82846e8e2b58d6435d4c9b8e",
       "structure-size.button.container.min-width.small": "5731c534535a45b9e2453e7224aa55f00b337bb9",
-      "structure-size.button.container.min-width.standard": "fbfc0c8fa4a729d9ce2d3edd16da4d991171f76f"
+      "structure-size.button.container.min-width.standard": "fbfc0c8fa4a729d9ce2d3edd16da4d991171f76f",
+      "brand.font.family.heading": "adf780ffec142134dcab5b3883ab39a67fb2e8ba",
+      "brand.font.family.body": "506192ee5300b4561c631d11e7a234f27b632763",
+      "brand.font.family.code": "160911a897343392f47a053d2a20f07fd6726188"
     },
     "$figmaCollectionId": "VariableCollectionId:9759:3683",
     "$figmaModeId": "9759:6",
@@ -585,9 +585,6 @@
       "brand-colors.background.high": "S:ded719b50488d21ad99476583a61f477a803ad14,"
     },
     "$figmaVariableReferences": {
-      "brand-font.font-family.default": "adf780ffec142134dcab5b3883ab39a67fb2e8ba",
-      "brand-font.font-family.serif": "506192ee5300b4561c631d11e7a234f27b632763",
-      "brand-font.font-family.mono": "160911a897343392f47a053d2a20f07fd6726188",
       "brand-colors.primary.1": "4aba330e790c13ee9cd1e4dab11515fa3a823e83",
       "brand-colors.primary.5": "164f04d11a16f701fb71085fb9f1000318096072",
       "brand-colors.primary.10": "3d1e6722d538765668594dee7af30828569dc907",
@@ -642,7 +639,10 @@
       "structure-size.button.container.min-height.small": "1a10d0f0df6ff000c997b678fdc2cf690612e00b",
       "structure-size.button.container.min-height.standard": "87e902f1d2d458da82846e8e2b58d6435d4c9b8e",
       "structure-size.button.container.min-width.small": "5731c534535a45b9e2453e7224aa55f00b337bb9",
-      "structure-size.button.container.min-width.standard": "fbfc0c8fa4a729d9ce2d3edd16da4d991171f76f"
+      "structure-size.button.container.min-width.standard": "fbfc0c8fa4a729d9ce2d3edd16da4d991171f76f",
+      "brand.font.family.heading": "adf780ffec142134dcab5b3883ab39a67fb2e8ba",
+      "brand.font.family.body": "506192ee5300b4561c631d11e7a234f27b632763",
+      "brand.font.family.code": "160911a897343392f47a053d2a20f07fd6726188"
     },
     "$figmaCollectionId": "VariableCollectionId:9759:3683",
     "$figmaModeId": "9759:7",
@@ -733,9 +733,6 @@
       "structure-elevation.navigation.item.active.brand": "S:b7e204a7a40c16473ff1acd3a7849b48307d1719,"
     },
     "$figmaVariableReferences": {
-      "brand-font.font-family.default": "adf780ffec142134dcab5b3883ab39a67fb2e8ba",
-      "brand-font.font-family.serif": "506192ee5300b4561c631d11e7a234f27b632763",
-      "brand-font.font-family.mono": "160911a897343392f47a053d2a20f07fd6726188",
       "brand-colors.primary.1": "4aba330e790c13ee9cd1e4dab11515fa3a823e83",
       "brand-colors.primary.5": "164f04d11a16f701fb71085fb9f1000318096072",
       "brand-colors.primary.10": "3d1e6722d538765668594dee7af30828569dc907",
@@ -790,7 +787,10 @@
       "structure-size.button.container.min-height.small": "1a10d0f0df6ff000c997b678fdc2cf690612e00b",
       "structure-size.button.container.min-height.standard": "87e902f1d2d458da82846e8e2b58d6435d4c9b8e",
       "structure-size.button.container.min-width.small": "5731c534535a45b9e2453e7224aa55f00b337bb9",
-      "structure-size.button.container.min-width.standard": "fbfc0c8fa4a729d9ce2d3edd16da4d991171f76f"
+      "structure-size.button.container.min-width.standard": "fbfc0c8fa4a729d9ce2d3edd16da4d991171f76f",
+      "brand.font.family.heading": "adf780ffec142134dcab5b3883ab39a67fb2e8ba",
+      "brand.font.family.body": "506192ee5300b4561c631d11e7a234f27b632763",
+      "brand.font.family.code": "160911a897343392f47a053d2a20f07fd6726188"
     },
     "$figmaCollectionId": "VariableCollectionId:9759:3683",
     "$figmaModeId": "9759:8",

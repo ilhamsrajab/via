@@ -108,19 +108,6 @@
           "description": "For headers in fine print or tight spaces. Use sparingly. "
         }
       },
-      "code": {
-        "value": {
-          "fontSize": "{font.size.12}",
-          "textCase": "{text.transform.none}",
-          "fontFamily": "{brand.font.family.code}",
-          "fontWeight": "{font.weight.normal}",
-          "lineHeight": "{line.height.20}",
-          "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{text.decoration.none}"
-        },
-        "type": "typography",
-        "description": "For overlapping brand with app promotions, such as marketplace content. "
-      },
       "body": {
         "large": {
           "regular": {
@@ -245,6 +232,19 @@
             "description": "Use in secondary level content such as fine print or semantic messaging. Use sparingly. "
           }
         }
+      },
+      "code": {
+        "value": {
+          "fontSize": "{font.size.12}",
+          "textCase": "{text.transform.none}",
+          "fontFamily": "{brand.font.family.code}",
+          "fontWeight": "{font.weight.normal}",
+          "lineHeight": "{line.height.20}",
+          "letterSpacing": "{tracking.normal}",
+          "textDecoration": "{text.decoration.none}"
+        },
+        "type": "typography",
+        "description": "For representing code only, either inline or in code blocks."
       }
     }
   },
