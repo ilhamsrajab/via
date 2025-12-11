@@ -2,174 +2,174 @@
   "brand-font": {
     "font-family": {
       "default": {
-        "$type": "fontFamilies",
-        "$value": "Onest"
+        "value": "Onest",
+        "type": "fontFamilies"
       },
       "serif": {
-        "$type": "fontFamilies",
-        "$value": "Georgia"
+        "value": "Georgia",
+        "type": "fontFamilies"
       },
       "mono": {
-        "$type": "fontFamilies",
-        "$value": "Menlo"
+        "value": "Menlo",
+        "type": "fontFamilies"
       }
     }
   },
   "brand-colors": {
     "primary": {
       "1": {
-        "$type": "color",
-        "$value": "#e8effa"
+        "value": "#e8effa",
+        "type": "color"
       },
       "5": {
-        "$type": "color",
-        "$value": "#dfe8f9"
+        "value": "#dfe8f9",
+        "type": "color"
       },
       "10": {
-        "$type": "color",
-        "$value": "#cbdbf9"
+        "value": "#cbdbf9",
+        "type": "color"
       },
       "20": {
-        "$type": "color",
-        "$value": "#b8cef8"
+        "value": "#b8cef8",
+        "type": "color"
       },
       "30": {
-        "$type": "color",
-        "$value": "#a4c1f9"
+        "value": "#a4c1f9",
+        "type": "color"
       },
       "40": {
-        "$type": "color",
-        "$value": "#8ab1fa"
+        "value": "#8ab1fa",
+        "type": "color"
       },
       "50": {
-        "$type": "color",
-        "$value": "#4e86f7"
+        "value": "#4e86f7",
+        "type": "color"
       },
       "60": {
-        "$type": "color",
-        "$value": "#1c62f5"
+        "value": "#1c62f5",
+        "type": "color"
       },
       "70": {
-        "$type": "color",
-        "$value": "#0e52e1"
+        "value": "#0e52e1",
+        "type": "color"
       },
       "80": {
-        "$type": "color",
-        "$value": "#0a48ca"
+        "value": "#0a48ca",
+        "type": "color"
       },
       "90": {
-        "$type": "color",
-        "$value": "#083fb2"
+        "value": "#083fb2",
+        "type": "color"
       },
       "95": {
-        "$type": "color",
-        "$value": "#06369c"
+        "value": "#06369c",
+        "type": "color"
       },
       "99": {
-        "$type": "color",
-        "$value": "#053190"
+        "value": "#053190",
+        "type": "color"
       }
     },
     "accent": {
       "1": {
-        "$type": "color",
-        "$value": "#fbecdb"
+        "value": "#fbecdb",
+        "type": "color"
       },
       "5": {
-        "$type": "color",
-        "$value": "#fbe4ca"
+        "value": "#fbe4ca",
+        "type": "color"
       },
       "10": {
-        "$type": "color",
-        "$value": "#fad3a7"
+        "value": "#fad3a7",
+        "type": "color"
       },
       "20": {
-        "$type": "color",
-        "$value": "#fbc17d"
+        "value": "#fbc17d",
+        "type": "color"
       },
       "30": {
-        "$type": "color",
-        "$value": "#fcaf49"
+        "value": "#fcaf49",
+        "type": "color"
       },
       "40": {
-        "$type": "color",
-        "$value": "#f19c0a"
+        "value": "#f19c0a",
+        "type": "color"
       },
       "50": {
-        "$type": "color",
-        "$value": "#c07b07"
+        "value": "#c07b07",
+        "type": "color"
       },
       "60": {
-        "$type": "color",
-        "$value": "#9d6303"
+        "value": "#9d6303",
+        "type": "color"
       },
       "70": {
-        "$type": "color",
-        "$value": "#895603"
+        "value": "#895603",
+        "type": "color"
       },
       "80": {
-        "$type": "color",
-        "$value": "#7a4d04"
+        "value": "#7a4d04",
+        "type": "color"
       },
       "90": {
-        "$type": "color",
-        "$value": "#6c4302"
+        "value": "#6c4302",
+        "type": "color"
       },
       "95": {
-        "$type": "color",
-        "$value": "#5e3900"
+        "value": "#5e3900",
+        "type": "color"
       },
       "99": {
-        "$type": "color",
-        "$value": "#563501"
+        "value": "#563501",
+        "type": "color"
       }
     },
     "icon": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.60}"
+        "value": "{brand-colors.primary.60}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "text": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.70}"
+        "value": "{brand-colors.primary.70}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "border": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.50}"
+        "value": "{brand-colors.primary.50}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "background": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.60}"
+        "value": "{brand-colors.primary.60}",
+        "type": "color"
       },
       "low": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.1}"
+        "value": "{brand-colors.primary.1}",
+        "type": "color"
       },
       "medium": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.5}"
+        "value": "{brand-colors.primary.5}",
+        "type": "color"
       },
       "high": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.70}"
+        "value": "{brand-colors.primary.70}",
+        "type": "color"
       }
     }
   },
@@ -178,9 +178,9 @@
       "container": {
         "default": {
           "brand": {
-            "$type": "borderWidth",
-            "$value": "{border.width.none}",
-            "$description": "Brand-standard border thickness for action components such as buttons."
+            "value": "{border.width.none}",
+            "description": "Brand-standard border thickness for action components such as buttons.",
+            "type": "borderWidth"
           }
         }
       }
@@ -189,9 +189,9 @@
       "field": {
         "default": {
           "brand": {
-            "$type": "borderWidth",
-            "$value": "{border.width.1}",
-            "$description": "Input field border width ensuring visual consistency and brand balance."
+            "value": "{border.width.1}",
+            "description": "Input field border width ensuring visual consistency and brand balance.",
+            "type": "borderWidth"
           }
         }
       }
@@ -200,9 +200,9 @@
       "surface": {
         "default": {
           "brand": {
-            "$type": "borderWidth",
-            "$value": "{border.width.1}",
-            "$description": "Thin border for overlays or popups providing subtle definition without distraction."
+            "value": "{border.width.1}",
+            "description": "Thin border for overlays or popups providing subtle definition without distraction.",
+            "type": "borderWidth"
           }
         }
       }

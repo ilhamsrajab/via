@@ -1,8 +1,8 @@
 {
   "dimensions": {
     "base": {
-      "$type": "dimension",
-      "$value": "4px"
+      "value": "4px",
+      "type": "dimension"
     }
   }
 }

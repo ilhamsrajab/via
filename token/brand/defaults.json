@@ -2,24 +2,23 @@
   "brand-font": {
     "font-family": {
       "default": {
-        "$type": "fontFamilies",
-        "$value": "Plus Jakarta Sans"
+        "value": "Plus Jakarta Sans",
+        "type": "fontFamilies"
       },
       "serif": {
-        "$type": "fontFamilies",
-        "$value": "Georgia"
+        "value": "Georgia",
+        "type": "fontFamilies"
       },
       "mono": {
-        "$type": "fontFamilies",
-        "$value": "Menlo"
+        "value": "Menlo",
+        "type": "fontFamilies"
       }
     }
   },
   "brand-typography": {
     "headline": {
       "small": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font.size.24}",
           "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -28,11 +27,11 @@
           "letterSpacing": "{tracking.tight}",
           "textDecoration": "{text.decoration.none}"
         },
-        "$description": "Used for smaller subheadings or section headings."
+        "description": "Used for smaller subheadings or section headings.",
+        "type": "typography"
       },
       "medium": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font.size.32}",
           "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -41,11 +40,11 @@
           "letterSpacing": "{tracking.tight}",
           "textDecoration": "{text.decoration.none}"
         },
-        "$description": "Used for subheadings or section headings."
+        "description": "Used for subheadings or section headings.",
+        "type": "typography"
       },
       "large": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font.size.40}",
           "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -54,13 +53,13 @@
           "letterSpacing": "{tracking.tight}",
           "textDecoration": "{text.decoration.none}"
         },
-        "$description": "Used for the main heading of a page or section."
+        "description": "Used for the main heading of a page or section.",
+        "type": "typography"
       }
     },
     "title": {
       "small": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font.size.18}",
           "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -69,11 +68,11 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text.decoration.none}"
         },
-        "$description": "Used for secondary titles or headings."
+        "description": "Used for secondary titles or headings.",
+        "type": "typography"
       },
       "large": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font.size.20}",
           "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -82,13 +81,13 @@
           "letterSpacing": "{tracking.tight}",
           "textDecoration": "{text.decoration.none}"
         },
-        "$description": "Used for prominent titles."
+        "description": "Used for prominent titles.",
+        "type": "typography"
       }
     },
     "subtitle": {
       "small": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font.size.14}",
           "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -97,11 +96,11 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text.decoration.none}"
         },
-        "$description": " Used for smaller subtitles."
+        "description": " Used for smaller subtitles.",
+        "type": "typography"
       },
       "large": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font.size.16}",
           "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -110,13 +109,13 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text.decoration.none}"
         },
-        "$description": " Used for subtitles."
+        "description": " Used for subtitles.",
+        "type": "typography"
       }
     },
     "body": {
       "small": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font.size.14}",
           "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -125,11 +124,11 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text.decoration.none}"
         },
-        "$description": "Used for main body text."
+        "description": "Used for main body text.",
+        "type": "typography"
       },
       "large": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font.size.16}",
           "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -138,13 +137,13 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text.decoration.none}"
         },
-        "$description": "Used for emphasizing more prominent text than the main body."
+        "description": "Used for emphasizing more prominent text than the main body.",
+        "type": "typography"
       }
     },
     "label": {
       "default": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font.size.12}",
           "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -153,13 +152,13 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text.decoration.none}"
         },
-        "$description": "Used for labeling."
+        "description": "Used for labeling.",
+        "type": "typography"
       }
     },
     "caption": {
       "small": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font.size.10}",
           "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -168,11 +167,11 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text.decoration.none}"
         },
-        "$description": "Used for smaller captions or footnotes."
+        "description": "Used for smaller captions or footnotes.",
+        "type": "typography"
       },
       "large": {
-        "$type": "typography",
-        "$value": {
+        "value": {
           "fontSize": "{font.size.12}",
           "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
@@ -181,165 +180,166 @@
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text.decoration.none}"
         },
-        "$description": "Used for small captions."
+        "description": "Used for small captions.",
+        "type": "typography"
       }
     }
   },
   "brand-colors": {
     "primary": {
       "1": {
-        "$type": "color",
-        "$value": "{colors.lime.1}"
+        "value": "{colors.lime.1}",
+        "type": "color"
       },
       "5": {
-        "$type": "color",
-        "$value": "{colors.lime.5}"
+        "value": "{colors.lime.5}",
+        "type": "color"
       },
       "10": {
-        "$type": "color",
-        "$value": "{colors.lime.10}"
+        "value": "{colors.lime.10}",
+        "type": "color"
       },
       "20": {
-        "$type": "color",
-        "$value": "{colors.lime.20}"
+        "value": "{colors.lime.20}",
+        "type": "color"
       },
       "30": {
-        "$type": "color",
-        "$value": "{colors.lime.30}"
+        "value": "{colors.lime.30}",
+        "type": "color"
       },
       "40": {
-        "$type": "color",
-        "$value": "{colors.lime.40}"
+        "value": "{colors.lime.40}",
+        "type": "color"
       },
       "50": {
-        "$type": "color",
-        "$value": "{colors.lime.50}"
+        "value": "{colors.lime.50}",
+        "type": "color"
       },
       "60": {
-        "$type": "color",
-        "$value": "{colors.lime.60}"
+        "value": "{colors.lime.60}",
+        "type": "color"
       },
       "70": {
-        "$type": "color",
-        "$value": "{colors.lime.70}"
+        "value": "{colors.lime.70}",
+        "type": "color"
       },
       "80": {
-        "$type": "color",
-        "$value": "{colors.lime.80}"
+        "value": "{colors.lime.80}",
+        "type": "color"
       },
       "90": {
-        "$type": "color",
-        "$value": "{colors.lime.90}"
+        "value": "{colors.lime.90}",
+        "type": "color"
       },
       "95": {
-        "$type": "color",
-        "$value": "{colors.lime.95}"
+        "value": "{colors.lime.95}",
+        "type": "color"
       },
       "99": {
-        "$type": "color",
-        "$value": "{colors.lime.99}"
+        "value": "{colors.lime.99}",
+        "type": "color"
       }
     },
     "accent": {
       "1": {
-        "$type": "color",
-        "$value": "{colors.kuning.1}"
+        "value": "{colors.kuning.1}",
+        "type": "color"
       },
       "5": {
-        "$type": "color",
-        "$value": "{colors.kuning.5}"
+        "value": "{colors.kuning.5}",
+        "type": "color"
       },
       "10": {
-        "$type": "color",
-        "$value": "{colors.kuning.10}"
+        "value": "{colors.kuning.10}",
+        "type": "color"
       },
       "20": {
-        "$type": "color",
-        "$value": "{colors.kuning.20}"
+        "value": "{colors.kuning.20}",
+        "type": "color"
       },
       "30": {
-        "$type": "color",
-        "$value": "{colors.kuning.30}"
+        "value": "{colors.kuning.30}",
+        "type": "color"
       },
       "40": {
-        "$type": "color",
-        "$value": "{colors.kuning.40}"
+        "value": "{colors.kuning.40}",
+        "type": "color"
       },
       "50": {
-        "$type": "color",
-        "$value": "{colors.kuning.50}"
+        "value": "{colors.kuning.50}",
+        "type": "color"
       },
       "60": {
-        "$type": "color",
-        "$value": "{colors.kuning.60}"
+        "value": "{colors.kuning.60}",
+        "type": "color"
       },
       "70": {
-        "$type": "color",
-        "$value": "{colors.kuning.70}"
+        "value": "{colors.kuning.70}",
+        "type": "color"
       },
       "80": {
-        "$type": "color",
-        "$value": "{colors.kuning.80}"
+        "value": "{colors.kuning.80}",
+        "type": "color"
       },
       "90": {
-        "$type": "color",
-        "$value": "{colors.kuning.90}"
+        "value": "{colors.kuning.90}",
+        "type": "color"
       },
       "95": {
-        "$type": "color",
-        "$value": "{colors.kuning.95}"
+        "value": "{colors.kuning.95}",
+        "type": "color"
       },
       "99": {
-        "$type": "color",
-        "$value": "{colors.kuning.99}"
+        "value": "{colors.kuning.99}",
+        "type": "color"
       }
     },
     "icon": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.60}"
+        "value": "{brand-colors.primary.60}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "text": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.70}"
+        "value": "{brand-colors.primary.70}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "border": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.50}"
+        "value": "{brand-colors.primary.50}",
+        "type": "color"
       },
       "inverse": {
-        "$type": "color",
-        "$value": "{colors.gray.0}"
+        "value": "{colors.gray.0}",
+        "type": "color"
       }
     },
     "background": {
       "default": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.60}"
+        "value": "{brand-colors.primary.60}",
+        "type": "color"
       },
       "low": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.1}"
+        "value": "{brand-colors.primary.1}",
+        "type": "color"
       },
       "medium": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.5}"
+        "value": "{brand-colors.primary.5}",
+        "type": "color"
       },
       "high": {
-        "$type": "color",
-        "$value": "{brand-colors.primary.70}"
+        "value": "{brand-colors.primary.70}",
+        "type": "color"
       }
     }
   },
@@ -348,9 +348,9 @@
       "container": {
         "default": {
           "brand": {
-            "$type": "borderRadius",
-            "$value": "{radius.8}",
-            "$description": "Brand-aligned button radius that defines Via’s interactive shape personality."
+            "value": "{radius.8}",
+            "description": "Brand-aligned button radius that defines Via’s interactive shape personality.",
+            "type": "borderRadius"
           }
         }
       }
@@ -359,9 +359,9 @@
       "surface": {
         "default": {
           "subtle": {
-            "$type": "borderRadius",
-            "$value": "{radius.6}",
-            "$description": "Subtle radius for feedback components like badges and toasts."
+            "value": "{radius.6}",
+            "description": "Subtle radius for feedback components like badges and toasts.",
+            "type": "borderRadius"
           }
         }
       }
@@ -370,9 +370,9 @@
       "field": {
         "default": {
           "brand": {
-            "$type": "borderRadius",
-            "$value": "{radius.8}",
-            "$description": "Radius for input fields reflecting Via’s brand softness and accessibility standards."
+            "value": "{radius.8}",
+            "description": "Radius for input fields reflecting Via’s brand softness and accessibility standards.",
+            "type": "borderRadius"
           }
         }
       }
@@ -381,9 +381,9 @@
       "surface": {
         "default": {
           "brand": {
-            "$type": "borderRadius",
-            "$value": "{radius.8}",
-            "$description": "Rounded corners for modal and overlay surfaces for smoother brand expression."
+            "value": "{radius.8}",
+            "description": "Rounded corners for modal and overlay surfaces for smoother brand expression.",
+            "type": "borderRadius"
           }
         }
       }
@@ -392,9 +392,9 @@
       "item": {
         "default": {
           "brand": {
-            "$type": "borderRadius",
-            "$value": "{radius.6}",
-            "$description": "Slight rounding for navigation items to enhance spatial rhythm and focus."
+            "value": "{radius.6}",
+            "description": "Slight rounding for navigation items to enhance spatial rhythm and focus.",
+            "type": "borderRadius"
           }
         }
       }
@@ -405,9 +405,9 @@
       "container": {
         "default": {
           "brand": {
-            "$type": "borderWidth",
-            "$value": "{border.width.1}",
-            "$description": "Brand-standard border thickness for action components such as buttons."
+            "value": "{border.width.1}",
+            "description": "Brand-standard border thickness for action components such as buttons.",
+            "type": "borderWidth"
           }
         }
       }
@@ -416,9 +416,9 @@
       "field": {
         "default": {
           "brand": {
-            "$type": "borderWidth",
-            "$value": "{border.width.1}",
-            "$description": "Input field border width ensuring visual consistency and brand balance."
+            "value": "{border.width.1}",
+            "description": "Input field border width ensuring visual consistency and brand balance.",
+            "type": "borderWidth"
           }
         }
       }
@@ -427,9 +427,9 @@
       "surface": {
         "default": {
           "brand": {
-            "$type": "borderWidth",
-            "$value": "{border.width.1}",
-            "$description": "Thin border for overlays or popups providing subtle definition without distraction."
+            "value": "{border.width.1}",
+            "description": "Thin border for overlays or popups providing subtle definition without distraction.",
+            "type": "borderWidth"
           }
         }
       }
@@ -440,8 +440,7 @@
       "surface": {
         "default": {
           "flat": {
-            "$type": "boxShadow",
-            "$value": {
+            "value": {
               "x": "0",
               "y": "0",
               "blur": "0",
@@ -449,11 +448,11 @@
               "color": "{colors.gray.100}",
               "type": "dropShadow"
             },
-            "$description": "Tanpa bayangan. Digunakan untuk lapisan dasar seperti background atau konten statis."
+            "description": "Tanpa bayangan. Digunakan untuk lapisan dasar seperti background atau konten statis.",
+            "type": "boxShadow"
           },
           "raised": {
-            "$type": "boxShadow",
-            "$value": [
+            "value": [
               {
                 "x": "0",
                 "y": "1",
@@ -471,11 +470,11 @@
                 "type": "dropShadow"
               }
             ],
-            "$description": "Bayangan lembut dua lapis untuk permukaan utama seperti kartu atau container kecil."
+            "description": "Bayangan lembut dua lapis untuk permukaan utama seperti kartu atau container kecil.",
+            "type": "boxShadow"
           },
           "overlay": {
-            "$type": "boxShadow",
-            "$value": [
+            "value": [
               {
                 "x": "0",
                 "y": "4",
@@ -493,7 +492,8 @@
                 "type": "dropShadow"
               }
             ],
-            "$description": "Bayangan menengah untuk lapisan yang mengambang di atas permukaan lain, seperti dropdown atau popover."
+            "description": "Bayangan menengah untuk lapisan yang mengambang di atas permukaan lain, seperti dropdown atau popover.",
+            "type": "boxShadow"
           }
         }
       }
@@ -502,30 +502,30 @@
       "surface": {
         "default": {
           "brand": {
-            "$type": "boxShadow",
-            "$value": "{structure-elevation.global.surface.default.flat}",
-            "$description": "Bayangan tombol khas Via dalam keadaan normal (rest). Memberi kesan elevasi ringan dan interaktif."
+            "value": "{structure-elevation.global.surface.default.flat}",
+            "description": "Bayangan tombol khas Via dalam keadaan normal (rest). Memberi kesan elevasi ringan dan interaktif.",
+            "type": "boxShadow"
           }
         },
         "hover": {
           "brand": {
-            "$type": "boxShadow",
-            "$value": "{structure-elevation.global.surface.default.raised}",
-            "$description": "Bayangan yang sedikit lebih tinggi untuk tombol saat hover, menegaskan interaktivitas."
+            "value": "{structure-elevation.global.surface.default.raised}",
+            "description": "Bayangan yang sedikit lebih tinggi untuk tombol saat hover, menegaskan interaktivitas.",
+            "type": "boxShadow"
           }
         },
         "pressed": {
           "brand": {
-            "$type": "boxShadow",
-            "$value": "{structure-elevation.global.surface.default.raised}",
-            "$description": "Bayangan redup saat tombol ditekan, menciptakan ilusi 'menyentuh permukaan'."
+            "value": "{structure-elevation.global.surface.default.raised}",
+            "description": "Bayangan redup saat tombol ditekan, menciptakan ilusi 'menyentuh permukaan'.",
+            "type": "boxShadow"
           }
         },
         "focus": {
           "brand": {
-            "$type": "boxShadow",
-            "$value": "{structure-elevation.global.surface.default.raised}",
-            "$description": "Bayangan fokus dengan outline biru lembut untuk aksesibilitas dan visual feedback."
+            "value": "{structure-elevation.global.surface.default.raised}",
+            "description": "Bayangan fokus dengan outline biru lembut untuk aksesibilitas dan visual feedback.",
+            "type": "boxShadow"
           }
         }
       }
@@ -534,14 +534,14 @@
       "surface": {
         "default": {
           "brand": {
-            "$type": "boxShadow",
-            "$value": "{structure-elevation.global.surface.default.overlay}",
-            "$description": "Bayangan dalam dan lebar untuk modal, dialog, dan overlay utama."
+            "value": "{structure-elevation.global.surface.default.overlay}",
+            "description": "Bayangan dalam dan lebar untuk modal, dialog, dan overlay utama.",
+            "type": "boxShadow"
           },
           "subtle": {
-            "$type": "boxShadow",
-            "$value": "{structure-elevation.global.surface.default.flat}",
-            "$description": "Bayangan ringan untuk overlay kecil seperti tooltip dan popover."
+            "value": "{structure-elevation.global.surface.default.flat}",
+            "description": "Bayangan ringan untuk overlay kecil seperti tooltip dan popover.",
+            "type": "boxShadow"
           }
         }
       }
@@ -550,9 +550,9 @@
       "surface": {
         "default": {
           "brand": {
-            "$type": "boxShadow",
-            "$value": "0px 2px 6px rgba(0, 0, 0, 0.06)",
-            "$description": "Bayangan lembut untuk komponen feedback (toast, badge) agar tetap terlihat ringan dan tidak mendominasi."
+            "value": "0px 2px 6px rgba(0, 0, 0, 0.06)",
+            "description": "Bayangan lembut untuk komponen feedback (toast, badge) agar tetap terlihat ringan dan tidak mendominasi.",
+            "type": "boxShadow"
           }
         }
       }
@@ -561,9 +561,9 @@
       "field": {
         "focus": {
           "brand": {
-            "$type": "boxShadow",
-            "$value": "{structure-elevation.global.surface.default.raised}",
-            "$description": "Outline shadow fokus untuk bidang input, membantu pengguna melihat elemen aktif."
+            "value": "{structure-elevation.global.surface.default.raised}",
+            "description": "Outline shadow fokus untuk bidang input, membantu pengguna melihat elemen aktif.",
+            "type": "boxShadow"
           }
         }
       }
@@ -572,16 +572,16 @@
       "item": {
         "default": {
           "brand": {
-            "$type": "boxShadow",
-            "$value": "{structure-elevation.global.surface.default.flat}",
-            "$description": "Bayangan ringan untuk item navigasi atau tab, memberi kesan hierarki yang lembut."
+            "value": "{structure-elevation.global.surface.default.flat}",
+            "description": "Bayangan ringan untuk item navigasi atau tab, memberi kesan hierarki yang lembut.",
+            "type": "boxShadow"
           }
         },
         "active": {
           "brand": {
-            "$type": "boxShadow",
-            "$value": "{structure-elevation.global.surface.default.flat}",
-            "$description": "Bayangan untuk item navigasi aktif agar terlihat lebih menonjol dari daftar lainnya."
+            "value": "{structure-elevation.global.surface.default.flat}",
+            "description": "Bayangan untuk item navigasi aktif agar terlihat lebih menonjol dari daftar lainnya.",
+            "type": "boxShadow"
           }
         }
       }
@@ -592,18 +592,18 @@
       "container": {
         "default": {
           "standard": {
-            "$type": "spacing",
-            "$value": "{dimensions.10} {dimensions.15}",
-            "$description": "Padding for brand-aligned action components (e.g., buttons)."
+            "value": "{dimensions.10} {dimensions.15}",
+            "description": "Padding for brand-aligned action components (e.g., buttons).",
+            "type": "spacing"
           }
         }
       },
       "container-small": {
         "default": {
           "standard": {
-            "$type": "spacing",
-            "$value": "{dimensions.7} {dimensions.10}",
-            "$description": "Padding for brand-aligned action components (e.g., buttons)."
+            "value": "{dimensions.7} {dimensions.10}",
+            "description": "Padding for brand-aligned action components (e.g., buttons).",
+            "type": "spacing"
           }
         }
       }
@@ -612,9 +612,9 @@
       "field": {
         "default": {
           "standard": {
-            "$type": "spacing",
-            "$value": "{dimensions.10} {dimensions.15}",
-            "$description": "Vertical spacing for form fields maintaining alignment and accessibility standards."
+            "value": "{dimensions.10} {dimensions.15}",
+            "description": "Vertical spacing for form fields maintaining alignment and accessibility standards.",
+            "type": "spacing"
           }
         }
       }
@@ -625,8 +625,8 @@
       "container": {
         "default": {
           "standard": {
-            "$type": "spacing",
-            "$value": "{dimensions.5}"
+            "value": "{dimensions.5}",
+            "type": "spacing"
           }
         }
       }
@@ -637,16 +637,16 @@
       "surface": {
         "disabled": {
           "standard": {
-            "$type": "opacity",
-            "$value": "{opacity.50}",
-            "$description": "Transparansi tinggi untuk menandai elemen aksi yang tidak aktif (disabled)."
+            "value": "{opacity.50}",
+            "description": "Transparansi tinggi untuk menandai elemen aksi yang tidak aktif (disabled).",
+            "type": "opacity"
           }
         },
         "default": {
           "standard": {
-            "$type": "opacity",
-            "$value": "{opacity.100}",
-            "$description": "Transparansi tinggi untuk menandai elemen aksi yang tidak aktif (disabled)."
+            "value": "{opacity.100}",
+            "description": "Transparansi tinggi untuk menandai elemen aksi yang tidak aktif (disabled).",
+            "type": "opacity"
           }
         }
       }
@@ -655,9 +655,9 @@
       "backdrop": {
         "default": {
           "standard": {
-            "$type": "opacity",
-            "$value": "{opacity.75}",
-            "$description": "Backdrop lebih gelap untuk modal atau dialog dengan fokus tinggi."
+            "value": "{opacity.75}",
+            "description": "Backdrop lebih gelap untuk modal atau dialog dengan fokus tinggi.",
+            "type": "opacity"
           }
         }
       }
@@ -666,16 +666,16 @@
       "item": {
         "inactive": {
           "standard": {
-            "$type": "opacity",
-            "$value": "60%",
-            "$description": "Opacity untuk item navigasi non-aktif agar tidak mendominasi tampilan."
+            "value": "60%",
+            "description": "Opacity untuk item navigasi non-aktif agar tidak mendominasi tampilan.",
+            "type": "opacity"
           }
         },
         "active": {
           "standard": {
-            "$type": "opacity",
-            "$value": "100%",
-            "$description": "Opacity penuh untuk navigasi aktif, mempertegas konteks posisi pengguna."
+            "value": "100%",
+            "description": "Opacity penuh untuk navigasi aktif, mempertegas konteks posisi pengguna.",
+            "type": "opacity"
           }
         }
       }
@@ -686,35 +686,35 @@
       "icon": {
         "default": {
           "standard": {
-            "$type": "sizing",
-            "$value": "{size.16}",
-            "$description": "Ukuran ikon kecil di dalam tombol kecil (small button). Cocok untuk toolbar atau UI kompak."
+            "value": "{size.16}",
+            "type": "sizing",
+            "description": "Ukuran ikon kecil di dalam tombol kecil (small button). Cocok untuk toolbar atau UI kompak."
           }
         }
       },
       "container": {
         "min-height": {
           "small": {
-            "$type": "sizing",
-            "$value": "{size.32}",
-            "$description": "Tinggi minimum untuk tombol kecil (small). Menyediakan area sentuh minimum yang tetap aksesibel."
+            "value": "{size.32}",
+            "type": "sizing",
+            "description": "Tinggi minimum untuk tombol kecil (small). Menyediakan area sentuh minimum yang tetap aksesibel."
           },
           "standard": {
-            "$type": "sizing",
-            "$value": "{size.xl}",
-            "$description": "Tinggi minimum tombol standar (default). Digunakan untuk mayoritas kasus UI."
+            "value": "{size.xl}",
+            "description": "Tinggi minimum tombol standar (default). Digunakan untuk mayoritas kasus UI.",
+            "type": "sizing"
           }
         },
         "min-width": {
           "small": {
-            "$type": "sizing",
-            "$value": "{size.4xl}",
-            "$description": "Lebar minimum tombol kecil agar teks tetap terbaca dan tidak terlalu sempit."
+            "value": "{size.4xl}",
+            "description": "Lebar minimum tombol kecil agar teks tetap terbaca dan tidak terlalu sempit.",
+            "type": "sizing"
           },
           "standard": {
-            "$type": "sizing",
-            "$value": "88px",
-            "$description": "Lebar minimum tombol standar, sesuai pedoman aksesibilitas."
+            "value": "88px",
+            "description": "Lebar minimum tombol standar, sesuai pedoman aksesibilitas.",
+            "type": "sizing"
           }
         }
       }
