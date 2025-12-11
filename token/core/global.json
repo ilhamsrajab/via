@@ -454,15 +454,15 @@
     },
     "family": {
       "heading": {
-        "value": "Inter",
+        "value": "Plus Jakarta Sans",
         "type": "fontFamilies"
       },
       "body": {
-        "value": "Inter",
+        "value": "Plus Jakarta Sans",
         "type": "fontFamilies"
       },
       "code": {
-        "value": "Menlo",
+        "value": "Geist Mono",
         "type": "fontFamilies"
       }
     }

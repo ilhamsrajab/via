@@ -1,187 +1,250 @@
 {
-  "brand-font": {
-    "font-family": {
-      "default": {
-        "value": "Plus Jakarta Sans",
-        "type": "fontFamilies"
+  "brand": {
+    "font": {
+      "family": {
+        "heading": {
+          "value": "{font.family.heading}",
+          "type": "fontFamilies"
+        },
+        "body": {
+          "value": "{font.family.body}",
+          "type": "fontFamilies"
+        },
+        "code": {
+          "value": "{font.family.code}",
+          "type": "fontFamilies"
+        }
       },
-      "serif": {
-        "value": "Georgia",
-        "type": "fontFamilies"
+      "heading": {
+        "xxlarge": {
+          "value": {
+            "fontSize": "{font.size.40}",
+            "textCase": "{text.transform.none}",
+            "fontFamily": "{brand.font.family.heading}",
+            "fontWeight": "{font.weight.bold}",
+            "lineHeight": "{line.height.150}",
+            "letterSpacing": "{tracking.tight}",
+            "textDecoration": "{text.decoration.none}"
+          },
+          "type": "typography",
+          "description": "For overlapping brand with app promotions, such as marketplace content. "
+        },
+        "xlarge": {
+          "value": {
+            "fontSize": "{font.size.32}",
+            "textCase": "{text.transform.none}",
+            "fontFamily": "{brand.font.family.heading}",
+            "fontWeight": "{font.weight.bold}",
+            "lineHeight": "{line.height.150}",
+            "letterSpacing": "{tracking.tight}",
+            "textDecoration": "{text.decoration.none}"
+          },
+          "type": "typography",
+          "description": "For overlapping brand with app promotions, such as marketplace content. "
+        },
+        "large": {
+          "value": {
+            "fontSize": "{font.size.24}",
+            "textCase": "{text.transform.none}",
+            "fontFamily": "{brand.font.family.heading}",
+            "fontWeight": "{font.weight.bold}",
+            "lineHeight": "{line.height.28}",
+            "letterSpacing": "{tracking.tight}",
+            "textDecoration": "{text.decoration.none}"
+          },
+          "type": "typography",
+          "description": "App page titles, such as forms."
+        },
+        "medium": {
+          "value": {
+            "fontSize": "{font.size.20}",
+            "textCase": "{text.transform.none}",
+            "fontFamily": "{brand.font.family.heading}",
+            "fontWeight": "{font.weight.bold}",
+            "lineHeight": "{line.height.24}",
+            "letterSpacing": "{tracking.tight}",
+            "textDecoration": "{text.decoration.none}"
+          },
+          "type": "typography",
+          "description": "Headers in large components, such as modal dialogs. "
+        },
+        "small": {
+          "value": {
+            "fontSize": "{font.size.16}",
+            "textCase": "{text.transform.none}",
+            "fontFamily": "{brand.font.family.heading}",
+            "fontWeight": "{font.weight.bold}",
+            "lineHeight": "{line.height.20}",
+            "letterSpacing": "{tracking.tight}",
+            "textDecoration": "{text.decoration.none}"
+          },
+          "type": "typography",
+          "description": "For headers in small components where space is limited."
+        },
+        "xsmall": {
+          "value": {
+            "fontSize": "{font.size.14}",
+            "textCase": "{text.transform.none}",
+            "fontFamily": "{brand.font.family.heading}",
+            "fontWeight": "{font.weight.bold}",
+            "lineHeight": "{line.height.20}",
+            "letterSpacing": "{tracking.tight}",
+            "textDecoration": "{text.decoration.none}"
+          },
+          "type": "typography",
+          "description": "For headers in small components where space is limited. "
+        },
+        "xxsmall": {
+          "value": {
+            "fontSize": "{font.size.12}",
+            "textCase": "{text.transform.none}",
+            "fontFamily": "{brand.font.family.heading}",
+            "fontWeight": "{font.weight.bold}",
+            "lineHeight": "{line.height.16}",
+            "letterSpacing": "{tracking.tight}",
+            "textDecoration": "{text.decoration.none}"
+          },
+          "type": "typography",
+          "description": "For headers in fine print or tight spaces. Use sparingly. "
+        }
       },
-      "mono": {
-        "value": "Menlo",
-        "type": "fontFamilies"
-      }
-    }
-  },
-  "brand-typography": {
-    "headline": {
-      "small": {
-        "value": {
-          "fontSize": "{font.size.24}",
-          "textCase": "{text.transform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font.weight.bold}",
-          "lineHeight": "{line.height.150}",
-          "letterSpacing": "{tracking.tight}",
-          "textDecoration": "{text.decoration.none}"
-        },
-        "description": "Used for smaller subheadings or section headings.",
-        "type": "typography"
-      },
-      "medium": {
-        "value": {
-          "fontSize": "{font.size.32}",
-          "textCase": "{text.transform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font.weight.bold}",
-          "lineHeight": "{line.height.150}",
-          "letterSpacing": "{tracking.tight}",
-          "textDecoration": "{text.decoration.none}"
-        },
-        "description": "Used for subheadings or section headings.",
-        "type": "typography"
-      },
-      "large": {
-        "value": {
-          "fontSize": "{font.size.40}",
-          "textCase": "{text.transform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font.weight.bold}",
-          "lineHeight": "{line.height.150}",
-          "letterSpacing": "{tracking.tight}",
-          "textDecoration": "{text.decoration.none}"
-        },
-        "description": "Used for the main heading of a page or section.",
-        "type": "typography"
-      }
-    },
-    "title": {
-      "small": {
-        "value": {
-          "fontSize": "{font.size.18}",
-          "textCase": "{text.transform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font.weight.semibold}",
-          "lineHeight": "{line.height.24}",
-          "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{text.decoration.none}"
-        },
-        "description": "Used for secondary titles or headings.",
-        "type": "typography"
-      },
-      "large": {
-        "value": {
-          "fontSize": "{font.size.20}",
-          "textCase": "{text.transform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font.weight.semibold}",
-          "lineHeight": "{line.height.24}",
-          "letterSpacing": "{tracking.tight}",
-          "textDecoration": "{text.decoration.none}"
-        },
-        "description": "Used for prominent titles.",
-        "type": "typography"
-      }
-    },
-    "subtitle": {
-      "small": {
-        "value": {
-          "fontSize": "{font.size.14}",
-          "textCase": "{text.transform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font.weight.semibold}",
-          "lineHeight": "{line.height.20}",
-          "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{text.decoration.none}"
-        },
-        "description": " Used for smaller subtitles.",
-        "type": "typography"
-      },
-      "large": {
-        "value": {
-          "fontSize": "{font.size.16}",
-          "textCase": "{text.transform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font.weight.semibold}",
-          "lineHeight": "{line.height.24}",
-          "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{text.decoration.none}"
-        },
-        "description": " Used for subtitles.",
-        "type": "typography"
-      }
-    },
-    "body": {
-      "small": {
-        "value": {
-          "fontSize": "{font.size.14}",
-          "textCase": "{text.transform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font.weight.normal}",
-          "lineHeight": "{line.height.20}",
-          "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{text.decoration.none}"
-        },
-        "description": "Used for main body text.",
-        "type": "typography"
-      },
-      "large": {
-        "value": {
-          "fontSize": "{font.size.16}",
-          "textCase": "{text.transform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font.weight.normal}",
-          "lineHeight": "{line.height.24}",
-          "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{text.decoration.none}"
-        },
-        "description": "Used for emphasizing more prominent text than the main body.",
-        "type": "typography"
-      }
-    },
-    "label": {
-      "default": {
+      "code": {
         "value": {
           "fontSize": "{font.size.12}",
           "textCase": "{text.transform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font.weight.medium}",
+          "fontFamily": "{brand.font.family.code}",
+          "fontWeight": "{font.weight.normal}",
           "lineHeight": "{line.height.20}",
           "letterSpacing": "{tracking.normal}",
           "textDecoration": "{text.decoration.none}"
         },
-        "description": "Used for labeling.",
-        "type": "typography"
-      }
-    },
-    "caption": {
-      "small": {
-        "value": {
-          "fontSize": "{font.size.10}",
-          "textCase": "{text.transform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font.weight.normal}",
-          "lineHeight": "{line.height.14}",
-          "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{text.decoration.none}"
-        },
-        "description": "Used for smaller captions or footnotes.",
-        "type": "typography"
+        "type": "typography",
+        "description": "For overlapping brand with app promotions, such as marketplace content. "
       },
-      "large": {
-        "value": {
-          "fontSize": "{font.size.12}",
-          "textCase": "{text.transform.none}",
-          "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font.weight.normal}",
-          "lineHeight": "{line.height.20}",
-          "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{text.decoration.none}"
+      "body": {
+        "large": {
+          "regular": {
+            "value": {
+              "fontSize": "{font.size.16}",
+              "textCase": "{text.transform.none}",
+              "fontFamily": "{brand.font.family.heading}",
+              "fontWeight": "{font.weight.normal}",
+              "lineHeight": "{line.height.24}",
+              "letterSpacing": "{tracking.normal}",
+              "textDecoration": "{text.decoration.none}"
+            },
+            "type": "typography",
+            "description": "For long-form text, such as in blogs."
+          },
+          "medium": {
+            "value": {
+              "fontSize": "{font.size.16}",
+              "textCase": "{text.transform.none}",
+              "fontFamily": "{brand.font.family.heading}",
+              "fontWeight": "{font.weight.medium}",
+              "lineHeight": "{line.height.24}",
+              "letterSpacing": "{tracking.normal}",
+              "textDecoration": "{text.decoration.none}"
+            },
+            "type": "typography",
+            "description": "For long-form text, such as in blogs."
+          },
+          "bold": {
+            "value": {
+              "fontSize": "{font.size.16}",
+              "textCase": "{text.transform.none}",
+              "fontFamily": "{brand.font.family.heading}",
+              "fontWeight": "{font.weight.bold}",
+              "lineHeight": "{line.height.24}",
+              "letterSpacing": "{tracking.normal}",
+              "textDecoration": "{text.decoration.none}"
+            },
+            "type": "typography",
+            "description": "For long-form text, such as in blogs."
+          }
         },
-        "description": "Used for small captions.",
-        "type": "typography"
+        "medium": {
+          "regular": {
+            "value": {
+              "fontSize": "{font.size.14}",
+              "textCase": "{text.transform.none}",
+              "fontFamily": "{brand.font.family.heading}",
+              "fontWeight": "{font.weight.normal}",
+              "lineHeight": "{line.height.20}",
+              "letterSpacing": "{tracking.normal}",
+              "textDecoration": "{text.decoration.none}"
+            },
+            "type": "typography",
+            "description": "Use in short descriptions or labels. The default size for text in components. "
+          },
+          "medium": {
+            "value": {
+              "fontSize": "{font.size.14}",
+              "textCase": "{text.transform.none}",
+              "fontFamily": "{brand.font.family.heading}",
+              "fontWeight": "{font.weight.medium}",
+              "lineHeight": "{line.height.20}",
+              "letterSpacing": "{tracking.normal}",
+              "textDecoration": "{text.decoration.none}"
+            },
+            "type": "typography",
+            "description": "Use in short descriptions or labels. The default size for text in components. "
+          },
+          "bold": {
+            "value": {
+              "fontSize": "{font.size.14}",
+              "textCase": "{text.transform.none}",
+              "fontFamily": "{brand.font.family.heading}",
+              "fontWeight": "{font.weight.bold}",
+              "lineHeight": "{line.height.20}",
+              "letterSpacing": "{tracking.normal}",
+              "textDecoration": "{text.decoration.none}"
+            },
+            "type": "typography",
+            "description": "Use in short descriptions or labels. The default size for text in components. "
+          }
+        },
+        "small": {
+          "regular": {
+            "value": {
+              "fontSize": "{font.size.12}",
+              "textCase": "{text.transform.none}",
+              "fontFamily": "{brand.font.family.heading}",
+              "fontWeight": "{font.weight.normal}",
+              "lineHeight": "{line.height.16}",
+              "letterSpacing": "{tracking.normal}",
+              "textDecoration": "{text.decoration.none}"
+            },
+            "type": "typography",
+            "description": "Use in secondary level content such as fine print or semantic messaging. Use sparingly. "
+          },
+          "medium": {
+            "value": {
+              "fontSize": "{font.size.12}",
+              "textCase": "{text.transform.none}",
+              "fontFamily": "{brand.font.family.heading}",
+              "fontWeight": "{font.weight.medium}",
+              "lineHeight": "{line.height.16}",
+              "letterSpacing": "{tracking.normal}",
+              "textDecoration": "{text.decoration.none}"
+            },
+            "type": "typography",
+            "description": "Use in secondary level content such as fine print or semantic messaging. Use sparingly. "
+          },
+          "bold": {
+            "value": {
+              "fontSize": "{font.size.12}",
+              "textCase": "{text.transform.none}",
+              "fontFamily": "{brand.font.family.heading}",
+              "fontWeight": "{font.weight.bold}",
+              "lineHeight": "{line.height.16}",
+              "letterSpacing": "{tracking.normal}",
+              "textDecoration": "{text.decoration.none}"
+            },
+            "type": "typography",
+            "description": "Use in secondary level content such as fine print or semantic messaging. Use sparingly. "
+          }
+        }
       }
     }
   },
