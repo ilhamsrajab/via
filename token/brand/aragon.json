@@ -19,55 +19,55 @@
     "primary": {
       "1": {
         "$type": "color",
-        "$value": "{colors.red.1}"
+        "$value": "{colors.merah.1}"
       },
       "5": {
         "$type": "color",
-        "$value": "{colors.red.5}"
+        "$value": "{colors.merah.5}"
       },
       "10": {
         "$type": "color",
-        "$value": "{colors.red.10}"
+        "$value": "{colors.merah.10}"
       },
       "20": {
         "$type": "color",
-        "$value": "{colors.red.20}"
+        "$value": "{colors.merah.20}"
       },
       "30": {
         "$type": "color",
-        "$value": "{colors.red.30}"
+        "$value": "{colors.merah.30}"
       },
       "40": {
         "$type": "color",
-        "$value": "{colors.red.40}"
+        "$value": "{colors.merah.40}"
       },
       "50": {
         "$type": "color",
-        "$value": "{colors.red.50}"
+        "$value": "{colors.merah.50}"
       },
       "60": {
         "$type": "color",
-        "$value": "{colors.red.60}"
+        "$value": "{colors.merah.60}"
       },
       "70": {
         "$type": "color",
-        "$value": "{colors.red.70}"
+        "$value": "{colors.merah.70}"
       },
       "80": {
         "$type": "color",
-        "$value": "{colors.red.80}"
+        "$value": "{colors.merah.80}"
       },
       "90": {
         "$type": "color",
-        "$value": "{colors.red.90}"
+        "$value": "{colors.merah.90}"
       },
       "95": {
         "$type": "color",
-        "$value": "{colors.red.95}"
+        "$value": "{colors.merah.95}"
       },
       "99": {
         "$type": "color",
-        "$value": "{colors.red.99}"
+        "$value": "{colors.merah.99}"
       }
     },
     "accent": {
@@ -179,7 +179,7 @@
         "default": {
           "brand": {
             "$type": "borderWidth",
-            "$value": "{dimensions.border-width.none}",
+            "$value": "{border.width.none}",
             "$description": "Brand-standard border thickness for action components such as buttons."
           }
         }
@@ -190,7 +190,7 @@
         "default": {
           "brand": {
             "$type": "borderWidth",
-            "$value": "{dimensions.border-width.s}",
+            "$value": "{border.width.1}",
             "$description": "Input field border width ensuring visual consistency and brand balance."
           }
         }
@@ -201,7 +201,7 @@
         "default": {
           "brand": {
             "$type": "borderWidth",
-            "$value": "{dimensions.border-width.s}",
+            "$value": "{border.width.1}",
             "$description": "Thin border for overlays or popups providing subtle definition without distraction."
           }
         }

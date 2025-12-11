@@ -62,7 +62,7 @@
         "$value": "#000000"
       }
     },
-    "red": {
+    "merah": {
       "1": {
         "$type": "color",
         "$value": "#fceae7"
@@ -116,7 +116,7 @@
         "$value": "#780204"
       }
     },
-    "yellow": {
+    "kuning": {
       "1": {
         "$type": "color",
         "$value": "#fceec5"
@@ -170,7 +170,7 @@
         "$value": "#612c00"
       }
     },
-    "green": {
+    "hijau": {
       "1": {
         "$type": "color",
         "$value": "#d2fbd9"
@@ -224,7 +224,7 @@
         "$value": "#064a1f"
       }
     },
-    "blue": {
+    "biru": {
       "1": {
         "$type": "color",
         "$value": "#e8effa"
@@ -359,222 +359,228 @@
       "$value": "0.1rem"
     }
   },
-  "font-size": {
-    "10": {
-      "$type": "fontSizes",
-      "$value": "10"
+  "font": {
+    "size": {
+      "10": {
+        "$type": "fontSizes",
+        "$value": "10"
+      },
+      "12": {
+        "$type": "fontSizes",
+        "$value": "12"
+      },
+      "14": {
+        "$type": "fontSizes",
+        "$value": "14"
+      },
+      "16": {
+        "$type": "fontSizes",
+        "$value": "16"
+      },
+      "18": {
+        "$type": "fontSizes",
+        "$value": "18"
+      },
+      "20": {
+        "$type": "fontSizes",
+        "$value": "20"
+      },
+      "24": {
+        "$type": "fontSizes",
+        "$value": "24"
+      },
+      "32": {
+        "$type": "fontSizes",
+        "$value": "32"
+      },
+      "40": {
+        "$type": "fontSizes",
+        "$value": "40"
+      },
+      "48": {
+        "$type": "fontSizes",
+        "$value": "48"
+      },
+      "56": {
+        "$type": "fontSizes",
+        "$value": "56"
+      },
+      "64": {
+        "$type": "fontSizes",
+        "$value": "64"
+      },
+      "96": {
+        "$type": "fontSizes",
+        "$value": "96"
+      }
     },
-    "12": {
-      "$type": "fontSizes",
-      "$value": "12"
+    "weight": {
+      "thin": {
+        "$type": "fontWeights",
+        "$value": "100"
+      },
+      "extralight": {
+        "$type": "fontWeights",
+        "$value": "200"
+      },
+      "light": {
+        "$type": "fontWeights",
+        "$value": "300"
+      },
+      "normal": {
+        "$type": "fontWeights",
+        "$value": "400"
+      },
+      "medium": {
+        "$type": "fontWeights",
+        "$value": "500"
+      },
+      "semibold": {
+        "$type": "fontWeights",
+        "$value": "600"
+      },
+      "bold": {
+        "$type": "fontWeights",
+        "$value": "700"
+      },
+      "extrabold": {
+        "$type": "fontWeights",
+        "$value": "800"
+      },
+      "black": {
+        "$type": "fontWeights",
+        "$value": "900"
+      }
     },
-    "14": {
-      "$type": "fontSizes",
-      "$value": "14"
-    },
-    "16": {
-      "$type": "fontSizes",
-      "$value": "16"
-    },
-    "18": {
-      "$type": "fontSizes",
-      "$value": "18"
-    },
-    "20": {
-      "$type": "fontSizes",
-      "$value": "20"
-    },
-    "24": {
-      "$type": "fontSizes",
-      "$value": "24"
-    },
-    "32": {
-      "$type": "fontSizes",
-      "$value": "32"
-    },
-    "40": {
-      "$type": "fontSizes",
-      "$value": "40"
-    },
-    "48": {
-      "$type": "fontSizes",
-      "$value": "48"
-    },
-    "56": {
-      "$type": "fontSizes",
-      "$value": "56"
-    },
-    "64": {
-      "$type": "fontSizes",
-      "$value": "64"
-    },
-    "96": {
-      "$type": "fontSizes",
-      "$value": "96"
+    "family": {
+      "heading": {
+        "$type": "fontFamilies",
+        "$value": "Inter"
+      },
+      "body": {
+        "$type": "fontFamilies",
+        "$value": "Inter"
+      },
+      "code": {
+        "$type": "fontFamilies",
+        "$value": "Menlo"
+      }
     }
   },
-  "font-weight": {
-    "thin": {
-      "$type": "fontWeights",
-      "$value": "100"
-    },
-    "extralight": {
-      "$type": "fontWeights",
-      "$value": "200"
-    },
-    "light": {
-      "$type": "fontWeights",
-      "$value": "300"
-    },
-    "normal": {
-      "$type": "fontWeights",
-      "$value": "400"
-    },
-    "medium": {
-      "$type": "fontWeights",
-      "$value": "500"
-    },
-    "semibold": {
-      "$type": "fontWeights",
-      "$value": "600"
-    },
-    "bold": {
-      "$type": "fontWeights",
-      "$value": "700"
-    },
-    "extrabold": {
-      "$type": "fontWeights",
-      "$value": "800"
-    },
-    "black": {
-      "$type": "fontWeights",
-      "$value": "900"
+  "line": {
+    "height": {
+      "14": {
+        "$type": "lineHeights",
+        "$value": "14px"
+      },
+      "16": {
+        "$type": "lineHeights",
+        "$value": "16px"
+      },
+      "18": {
+        "$type": "lineHeights",
+        "$value": "18px"
+      },
+      "20": {
+        "$type": "lineHeights",
+        "$value": "20px"
+      },
+      "22": {
+        "$type": "lineHeights",
+        "$value": "22px"
+      },
+      "24": {
+        "$type": "lineHeights",
+        "$value": "24px"
+      },
+      "28": {
+        "$type": "lineHeights",
+        "$value": "28px"
+      },
+      "32": {
+        "$type": "lineHeights",
+        "$value": "32px"
+      },
+      "48": {
+        "$type": "lineHeights",
+        "$value": "48px"
+      },
+      "100": {
+        "$type": "lineHeights",
+        "$value": "100%"
+      },
+      "150": {
+        "$type": "lineHeights",
+        "$value": "150%"
+      }
     }
   },
-  "line-height": {
-    "14": {
-      "$type": "lineHeights",
-      "$value": "14px"
+  "text": {
+    "transform": {
+      "none": {
+        "$type": "textCase",
+        "$value": "none"
+      },
+      "lowercase": {
+        "$type": "textCase",
+        "$value": "lowercase"
+      },
+      "uppercase": {
+        "$type": "textCase",
+        "$value": "uppercase"
+      },
+      "capitalize": {
+        "$type": "textCase",
+        "$value": "capitalize"
+      }
     },
-    "16": {
-      "$type": "lineHeights",
-      "$value": "16px"
-    },
-    "18": {
-      "$type": "lineHeights",
-      "$value": "18px"
-    },
-    "20": {
-      "$type": "lineHeights",
-      "$value": "20px"
-    },
-    "22": {
-      "$type": "lineHeights",
-      "$value": "22px"
-    },
-    "24": {
-      "$type": "lineHeights",
-      "$value": "24px"
-    },
-    "28": {
-      "$type": "lineHeights",
-      "$value": "28px"
-    },
-    "32": {
-      "$type": "lineHeights",
-      "$value": "32px"
-    },
-    "48": {
-      "$type": "lineHeights",
-      "$value": "48px"
-    },
-    "100": {
-      "$type": "lineHeights",
-      "$value": "100%"
-    },
-    "150": {
-      "$type": "lineHeights",
-      "$value": "150%"
-    }
-  },
-  "font-family": {
-    "default": {
-      "$type": "fontFamilies",
-      "$value": "Inter"
-    },
-    "serif": {
-      "$type": "fontFamilies",
-      "$value": "Georgia"
-    },
-    "mono": {
-      "$type": "fontFamilies",
-      "$value": "Menlo"
-    }
-  },
-  "text-transform": {
-    "none": {
-      "$type": "textCase",
-      "$value": "none"
-    },
-    "lowercase": {
-      "$type": "textCase",
-      "$value": "lowercase"
-    },
-    "uppercase": {
-      "$type": "textCase",
-      "$value": "uppercase"
-    },
-    "capitalize": {
-      "$type": "textCase",
-      "$value": "capitalize"
-    }
-  },
-  "text-decoration": {
-    "none": {
-      "$type": "textDecoration",
-      "$value": "none"
-    },
-    "underline": {
-      "$type": "textDecoration",
-      "$value": "underline"
-    },
-    "line-through": {
-      "$type": "textDecoration",
-      "$value": "line-through"
+    "decoration": {
+      "none": {
+        "$type": "textDecoration",
+        "$value": "none"
+      },
+      "underline": {
+        "$type": "textDecoration",
+        "$value": "underline"
+      },
+      "line-through": {
+        "$type": "textDecoration",
+        "$value": "line-through"
+      }
     }
   },
   "rotate": {
     "0": {
       "$type": "number",
-      "$value": 0
+      "$value": "0"
     },
     "30": {
       "$type": "number",
-      "$value": 30
+      "$value": "30"
     },
     "45": {
       "$type": "number",
-      "$value": 45
+      "$value": "45"
     },
     "90": {
       "$type": "number",
-      "$value": 90
+      "$value": "90"
     },
     "180": {
       "$type": "number",
-      "$value": 180
+      "$value": "180"
     },
     "270": {
       "$type": "number",
-      "$value": 270
+      "$value": "270"
     },
     "315": {
       "$type": "number",
-      "$value": 315
+      "$value": "315"
     },
     "330": {
       "$type": "number",
-      "$value": 330
+      "$value": "330"
     }
   },
   "opacity": {
@@ -664,192 +670,328 @@
     }
   },
   "dimensions": {
-    "fixed": {
-      "0": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.base} * 0"
-      },
+    "0": {
+      "$type": "dimension",
+      "$value": "{dimensions.base} * 0"
+    },
+    "1": {
+      "$type": "dimension",
+      "$value": "{dimensions.base} * 0.125"
+    },
+    "2": {
+      "$type": "dimension",
+      "$value": "{dimensions.base} * 0.25"
+    },
+    "5": {
+      "$type": "dimension",
+      "$value": "{dimensions.base} * 0.5"
+    },
+    "7": {
+      "$type": "dimension",
+      "$value": "{dimensions.base} * 0.75"
+    },
+    "10": {
+      "$type": "dimension",
+      "$value": "{dimensions.base} * 1"
+    },
+    "12": {
+      "$type": "dimension",
+      "$value": "{dimensions.base} * 1.25"
+    },
+    "15": {
+      "$type": "dimension",
+      "$value": "{dimensions.base} * 1.5"
+    },
+    "20": {
+      "$type": "dimension",
+      "$value": "{dimensions.base} * 2"
+    },
+    "25": {
+      "$type": "dimension",
+      "$value": "{dimensions.base} * 2.5"
+    },
+    "30": {
+      "$type": "dimension",
+      "$value": "{dimensions.base} * 3"
+    },
+    "40": {
+      "$type": "dimension",
+      "$value": "{dimensions.base} * 4"
+    },
+    "50": {
+      "$type": "dimension",
+      "$value": "{dimensions.base} * 5"
+    },
+    "60": {
+      "$type": "dimension",
+      "$value": "{dimensions.base} * 6"
+    },
+    "80": {
+      "$type": "dimension",
+      "$value": "{dimensions.base} * 8"
+    }
+  },
+  "size": {
+    "2": {
+      "$type": "sizing",
+      "$value": "2px"
+    },
+    "4": {
+      "$type": "sizing",
+      "$value": "4px"
+    },
+    "6": {
+      "$type": "sizing",
+      "$value": "6px"
+    },
+    "8": {
+      "$type": "sizing",
+      "$value": "8px"
+    },
+    "12": {
+      "$type": "sizing",
+      "$value": "12px"
+    },
+    "16": {
+      "$type": "sizing",
+      "$value": "16px"
+    },
+    "20": {
+      "$type": "sizing",
+      "$value": "20px"
+    },
+    "24": {
+      "$type": "sizing",
+      "$value": "24px"
+    },
+    "32": {
+      "$type": "sizing",
+      "$value": "32px"
+    },
+    "40": {
+      "$type": "sizing",
+      "$value": "40px"
+    },
+    "48": {
+      "$type": "sizing",
+      "$value": "48px"
+    },
+    "64": {
+      "$type": "sizing",
+      "$value": "64px"
+    }
+  },
+  "space": {
+    "1": {
+      "$type": "spacing",
+      "$value": "{dimensions.1}"
+    },
+    "2": {
+      "$type": "spacing",
+      "$value": "{dimensions.2}"
+    },
+    "4": {
+      "$type": "spacing",
+      "$value": "{dimensions.5}"
+    },
+    "6": {
+      "$type": "spacing",
+      "$value": "{dimensions.7}"
+    },
+    "8": {
+      "$type": "spacing",
+      "$value": "{dimensions.10}"
+    },
+    "10": {
+      "$type": "spacing",
+      "$value": "{dimensions.12}"
+    },
+    "12": {
+      "$type": "spacing",
+      "$value": "{dimensions.15}"
+    },
+    "16": {
+      "$type": "spacing",
+      "$value": "{dimensions.20}"
+    },
+    "20": {
+      "$type": "spacing",
+      "$value": "{dimensions.25}"
+    },
+    "24": {
+      "$type": "spacing",
+      "$value": "{dimensions.30}"
+    },
+    "32": {
+      "$type": "spacing",
+      "$value": "{dimensions.40}"
+    },
+    "40": {
+      "$type": "spacing",
+      "$value": "{dimensions.50}"
+    },
+    "48": {
+      "$type": "spacing",
+      "$value": "{dimensions.60}"
+    },
+    "64": {
+      "$type": "spacing",
+      "$value": "{dimensions.80}"
+    },
+    "none": {
+      "$type": "spacing",
+      "$value": "{dimensions.0}"
+    },
+    "negative": {
       "1": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.base} * 0.125"
+        "$type": "spacing",
+        "$value": "{dimensions.1} * -1"
       },
       "2": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.base} * 0.25"
+        "$type": "spacing",
+        "$value": "{dimensions.2} * -1"
       },
-      "5": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.base} * 0.5"
+      "4": {
+        "$type": "spacing",
+        "$value": "{dimensions.5} * -1"
       },
-      "7": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.base} * 0.75"
+      "6": {
+        "$type": "spacing",
+        "$value": "{dimensions.7} * -1"
+      },
+      "8": {
+        "$type": "spacing",
+        "$value": "{dimensions.10} * -1"
       },
       "10": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.base} * 1"
+        "$type": "spacing",
+        "$value": "{dimensions.12} * -1"
       },
       "12": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.base} * 1.25"
+        "$type": "spacing",
+        "$value": "{dimensions.15} * -1"
       },
-      "15": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.base} * 1.5"
+      "16": {
+        "$type": "spacing",
+        "$value": "{dimensions.20} * -1"
       },
       "20": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.base} * 2"
+        "$type": "spacing",
+        "$value": "{dimensions.25} * -1"
       },
-      "25": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.base} * 2.5"
+      "24": {
+        "$type": "spacing",
+        "$value": "{dimensions.30} * -1"
       },
-      "30": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.base} * 3"
+      "32": {
+        "$type": "spacing",
+        "$value": "{dimensions.40} * -1"
       },
       "40": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.base} * 4"
+        "$type": "spacing",
+        "$value": "{dimensions.50} * -1"
       },
-      "50": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.base} * 5"
+      "48": {
+        "$type": "spacing",
+        "$value": "{dimensions.60} * -1"
       },
-      "60": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.base} * 6"
-      },
-      "80": {
-        "$type": "dimension",
-        "$value": "{dimensions.fixed.base} * 8"
+      "64": {
+        "$type": "spacing",
+        "$value": "{dimensions.80} * -1"
       }
+    }
+  },
+  "radius": {
+    "2": {
+      "$type": "borderRadius",
+      "$value": "{dimensions.2}"
     },
-    "size": {
-      "xs": {
-        "$type": "sizing",
-        "$value": "12px"
-      },
-      "s": {
-        "$type": "sizing",
-        "$value": "16px"
-      },
-      "m": {
-        "$type": "sizing",
-        "$value": "24px"
-      },
-      "l": {
-        "$type": "sizing",
-        "$value": "32px"
-      },
-      "xl": {
-        "$type": "sizing",
-        "$value": "40px"
-      },
-      "2xl": {
-        "$type": "sizing",
-        "$value": "48px"
-      },
-      "3xl": {
-        "$type": "sizing",
-        "$value": "56px"
-      },
-      "4xl": {
-        "$type": "sizing",
-        "$value": "72px"
-      }
+    "4": {
+      "$type": "borderRadius",
+      "$value": "{dimensions.5}"
     },
-    "radius": {
-      "2xs": {
-        "$type": "borderRadius",
-        "$value": "{dimensions.fixed.2}"
-      },
-      "xs": {
-        "$type": "borderRadius",
-        "$value": "{dimensions.fixed.5}"
-      },
-      "s": {
-        "$type": "borderRadius",
-        "$value": "{dimensions.fixed.7}"
-      },
-      "m": {
-        "$type": "borderRadius",
-        "$value": "{dimensions.fixed.10}"
-      },
-      "l": {
-        "$type": "borderRadius",
-        "$value": "{dimensions.fixed.15}"
-      },
-      "xl": {
-        "$type": "borderRadius",
-        "$value": "{dimensions.fixed.20}"
-      },
-      "2xl": {
-        "$type": "borderRadius",
-        "$value": "{dimensions.fixed.25}"
-      },
-      "3xl": {
-        "$type": "borderRadius",
-        "$value": "{dimensions.fixed.30}"
-      },
-      "4xl": {
-        "$type": "borderRadius",
-        "$value": "{dimensions.fixed.40}"
-      },
-      "full": {
-        "$type": "borderRadius",
-        "$value": "9999"
-      },
-      "none": {
-        "$type": "borderRadius",
-        "$value": "{dimensions.fixed.0}"
-      }
+    "6": {
+      "$type": "borderRadius",
+      "$value": "{dimensions.7}"
     },
-    "screen": {
-      "xs": {
-        "$type": "sizing",
-        "$value": "320"
-      },
-      "s": {
-        "$type": "sizing",
-        "$value": "576"
-      },
-      "m": {
-        "$type": "sizing",
-        "$value": "768"
-      },
-      "l": {
-        "$type": "sizing",
-        "$value": "992"
-      },
-      "xl": {
-        "$type": "sizing",
-        "$value": "1248"
-      }
+    "8": {
+      "$type": "borderRadius",
+      "$value": "{dimensions.10}"
     },
-    "container": {
-      "width-xl": {
-        "$type": "sizing",
-        "$value": "1200"
-      }
+    "12": {
+      "$type": "borderRadius",
+      "$value": "{dimensions.15}"
     },
-    "border-width": {
-      "xs": {
-        "$type": "borderWidth",
-        "$value": "0.5px"
-      },
-      "s": {
+    "16": {
+      "$type": "borderRadius",
+      "$value": "{dimensions.20}"
+    },
+    "20": {
+      "$type": "borderRadius",
+      "$value": "{dimensions.25}"
+    },
+    "24": {
+      "$type": "borderRadius",
+      "$value": "{dimensions.30}"
+    },
+    "32": {
+      "$type": "borderRadius",
+      "$value": "{dimensions.40}"
+    },
+    "full": {
+      "$type": "borderRadius",
+      "$value": "50%"
+    },
+    "none": {
+      "$type": "borderRadius",
+      "$value": "{dimensions.0}"
+    }
+  },
+  "screen": {
+    "xsmall": {
+      "$type": "sizing",
+      "$value": "320"
+    },
+    "small": {
+      "$type": "sizing",
+      "$value": "576"
+    },
+    "medium": {
+      "$type": "sizing",
+      "$value": "768"
+    },
+    "large": {
+      "$type": "sizing",
+      "$value": "992"
+    },
+    "xlarge": {
+      "$type": "sizing",
+      "$value": "1248"
+    }
+  },
+  "container": {
+    "width-xl": {
+      "$type": "sizing",
+      "$value": "1200"
+    }
+  },
+  "border": {
+    "width": {
+      "1": {
         "$type": "borderWidth",
         "$value": "1px"
       },
-      "m": {
+      "2": {
         "$type": "borderWidth",
         "$value": "2px"
       },
-      "l": {
+      "4": {
         "$type": "borderWidth",
         "$value": "4px"
+      },
+      "05": {
+        "$type": "borderWidth",
+        "$value": "0.5px"
       },
       "none": {
         "$type": "borderWidth",

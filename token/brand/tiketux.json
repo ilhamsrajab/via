@@ -19,109 +19,109 @@
     "primary": {
       "1": {
         "$type": "color",
-        "$value": "oklch(95% 0.017 262.62)"
+        "$value": "#e8effa"
       },
       "5": {
         "$type": "color",
-        "$value": "oklch(93% 0.025 262.62)"
+        "$value": "#dfe8f9"
       },
       "10": {
         "$type": "color",
-        "$value": "oklch(89% 0.044 262.62)"
+        "$value": "#cbdbf9"
       },
       "20": {
         "$type": "color",
-        "$value": "oklch(85% 0.063 262.62)"
+        "$value": "#b8cef8"
       },
       "30": {
         "$type": "color",
-        "$value": "oklch(81% 0.085 262.62)"
+        "$value": "#a4c1f9"
       },
       "40": {
         "$type": "color",
-        "$value": "oklch(76% 0.114 262.62)"
+        "$value": "#8ab1fa"
       },
       "50": {
         "$type": "color",
-        "$value": "oklch(64% 0.179 262.62)"
+        "$value": "#4e86f7"
       },
       "60": {
         "$type": "color",
-        "$value": "oklch(55% 0.231 262.62)"
+        "$value": "#1c62f5"
       },
       "70": {
         "$type": "color",
-        "$value": "oklch(50% 0.226 262.62)"
+        "$value": "#0e52e1"
       },
       "80": {
         "$type": "color",
-        "$value": "oklch(46% 0.209 262.62)"
+        "$value": "#0a48ca"
       },
       "90": {
         "$type": "color",
-        "$value": "oklch(42% 0.19 262.62)"
+        "$value": "#083fb2"
       },
       "95": {
         "$type": "color",
-        "$value": "oklch(38% 0.172 262.62)"
+        "$value": "#06369c"
       },
       "99": {
         "$type": "color",
-        "$value": "oklch(36% 0.163 262.62)"
+        "$value": "#053190"
       }
     },
     "accent": {
       "1": {
         "$type": "color",
-        "$value": "oklch(95% 0.028 70.08)"
+        "$value": "#fbecdb"
       },
       "5": {
         "$type": "color",
-        "$value": "oklch(93% 0.042 70.08)"
+        "$value": "#fbe4ca"
       },
       "10": {
         "$type": "color",
-        "$value": "oklch(89% 0.073 70.08)"
+        "$value": "#fad3a7"
       },
       "20": {
         "$type": "color",
-        "$value": "oklch(85% 0.108 70.08)"
+        "$value": "#fbc17d"
       },
       "30": {
         "$type": "color",
-        "$value": "oklch(81% 0.146 70.08)"
+        "$value": "#fcaf49"
       },
       "40": {
         "$type": "color",
-        "$value": "oklch(76% 0.163 70.08)"
+        "$value": "#f19c0a"
       },
       "50": {
         "$type": "color",
-        "$value": "oklch(64% 0.137 70.08)"
+        "$value": "#c07b07"
       },
       "60": {
         "$type": "color",
-        "$value": "oklch(55% 0.118 70.08)"
+        "$value": "#9d6303"
       },
       "70": {
         "$type": "color",
-        "$value": "oklch(50% 0.107 70.08)"
+        "$value": "#895603"
       },
       "80": {
         "$type": "color",
-        "$value": "oklch(46% 0.098 70.08)"
+        "$value": "#7a4d04"
       },
       "90": {
         "$type": "color",
-        "$value": "oklch(42% 0.09 70.08)"
+        "$value": "#6c4302"
       },
       "95": {
         "$type": "color",
-        "$value": "oklch(38% 0.082 70.08)"
+        "$value": "#5e3900"
       },
       "99": {
         "$type": "color",
-        "$value": "oklch(36% 0.077 70.08)"
+        "$value": "#563501"
       }
     },
     "icon": {
@@ -179,7 +179,7 @@
         "default": {
           "brand": {
             "$type": "borderWidth",
-            "$value": "{dimensions.border-width.none}",
+            "$value": "{border.width.none}",
             "$description": "Brand-standard border thickness for action components such as buttons."
           }
         }
@@ -190,7 +190,7 @@
         "default": {
           "brand": {
             "$type": "borderWidth",
-            "$value": "{dimensions.border-width.s}",
+            "$value": "{border.width.1}",
             "$description": "Input field border width ensuring visual consistency and brand balance."
           }
         }
@@ -201,7 +201,7 @@
         "default": {
           "brand": {
             "$type": "borderWidth",
-            "$value": "{dimensions.border-width.s}",
+            "$value": "{border.width.1}",
             "$description": "Thin border for overlays or popups providing subtle definition without distraction."
           }
         }

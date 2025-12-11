@@ -130,48 +130,48 @@
         "icon": {
           "default": {
             "$type": "color",
-            "$value": "{colors.blue.50}",
+            "$value": "{colors.biru.50}",
             "$description": "Used for informative icons and should be paired with text that conveys the same meaning."
           }
         },
         "text": {
           "default": {
             "$type": "color",
-            "$value": "{colors.blue.40}",
+            "$value": "{colors.biru.40}",
             "$description": "Used to convey informative messages, link, etc."
           }
         },
         "border": {
           "default": {
             "$type": "color",
-            "$value": "{colors.blue.60}",
+            "$value": "{colors.biru.60}",
             "$description": "Used for primary borders or dividers indicating information."
           },
           "low": {
             "$type": "color",
-            "$value": "{colors.blue.95}",
+            "$value": "{colors.biru.95}",
             "$description": "Used for secondary borders or dividers indicating information."
           }
         },
         "background": {
           "default": {
             "$type": "color",
-            "$value": "{colors.blue.99}",
+            "$value": "{colors.biru.99}",
             "$description": "Primary background color for informative component."
           },
           "low": {
             "$type": "color",
-            "$value": "{colors.blue.95}",
+            "$value": "{colors.biru.95}",
             "$description": "Secondary background color is used when there is a need to emphasize specific semantics."
           },
           "medium": {
             "$type": "color",
-            "$value": "{colors.blue.60}",
+            "$value": "{colors.biru.60}",
             "$description": "Tertiary background color is used for prominent semantics, generally for selection, info, etc."
           },
           "high": {
             "$type": "color",
-            "$value": "{colors.blue.50}",
+            "$value": "{colors.biru.50}",
             "$description": "Brand color is exclusively reserved for Buttons and should be used sparingly for the most prominent object in the UI."
           }
         }
@@ -180,48 +180,48 @@
         "icon": {
           "default": {
             "$type": "color",
-            "$value": "{colors.red.50}",
+            "$value": "{colors.merah.50}",
             "$description": "Used for critical icons and should be paired with text that conveys the same meaning."
           }
         },
         "text": {
           "default": {
             "$type": "color",
-            "$value": "{colors.red.40}",
+            "$value": "{colors.merah.40}",
             "$description": "Used to indicate critical or potentially harmful situations."
           }
         },
         "border": {
           "default": {
             "$type": "color",
-            "$value": "{colors.red.60}",
+            "$value": "{colors.merah.60}",
             "$description": "Used for primary borders or dividers indicating critical."
           },
           "low": {
             "$type": "color",
-            "$value": "{colors.red.95}",
+            "$value": "{colors.merah.95}",
             "$description": "Used for secondary borders or dividers indicating critical."
           }
         },
         "background": {
           "default": {
             "$type": "color",
-            "$value": "{colors.red.99}",
+            "$value": "{colors.merah.99}",
             "$description": "Primary background color for critical component."
           },
           "low": {
             "$type": "color",
-            "$value": "{colors.red.95}",
+            "$value": "{colors.merah.95}",
             "$description": "Secondary background color for critical component."
           },
           "medium": {
             "$type": "color",
-            "$value": "{colors.red.60}",
+            "$value": "{colors.merah.60}",
             "$description": "Tertiary background color is used for prominent semantics, generally for negative/critical meanings, etc."
           },
           "high": {
             "$type": "color",
-            "$value": "{colors.red.50}",
+            "$value": "{colors.merah.50}",
             "$description": "Brand accent colors are frequently used on supporting main components, such as tags."
           }
         }
@@ -230,48 +230,48 @@
         "icon": {
           "default": {
             "$type": "color",
-            "$value": "{colors.green.50}",
+            "$value": "{colors.hijau.50}",
             "$description": "Used for success icons and should be paired with text that conveys the same meaning."
           }
         },
         "text": {
           "default": {
             "$type": "color",
-            "$value": "{colors.green.40}",
+            "$value": "{colors.hijau.40}",
             "$description": "Used to indicate successful or positive outcomes."
           }
         },
         "border": {
           "default": {
             "$type": "color",
-            "$value": "{colors.green.60}",
+            "$value": "{colors.hijau.60}",
             "$description": "Used for primary borders or dividers indicating success."
           },
           "low": {
             "$type": "color",
-            "$value": "{colors.green.95}",
+            "$value": "{colors.hijau.95}",
             "$description": "Used for secondary borders or dividers indicating success."
           }
         },
         "background": {
           "default": {
             "$type": "color",
-            "$value": "{colors.green.99}",
+            "$value": "{colors.hijau.99}",
             "$description": "Primary background color for positive outcomes."
           },
           "low": {
             "$type": "color",
-            "$value": "{colors.green.95}",
+            "$value": "{colors.hijau.95}",
             "$description": "Secondary background color for positive outcomes."
           },
           "medium": {
             "$type": "color",
-            "$value": "{colors.green.60}",
+            "$value": "{colors.hijau.60}",
             "$description": "Tertiary background color is used for prominent semantics, such as success or positive meanings."
           },
           "high": {
             "$type": "color",
-            "$value": "{colors.green.50}",
+            "$value": "{colors.hijau.50}",
             "$description": "Brand accent colors are frequently used on supporting main components, such as tags."
           }
         }
@@ -280,48 +280,48 @@
         "icon": {
           "default": {
             "$type": "color",
-            "$value": "{colors.yellow.50}",
+            "$value": "{colors.kuning.50}",
             "$description": "Used for alert icons and should be paired with text that conveys the same meaning."
           }
         },
         "text": {
           "default": {
             "$type": "color",
-            "$value": "{colors.yellow.40}",
+            "$value": "{colors.kuning.40}",
             "$description": "Used to indicate that the user needs to pay attention."
           }
         },
         "border": {
           "default": {
             "$type": "color",
-            "$value": "{colors.yellow.60}",
+            "$value": "{colors.kuning.60}",
             "$description": "Used for primary borders or dividers indicating alert."
           },
           "low": {
             "$type": "color",
-            "$value": "{colors.yellow.95}",
+            "$value": "{colors.kuning.95}",
             "$description": "Used for secondary borders or dividers indicating alert."
           }
         },
         "background": {
           "default": {
             "$type": "color",
-            "$value": "{colors.yellow.99}",
+            "$value": "{colors.kuning.99}",
             "$description": "Primary background color for alert component."
           },
           "low": {
             "$type": "color",
-            "$value": "{colors.yellow.95}",
+            "$value": "{colors.kuning.95}",
             "$description": "Secondary background color for alert component."
           },
           "medium": {
             "$type": "color",
-            "$value": "{colors.yellow.60}",
+            "$value": "{colors.kuning.60}",
             "$description": "Tertiary background color is used for prominent semantics, generally for alert/warning."
           },
           "high": {
             "$type": "color",
-            "$value": "{colors.yellow.50}",
+            "$value": "{colors.kuning.50}",
             "$description": "Brand accent colors are frequently used on supporting main components, such as tags."
           }
         }

@@ -20,39 +20,39 @@
       "small": {
         "$type": "typography",
         "$value": {
-          "fontSize": "{font-size.24}",
-          "textCase": "{text-transform.none}",
+          "fontSize": "{font.size.24}",
+          "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font-weight.bold}",
-          "lineHeight": "{line-height.150}",
+          "fontWeight": "{font.weight.bold}",
+          "lineHeight": "{line.height.150}",
           "letterSpacing": "{tracking.tight}",
-          "textDecoration": "{text-decoration.none}"
+          "textDecoration": "{text.decoration.none}"
         },
         "$description": "Used for smaller subheadings or section headings."
       },
       "medium": {
         "$type": "typography",
         "$value": {
-          "fontSize": "{font-size.32}",
-          "textCase": "{text-transform.none}",
+          "fontSize": "{font.size.32}",
+          "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font-weight.bold}",
-          "lineHeight": "{line-height.150}",
+          "fontWeight": "{font.weight.bold}",
+          "lineHeight": "{line.height.150}",
           "letterSpacing": "{tracking.tight}",
-          "textDecoration": "{text-decoration.none}"
+          "textDecoration": "{text.decoration.none}"
         },
         "$description": "Used for subheadings or section headings."
       },
       "large": {
         "$type": "typography",
         "$value": {
-          "fontSize": "{font-size.40}",
-          "textCase": "{text-transform.none}",
+          "fontSize": "{font.size.40}",
+          "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font-weight.bold}",
-          "lineHeight": "{line-height.150}",
+          "fontWeight": "{font.weight.bold}",
+          "lineHeight": "{line.height.150}",
           "letterSpacing": "{tracking.tight}",
-          "textDecoration": "{text-decoration.none}"
+          "textDecoration": "{text.decoration.none}"
         },
         "$description": "Used for the main heading of a page or section."
       }
@@ -61,26 +61,26 @@
       "small": {
         "$type": "typography",
         "$value": {
-          "fontSize": "{font-size.18}",
-          "textCase": "{text-transform.none}",
+          "fontSize": "{font.size.18}",
+          "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font-weight.semibold}",
-          "lineHeight": "{line-height.24}",
+          "fontWeight": "{font.weight.semibold}",
+          "lineHeight": "{line.height.24}",
           "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{text-decoration.none}"
+          "textDecoration": "{text.decoration.none}"
         },
         "$description": "Used for secondary titles or headings."
       },
       "large": {
         "$type": "typography",
         "$value": {
-          "fontSize": "{font-size.20}",
-          "textCase": "{text-transform.none}",
+          "fontSize": "{font.size.20}",
+          "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font-weight.semibold}",
-          "lineHeight": "{line-height.24}",
+          "fontWeight": "{font.weight.semibold}",
+          "lineHeight": "{line.height.24}",
           "letterSpacing": "{tracking.tight}",
-          "textDecoration": "{text-decoration.none}"
+          "textDecoration": "{text.decoration.none}"
         },
         "$description": "Used for prominent titles."
       }
@@ -89,26 +89,26 @@
       "small": {
         "$type": "typography",
         "$value": {
-          "fontSize": "{font-size.14}",
-          "textCase": "{text-transform.none}",
+          "fontSize": "{font.size.14}",
+          "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font-weight.semibold}",
-          "lineHeight": "{line-height.20}",
+          "fontWeight": "{font.weight.semibold}",
+          "lineHeight": "{line.height.20}",
           "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{text-decoration.none}"
+          "textDecoration": "{text.decoration.none}"
         },
         "$description": " Used for smaller subtitles."
       },
       "large": {
         "$type": "typography",
         "$value": {
-          "fontSize": "{font-size.16}",
-          "textCase": "{text-transform.none}",
+          "fontSize": "{font.size.16}",
+          "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font-weight.semibold}",
-          "lineHeight": "{line-height.24}",
+          "fontWeight": "{font.weight.semibold}",
+          "lineHeight": "{line.height.24}",
           "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{text-decoration.none}"
+          "textDecoration": "{text.decoration.none}"
         },
         "$description": " Used for subtitles."
       }
@@ -117,26 +117,26 @@
       "small": {
         "$type": "typography",
         "$value": {
-          "fontSize": "{font-size.14}",
-          "textCase": "{text-transform.none}",
+          "fontSize": "{font.size.14}",
+          "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font-weight.normal}",
-          "lineHeight": "{line-height.20}",
+          "fontWeight": "{font.weight.normal}",
+          "lineHeight": "{line.height.20}",
           "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{text-decoration.none}"
+          "textDecoration": "{text.decoration.none}"
         },
         "$description": "Used for main body text."
       },
       "large": {
         "$type": "typography",
         "$value": {
-          "fontSize": "{font-size.16}",
-          "textCase": "{text-transform.none}",
+          "fontSize": "{font.size.16}",
+          "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font-weight.normal}",
-          "lineHeight": "{line-height.24}",
+          "fontWeight": "{font.weight.normal}",
+          "lineHeight": "{line.height.24}",
           "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{text-decoration.none}"
+          "textDecoration": "{text.decoration.none}"
         },
         "$description": "Used for emphasizing more prominent text than the main body."
       }
@@ -145,13 +145,13 @@
       "default": {
         "$type": "typography",
         "$value": {
-          "fontSize": "{font-size.12}",
-          "textCase": "{text-transform.none}",
+          "fontSize": "{font.size.12}",
+          "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font-weight.medium}",
-          "lineHeight": "{line-height.20}",
+          "fontWeight": "{font.weight.medium}",
+          "lineHeight": "{line.height.20}",
           "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{text-decoration.none}"
+          "textDecoration": "{text.decoration.none}"
         },
         "$description": "Used for labeling."
       }
@@ -160,26 +160,26 @@
       "small": {
         "$type": "typography",
         "$value": {
-          "fontSize": "{font-size.10}",
-          "textCase": "{text-transform.none}",
+          "fontSize": "{font.size.10}",
+          "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font-weight.normal}",
-          "lineHeight": "{line-height.14}",
+          "fontWeight": "{font.weight.normal}",
+          "lineHeight": "{line.height.14}",
           "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{text-decoration.none}"
+          "textDecoration": "{text.decoration.none}"
         },
         "$description": "Used for smaller captions or footnotes."
       },
       "large": {
         "$type": "typography",
         "$value": {
-          "fontSize": "{font-size.12}",
-          "textCase": "{text-transform.none}",
+          "fontSize": "{font.size.12}",
+          "textCase": "{text.transform.none}",
           "fontFamily": "{brand-font.font-family.default}",
-          "fontWeight": "{font-weight.normal}",
-          "lineHeight": "{line-height.20}",
+          "fontWeight": "{font.weight.normal}",
+          "lineHeight": "{line.height.20}",
           "letterSpacing": "{tracking.normal}",
-          "textDecoration": "{text-decoration.none}"
+          "textDecoration": "{text.decoration.none}"
         },
         "$description": "Used for small captions."
       }
@@ -189,109 +189,109 @@
     "primary": {
       "1": {
         "$type": "color",
-        "$value": "oklch(98% 0.026 133.47)"
+        "$value": "{colors.lime.1}"
       },
       "5": {
         "$type": "color",
-        "$value": "oklch(91.5% 0.076 133.47)"
+        "$value": "{colors.lime.5}"
       },
       "10": {
         "$type": "color",
-        "$value": "oklch(85% 0.11 133.47)"
+        "$value": "{colors.lime.10}"
       },
       "20": {
         "$type": "color",
-        "$value": "oklch(78.5% 0.132 133.47)"
+        "$value": "{colors.lime.20}"
       },
       "30": {
         "$type": "color",
-        "$value": "oklch(71.5% 0.144 133.47)"
+        "$value": "{colors.lime.30}"
       },
       "40": {
         "$type": "color",
-        "$value": "oklch(65% 0.146 133.47)"
+        "$value": "{colors.lime.40}"
       },
       "50": {
         "$type": "color",
-        "$value": "oklch(58.5% 0.142 133.47)"
+        "$value": "{colors.lime.50}"
       },
       "60": {
         "$type": "color",
-        "$value": "oklch(52% 0.13 133.47)"
+        "$value": "{colors.lime.60}"
       },
       "70": {
         "$type": "color",
-        "$value": "oklch(45.5% 0.116 133.47)"
+        "$value": "{colors.lime.70}"
       },
       "80": {
         "$type": "color",
-        "$value": "oklch(39% 0.1 133.47)"
+        "$value": "{colors.lime.80}"
       },
       "90": {
         "$type": "color",
-        "$value": "oklch(32.5% 0.082 133.47)"
+        "$value": "{colors.lime.90}"
       },
       "95": {
         "$type": "color",
-        "$value": "oklch(26% 0.064 133.47)"
+        "$value": "{colors.lime.95}"
       },
       "99": {
         "$type": "color",
-        "$value": "oklch(19% 0.05 133.47)"
+        "$value": "{colors.lime.99}"
       }
     },
     "accent": {
       "1": {
         "$type": "color",
-        "$value": "{colors.yellow.1}"
+        "$value": "{colors.kuning.1}"
       },
       "5": {
         "$type": "color",
-        "$value": "{colors.yellow.5}"
+        "$value": "{colors.kuning.5}"
       },
       "10": {
         "$type": "color",
-        "$value": "{colors.yellow.10}"
+        "$value": "{colors.kuning.10}"
       },
       "20": {
         "$type": "color",
-        "$value": "{colors.yellow.20}"
+        "$value": "{colors.kuning.20}"
       },
       "30": {
         "$type": "color",
-        "$value": "{colors.yellow.30}"
+        "$value": "{colors.kuning.30}"
       },
       "40": {
         "$type": "color",
-        "$value": "{colors.yellow.40}"
+        "$value": "{colors.kuning.40}"
       },
       "50": {
         "$type": "color",
-        "$value": "{colors.yellow.50}"
+        "$value": "{colors.kuning.50}"
       },
       "60": {
         "$type": "color",
-        "$value": "{colors.yellow.60}"
+        "$value": "{colors.kuning.60}"
       },
       "70": {
         "$type": "color",
-        "$value": "{colors.yellow.70}"
+        "$value": "{colors.kuning.70}"
       },
       "80": {
         "$type": "color",
-        "$value": "{colors.yellow.80}"
+        "$value": "{colors.kuning.80}"
       },
       "90": {
         "$type": "color",
-        "$value": "{colors.yellow.90}"
+        "$value": "{colors.kuning.90}"
       },
       "95": {
         "$type": "color",
-        "$value": "{colors.yellow.95}"
+        "$value": "{colors.kuning.95}"
       },
       "99": {
         "$type": "color",
-        "$value": "{colors.yellow.99}"
+        "$value": "{colors.kuning.99}"
       }
     },
     "icon": {
@@ -349,7 +349,7 @@
         "default": {
           "brand": {
             "$type": "borderRadius",
-            "$value": "{dimensions.radius.m}",
+            "$value": "{radius.8}",
             "$description": "Brand-aligned button radius that defines Via’s interactive shape personality."
           }
         }
@@ -360,7 +360,7 @@
         "default": {
           "subtle": {
             "$type": "borderRadius",
-            "$value": "{dimensions.radius.s}",
+            "$value": "{radius.6}",
             "$description": "Subtle radius for feedback components like badges and toasts."
           }
         }
@@ -371,7 +371,7 @@
         "default": {
           "brand": {
             "$type": "borderRadius",
-            "$value": "{dimensions.radius.m}",
+            "$value": "{radius.8}",
             "$description": "Radius for input fields reflecting Via’s brand softness and accessibility standards."
           }
         }
@@ -382,7 +382,7 @@
         "default": {
           "brand": {
             "$type": "borderRadius",
-            "$value": "{dimensions.radius.m}",
+            "$value": "{radius.8}",
             "$description": "Rounded corners for modal and overlay surfaces for smoother brand expression."
           }
         }
@@ -393,7 +393,7 @@
         "default": {
           "brand": {
             "$type": "borderRadius",
-            "$value": "{dimensions.radius.s}",
+            "$value": "{radius.6}",
             "$description": "Slight rounding for navigation items to enhance spatial rhythm and focus."
           }
         }
@@ -406,7 +406,7 @@
         "default": {
           "brand": {
             "$type": "borderWidth",
-            "$value": "{dimensions.border-width.s}",
+            "$value": "{border.width.1}",
             "$description": "Brand-standard border thickness for action components such as buttons."
           }
         }
@@ -417,7 +417,7 @@
         "default": {
           "brand": {
             "$type": "borderWidth",
-            "$value": "{dimensions.border-width.s}",
+            "$value": "{border.width.1}",
             "$description": "Input field border width ensuring visual consistency and brand balance."
           }
         }
@@ -428,7 +428,7 @@
         "default": {
           "brand": {
             "$type": "borderWidth",
-            "$value": "{dimensions.border-width.s}",
+            "$value": "{border.width.1}",
             "$description": "Thin border for overlays or popups providing subtle definition without distraction."
           }
         }
@@ -593,7 +593,7 @@
         "default": {
           "standard": {
             "$type": "spacing",
-            "$value": "{dimensions.fixed.10} {dimensions.fixed.15}",
+            "$value": "{dimensions.10} {dimensions.15}",
             "$description": "Padding for brand-aligned action components (e.g., buttons)."
           }
         }
@@ -602,7 +602,7 @@
         "default": {
           "standard": {
             "$type": "spacing",
-            "$value": "{dimensions.fixed.7} {dimensions.fixed.10}",
+            "$value": "{dimensions.7} {dimensions.10}",
             "$description": "Padding for brand-aligned action components (e.g., buttons)."
           }
         }
@@ -613,7 +613,7 @@
         "default": {
           "standard": {
             "$type": "spacing",
-            "$value": "{dimensions.fixed.10} {dimensions.fixed.15}",
+            "$value": "{dimensions.10} {dimensions.15}",
             "$description": "Vertical spacing for form fields maintaining alignment and accessibility standards."
           }
         }
@@ -626,7 +626,7 @@
         "default": {
           "standard": {
             "$type": "spacing",
-            "$value": "{dimensions.fixed.5}"
+            "$value": "{dimensions.5}"
           }
         }
       }
@@ -682,41 +682,39 @@
     }
   },
   "structure-size": {
-    "action": {
-      "button": {
-        "icon": {
-          "default": {
-            "standard": {
-              "$type": "sizing",
-              "$value": "{dimensions.size.s}",
-              "$description": "Ukuran ikon kecil di dalam tombol kecil (small button). Cocok untuk toolbar atau UI kompak."
-            }
+    "button": {
+      "icon": {
+        "default": {
+          "standard": {
+            "$type": "sizing",
+            "$value": "{size.16}",
+            "$description": "Ukuran ikon kecil di dalam tombol kecil (small button). Cocok untuk toolbar atau UI kompak."
+          }
+        }
+      },
+      "container": {
+        "min-height": {
+          "small": {
+            "$type": "sizing",
+            "$value": "{size.32}",
+            "$description": "Tinggi minimum untuk tombol kecil (small). Menyediakan area sentuh minimum yang tetap aksesibel."
+          },
+          "standard": {
+            "$type": "sizing",
+            "$value": "{size.xl}",
+            "$description": "Tinggi minimum tombol standar (default). Digunakan untuk mayoritas kasus UI."
           }
         },
-        "container": {
-          "min-height": {
-            "small": {
-              "$type": "sizing",
-              "$value": "{dimensions.size.l}",
-              "$description": "Tinggi minimum untuk tombol kecil (small). Menyediakan area sentuh minimum yang tetap aksesibel."
-            },
-            "standard": {
-              "$type": "sizing",
-              "$value": "{dimensions.size.xl}",
-              "$description": "Tinggi minimum tombol standar (default). Digunakan untuk mayoritas kasus UI."
-            }
+        "min-width": {
+          "small": {
+            "$type": "sizing",
+            "$value": "{size.4xl}",
+            "$description": "Lebar minimum tombol kecil agar teks tetap terbaca dan tidak terlalu sempit."
           },
-          "min-width": {
-            "small": {
-              "$type": "sizing",
-              "$value": "{dimensions.size.4xl}",
-              "$description": "Lebar minimum tombol kecil agar teks tetap terbaca dan tidak terlalu sempit."
-            },
-            "standard": {
-              "$type": "sizing",
-              "$value": "88px",
-              "$description": "Lebar minimum tombol standar, sesuai pedoman aksesibilitas."
-            }
+          "standard": {
+            "$type": "sizing",
+            "$value": "88px",
+            "$description": "Lebar minimum tombol standar, sesuai pedoman aksesibilitas."
           }
         }
       }

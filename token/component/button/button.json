@@ -8,15 +8,15 @@
         },
         "icon-size": {
           "$type": "sizing",
-          "$value": "{structure-size.action.button.icon.default.standard}"
+          "$value": "{structure-size.button.icon.default.standard}"
         },
         "min-width": {
           "$type": "sizing",
-          "$value": "{structure-size.action.button.container.min-width.standard}"
+          "$value": "{structure-size.button.container.min-width.standard}"
         },
         "min-height": {
           "$type": "sizing",
-          "$value": "{structure-size.action.button.container.min-height.standard}"
+          "$value": "{structure-size.button.container.min-height.standard}"
         },
         "focus-ring": {
           "$type": "boxShadow",
@@ -45,7 +45,7 @@
         },
         "border-width-override": {
           "$type": "borderWidth",
-          "$value": "{dimensions.border-width.s}"
+          "$value": "{border.width.1}"
         },
         "radius": {
           "$type": "borderRadius",

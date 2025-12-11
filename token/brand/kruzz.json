@@ -179,7 +179,7 @@
         "default": {
           "brand": {
             "$type": "borderWidth",
-            "$value": "{dimensions.border-width.none}",
+            "$value": "{border.width.none}",
             "$description": "Brand-standard border thickness for action components such as buttons."
           }
         }
@@ -190,7 +190,7 @@
         "default": {
           "brand": {
             "$type": "borderWidth",
-            "$value": "{dimensions.border-width.s}",
+            "$value": "{border.width.1}",
             "$description": "Input field border width ensuring visual consistency and brand balance."
           }
         }
@@ -201,7 +201,7 @@
         "default": {
           "brand": {
             "$type": "borderWidth",
-            "$value": "{dimensions.border-width.s}",
+            "$value": "{border.width.1}",
             "$description": "Thin border for overlays or popups providing subtle definition without distraction."
           }
         }
