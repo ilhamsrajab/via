@@ -64,11 +64,11 @@
         "default": {
           "container": {
             "background-color": {
-              "value": "{brand-colors.background.default}",
+              "value": "{brand.color.background.default}",
               "type": "color"
             },
             "border-color": {
-              "value": "{brand-colors.border.default}",
+              "value": "{brand.color.border.default}",
               "type": "color"
             },
             "opacity": {
@@ -82,7 +82,7 @@
           },
           "label": {
             "color": {
-              "value": "{brand-colors.text.inverse}",
+              "value": "{brand.color.text.inverse}",
               "type": "color"
             },
             "text": {
@@ -92,7 +92,7 @@
           },
           "icon": {
             "color": {
-              "value": "{brand-colors.icon.inverse}",
+              "value": "{brand.color.icon.inverse}",
               "type": "color"
             }
           }
@@ -117,7 +117,7 @@
               "type": "color"
             },
             "border-color": {
-              "value": "{brand-colors.border.default}",
+              "value": "{brand.color.border.default}",
               "type": "color"
             }
           }
@@ -135,23 +135,23 @@
         "default": {
           "icon": {
             "color": {
-              "value": "{brand-colors.icon.default}",
+              "value": "{brand.color.icon.default}",
               "type": "color"
             }
           },
           "container": {
             "background-color": {
-              "value": "{brand-colors.background.low}",
+              "value": "{brand.color.background.low}",
               "type": "color"
             },
             "border-color": {
-              "value": "{brand-colors.border.default}",
+              "value": "{brand.color.border.default}",
               "type": "color"
             }
           },
           "label": {
             "color": {
-              "value": "{brand-colors.text.default}",
+              "value": "{brand.color.text.default}",
               "type": "color"
             }
           }
@@ -159,11 +159,11 @@
         "hover": {
           "container": {
             "background-color": {
-              "value": "{brand-colors.background.low}",
+              "value": "{brand.color.background.low}",
               "type": "color"
             },
             "border-color": {
-              "value": "{brand-colors.border.default}",
+              "value": "{brand.color.border.default}",
               "type": "color"
             }
           }
@@ -177,19 +177,19 @@
               "type": "color"
             },
             "border-color": {
-              "value": "{brand-colors.border.default}",
+              "value": "{brand.color.border.default}",
               "type": "color"
             }
           },
           "label": {
             "color": {
-              "value": "{brand-colors.text.default}",
+              "value": "{brand.color.text.default}",
               "type": "color"
             }
           },
           "icon": {
             "color": {
-              "value": "{brand-colors.icon.default}",
+              "value": "{brand.color.icon.default}",
               "type": "color"
             }
           }
@@ -197,11 +197,11 @@
         "hover": {
           "container": {
             "background-color": {
-              "value": "{brand-colors.background.low}",
+              "value": "{brand.color.background.low}",
               "type": "color"
             },
             "border-color": {
-              "value": "{brand-colors.border.default}",
+              "value": "{brand.color.border.default}",
               "type": "color"
             }
           }
@@ -215,19 +215,19 @@
               "type": "color"
             },
             "border-color": {
-              "value": "{brand-colors.border.inverse}",
+              "value": "{brand.color.border.inverse}",
               "type": "color"
             }
           },
           "label": {
             "color": {
-              "value": "{brand-colors.text.default}",
+              "value": "{brand.color.text.default}",
               "type": "color"
             }
           },
           "icon": {
             "color": {
-              "value": "{brand-colors.icon.default}",
+              "value": "{brand.color.icon.default}",
               "type": "color"
             }
           }
@@ -235,11 +235,11 @@
         "hover": {
           "container": {
             "background-color": {
-              "value": "{brand-colors.background.low}",
+              "value": "{brand.color.background.low}",
               "type": "color"
             },
             "border-color": {
-              "value": "{brand-colors.border.inverse}",
+              "value": "{brand.color.border.inverse}",
               "type": "color"
             }
           }

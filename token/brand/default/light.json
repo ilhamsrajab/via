@@ -246,163 +246,318 @@
         "type": "typography",
         "description": "For representing code only, either inline or in code blocks."
       }
+    },
+    "color": {
+      "primary": {
+        "1": {
+          "value": "{color.lime.1}",
+          "type": "color"
+        },
+        "5": {
+          "value": "{color.lime.5}",
+          "type": "color"
+        },
+        "10": {
+          "value": "{color.lime.10}",
+          "type": "color"
+        },
+        "20": {
+          "value": "{color.lime.20}",
+          "type": "color"
+        },
+        "30": {
+          "value": "{color.lime.30}",
+          "type": "color"
+        },
+        "40": {
+          "value": "{color.lime.40}",
+          "type": "color"
+        },
+        "50": {
+          "value": "{color.lime.50}",
+          "type": "color"
+        },
+        "60": {
+          "value": "{color.lime.60}",
+          "type": "color"
+        },
+        "70": {
+          "value": "{color.lime.70}",
+          "type": "color"
+        },
+        "80": {
+          "value": "{color.lime.80}",
+          "type": "color"
+        },
+        "90": {
+          "value": "{color.lime.90}",
+          "type": "color"
+        },
+        "95": {
+          "value": "{color.lime.95}",
+          "type": "color"
+        },
+        "99": {
+          "value": "{color.lime.99}",
+          "type": "color"
+        }
+      },
+      "accent": {
+        "1": {
+          "value": "{color.kuning.1}",
+          "type": "color"
+        },
+        "5": {
+          "value": "{color.kuning.5}",
+          "type": "color"
+        },
+        "10": {
+          "value": "{color.kuning.10}",
+          "type": "color"
+        },
+        "20": {
+          "value": "{color.kuning.20}",
+          "type": "color"
+        },
+        "30": {
+          "value": "{color.kuning.30}",
+          "type": "color"
+        },
+        "40": {
+          "value": "{color.kuning.40}",
+          "type": "color"
+        },
+        "50": {
+          "value": "{color.kuning.50}",
+          "type": "color"
+        },
+        "60": {
+          "value": "{color.kuning.60}",
+          "type": "color"
+        },
+        "70": {
+          "value": "{color.kuning.70}",
+          "type": "color"
+        },
+        "80": {
+          "value": "{color.kuning.80}",
+          "type": "color"
+        },
+        "90": {
+          "value": "{color.kuning.90}",
+          "type": "color"
+        },
+        "95": {
+          "value": "{color.kuning.95}",
+          "type": "color"
+        },
+        "99": {
+          "value": "{color.kuning.99}",
+          "type": "color"
+        }
+      },
+      "icon": {
+        "default": {
+          "value": "{brand.color.primary.60}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{color.netral.0}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "default": {
+          "value": "{color.netral.90}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{color.netral.0}",
+          "type": "color"
+        }
+      },
+      "border": {
+        "default": {
+          "value": "{brand.color.primary.50}",
+          "type": "color"
+        },
+        "inverse": {
+          "value": "{color.netral.0}",
+          "type": "color"
+        }
+      },
+      "background": {
+        "default": {
+          "value": "{brand.color.primary.60}",
+          "type": "color"
+        },
+        "low": {
+          "value": "{brand.color.primary.1}",
+          "type": "color"
+        },
+        "medium": {
+          "value": "{brand.color.primary.5}",
+          "type": "color"
+        },
+        "high": {
+          "value": "{brand.color.primary.70}",
+          "type": "color"
+        }
+      }
     }
   },
-  "brand-colors": {
-    "primary": {
-      "1": {
-        "value": "{colors.lime.1}",
-        "type": "color"
+  "color": {
+    "text": {
+      "default": {
+        "value": "{color.netral.90}",
+        "type": "color",
+        "description": "Use for primary text, such as body copy, sentence case headers, and buttons."
       },
-      "5": {
-        "value": "{colors.lime.5}",
-        "type": "color"
+      "subtle": {
+        "value": "{color.netral.70}",
+        "type": "color",
+        "description": "Use for secondary text, such as navigation, subtle button links, input field labels, and all caps subheadings."
       },
-      "10": {
-        "value": "{colors.lime.10}",
-        "type": "color"
+      "subtlest": {
+        "value": "{color.netral.60}",
+        "type": "color",
+        "description": "Use for tertiary text, such as meta-data, breadcrumbs, input field placeholder and helper text."
       },
-      "20": {
-        "value": "{colors.lime.20}",
-        "type": "color"
+      "disabled": {
+        "value": "{color.netral.40}",
+        "type": "color",
+        "description": "Use for text in a disabled state."
       },
-      "30": {
-        "value": "{colors.lime.30}",
-        "type": "color"
+      "inverse": {
+        "value": "{color.netral.0}",
+        "type": "color",
+        "description": "Use for text on bold backgrounds."
       },
-      "40": {
-        "value": "{colors.lime.40}",
-        "type": "color"
+      "brand": {
+        "value": "{brand.color.primary.60}",
+        "type": "color",
+        "description": "Use for text that reinforces our brand."
       },
-      "50": {
-        "value": "{colors.lime.50}",
-        "type": "color"
+      "danger": {
+        "value": "{color.merah.70}",
+        "type": "color",
+        "description": "Use for critical text, such as input field error messaging."
       },
-      "60": {
-        "value": "{colors.lime.60}",
-        "type": "color"
+      "warning": {
+        "value": "{color.kuning.70}",
+        "type": "color",
+        "description": "Use for text to emphasize caution, such as in moved lozenges."
       },
-      "70": {
-        "value": "{colors.lime.70}",
-        "type": "color"
+      "warning-inverse": {
+        "value": "{color.netral.90}",
+        "type": "color",
+        "description": "Use for text when on bold warning backgrounds."
       },
-      "80": {
-        "value": "{colors.lime.80}",
-        "type": "color"
+      "success": {
+        "value": "{color.hijau.70}",
+        "type": "color",
+        "description": "Use for text to communicate a favorable outcome, such as input field success messaging."
       },
-      "90": {
-        "value": "{colors.lime.90}",
-        "type": "color"
-      },
-      "95": {
-        "value": "{colors.lime.95}",
-        "type": "color"
-      },
-      "99": {
-        "value": "{colors.lime.99}",
-        "type": "color"
+      "info": {
+        "value": "{color.biru.70}",
+        "type": "color",
+        "description": "Use for informative text or to communicate something is in progress, such as in-progress lozenges."
       }
     },
-    "accent": {
-      "1": {
-        "value": "{colors.kuning.1}",
-        "type": "color"
+    "link": {
+      "default": {
+        "value": "{color.biru.70}",
+        "type": "color",
+        "description": "Use for links in a default or hovered state. Add an underline for hovered states."
       },
-      "5": {
-        "value": "{colors.kuning.5}",
-        "type": "color"
-      },
-      "10": {
-        "value": "{colors.kuning.10}",
-        "type": "color"
-      },
-      "20": {
-        "value": "{colors.kuning.20}",
-        "type": "color"
-      },
-      "30": {
-        "value": "{colors.kuning.30}",
-        "type": "color"
-      },
-      "40": {
-        "value": "{colors.kuning.40}",
-        "type": "color"
-      },
-      "50": {
-        "value": "{colors.kuning.50}",
-        "type": "color"
-      },
-      "60": {
-        "value": "{colors.kuning.60}",
-        "type": "color"
-      },
-      "70": {
-        "value": "{colors.kuning.70}",
-        "type": "color"
-      },
-      "80": {
-        "value": "{colors.kuning.80}",
-        "type": "color"
-      },
-      "90": {
-        "value": "{colors.kuning.90}",
-        "type": "color"
-      },
-      "95": {
-        "value": "{colors.kuning.95}",
-        "type": "color"
-      },
-      "99": {
-        "value": "{colors.kuning.99}",
-        "type": "color"
+      "pressed": {
+        "value": "{color.biru.80}",
+        "type": "color",
+        "description": "Use for links in a pressed state."
       }
     },
     "icon": {
       "default": {
-        "value": "{brand-colors.primary.60}",
-        "type": "color"
+        "value": "{color.netral.90}",
+        "type": "color",
+        "description": "Use for icon-only buttons, or icons paired with color.text"
+      },
+      "subtle": {
+        "value": "{color.netral.70}",
+        "type": "color",
+        "description": "Use for icons paired with color.text.subtle"
       },
       "inverse": {
-        "value": "{colors.gray.0}",
-        "type": "color"
-      }
-    },
-    "text": {
-      "default": {
-        "value": "{brand-colors.primary.70}",
-        "type": "color"
+        "value": "{color.netral.0}",
+        "type": "color",
+        "description": "Use for icons on bold backgrounds."
       },
-      "inverse": {
-        "value": "{colors.gray.0}",
-        "type": "color"
+      "disabled": {
+        "value": "{color.netral.40}",
+        "type": "color",
+        "description": "Use for icons in a disabled state."
+      },
+      "danger": {
+        "value": "{color.merah.60}",
+        "type": "color",
+        "description": "Use for icons communicating critical information, such as those used in error handing."
+      },
+      "warning": {
+        "value": "{color.kuning.60}",
+        "type": "color",
+        "description": "Use for icons communicating caution, such as those used in warning section messages."
+      },
+      "success": {
+        "value": "{color.hijau.60}",
+        "type": "color",
+        "description": "Use for icons communicating a favorable outcome, such as those used in success section messaged."
+      },
+      "info": {
+        "value": "{color.biru.60}",
+        "type": "color",
+        "description": "Use for icons communicating information or something in-progress, such as information section messages."
       }
     },
     "border": {
       "default": {
-        "value": "{brand-colors.primary.50}",
-        "type": "color"
+        "value": "{color.netral.90}",
+        "type": "color",
+        "description": "Use for icon-only buttons, or icons paired with color.text"
+      },
+      "subtle": {
+        "value": "{color.netral.70}",
+        "type": "color",
+        "description": "Use for icons paired with color.text.subtle"
       },
       "inverse": {
-        "value": "{colors.gray.0}",
-        "type": "color"
-      }
-    },
-    "background": {
-      "default": {
-        "value": "{brand-colors.primary.60}",
-        "type": "color"
+        "value": "{color.netral.0}",
+        "type": "color",
+        "description": "Use for icons on bold backgrounds."
       },
-      "low": {
-        "value": "{brand-colors.primary.1}",
-        "type": "color"
+      "disabled": {
+        "value": "{color.netral.40}",
+        "type": "color",
+        "description": "Use for icons in a disabled state."
       },
-      "medium": {
-        "value": "{brand-colors.primary.5}",
-        "type": "color"
+      "danger": {
+        "value": "{color.merah.60}",
+        "type": "color",
+        "description": "Use for icons communicating critical information, such as those used in error handing."
       },
-      "high": {
-        "value": "{brand-colors.primary.70}",
-        "type": "color"
+      "warning": {
+        "value": "{color.kuning.60}",
+        "type": "color",
+        "description": "Use for icons communicating caution, such as those used in warning section messages."
+      },
+      "success": {
+        "value": "{color.hijau.60}",
+        "type": "color",
+        "description": "Use for icons communicating a favorable outcome, such as those used in success section messaged."
+      },
+      "info": {
+        "value": "{color.biru.60}",
+        "type": "color",
+        "description": "Use for icons communicating information or something in-progress, such as information section messages."
       }
     }
   },
@@ -508,7 +663,7 @@
               "y": "0",
               "blur": "0",
               "spread": "0",
-              "color": "{colors.gray.100}",
+              "color": "{color.netral.100}",
               "type": "dropShadow"
             },
             "description": "Tanpa bayangan. Digunakan untuk lapisan dasar seperti background atau konten statis.",
