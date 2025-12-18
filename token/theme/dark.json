@@ -4,17 +4,17 @@
       "neutral": {
         "icon": {
           "default": {
-            "value": "{color.netral.40}",
+            "value": "{color.neutral.40}",
             "description": "Use for icon-only buttons, or icons paired with neutral.text.med",
             "type": "color"
           },
           "low": {
-            "value": "{color.netral.70}",
+            "value": "{color.neutral.70}",
             "description": "Use for icons paired with neutral.text.low",
             "type": "color"
           },
           "medium": {
-            "value": "{color.netral.40}",
+            "value": "{color.neutral.40}",
             "description": "Use for icons paired with neutral.text.medium",
             "type": "color"
           },
@@ -24,29 +24,29 @@
             "type": "color"
           },
           "disabled": {
-            "value": "{color.netral.60}",
+            "value": "{color.neutral.60}",
             "description": "Used for inactive or disabled icon.",
             "type": "color"
           },
           "inverse": {
-            "value": "{color.netral.95}",
+            "value": "{color.neutral.95}",
             "description": "Used for icon on dark or colored backgrounds.",
             "type": "color"
           },
           "inverse-disabled": {
-            "value": "{color.netral.90}",
+            "value": "{color.neutral.90}",
             "description": "Used for disabled icon on dark or colored backgrounds.",
             "type": "color"
           }
         },
         "text": {
           "low": {
-            "value": "{color.netral.70}",
+            "value": "{color.neutral.70}",
             "description": "Used for trivial information and should be used sparingly.",
             "type": "color"
           },
           "medium": {
-            "value": "{color.netral.40}",
+            "value": "{color.neutral.40}",
             "description": "Commonly used for body text or any other content.",
             "type": "color"
           },
@@ -56,34 +56,34 @@
             "type": "color"
           },
           "disabled": {
-            "value": "{color.netral.60}",
+            "value": "{color.neutral.60}",
             "description": "Used for inactive or disabled text.",
             "type": "color"
           },
           "inverse": {
-            "value": "{color.netral.95}",
+            "value": "{color.neutral.95}",
             "description": "Used for typography on dark or colored backgrounds.",
             "type": "color"
           },
           "inverse-disabled": {
-            "value": "{color.netral.90}",
+            "value": "{color.neutral.90}",
             "description": "Used for disabled text on dark or colored backgrounds.",
             "type": "color"
           }
         },
         "border": {
           "default": {
-            "value": "{color.netral.80}",
+            "value": "{color.neutral.80}",
             "description": "The primary choice is used for for clickable items.",
             "type": "color"
           },
           "low": {
-            "value": "{color.netral.95}",
+            "value": "{color.neutral.95}",
             "description": "Used for trivial items or secondary dividers.",
             "type": "color"
           },
           "medium": {
-            "value": "{color.netral.90}",
+            "value": "{color.neutral.90}",
             "description": "The secondary choice is used for grouping items or dividers.",
             "type": "color"
           },
@@ -93,7 +93,7 @@
             "type": "color"
           },
           "inverse": {
-            "value": "{color.netral.95}",
+            "value": "{color.neutral.95}",
             "description": "Used for border on dark or colored backgrounds.",
             "type": "color"
           }
@@ -105,22 +105,22 @@
             "type": "color"
           },
           "low": {
-            "value": "{color.netral.95}",
+            "value": "{color.neutral.95}",
             "description": "Secondary background color for components that require a lower visual weight.",
             "type": "color"
           },
           "medium": {
-            "value": "{color.netral.95}",
+            "value": "{color.neutral.95}",
             "description": "Tertiary background color, generally used for clickable objects on a white background, such as text fields, etc.",
             "type": "color"
           },
           "high": {
-            "value": "{color.netral.10}",
+            "value": "{color.neutral.10}",
             "description": "High contrast and used for the prominent background color.",
             "type": "color"
           },
           "disabled": {
-            "value": "{color.netral.90}",
+            "value": "{color.neutral.90}",
             "description": "Inactive or unavailable component background color.",
             "type": "color"
           }
@@ -129,21 +129,21 @@
       "info": {
         "icon": {
           "default": {
-            "value": "{color.biru.50}",
+            "value": "{color.blue.50}",
             "description": "Used for informative icons and should be paired with text that conveys the same meaning.",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{color.biru.40}",
+            "value": "{color.blue.40}",
             "description": "Used to convey informative messages, link, etc.",
             "type": "color"
           }
         },
         "border": {
           "default": {
-            "value": "{color.biru.60}",
+            "value": "{color.blue.60}",
             "description": "Used for primary borders or dividers indicating information.",
             "type": "color"
           },
@@ -165,12 +165,12 @@
             "type": "color"
           },
           "medium": {
-            "value": "{color.biru.60}",
+            "value": "{color.blue.60}",
             "description": "Tertiary background color is used for prominent semantics, generally for selection, info, etc.",
             "type": "color"
           },
           "high": {
-            "value": "{color.biru.50}",
+            "value": "{color.blue.50}",
             "description": "Brand color is exclusively reserved for Buttons and should be used sparingly for the most prominent object in the UI.",
             "type": "color"
           }
@@ -179,21 +179,21 @@
       "danger": {
         "icon": {
           "default": {
-            "value": "{color.merah.50}",
+            "value": "{color.red.50}",
             "description": "Used for critical icons and should be paired with text that conveys the same meaning.",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{color.merah.40}",
+            "value": "{color.red.40}",
             "description": "Used to indicate critical or potentially harmful situations.",
             "type": "color"
           }
         },
         "border": {
           "default": {
-            "value": "{color.merah.60}",
+            "value": "{color.red.60}",
             "description": "Used for primary borders or dividers indicating critical.",
             "type": "color"
           },
@@ -215,12 +215,12 @@
             "type": "color"
           },
           "medium": {
-            "value": "{color.merah.60}",
+            "value": "{color.red.60}",
             "description": "Tertiary background color is used for prominent semantics, generally for negative/critical meanings, etc.",
             "type": "color"
           },
           "high": {
-            "value": "{color.merah.50}",
+            "value": "{color.red.50}",
             "description": "Brand accent colors are frequently used on supporting main components, such as tags.",
             "type": "color"
           }
@@ -229,21 +229,21 @@
       "success": {
         "icon": {
           "default": {
-            "value": "{color.hijau.50}",
+            "value": "{color.green.50}",
             "description": "Used for success icons and should be paired with text that conveys the same meaning.",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{color.hijau.40}",
+            "value": "{color.green.40}",
             "description": "Used to indicate successful or positive outcomes.",
             "type": "color"
           }
         },
         "border": {
           "default": {
-            "value": "{color.hijau.60}",
+            "value": "{color.green.60}",
             "description": "Used for primary borders or dividers indicating success.",
             "type": "color"
           },
@@ -265,12 +265,12 @@
             "type": "color"
           },
           "medium": {
-            "value": "{color.hijau.60}",
+            "value": "{color.green.60}",
             "description": "Tertiary background color is used for prominent semantics, such as success or positive meanings.",
             "type": "color"
           },
           "high": {
-            "value": "{color.hijau.50}",
+            "value": "{color.green.50}",
             "description": "Brand accent colors are frequently used on supporting main components, such as tags.",
             "type": "color"
           }
@@ -279,21 +279,21 @@
       "warning": {
         "icon": {
           "default": {
-            "value": "{color.kuning.50}",
+            "value": "{color.orange.50}",
             "description": "Used for alert icons and should be paired with text that conveys the same meaning.",
             "type": "color"
           }
         },
         "text": {
           "default": {
-            "value": "{color.kuning.40}",
+            "value": "{color.orange.40}",
             "description": "Used to indicate that the user needs to pay attention.",
             "type": "color"
           }
         },
         "border": {
           "default": {
-            "value": "{color.kuning.60}",
+            "value": "{color.orange.60}",
             "description": "Used for primary borders or dividers indicating alert.",
             "type": "color"
           },
@@ -315,12 +315,12 @@
             "type": "color"
           },
           "medium": {
-            "value": "{color.kuning.60}",
+            "value": "{color.orange.60}",
             "description": "Tertiary background color is used for prominent semantics, generally for alert/warning.",
             "type": "color"
           },
           "high": {
-            "value": "{color.kuning.50}",
+            "value": "{color.orange.50}",
             "description": "Brand accent colors are frequently used on supporting main components, such as tags.",
             "type": "color"
           }
@@ -337,7 +337,7 @@
               }
             }
           },
-          "value": "{color.netral.100}",
+          "value": "{color.neutral.100}",
           "description": "Translucent background layer over the content to indicate a modal or overlay that requires user interaction or focus.",
           "type": "color"
         }

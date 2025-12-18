@@ -246,23 +246,21 @@
         "type": "typography",
         "description": "For representing code only, either inline or in code blocks."
       }
-    },
-    "color": {
+    }
+  },
+  "color": {
+    "brand": {
       "primary": {
-        "1": {
-          "value": "{color.lime.1}",
-          "type": "color"
-        },
-        "5": {
-          "value": "{color.lime.5}",
-          "type": "color"
-        },
         "10": {
           "value": "{color.lime.10}",
           "type": "color"
         },
         "20": {
           "value": "{color.lime.20}",
+          "type": "color"
+        },
+        "25": {
+          "value": "{color.lime.25}",
           "type": "color"
         },
         "30": {
@@ -289,652 +287,1549 @@
           "value": "{color.lime.80}",
           "type": "color"
         },
+        "85": {
+          "value": "{color.lime.85}",
+          "type": "color"
+        },
         "90": {
           "value": "{color.lime.90}",
           "type": "color"
         },
-        "95": {
-          "value": "{color.lime.95}",
-          "type": "color"
-        },
-        "99": {
-          "value": "{color.lime.99}",
+        "100": {
+          "value": "{color.lime.100}",
           "type": "color"
         }
       },
       "accent": {
-        "1": {
-          "value": "{color.kuning.1}",
-          "type": "color"
-        },
-        "5": {
-          "value": "{color.kuning.5}",
-          "type": "color"
-        },
         "10": {
-          "value": "{color.kuning.10}",
+          "value": "{color.orange.10}",
           "type": "color"
         },
         "20": {
-          "value": "{color.kuning.20}",
+          "value": "{color.orange.20}",
+          "type": "color"
+        },
+        "25": {
+          "value": "{color.orange.25}",
           "type": "color"
         },
         "30": {
-          "value": "{color.kuning.30}",
+          "value": "{color.orange.30}",
           "type": "color"
         },
         "40": {
-          "value": "{color.kuning.40}",
+          "value": "{color.orange.40}",
           "type": "color"
         },
         "50": {
-          "value": "{color.kuning.50}",
+          "value": "{color.orange.50}",
           "type": "color"
         },
         "60": {
-          "value": "{color.kuning.60}",
+          "value": "{color.orange.60}",
           "type": "color"
         },
         "70": {
-          "value": "{color.kuning.70}",
+          "value": "{color.orange.70}",
           "type": "color"
         },
         "80": {
-          "value": "{color.kuning.80}",
+          "value": "{color.orange.80}",
+          "type": "color"
+        },
+        "85": {
+          "value": "{color.orange.85}",
           "type": "color"
         },
         "90": {
-          "value": "{color.kuning.90}",
+          "value": "{color.orange.90}",
           "type": "color"
         },
-        "95": {
-          "value": "{color.kuning.95}",
-          "type": "color"
-        },
-        "99": {
-          "value": "{color.kuning.99}",
-          "type": "color"
-        }
-      },
-      "icon": {
-        "default": {
-          "value": "{brand.color.primary.60}",
-          "type": "color"
-        },
-        "inverse": {
-          "value": "{color.netral.0}",
-          "type": "color"
-        }
-      },
-      "text": {
-        "default": {
-          "value": "{color.netral.90}",
-          "type": "color"
-        },
-        "inverse": {
-          "value": "{color.netral.0}",
-          "type": "color"
-        }
-      },
-      "border": {
-        "default": {
-          "value": "{brand.color.primary.50}",
-          "type": "color"
-        },
-        "inverse": {
-          "value": "{color.netral.0}",
-          "type": "color"
-        }
-      },
-      "background": {
-        "default": {
-          "value": "{brand.color.primary.60}",
-          "type": "color"
-        },
-        "low": {
-          "value": "{brand.color.primary.1}",
-          "type": "color"
-        },
-        "medium": {
-          "value": "{brand.color.primary.5}",
-          "type": "color"
-        },
-        "high": {
-          "value": "{brand.color.primary.70}",
+        "100": {
+          "value": "{color.orange.100}",
           "type": "color"
         }
       }
-    }
-  },
-  "color": {
+    },
     "text": {
       "default": {
-        "value": "{color.netral.90}",
+        "value": "{color.neutral.95}",
         "type": "color",
         "description": "Use for primary text, such as body copy, sentence case headers, and buttons."
       },
       "subtle": {
-        "value": "{color.netral.70}",
+        "value": "{color.neutral.80}",
         "type": "color",
         "description": "Use for secondary text, such as navigation, subtle button links, input field labels, and all caps subheadings."
       },
       "subtlest": {
-        "value": "{color.netral.60}",
+        "value": "{color.neutral.70}",
         "type": "color",
         "description": "Use for tertiary text, such as meta-data, breadcrumbs, input field placeholder and helper text."
       },
       "disabled": {
-        "value": "{color.netral.40}",
+        "value": "{color.neutral.40A}",
         "type": "color",
         "description": "Use for text in a disabled state."
       },
       "inverse": {
-        "value": "{color.netral.0}",
+        "value": "{color.neutral.0}",
         "type": "color",
         "description": "Use for text on bold backgrounds."
       },
+      "selected": {
+        "value": "{color.brand.primary.70}",
+        "type": "color",
+        "description": "Use for text in selected or opened states, such as tabs and dropdown buttons."
+      },
       "brand": {
-        "value": "{brand.color.primary.60}",
+        "value": "{color.brand.primary.70}",
         "type": "color",
         "description": "Use for text that reinforces our brand."
       },
       "danger": {
-        "value": "{color.merah.70}",
+        "value": "{color.red.80}",
         "type": "color",
         "description": "Use for critical text, such as input field error messaging."
       },
       "warning": {
-        "value": "{color.kuning.70}",
+        "value": "{color.orange.80}",
         "type": "color",
         "description": "Use for text to emphasize caution, such as in moved lozenges."
       },
       "warning-inverse": {
-        "value": "{color.netral.90}",
+        "value": "{color.neutral.95}",
         "type": "color",
         "description": "Use for text when on bold warning backgrounds."
       },
       "success": {
-        "value": "{color.hijau.70}",
+        "value": "{color.green.80}",
         "type": "color",
         "description": "Use for text to communicate a favorable outcome, such as input field success messaging."
       },
       "info": {
-        "value": "{color.biru.70}",
+        "value": "{color.blue.80}",
         "type": "color",
         "description": "Use for informative text or to communicate something is in progress, such as in-progress lozenges."
+      },
+      "accent": {
+        "red": {
+          "rest": {
+            "value": "{color.red.80}",
+            "type": "color",
+            "description": "Use for red text on subtlest and subtler red accent backgrounds when there is no meaning tied to the color."
+          },
+          "bolder": {
+            "value": "{color.red.90}",
+            "type": "color",
+            "description": "Use for red text on subtle red accent backgrounds when there is no meaning tied to the color."
+          }
+        },
+        "orange": {
+          "rest": {
+            "value": "{color.orange.80}",
+            "type": "color",
+            "description": "Use for orange text on subtlest and subtler orange accent backgrounds when there is no meaning tied to the color."
+          },
+          "bolder": {
+            "value": "{color.orange.90}",
+            "type": "color",
+            "description": "Use for orange text on subtle orange accent backgrounds when there is no meaning tied to the color."
+          }
+        },
+        "yellow": {
+          "rest": {
+            "value": "{color.orange.80}",
+            "type": "color",
+            "description": "Use for yellow text on subtlest and subtler yellow accent backgrounds when there is no meaning tied to the color."
+          },
+          "bolder": {
+            "value": "{color.orange.90}",
+            "type": "color",
+            "description": "Use for yellow text on subtle yellow accent backgrounds when there is no meaning tied to the color."
+          }
+        },
+        "lime": {
+          "rest": {
+            "value": "{color.lime.80}",
+            "type": "color",
+            "description": "Use for lime text on subtlest and subtler lime accent backgrounds when there is no meaning tied to the color."
+          },
+          "bolder": {
+            "value": "{color.lime.90}",
+            "type": "color",
+            "description": "Use for lime text on subtle lime accent backgrounds when there is no meaning tied to the color."
+          }
+        },
+        "green": {
+          "rest": {
+            "value": "{color.green.80}",
+            "type": "color",
+            "description": "Use for green text on subtlest and subtler green accent backgrounds when there is no meaning tied to the color."
+          },
+          "bolder": {
+            "value": "{color.green.90}",
+            "type": "color",
+            "description": "Use for green text on subtle green accent backgrounds when there is no meaning tied to the color."
+          }
+        },
+        "teal": {
+          "rest": {
+            "value": "{color.teal.80}",
+            "type": "color",
+            "description": "Use for teal text on subtlest and subtler teal accent backgrounds when there is no meaning tied to the color."
+          },
+          "bolder": {
+            "value": "{color.teal.90}",
+            "type": "color",
+            "description": "Use for teal text on subtle teal accent backgrounds when there is no meaning tied to the color."
+          }
+        },
+        "blue": {
+          "rest": {
+            "value": "{color.blue.80}",
+            "type": "color",
+            "description": "Use for blue text on subtlest and subtler blue accent backgrounds when there is no meaning tied to the color."
+          },
+          "bolder": {
+            "value": "{color.blue.90}",
+            "type": "color",
+            "description": "Use for blue text on subtle blue accent backgrounds when there is no meaning tied to the color."
+          }
+        },
+        "purple": {
+          "rest": {
+            "value": "{color.purple.80}",
+            "type": "color",
+            "description": "Use for purple text on subtlest and subtler purple accent backgrounds when there is no meaning tied to the color."
+          },
+          "bolder": {
+            "value": "{color.purple.90}",
+            "type": "color",
+            "description": "Use for purple text on subtle purple accent backgrounds when there is no meaning tied to the color."
+          }
+        },
+        "magenta": {
+          "rest": {
+            "value": "{color.magenta.80}",
+            "type": "color",
+            "description": "Use for magenta text on subtlest and subtler magenta accent backgrounds when there is no meaning tied to the color."
+          },
+          "bolder": {
+            "value": "{color.magenta.90}",
+            "type": "color",
+            "description": "Use for magenta text on subtle magenta accent backgrounds when there is no meaning tied to the color."
+          }
+        },
+        "gray": {
+          "rest": {
+            "value": "{color.neutral.80}",
+            "type": "color",
+            "description": "Use for gray text on subtlest and subtler gray accent backgrounds when there is no meaning tied to the color."
+          },
+          "bolder": {
+            "value": "{color.neutral.100}",
+            "type": "color",
+            "description": "Use for gray text on subtle gray accent backgrounds when there is no meaning tied to the color."
+          }
+        }
       }
     },
     "link": {
       "default": {
-        "value": "{color.biru.70}",
+        "value": "{color.blue.70}",
         "type": "color",
         "description": "Use for links in a default or hovered state. Add an underline for hovered states."
       },
       "pressed": {
-        "value": "{color.biru.80}",
+        "value": "{color.blue.80}",
         "type": "color",
         "description": "Use for links in a pressed state."
       }
     },
     "icon": {
       "default": {
-        "value": "{color.netral.90}",
+        "value": "{color.neutral.80}",
         "type": "color",
         "description": "Use for icon-only buttons, or icons paired with color.text"
       },
       "subtle": {
-        "value": "{color.netral.70}",
+        "value": "{color.neutral.70}",
         "type": "color",
         "description": "Use for icons paired with color.text.subtle"
       },
       "inverse": {
-        "value": "{color.netral.0}",
+        "value": "{color.neutral.0}",
         "type": "color",
         "description": "Use for icons on bold backgrounds."
       },
       "disabled": {
-        "value": "{color.netral.40}",
+        "value": "{color.neutral.40A}",
         "type": "color",
         "description": "Use for icons in a disabled state."
       },
+      "selected": {
+        "value": "{color.brand.primary.70}",
+        "type": "color",
+        "description": "Use for icons in selected or opened states, such as those used in dropdown buttons."
+      },
+      "brand": {
+        "value": "{color.brand.primary.70}",
+        "type": "color",
+        "description": "Use for icons that reinforce our brand."
+      },
       "danger": {
-        "value": "{color.merah.60}",
+        "value": "{color.red.60}",
         "type": "color",
         "description": "Use for icons communicating critical information, such as those used in error handing."
       },
       "warning": {
-        "value": "{color.kuning.60}",
+        "value": "{color.orange.60}",
+        "type": "color",
+        "description": "Use for icons communicating caution, such as those used in warning section messages."
+      },
+      "warning-inverse": {
+        "value": "{color.neutral.100}",
         "type": "color",
         "description": "Use for icons communicating caution, such as those used in warning section messages."
       },
       "success": {
-        "value": "{color.hijau.60}",
+        "value": "{color.green.60}",
         "type": "color",
         "description": "Use for icons communicating a favorable outcome, such as those used in success section messaged."
       },
       "info": {
-        "value": "{color.biru.60}",
+        "value": "{color.blue.60}",
         "type": "color",
         "description": "Use for icons communicating information or something in-progress, such as information section messages."
+      },
+      "accent": {
+        "red": {
+          "value": "{color.red.60}",
+          "type": "color",
+          "description": "Use for red icons on non-bold backgrounds when there is no meaning tied to the color, such as file type icons."
+        },
+        "orange": {
+          "value": "{color.orange.60}",
+          "type": "color",
+          "description": "Use for orange icons on non-bold backgrounds when there is no meaning tied to the color, such as file type icons."
+        },
+        "yellow": {
+          "value": "{color.yellow.60}",
+          "type": "color",
+          "description": "Use for yellow icons on non-bold backgrounds when there is no meaning tied to the color, such as file type icons."
+        },
+        "lime": {
+          "value": "{color.lime.60}",
+          "type": "color",
+          "description": "Use for lime icons on non-bold backgrounds when there is no meaning tied to the color, such as file type icons."
+        },
+        "green": {
+          "value": "{color.green.60}",
+          "type": "color",
+          "description": "Use for green icons on non-bold backgrounds when there is no meaning tied to the color, such as file type icons."
+        },
+        "teal": {
+          "value": "{color.teal.60}",
+          "type": "color",
+          "description": "Use for teal icons on non-bold backgrounds when there is no meaning tied to the color, such as file type icons."
+        },
+        "blue": {
+          "value": "{color.blue.60}",
+          "type": "color",
+          "description": "Use for blue icons on non-bold backgrounds when there is no meaning tied to the color, such as file type icons."
+        },
+        "purple": {
+          "value": "{color.purple.60}",
+          "type": "color",
+          "description": "Use for purple icons on non-bold backgrounds when there is no meaning tied to the color, such as file type icons."
+        },
+        "magenta": {
+          "value": "{color.magenta.60}",
+          "type": "color",
+          "description": "Use for magenta icons on non-bold backgrounds when there is no meaning tied to the color, such as file type icons."
+        },
+        "gray": {
+          "value": "{color.neutral.60}",
+          "type": "color",
+          "description": "Use for gray icons on non-bold backgrounds when there is no meaning tied to the color, such as file type icons."
+        }
       }
     },
     "border": {
       "default": {
-        "value": "{color.netral.90}",
+        "value": "{color.neutral.30A}",
         "type": "color",
-        "description": "Use for icon-only buttons, or icons paired with color.text"
+        "description": "Use to visually group or separate UI elements, such as flat cards or side panel dividers."
       },
-      "subtle": {
-        "value": "{color.netral.70}",
+      "bold": {
+        "value": "{color.neutral.60}",
         "type": "color",
-        "description": "Use for icons paired with color.text.subtle"
+        "description": "A neutral border option that passes min 3:1 contrast ratios."
       },
       "inverse": {
-        "value": "{color.netral.0}",
+        "value": "{color.neutral.0}",
         "type": "color",
-        "description": "Use for icons on bold backgrounds."
+        "description": "Use for borders on bold backgrounds."
       },
       "disabled": {
-        "value": "{color.netral.40}",
+        "value": "{color.neutral.20A}",
         "type": "color",
-        "description": "Use for icons in a disabled state."
+        "description": "Use for borders of elements in a disabled state."
+      },
+      "focused": {
+        "value": "{color.blue.50}",
+        "type": "color",
+        "description": "Use for focus rings of elements in a focus state."
+      },
+      "selected": {
+        "value": "{color.brand.primary.70}",
+        "type": "color",
+        "description": "Use for borders or visual indicators of elements in a selected or opened state, such as in tabs or menu items."
+      },
+      "brand": {
+        "value": "{color.brand.primary.70}",
+        "type": "color",
+        "description": "Use for borders or visual indicators of elements that reinforce our brand, such as logos or primary buttons."
+      },
+      "input": {
+        "value": "{color.neutral.30A}",
+        "type": "color",
+        "description": "Use for borders of form UI elements, such as text fields, checkboxes, and radio buttons."
       },
       "danger": {
-        "value": "{color.merah.60}",
+        "value": "{color.red.60}",
         "type": "color",
-        "description": "Use for icons communicating critical information, such as those used in error handing."
+        "description": "Use for borders communicating critical information, such as the borders on invalid text fields."
       },
       "warning": {
-        "value": "{color.kuning.60}",
+        "value": "{color.orange.60}",
         "type": "color",
-        "description": "Use for icons communicating caution, such as those used in warning section messages."
+        "description": "Use for borders communicating caution."
       },
       "success": {
-        "value": "{color.hijau.60}",
+        "value": "{color.green.60}",
         "type": "color",
-        "description": "Use for icons communicating a favorable outcome, such as those used in success section messaged."
+        "description": "Use for borders communicating a favorable outcome, such as the borders on validated text fields."
       },
       "info": {
-        "value": "{color.biru.60}",
+        "value": "{color.blue.60}",
         "type": "color",
-        "description": "Use for icons communicating information or something in-progress, such as information section messages."
-      }
-    }
-  },
-  "structure-radius": {
-    "action": {
-      "container": {
-        "default": {
-          "brand": {
-            "value": "{radius.8}",
-            "description": "Brand-aligned button radius that defines Via’s interactive shape personality.",
-            "type": "borderRadius"
-          }
+        "description": "Use for borders communicating information or something in-progress."
+      },
+      "accent": {
+        "red": {
+          "value": "{color.red.60}",
+          "type": "color",
+          "description": "Use for red borders on non-bold backgrounds when there is no meaning tied to the color."
+        },
+        "orange": {
+          "value": "{color.orange.60}",
+          "type": "color",
+          "description": "Use for orange borders on non-bold backgrounds when there is no meaning tied to the color."
+        },
+        "yellow": {
+          "value": "{color.yellow.60}",
+          "type": "color",
+          "description": "Use for yellow borders on non-bold backgrounds when there is no meaning tied to the color."
+        },
+        "lime": {
+          "value": "{color.lime.60}",
+          "type": "color",
+          "description": "Use for lime borders on non-bold backgrounds when there is no meaning tied to the color."
+        },
+        "green": {
+          "value": "{color.green.60}",
+          "type": "color",
+          "description": "Use for green borders on non-bold backgrounds when there is no meaning tied to the color."
+        },
+        "teal": {
+          "value": "{color.teal.60}",
+          "type": "color",
+          "description": "Use for teal borders on non-bold backgrounds when there is no meaning tied to the color."
+        },
+        "blue": {
+          "value": "{color.blue.60}",
+          "type": "color",
+          "description": "Use for blue borders on non-bold backgrounds when there is no meaning tied to the color."
+        },
+        "purple": {
+          "value": "{color.purple.60}",
+          "type": "color",
+          "description": "Use for purple borders on non-bold backgrounds when there is no meaning tied to the color."
+        },
+        "magenta": {
+          "value": "{color.magenta.60}",
+          "type": "color",
+          "description": "Use for magenta borders on non-bold backgrounds when there is no meaning tied to the color."
+        },
+        "gray": {
+          "value": "{color.neutral.60}",
+          "type": "color",
+          "description": "Use for gray borders on non-bold backgrounds when there is no meaning tied to the color."
         }
       }
     },
-    "feedback": {
-      "surface": {
-        "default": {
-          "subtle": {
-            "value": "{radius.6}",
-            "description": "Subtle radius for feedback components like badges and toasts.",
-            "type": "borderRadius"
-          }
-        }
+    "blanket": {
+      "rest": {
+        "value": "{color.neutral.50A}",
+        "type": "color",
+        "description": "Use for the screen overlay that appears with modal dialogs."
+      },
+      "selected": {
+        "value": "#388BFF14",
+        "type": "color",
+        "description": "Use as an overlay to communicate selected states when a simple background color change isn't possible, such as in Editor block elements."
+      },
+      "danger": {
+        "value": "#EF5C4814",
+        "type": "color",
+        "description": "Use as an overlay to communicate danger states when a simple background color change isn't possible, such as deletion of Editor block elements."
       }
     },
-    "form": {
-      "field": {
-        "default": {
-          "brand": {
-            "value": "{radius.8}",
-            "description": "Radius for input fields reflecting Via’s brand softness and accessibility standards.",
-            "type": "borderRadius"
-          }
-        }
+    "interaction": {
+      "hovered": {
+        "value": "#00000029",
+        "type": "color",
+        "description": "Use as a background overlay for elements in a hovered state when their background color cannot change, such as avatars."
+      },
+      "pressed": {
+        "value": "#00000052",
+        "type": "color",
+        "description": "Use as a background overlay for elements in a pressed state when their background color cannot change, such as avatars."
       }
     },
-    "overlay": {
-      "surface": {
-        "default": {
-          "brand": {
-            "value": "{radius.8}",
-            "description": "Rounded corners for modal and overlay surfaces for smoother brand expression.",
-            "type": "borderRadius"
-          }
-        }
+    "skeleton": {
+      "rest": {
+        "value": "{color.neutral.20A}",
+        "type": "color",
+        "description": "Use for skeleton loading states."
+      },
+      "subtle": {
+        "value": "{color.neutral.10A}",
+        "type": "color",
+        "description": "Use for the pulse or shimmer effect in skeleton loading states."
       }
     },
-    "navigation": {
-      "item": {
-        "default": {
-          "brand": {
-            "value": "{radius.6}",
-            "description": "Slight rounding for navigation items to enhance spatial rhythm and focus.",
-            "type": "borderRadius"
-          }
-        }
-      }
-    }
-  },
-  "structure-border": {
-    "action": {
-      "container": {
-        "default": {
-          "brand": {
-            "value": "{border.width.1}",
-            "description": "Brand-standard border thickness for action components such as buttons.",
-            "type": "borderWidth"
-          }
-        }
-      }
-    },
-    "form": {
-      "field": {
-        "default": {
-          "brand": {
-            "value": "{border.width.1}",
-            "description": "Input field border width ensuring visual consistency and brand balance.",
-            "type": "borderWidth"
-          }
-        }
-      }
-    },
-    "overlay": {
-      "surface": {
-        "default": {
-          "brand": {
-            "value": "{border.width.1}",
-            "description": "Thin border for overlays or popups providing subtle definition without distraction.",
-            "type": "borderWidth"
-          }
-        }
-      }
-    }
-  },
-  "structure-elevation": {
-    "global": {
-      "surface": {
-        "default": {
-          "flat": {
-            "value": {
-              "x": "0",
-              "y": "0",
-              "blur": "0",
-              "spread": "0",
-              "color": "{color.netral.100}",
-              "type": "dropShadow"
+    "background": {
+      "accent": {
+        "red": {
+          "subtlest": {
+            "rest": {
+              "value": "{color.red.10}",
+              "type": "color",
+              "description": "Use for red backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
             },
-            "description": "Tanpa bayangan. Digunakan untuk lapisan dasar seperti background atau konten statis.",
-            "type": "boxShadow"
+            "hovered": {
+              "value": "{color.red.20}",
+              "type": "color",
+              "description": "Use for red backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "pressed": {
+              "value": "{color.red.30}",
+              "type": "color",
+              "description": "Use for red backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            }
           },
-          "raised": {
-            "value": [
-              {
-                "x": "0",
-                "y": "1",
-                "blur": "2",
-                "spread": "0",
-                "color": "rgba(0, 0, 0, 0.06)",
-                "type": "dropShadow"
-              },
-              {
-                "x": "0",
-                "y": "2",
-                "blur": "4",
-                "spread": "0",
-                "color": "rgba(0, 0, 0, 0.04)",
-                "type": "dropShadow"
-              }
-            ],
-            "description": "Bayangan lembut dua lapis untuk permukaan utama seperti kartu atau container kecil.",
-            "type": "boxShadow"
+          "subtler": {
+            "rest": {
+              "value": "{color.red.20}",
+              "type": "color",
+              "description": "Use for red backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.red.30}",
+              "type": "color",
+              "description": "Use for red backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.red.40}",
+              "type": "color",
+              "description": "Use for red backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
           },
-          "overlay": {
-            "value": [
-              {
-                "x": "0",
-                "y": "4",
-                "blur": "12",
-                "spread": "0",
-                "color": "rgba(0, 0, 0, 0.10)",
-                "type": "dropShadow"
-              },
-              {
-                "x": "0",
-                "y": "8",
-                "blur": "24",
-                "spread": "0",
-                "color": "rgba(0, 0, 0, 0.08)",
-                "type": "dropShadow"
-              }
-            ],
-            "description": "Bayangan menengah untuk lapisan yang mengambang di atas permukaan lain, seperti dropdown atau popover.",
-            "type": "boxShadow"
-          }
-        }
-      }
-    },
-    "action": {
-      "surface": {
-        "default": {
-          "brand": {
-            "value": "{structure-elevation.global.surface.default.flat}",
-            "description": "Bayangan tombol khas Via dalam keadaan normal (rest). Memberi kesan elevasi ringan dan interaktif.",
-            "type": "boxShadow"
+          "subtle": {
+            "rest": {
+              "value": "{color.red.40}",
+              "type": "color",
+              "description": "Use for vibrant red backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.red.30}",
+              "type": "color",
+              "description": "Use for vibrant red backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.red.20}",
+              "type": "color",
+              "description": "Use for vibrant red backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "bolder": {
+            "rest": {
+              "value": "{color.red.70}",
+              "type": "color",
+              "description": "Use for red backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "hovered": {
+              "value": "{color.red.80}",
+              "type": "color",
+              "description": "Use for red backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "pressed": {
+              "value": "{color.red.90}",
+              "type": "color",
+              "description": "Use for red backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            }
           }
         },
-        "hover": {
-          "brand": {
-            "value": "{structure-elevation.global.surface.default.raised}",
-            "description": "Bayangan yang sedikit lebih tinggi untuk tombol saat hover, menegaskan interaktivitas.",
-            "type": "boxShadow"
+        "orange": {
+          "subtlest": {
+            "rest": {
+              "value": "{color.orange.10}",
+              "type": "color",
+              "description": "Use for orange backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "hovered": {
+              "value": "{color.orange.20}",
+              "type": "color",
+              "description": "Use for orange backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "pressed": {
+              "value": "{color.orange.30}",
+              "type": "color",
+              "description": "Use for orange backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            }
+          },
+          "subtler": {
+            "rest": {
+              "value": "{color.orange.20}",
+              "type": "color",
+              "description": "Use for orange backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.orange.30}",
+              "type": "color",
+              "description": "Use for orange backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.orange.40}",
+              "type": "color",
+              "description": "Use for orange backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "subtle": {
+            "rest": {
+              "value": "{color.orange.40}",
+              "type": "color",
+              "description": "Use for vibrant orange backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.orange.30}",
+              "type": "color",
+              "description": "Use for vibrant orange backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.orange.20}",
+              "type": "color",
+              "description": "Use for vibrant orange backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "bolder": {
+            "rest": {
+              "value": "{color.orange.70}",
+              "type": "color",
+              "description": "Use for orange backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "hovered": {
+              "value": "{color.orange.80}",
+              "type": "color",
+              "description": "Use for orange backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "pressed": {
+              "value": "{color.orange.90}",
+              "type": "color",
+              "description": "Use for orange backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            }
           }
+        },
+        "yellow": {
+          "subtlest": {
+            "rest": {
+              "value": "{color.yellow.10}",
+              "type": "color",
+              "description": "Use for yellow backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "hovered": {
+              "value": "{color.yellow.20}",
+              "type": "color",
+              "description": "Use for yellow backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "pressed": {
+              "value": "{color.yellow.30}",
+              "type": "color",
+              "description": "Use for yellow backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            }
+          },
+          "subtler": {
+            "rest": {
+              "value": "{color.yellow.20}",
+              "type": "color",
+              "description": "Use for yellow backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.yellow.30}",
+              "type": "color",
+              "description": "Use for yellow backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.yellow.40}",
+              "type": "color",
+              "description": "Use for yellow backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "subtle": {
+            "rest": {
+              "value": "{color.yellow.40}",
+              "type": "color",
+              "description": "Use for vibrant yellow backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.yellow.30}",
+              "type": "color",
+              "description": "Use for vibrant yellow backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.yellow.20}",
+              "type": "color",
+              "description": "Use for vibrant yellow backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "bolder": {
+            "rest": {
+              "value": "{color.yellow.70}",
+              "type": "color",
+              "description": "Use for yellow backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "hovered": {
+              "value": "{color.yellow.80}",
+              "type": "color",
+              "description": "Use for yellow backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "pressed": {
+              "value": "{color.yellow.90}",
+              "type": "color",
+              "description": "Use for yellow backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            }
+          }
+        },
+        "lime": {
+          "subtlest": {
+            "rest": {
+              "value": "{color.lime.10}",
+              "type": "color",
+              "description": "Use for lime backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "hovered": {
+              "value": "{color.lime.20}",
+              "type": "color",
+              "description": "Use for lime backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "pressed": {
+              "value": "{color.lime.30}",
+              "type": "color",
+              "description": "Use for lime backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            }
+          },
+          "subtler": {
+            "rest": {
+              "value": "{color.lime.20}",
+              "type": "color",
+              "description": "Use for lime backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.lime.30}",
+              "type": "color",
+              "description": "Use for lime backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.lime.40}",
+              "type": "color",
+              "description": "Use for lime backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "subtle": {
+            "rest": {
+              "value": "{color.lime.40}",
+              "type": "color",
+              "description": "Use for vibrant lime backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.lime.30}",
+              "type": "color",
+              "description": "Use for vibrant lime backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.lime.20}",
+              "type": "color",
+              "description": "Use for vibrant lime backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "bolder": {
+            "rest": {
+              "value": "{color.lime.70}",
+              "type": "color",
+              "description": "Use for lime backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "hovered": {
+              "value": "{color.lime.80}",
+              "type": "color",
+              "description": "Use for lime backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "pressed": {
+              "value": "{color.lime.90}",
+              "type": "color",
+              "description": "Use for lime backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            }
+          }
+        },
+        "green": {
+          "subtlest": {
+            "rest": {
+              "value": "{color.green.10}",
+              "type": "color",
+              "description": "Use for green backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "hovered": {
+              "value": "{color.green.20}",
+              "type": "color",
+              "description": "Use for green backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "pressed": {
+              "value": "{color.green.30}",
+              "type": "color",
+              "description": "Use for green backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            }
+          },
+          "subtler": {
+            "rest": {
+              "value": "{color.green.20}",
+              "type": "color",
+              "description": "Use for green backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.green.30}",
+              "type": "color",
+              "description": "Use for green backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.green.40}",
+              "type": "color",
+              "description": "Use for green backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "subtle": {
+            "rest": {
+              "value": "{color.green.40}",
+              "type": "color",
+              "description": "Use for vibrant green backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.green.30}",
+              "type": "color",
+              "description": "Use for vibrant green backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.green.20}",
+              "type": "color",
+              "description": "Use for vibrant green backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "bolder": {
+            "rest": {
+              "value": "{color.green.70}",
+              "type": "color",
+              "description": "Use for green backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "hovered": {
+              "value": "{color.green.80}",
+              "type": "color",
+              "description": "Use for green backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "pressed": {
+              "value": "{color.green.90}",
+              "type": "color",
+              "description": "Use for green backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            }
+          }
+        },
+        "teal": {
+          "subtlest": {
+            "rest": {
+              "value": "{color.teal.10}",
+              "type": "color",
+              "description": "Use for teal backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "hovered": {
+              "value": "{color.teal.20}",
+              "type": "color",
+              "description": "Use for teal backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "pressed": {
+              "value": "{color.teal.30}",
+              "type": "color",
+              "description": "Use for teal backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            }
+          },
+          "subtler": {
+            "rest": {
+              "value": "{color.teal.20}",
+              "type": "color",
+              "description": "Use for teal backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.teal.30}",
+              "type": "color",
+              "description": "Use for teal backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.teal.40}",
+              "type": "color",
+              "description": "Use for teal backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "subtle": {
+            "rest": {
+              "value": "{color.teal.40}",
+              "type": "color",
+              "description": "Use for vibrant teal backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.teal.30}",
+              "type": "color",
+              "description": "Use for vibrant teal backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.teal.20}",
+              "type": "color",
+              "description": "Use for vibrant teal backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "bolder": {
+            "rest": {
+              "value": "{color.teal.70}",
+              "type": "color",
+              "description": "Use for teal backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "hovered": {
+              "value": "{color.teal.80}",
+              "type": "color",
+              "description": "Use for teal backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "pressed": {
+              "value": "{color.teal.90}",
+              "type": "color",
+              "description": "Use for teal backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            }
+          }
+        },
+        "blue": {
+          "subtlest": {
+            "rest": {
+              "value": "{color.blue.10}",
+              "type": "color",
+              "description": "Use for blue backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "hovered": {
+              "value": "{color.blue.20}",
+              "type": "color",
+              "description": "Use for blue backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "pressed": {
+              "value": "{color.blue.30}",
+              "type": "color",
+              "description": "Use for blue backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            }
+          },
+          "subtler": {
+            "rest": {
+              "value": "{color.blue.20}",
+              "type": "color",
+              "description": "Use for blue backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.blue.30}",
+              "type": "color",
+              "description": "Use for blue backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.blue.40}",
+              "type": "color",
+              "description": "Use for blue backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "subtle": {
+            "rest": {
+              "value": "{color.blue.40}",
+              "type": "color",
+              "description": "Use for vibrant blue backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.blue.30}",
+              "type": "color",
+              "description": "Use for vibrant blue backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.blue.20}",
+              "type": "color",
+              "description": "Use for vibrant blue backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "bolder": {
+            "rest": {
+              "value": "{color.blue.70}",
+              "type": "color",
+              "description": "Use for blue backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "hovered": {
+              "value": "{color.blue.80}",
+              "type": "color",
+              "description": "Use for blue backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "pressed": {
+              "value": "{color.blue.90}",
+              "type": "color",
+              "description": "Use for blue backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            }
+          }
+        },
+        "purple": {
+          "subtlest": {
+            "rest": {
+              "value": "{color.purple.10}",
+              "type": "color",
+              "description": "Use for purple backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "hovered": {
+              "value": "{color.purple.20}",
+              "type": "color",
+              "description": "Use for purple backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "pressed": {
+              "value": "{color.purple.30}",
+              "type": "color",
+              "description": "Use for purple backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            }
+          },
+          "subtler": {
+            "rest": {
+              "value": "{color.purple.20}",
+              "type": "color",
+              "description": "Use for purple backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.purple.30}",
+              "type": "color",
+              "description": "Use for purple backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.purple.40}",
+              "type": "color",
+              "description": "Use for purple backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "subtle": {
+            "rest": {
+              "value": "{color.purple.40}",
+              "type": "color",
+              "description": "Use for vibrant purple backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.purple.30}",
+              "type": "color",
+              "description": "Use for vibrant purple backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.purple.20}",
+              "type": "color",
+              "description": "Use for vibrant purple backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "bolder": {
+            "rest": {
+              "value": "{color.purple.70}",
+              "type": "color",
+              "description": "Use for purple backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "hovered": {
+              "value": "{color.purple.80}",
+              "type": "color",
+              "description": "Use for purple backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "pressed": {
+              "value": "{color.purple.90}",
+              "type": "color",
+              "description": "Use for purple backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            }
+          }
+        },
+        "magenta": {
+          "subtlest": {
+            "rest": {
+              "value": "{color.magenta.10}",
+              "type": "color",
+              "description": "Use for magenta backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "hovered": {
+              "value": "{color.magenta.20}",
+              "type": "color",
+              "description": "Use for magenta backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "pressed": {
+              "value": "{color.magenta.30}",
+              "type": "color",
+              "description": "Use for magenta backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            }
+          },
+          "subtler": {
+            "rest": {
+              "value": "{color.magenta.20}",
+              "type": "color",
+              "description": "Use for magenta backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.magenta.30}",
+              "type": "color",
+              "description": "Use for magenta backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.magenta.40}",
+              "type": "color",
+              "description": "Use for magenta backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "subtle": {
+            "rest": {
+              "value": "{color.magenta.40}",
+              "type": "color",
+              "description": "Use for vibrant magenta backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.magenta.30}",
+              "type": "color",
+              "description": "Use for vibrant magenta backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.magenta.20}",
+              "type": "color",
+              "description": "Use for vibrant magenta backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "bolder": {
+            "rest": {
+              "value": "{color.magenta.70}",
+              "type": "color",
+              "description": "Use for magenta backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "hovered": {
+              "value": "{color.magenta.80}",
+              "type": "color",
+              "description": "Use for magenta backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "pressed": {
+              "value": "{color.magenta.90}",
+              "type": "color",
+              "description": "Use for magenta backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            }
+          }
+        },
+        "neutral": {
+          "subtlest": {
+            "rest": {
+              "value": "{color.neutral.20}",
+              "type": "color",
+              "description": "Use for neutral backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "hovered": {
+              "value": "{color.neutral.30}",
+              "type": "color",
+              "description": "Use for neutral backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            },
+            "pressed": {
+              "value": "{color.neutral.40}",
+              "type": "color",
+              "description": "Use for neutral backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
+            }
+          },
+          "subtler": {
+            "rest": {
+              "value": "{color.neutral.30}",
+              "type": "color",
+              "description": "Use for neutral backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.neutral.40}",
+              "type": "color",
+              "description": "Use for neutral backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.neutral.50}",
+              "type": "color",
+              "description": "Use for neutral backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "subtle": {
+            "rest": {
+              "value": "{color.neutral.50}",
+              "type": "color",
+              "description": "Use for vibrant neutral backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "hovered": {
+              "value": "{color.neutral.40}",
+              "type": "color",
+              "description": "Use for vibrant neutral backgrounds when there is no meaning tied to the color, such as colored tags."
+            },
+            "pressed": {
+              "value": "{color.neutral.30}",
+              "type": "color",
+              "description": "Use for vibrant neutral backgrounds when there is no meaning tied to the color, such as colored tags."
+            }
+          },
+          "bolder": {
+            "rest": {
+              "value": "{color.neutral.70}",
+              "type": "color",
+              "description": "Use for neutral backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "hovered": {
+              "value": "{color.neutral.80}",
+              "type": "color",
+              "description": "Use for neutral backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            },
+            "pressed": {
+              "value": "{color.neutral.90}",
+              "type": "color",
+              "description": "Use for neutral backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
+            }
+          }
+        }
+      },
+      "disabled": {
+        "value": "{color.neutral.10A}",
+        "type": "color",
+        "description": "Use for backgrounds of elements in a disabled state."
+      },
+      "input": {
+        "rest": {
+          "value": "{color.neutral.0}",
+          "type": "color",
+          "description": "Use for background of form UI elements, such as text fields, checkboxes, and radio buttons."
         },
         "pressed": {
-          "brand": {
-            "value": "{structure-elevation.global.surface.default.raised}",
-            "description": "Bayangan redup saat tombol ditekan, menciptakan ilusi 'menyentuh permukaan'.",
-            "type": "boxShadow"
-          }
+          "value": "{color.neutral.0}",
+          "type": "color",
+          "description": "Use for background of form UI elements, such as text fields, checkboxes, and radio buttons in a pressed state."
         },
-        "focus": {
-          "brand": {
-            "value": "{structure-elevation.global.surface.default.raised}",
-            "description": "Bayangan fokus dengan outline biru lembut untuk aksesibilitas dan visual feedback.",
-            "type": "boxShadow"
-          }
+        "hovered": {
+          "value": "{color.neutral.10}",
+          "type": "color",
+          "description": "Use for background of form UI elements, such as text fields, checkboxes, and radio buttons in a hovered state."
         }
-      }
-    },
-    "overlay": {
-      "surface": {
-        "default": {
-          "brand": {
-            "value": "{structure-elevation.global.surface.default.overlay}",
-            "description": "Bayangan dalam dan lebar untuk modal, dialog, dan overlay utama.",
-            "type": "boxShadow"
+      },
+      "inverse": {
+        "subtle": {
+          "rest": {
+            "value": "#00000029",
+            "type": "color",
+            "description": "Use for backgrounds of elements on a bold background, such as in the buttons on spotlight cards."
           },
-          "subtle": {
-            "value": "{structure-elevation.global.surface.default.flat}",
-            "description": "Bayangan ringan untuk overlay kecil seperti tooltip dan popover.",
-            "type": "boxShadow"
-          }
-        }
-      }
-    },
-    "feedback": {
-      "surface": {
-        "default": {
-          "brand": {
-            "value": "0px 2px 6px rgba(0, 0, 0, 0.06)",
-            "description": "Bayangan lembut untuk komponen feedback (toast, badge) agar tetap terlihat ringan dan tidak mendominasi.",
-            "type": "boxShadow"
-          }
-        }
-      }
-    },
-    "form": {
-      "field": {
-        "focus": {
-          "brand": {
-            "value": "{structure-elevation.global.surface.default.raised}",
-            "description": "Outline shadow fokus untuk bidang input, membantu pengguna melihat elemen aktif.",
-            "type": "boxShadow"
-          }
-        }
-      }
-    },
-    "navigation": {
-      "item": {
-        "default": {
-          "brand": {
-            "value": "{structure-elevation.global.surface.default.flat}",
-            "description": "Bayangan ringan untuk item navigasi atau tab, memberi kesan hierarki yang lembut.",
-            "type": "boxShadow"
-          }
-        },
-        "active": {
-          "brand": {
-            "value": "{structure-elevation.global.surface.default.flat}",
-            "description": "Bayangan untuk item navigasi aktif agar terlihat lebih menonjol dari daftar lainnya.",
-            "type": "boxShadow"
-          }
-        }
-      }
-    }
-  },
-  "structure-space": {
-    "action": {
-      "container": {
-        "default": {
-          "standard": {
-            "value": "{dimensions.10} {dimensions.15}",
-            "description": "Padding for brand-aligned action components (e.g., buttons).",
-            "type": "spacing"
+          "hovered": {
+            "value": "#0000003D",
+            "type": "color",
+            "description": "Use for backgrounds of elements on a bold background, such as in the buttons on spotlight cards in a hovered state."
+          },
+          "pressed": {
+            "value": "#00000052",
+            "type": "color",
+            "description": "Use for backgrounds of elements on a bold background, such as in the buttons on spotlight cards in a pressed state."
           }
         }
       },
-      "container-small": {
-        "default": {
-          "standard": {
-            "value": "{dimensions.7} {dimensions.10}",
-            "description": "Padding for brand-aligned action components (e.g., buttons).",
-            "type": "spacing"
-          }
-        }
-      }
-    },
-    "form": {
-      "field": {
-        "default": {
-          "standard": {
-            "value": "{dimensions.10} {dimensions.15}",
-            "description": "Vertical spacing for form fields maintaining alignment and accessibility standards.",
-            "type": "spacing"
-          }
-        }
-      }
-    }
-  },
-  "structure-space-gap": {
-    "action": {
-      "container": {
-        "default": {
-          "standard": {
-            "value": "{dimensions.5}",
-            "type": "spacing"
-          }
-        }
-      }
-    }
-  },
-  "structure-opacity": {
-    "action": {
-      "surface": {
-        "disabled": {
-          "standard": {
-            "value": "{opacity.50}",
-            "description": "Transparansi tinggi untuk menandai elemen aksi yang tidak aktif (disabled).",
-            "type": "opacity"
+      "neutral": {
+        "subtle": {
+          "rest": {
+            "value": "#00000000",
+            "type": "color",
+            "description": "Use for the background of elements that appear to have no background in a resting state, such as subtle buttons and menu items."
+          },
+          "hovered": {
+            "value": "{color.neutral.20A}",
+            "type": "color",
+            "description": "Use for the background while hovering elements that appear to have no background in a resting state, such as subtle buttons and menu items."
+          },
+          "pressed": {
+            "value": "{color.neutral.30A}",
+            "type": "color",
+            "description": "Use for the background while pressing elements that appear to have no background in a resting state, such as subtle buttons and menu items."
           }
         },
-        "default": {
-          "standard": {
-            "value": "{opacity.100}",
-            "description": "Transparansi tinggi untuk menandai elemen aksi yang tidak aktif (disabled).",
-            "type": "opacity"
-          }
-        }
-      }
-    },
-    "overlay": {
-      "backdrop": {
-        "default": {
-          "standard": {
-            "value": "{opacity.75}",
-            "description": "Backdrop lebih gelap untuk modal atau dialog dengan fokus tinggi.",
-            "type": "opacity"
-          }
-        }
-      }
-    },
-    "navigation": {
-      "item": {
-        "inactive": {
-          "standard": {
-            "value": "60%",
-            "description": "Opacity untuk item navigasi non-aktif agar tidak mendominasi tampilan.",
-            "type": "opacity"
-          }
+        "rest": {
+          "value": "{color.neutral.20A}",
+          "type": "color",
+          "description": "The default background for neutral elements, such as default buttons."
         },
-        "active": {
-          "standard": {
-            "value": "100%",
-            "description": "Opacity penuh untuk navigasi aktif, mempertegas konteks posisi pengguna.",
-            "type": "opacity"
-          }
-        }
-      }
-    }
-  },
-  "structure-size": {
-    "button": {
-      "icon": {
-        "default": {
-          "standard": {
-            "value": "{size.16}",
-            "type": "sizing",
-            "description": "Ukuran ikon kecil di dalam tombol kecil (small button). Cocok untuk toolbar atau UI kompak."
+        "hovered": {
+          "value": "{color.neutral.30A}",
+          "type": "color",
+          "description": "The default background for neutral elements, such as default buttons in a hovered state."
+        },
+        "pressed": {
+          "value": "{color.neutral.40A}",
+          "type": "color",
+          "description": "The default background for neutral elements, such as default buttons in a pressed state."
+        },
+        "bold": {
+          "rest": {
+            "value": "{color.neutral.80}",
+            "type": "color",
+            "description": "A vibrant background option for neutral UI elements, such as announcement banners."
+          },
+          "hovered": {
+            "value": "{color.neutral.90}",
+            "type": "color",
+            "description": "A vibrant background option while hovering neutral UI elements, such as announcement banners."
+          },
+          "pressed": {
+            "value": "{color.neutral.95}",
+            "type": "color",
+            "description": "A vibrant background option while pressing neutral UI elements, such as announcement banners."
           }
         }
       },
-      "container": {
-        "min-height": {
-          "small": {
-            "value": "{size.32}",
-            "type": "sizing",
-            "description": "Tinggi minimum untuk tombol kecil (small). Menyediakan area sentuh minimum yang tetap aksesibel."
-          },
-          "standard": {
-            "value": "{size.xl}",
-            "description": "Tinggi minimum tombol standar (default). Digunakan untuk mayoritas kasus UI.",
-            "type": "sizing"
-          }
+      "selected": {
+        "rest": {
+          "value": "{color.brand.primary.10}",
+          "type": "color",
+          "description": "Use for the background of elements in a selected state, such as in opened dropdown buttons."
         },
-        "min-width": {
-          "small": {
-            "value": "{size.4xl}",
-            "description": "Lebar minimum tombol kecil agar teks tetap terbaca dan tidak terlalu sempit.",
-            "type": "sizing"
+        "hovered": {
+          "value": "{color.brand.primary.20}",
+          "type": "color",
+          "description": "Use for the background of elements in a selected state while hovering, such as in opened dropdown buttons."
+        },
+        "pressed": {
+          "value": "{color.brand.primary.30}",
+          "type": "color",
+          "description": "Use for the background of elements in a selected state while pressing, such as in opened dropdown buttons."
+        },
+        "bold": {
+          "rest": {
+            "value": "{color.brand.primary.70}",
+            "type": "color",
+            "description": "Use for the backgrounds of elements in a selected state, such as checkboxes and radio buttons."
           },
-          "standard": {
-            "value": "88px",
-            "description": "Lebar minimum tombol standar, sesuai pedoman aksesibilitas.",
-            "type": "sizing"
+          "hovered": {
+            "value": "{color.brand.primary.80}",
+            "type": "color",
+            "description": "Use for the backgrounds of elements in a selected state while hovering, such as checkboxes and radio buttons."
+          },
+          "pressed": {
+            "value": "{color.brand.primary.90}",
+            "type": "color",
+            "description": "Use for the backgrounds of elements in a selected state while pressing, such as checkboxes and radio buttons."
           }
         }
+      },
+      "brand": {
+        "subtlest": {
+          "rest": {
+            "value": "{color.brand.primary.10}",
+            "type": "color",
+            "description": "Use for the background of elements used to reinforce our brand, but with less emphasis."
+          },
+          "hovered": {
+            "value": "{color.brand.primary.20}",
+            "type": "color",
+            "description": "Hovered state of color.background.brand.subtle."
+          },
+          "pressed": {
+            "value": "{color.brand.primary.30}",
+            "type": "color",
+            "description": "Pressed state of color.background.brand.subtle."
+          }
+        },
+        "bold": {
+          "rest": {
+            "value": "{color.brand.primary.70}",
+            "type": "color",
+            "description": "Use for the background of elements used to reinforce our brand, but with more emphasis."
+          },
+          "hovered": {
+            "value": "{color.brand.primary.80}",
+            "type": "color",
+            "description": "Use for the background while hovering elements used to reinforce our brand, but with more emphasis."
+          },
+          "pressed": {
+            "value": "{color.brand.primary.90}",
+            "type": "color",
+            "description": "Use for the background while pressing elements used to reinforce our brand, but with more emphasis."
+          }
+        },
+        "boldest": {
+          "rest": {
+            "value": "{color.brand.primary.100}",
+            "type": "color",
+            "description": "Use for the background of elements used to reinforce our brand that needs to stand out a lot."
+          },
+          "hovered": {
+            "value": "{color.brand.primary.90}",
+            "type": "color",
+            "description": "Hovered state of color.background.brand.boldest."
+          },
+          "pressed": {
+            "value": "{color.brand.primary.80}",
+            "type": "color",
+            "description": "Pressed state of color.background.brand.boldest."
+          }
+        }
+      }
+    }
+  },
+  "elevation": {
+    "surface": {
+      "rest": {
+        "value": "{color.neutral.0}",
+        "type": "color",
+        "description": "Use as the primary background for the UI."
+      },
+      "hovered": {
+        "value": "{color.neutral.20}",
+        "type": "color",
+        "description": "Use as the primary background for the UI while hovering."
+      },
+      "pressed": {
+        "value": "{color.neutral.30}",
+        "type": "color",
+        "description": "Use as the primary background for the UI while pressing."
+      },
+      "sunken": {
+        "value": "{color.neutral.10}",
+        "type": "color",
+        "description": "A secondary background for the UI commonly used for grouping items, such as Jira cards in columns."
+      },
+      "overlay": {
+        "rest": {
+          "value": "{color.neutral.0}",
+          "type": "color",
+          "description": "Use for the background of elements that sit on top of the UI, such as modals, dialogs, dropdown menus, floating toolbars, and floating single-action buttons. Also use for the background of raised cards in a dragged state. Combine with elevation.shadow.overlay."
+        },
+        "hovered": {
+          "value": "{color.neutral.20}",
+          "type": "color",
+          "description": "Use for the background while hovering elements that sit on top of the UI, such as modals, dialogs, dropdown menus, floating toolbars, and floating single-action buttons. Also use for the background of raised cards in a dragged state. Combine with elevation.shadow.overlay."
+        },
+        "pressed": {
+          "value": "{color.neutral.30}",
+          "type": "color",
+          "description": "Use for the background while pressing elements that sit on top of the UI, such as modals, dialogs, dropdown menus, floating toolbars, and floating single-action buttons. Also use for the background of raised cards in a dragged state. Combine with elevation.shadow.overlay."
+        }
+      },
+      "raised": {
+        "rest": {
+          "value": "{color.neutral.0}",
+          "type": "color",
+          "description": "Use for the background of cards that can be moved, such as Jira cards on a Kanban board. Combine with elevation.shadow.raised."
+        },
+        "hovered": {
+          "value": "{color.neutral.20}",
+          "type": "color",
+          "description": "Use for the background while hovering cards that can be moved, such as Jira cards on a Kanban board. Combine with elevation.shadow.raised."
+        },
+        "pressed": {
+          "value": "{color.neutral.30}",
+          "type": "color",
+          "description": "Use for the background while pressing cards that can be moved, such as Jira cards on a Kanban board. Combine with elevation.shadow.raised."
+        }
+      }
+    },
+    "shadow": {
+      "overflow": {
+        "default": {
+          "value": [
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "8",
+              "spread": "0",
+              "color": "rgba(9, 30, 66, 0.16)",
+              "type": "dropShadow"
+            },
+            {
+              "x": "0",
+              "y": "0",
+              "blur": "1",
+              "spread": "0",
+              "color": "rgba(9, 30, 66, 0.12)",
+              "type": "dropShadow"
+            }
+          ],
+          "type": "boxShadow",
+          "description": "Use to create a shadow when content scrolls under other content."
+        },
+        "perimeter": {
+          "value": "#091e421f",
+          "type": "color",
+          "description": "Use only when elevation.shadow.overflow is not technically feasible to implement. Pair with elevation.shadow.overflow.spread to replicate the overflow shadow."
+        },
+        "spread": {
+          "value": "#091e4229",
+          "type": "color",
+          "description": "Use only when elevation.shadow.overflow is not technically feasible to implement. Pair with elevation.shadow.overflow.perimeter to replicate the overflow shadow."
+        }
+      },
+      "overlay": {
+        "value": [
+          {
+            "x": "0",
+            "y": "8",
+            "blur": "12",
+            "spread": "0",
+            "color": "rgba(9, 30, 66, 0.15)",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "1",
+            "spread": "0",
+            "color": "rgba(9, 30, 66, 0.31)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Use for the box shadow of elements that sit on top of the UI, such as modals, dropdown menus, flags, and inline dialogs. Combine with elevation.surface.overlay Also use for the box shadow of raised cards in a dragged state."
+      },
+      "raised": {
+        "value": [
+          {
+            "x": "0",
+            "y": "8",
+            "blur": "12",
+            "spread": "0",
+            "color": "rgba(9, 30, 66, 0.15)",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "1",
+            "spread": "0",
+            "color": "rgba(9, 30, 66, 0.31)",
+            "type": "dropShadow"
+          }
+        ],
+        "type": "boxShadow",
+        "description": "Use for the box shadow of raised card elements, Combine with elevation.surface.raised"
       }
     }
   }

@@ -26,39 +26,39 @@
         "type": "color"
       },
       "10": {
-        "value": "{color.merah.10}",
+        "value": "{color.red.10}",
         "type": "color"
       },
       "20": {
-        "value": "{color.merah.20}",
+        "value": "{color.red.20}",
         "type": "color"
       },
       "30": {
-        "value": "{color.merah.30}",
+        "value": "{color.red.30}",
         "type": "color"
       },
       "40": {
-        "value": "{color.merah.40}",
+        "value": "{color.red.40}",
         "type": "color"
       },
       "50": {
-        "value": "{color.merah.50}",
+        "value": "{color.red.50}",
         "type": "color"
       },
       "60": {
-        "value": "{color.merah.60}",
+        "value": "{color.red.60}",
         "type": "color"
       },
       "70": {
-        "value": "{color.merah.70}",
+        "value": "{color.red.70}",
         "type": "color"
       },
       "80": {
-        "value": "{color.merah.80}",
+        "value": "{color.red.80}",
         "type": "color"
       },
       "90": {
-        "value": "{color.merah.90}",
+        "value": "{color.red.90}",
         "type": "color"
       },
       "95": {
@@ -126,37 +126,37 @@
     },
     "icon": {
       "default": {
-        "value": "{brand.color.primary.60}",
+        "value": "{color.brand.primary.60}",
         "type": "color"
       },
       "inverse": {
-        "value": "{color.netral.0}",
+        "value": "{color.neutral.0}",
         "type": "color"
       }
     },
     "text": {
       "default": {
-        "value": "{brand.color.primary.70}",
+        "value": "{color.brand.primary.70}",
         "type": "color"
       },
       "inverse": {
-        "value": "{color.netral.0}",
+        "value": "{color.neutral.0}",
         "type": "color"
       }
     },
     "border": {
       "default": {
-        "value": "{brand.color.primary.50}",
+        "value": "{color.brand.primary.50}",
         "type": "color"
       },
       "inverse": {
-        "value": "{color.netral.0}",
+        "value": "{color.neutral.0}",
         "type": "color"
       }
     },
     "background": {
       "default": {
-        "value": "{brand.color.primary.60}",
+        "value": "{color.brand.primary.60}",
         "type": "color"
       },
       "low": {
@@ -168,7 +168,7 @@
         "type": "color"
       },
       "high": {
-        "value": "{brand.color.primary.70}",
+        "value": "{color.brand.primary.70}",
         "type": "color"
       }
     }

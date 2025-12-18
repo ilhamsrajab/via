@@ -126,37 +126,37 @@
     },
     "icon": {
       "default": {
-        "value": "{brand.color.primary.60}",
+        "value": "{color.brand.primary.60}",
         "type": "color"
       },
       "inverse": {
-        "value": "{color.netral.0}",
+        "value": "{color.neutral.0}",
         "type": "color"
       }
     },
     "text": {
       "default": {
-        "value": "{brand.color.primary.70}",
+        "value": "{color.brand.primary.70}",
         "type": "color"
       },
       "inverse": {
-        "value": "{color.netral.0}",
+        "value": "{color.neutral.0}",
         "type": "color"
       }
     },
     "border": {
       "default": {
-        "value": "{brand.color.primary.50}",
+        "value": "{color.brand.primary.50}",
         "type": "color"
       },
       "inverse": {
-        "value": "{color.netral.0}",
+        "value": "{color.neutral.0}",
         "type": "color"
       }
     },
     "background": {
       "default": {
-        "value": "{brand.color.primary.60}",
+        "value": "{color.brand.primary.60}",
         "type": "color"
       },
       "low": {
@@ -168,7 +168,7 @@
         "type": "color"
       },
       "high": {
-        "value": "{brand.color.primary.70}",
+        "value": "{color.brand.primary.70}",
         "type": "color"
       }
     }
