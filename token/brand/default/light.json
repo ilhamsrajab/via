@@ -2071,5 +2071,17 @@
         "description": "Use for the box shadow of raised card elements, Combine with elevation.surface.raised"
       }
     }
+  },
+  "opacity": {
+    "disabled": {
+      "value": "{opacity.40}",
+      "type": "opacity",
+      "description": "Apply to image when in a disabled state."
+    },
+    "loading": {
+      "value": "{opacity.20}",
+      "type": "opacity",
+      "description": "Apply to content that sits under a loading spinner."
+    }
   }
 }
