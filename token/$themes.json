@@ -238,9 +238,7 @@
     "id": "b658b7b5ab0b379b65c25ec080f75055cb96932d",
     "name": "Light",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "theme/light": "enabled"
-    },
+    "selectedTokenSets": {},
     "$figmaVariableReferences": {},
     "$figmaCollectionId": "VariableCollectionId:9759:3684",
     "$figmaModeId": "9759:9",
@@ -250,9 +248,7 @@
     "id": "05117f7475cc251415e18920a2ff586c898e0492",
     "name": "Dark",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "theme/dark": "enabled"
-    },
+    "selectedTokenSets": {},
     "$figmaVariableReferences": {},
     "$figmaCollectionId": "VariableCollectionId:9759:3684",
     "$figmaModeId": "9759:10",
@@ -264,9 +260,7 @@
     "$figmaStyleReferences": {
       "actions.button.primary.focus.focus-ring.color": "S:5e57df5b29658819e60bd861b3576842bb950adb,"
     },
-    "selectedTokenSets": {
-      "component/button/button": "enabled"
-    },
+    "selectedTokenSets": {},
     "$figmaVariableReferences": {},
     "$figmaCollectionId": "VariableCollectionId:9759:3685",
     "$figmaModeId": "9759:11",

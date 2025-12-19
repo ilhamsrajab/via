@@ -1443,7 +1443,7 @@
             }
           }
         },
-        "neutral": {
+        "gray": {
           "subtlest": {
             "rest": {
               "value": "{color.neutral.20}",
@@ -1525,15 +1525,15 @@
           "type": "color",
           "description": "Use for background of form UI elements, such as text fields, checkboxes, and radio buttons."
         },
-        "pressed": {
-          "value": "{color.neutral.0}",
-          "type": "color",
-          "description": "Use for background of form UI elements, such as text fields, checkboxes, and radio buttons in a pressed state."
-        },
         "hovered": {
           "value": "{color.neutral.10}",
           "type": "color",
           "description": "Use for background of form UI elements, such as text fields, checkboxes, and radio buttons in a hovered state."
+        },
+        "pressed": {
+          "value": "{color.neutral.0}",
+          "type": "color",
+          "description": "Use for background of form UI elements, such as text fields, checkboxes, and radio buttons in a pressed state."
         }
       },
       "inverse": {
@@ -1556,6 +1556,21 @@
         }
       },
       "neutral": {
+        "rest": {
+          "value": "{color.neutral.20A}",
+          "type": "color",
+          "description": "The default background for neutral elements, such as default buttons."
+        },
+        "hovered": {
+          "value": "{color.neutral.30A}",
+          "type": "color",
+          "description": "The default background for neutral elements, such as default buttons in a hovered state."
+        },
+        "pressed": {
+          "value": "{color.neutral.40A}",
+          "type": "color",
+          "description": "The default background for neutral elements, such as default buttons in a pressed state."
+        },
         "subtle": {
           "rest": {
             "value": "#00000000",
@@ -1572,21 +1587,6 @@
             "type": "color",
             "description": "Use for the background while pressing elements that appear to have no background in a resting state, such as subtle buttons and menu items."
           }
-        },
-        "rest": {
-          "value": "{color.neutral.20A}",
-          "type": "color",
-          "description": "The default background for neutral elements, such as default buttons."
-        },
-        "hovered": {
-          "value": "{color.neutral.30A}",
-          "type": "color",
-          "description": "The default background for neutral elements, such as default buttons in a hovered state."
-        },
-        "pressed": {
-          "value": "{color.neutral.40A}",
-          "type": "color",
-          "description": "The default background for neutral elements, such as default buttons in a pressed state."
         },
         "bold": {
           "rest": {
@@ -1690,6 +1690,142 @@
             "value": "{color.brand.primary.80}",
             "type": "color",
             "description": "Pressed state of color.background.brand.boldest."
+          }
+        }
+      },
+      "danger": {
+        "rest": {
+          "value": "{color.red.10}",
+          "type": "color",
+          "description": "Use for backgrounds communicating critical information, such in error section messages."
+        },
+        "hovered": {
+          "value": "{color.red.20}",
+          "type": "color",
+          "description": "Use for backgrounds communicating critical information, such in error section messages in a hovered state."
+        },
+        "pressed": {
+          "value": "{color.red.30}",
+          "type": "color",
+          "description": "Use for backgrounds communicating critical information, such in error section messages in a pressed state."
+        },
+        "bold": {
+          "rest": {
+            "value": "{color.red.70}",
+            "type": "color",
+            "description": "A vibrant background option for communicating critical information, such as in danger buttons and error banners."
+          },
+          "hovered": {
+            "value": "{color.red.80}",
+            "type": "color",
+            "description": "A vibrant background option for communicating critical information, such as in danger buttons and error banners in a hovered state."
+          },
+          "pressed": {
+            "value": "{color.red.90}",
+            "type": "color",
+            "description": "A vibrant background option for communicating critical information, such as in danger buttons and error banners in a pressed state."
+          }
+        }
+      },
+      "warning": {
+        "rest": {
+          "value": "{color.orange.10}",
+          "type": "color",
+          "description": "Use for backgrounds communicating caution, such as in warning section messages."
+        },
+        "hovered": {
+          "value": "{color.orange.20}",
+          "type": "color",
+          "description": "Use for backgrounds communicating caution, such as in warning section messages in a hovered state."
+        },
+        "pressed": {
+          "value": "{color.orange.30}",
+          "type": "color",
+          "description": "Use for backgrounds communicating caution, such as in warning section messages in a pressed state."
+        },
+        "bold": {
+          "rest": {
+            "value": "{color.orange.40}",
+            "type": "color",
+            "description": "A vibrant background option for communicating caution, such as in warning buttons and warning banners."
+          },
+          "hovered": {
+            "value": "{color.orange.50}",
+            "type": "color",
+            "description": "A vibrant background option for communicating caution, such as in warning buttons and warning banners in a hovered state."
+          },
+          "pressed": {
+            "value": "{color.orange.60}",
+            "type": "color",
+            "description": "A vibrant background option for communicating caution, such as in warning buttons and warning banners in a pressed state."
+          }
+        }
+      },
+      "success": {
+        "rest": {
+          "value": "{color.green.10}",
+          "type": "color",
+          "description": "Use for backgrounds communicating a favorable outcome, such as in success section messages."
+        },
+        "hovered": {
+          "value": "{color.green.20}",
+          "type": "color",
+          "description": "Use for backgrounds communicating a favorable outcome, such as in success section messages in a hovered state."
+        },
+        "pressed": {
+          "value": "{color.green.30}",
+          "type": "color",
+          "description": "Use for backgrounds communicating a favorable outcome, such as in success section messages in a pressed state."
+        },
+        "bold": {
+          "rest": {
+            "value": "{color.green.70}",
+            "type": "color",
+            "description": "A vibrant background option for communicating a favorable outcome, such as in checked toggles."
+          },
+          "hovered": {
+            "value": "{color.green.80}",
+            "type": "color",
+            "description": "A vibrant background option for communicating a favorable outcome, such as in checked toggles in a hovered state."
+          },
+          "pressed": {
+            "value": "{color.green.90}",
+            "type": "color",
+            "description": "A vibrant background option for communicating a favorable outcome, such as in checked toggles in a pressed state."
+          }
+        }
+      },
+      "info": {
+        "rest": {
+          "value": "{color.blue.10}",
+          "type": "color",
+          "description": "Use for backgrounds communicating information or something in-progress, such as in information section messages."
+        },
+        "hovered": {
+          "value": "{color.blue.20}",
+          "type": "color",
+          "description": "Use for backgrounds communicating information or something in-progress, such as in information section messages in a hovered state."
+        },
+        "pressed": {
+          "value": "{color.blue.30}",
+          "type": "color",
+          "description": "Use for backgrounds communicating information or something in-progress, such as in information section messages in a pressed state."
+        },
+        "bold": {
+          "rest": {
+            "value": "{color.blue.70}",
+            "type": "color",
+            "description": "A vibrant background option for communicating information or something in-progress."
+          },
+          "hovered": {
+            "value": "{color.blue.80}",
+            "type": "color",
+            "description": "A vibrant background option for communicating information or something in-progress in a hovered state."
+          },
+          "pressed": {
+            "value": "{color.blue.90}",
+            "type": "color",
+            "description": "A vibrant background option for communicating information or something in-progress in a pressed state."
           }
         }
       }
