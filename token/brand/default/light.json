@@ -352,7 +352,7 @@
       }
     },
     "text": {
-      "default": {
+      "standard": {
         "value": "{color.neutral.95}",
         "type": "color",
         "description": "Use for primary text, such as body copy, sentence case headers, and buttons."
@@ -368,7 +368,7 @@
         "description": "Use for tertiary text, such as meta-data, breadcrumbs, input field placeholder and helper text."
       },
       "disabled": {
-        "value": "{color.neutral.40A}",
+        "value": "{color.neutral.40a}",
         "type": "color",
         "description": "Use for text in a disabled state."
       },
@@ -388,7 +388,7 @@
         "description": "Use for text that reinforces our brand."
       },
       "danger": {
-        "rest": {
+        "standard": {
           "value": "{color.red.80}",
           "type": "color",
           "description": "Use for critical text, such as input field error messaging."
@@ -400,7 +400,7 @@
         }
       },
       "warning": {
-        "rest": {
+        "standard": {
           "value": "{color.orange.80}",
           "type": "color",
           "description": "Use for text to emphasize caution, such as in moved lozenges."
@@ -417,7 +417,7 @@
         }
       },
       "success": {
-        "rest": {
+        "standard": {
           "value": "{color.green.80}",
           "type": "color",
           "description": "Use for text to communicate a favorable outcome, such as input field success messaging."
@@ -429,7 +429,7 @@
         }
       },
       "info": {
-        "rest": {
+        "standard": {
           "value": "{color.blue.80}",
           "type": "color",
           "description": "Use for informative text or to communicate something is in progress, such as in-progress lozenges."
@@ -442,7 +442,7 @@
       },
       "accent": {
         "red": {
-          "rest": {
+          "standard": {
             "value": "{color.red.80}",
             "type": "color",
             "description": "Use for red text on subtlest and subtler red accent backgrounds when there is no meaning tied to the color."
@@ -454,7 +454,7 @@
           }
         },
         "orange": {
-          "rest": {
+          "standard": {
             "value": "{color.orange.80}",
             "type": "color",
             "description": "Use for orange text on subtlest and subtler orange accent backgrounds when there is no meaning tied to the color."
@@ -466,7 +466,7 @@
           }
         },
         "yellow": {
-          "rest": {
+          "standard": {
             "value": "{color.yellow.80}",
             "type": "color",
             "description": "Use for yellow text on subtlest and subtler yellow accent backgrounds when there is no meaning tied to the color."
@@ -478,7 +478,7 @@
           }
         },
         "lime": {
-          "rest": {
+          "standard": {
             "value": "{color.lime.80}",
             "type": "color",
             "description": "Use for lime text on subtlest and subtler lime accent backgrounds when there is no meaning tied to the color."
@@ -490,7 +490,7 @@
           }
         },
         "green": {
-          "rest": {
+          "standard": {
             "value": "{color.green.80}",
             "type": "color",
             "description": "Use for green text on subtlest and subtler green accent backgrounds when there is no meaning tied to the color."
@@ -502,7 +502,7 @@
           }
         },
         "teal": {
-          "rest": {
+          "standard": {
             "value": "{color.teal.80}",
             "type": "color",
             "description": "Use for teal text on subtlest and subtler teal accent backgrounds when there is no meaning tied to the color."
@@ -514,7 +514,7 @@
           }
         },
         "blue": {
-          "rest": {
+          "standard": {
             "value": "{color.blue.80}",
             "type": "color",
             "description": "Use for blue text on subtlest and subtler blue accent backgrounds when there is no meaning tied to the color."
@@ -526,7 +526,7 @@
           }
         },
         "purple": {
-          "rest": {
+          "standard": {
             "value": "{color.purple.80}",
             "type": "color",
             "description": "Use for purple text on subtlest and subtler purple accent backgrounds when there is no meaning tied to the color."
@@ -538,7 +538,7 @@
           }
         },
         "magenta": {
-          "rest": {
+          "standard": {
             "value": "{color.magenta.80}",
             "type": "color",
             "description": "Use for magenta text on subtlest and subtler magenta accent backgrounds when there is no meaning tied to the color."
@@ -550,7 +550,7 @@
           }
         },
         "gray": {
-          "rest": {
+          "standard": {
             "value": "{color.neutral.80}",
             "type": "color",
             "description": "Use for gray text on subtlest and subtler gray accent backgrounds when there is no meaning tied to the color."
@@ -564,7 +564,7 @@
       }
     },
     "link": {
-      "default": {
+      "standard": {
         "value": "{color.blue.70}",
         "type": "color",
         "description": "Use for links in a default or hovered state. Add an underline for hovered states."
@@ -576,7 +576,7 @@
       }
     },
     "icon": {
-      "default": {
+      "standard": {
         "value": "{color.neutral.95}",
         "type": "color",
         "description": "Use for icon-only buttons, or icons paired with color.text"
@@ -597,7 +597,7 @@
         "description": "Use for icons on bold backgrounds."
       },
       "disabled": {
-        "value": "{color.neutral.40A}",
+        "value": "{color.neutral.40a}",
         "type": "color",
         "description": "Use for icons in a disabled state."
       },
@@ -627,7 +627,7 @@
         "description": "Use for icons communicating information or something in-progress, such as information section messages."
       },
       "warning": {
-        "rest": {
+        "standard": {
           "value": "{color.orange.60}",
           "type": "color",
           "description": "Use for icons communicating caution, such as those used in warning section messages."
@@ -692,8 +692,8 @@
       }
     },
     "border": {
-      "rest": {
-        "value": "{color.neutral.30A}",
+      "standard": {
+        "value": "{color.neutral.30a}",
         "type": "color",
         "description": "Use to visually group or separate UI elements, such as flat cards or side panel dividers."
       },
@@ -708,7 +708,7 @@
         "description": "Use for borders on bold backgrounds."
       },
       "disabled": {
-        "value": "{color.neutral.20A}",
+        "value": "{color.neutral.20a}",
         "type": "color",
         "description": "Use for borders of elements in a disabled state."
       },
@@ -809,7 +809,7 @@
       "accent": {
         "red": {
           "subtlest": {
-            "rest": {
+            "standard": {
               "value": "{color.red.10}",
               "type": "color",
               "description": "Use for red backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
@@ -826,7 +826,7 @@
             }
           },
           "subtler": {
-            "rest": {
+            "standard": {
               "value": "{color.red.20}",
               "type": "color",
               "description": "Use for red backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -843,7 +843,7 @@
             }
           },
           "subtle": {
-            "rest": {
+            "standard": {
               "value": "{color.red.40}",
               "type": "color",
               "description": "Use for vibrant red backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -860,7 +860,7 @@
             }
           },
           "bolder": {
-            "rest": {
+            "standard": {
               "value": "{color.red.70}",
               "type": "color",
               "description": "Use for red backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
@@ -879,7 +879,7 @@
         },
         "orange": {
           "subtlest": {
-            "rest": {
+            "standard": {
               "value": "{color.orange.10}",
               "type": "color",
               "description": "Use for orange backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
@@ -896,7 +896,7 @@
             }
           },
           "subtler": {
-            "rest": {
+            "standard": {
               "value": "{color.orange.20}",
               "type": "color",
               "description": "Use for orange backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -913,7 +913,7 @@
             }
           },
           "subtle": {
-            "rest": {
+            "standard": {
               "value": "{color.orange.40}",
               "type": "color",
               "description": "Use for vibrant orange backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -930,7 +930,7 @@
             }
           },
           "bolder": {
-            "rest": {
+            "standard": {
               "value": "{color.orange.70}",
               "type": "color",
               "description": "Use for orange backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
@@ -949,7 +949,7 @@
         },
         "yellow": {
           "subtlest": {
-            "rest": {
+            "standard": {
               "value": "{color.yellow.10}",
               "type": "color",
               "description": "Use for yellow backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
@@ -966,7 +966,7 @@
             }
           },
           "subtler": {
-            "rest": {
+            "standard": {
               "value": "{color.yellow.20}",
               "type": "color",
               "description": "Use for yellow backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -983,7 +983,7 @@
             }
           },
           "subtle": {
-            "rest": {
+            "standard": {
               "value": "{color.yellow.30}",
               "type": "color",
               "description": "Use for vibrant yellow backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -1000,7 +1000,7 @@
             }
           },
           "bolder": {
-            "rest": {
+            "standard": {
               "value": "{color.yellow.70}",
               "type": "color",
               "description": "Use for yellow backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
@@ -1019,7 +1019,7 @@
         },
         "lime": {
           "subtlest": {
-            "rest": {
+            "standard": {
               "value": "{color.lime.10}",
               "type": "color",
               "description": "Use for lime backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
@@ -1036,7 +1036,7 @@
             }
           },
           "subtler": {
-            "rest": {
+            "standard": {
               "value": "{color.lime.20}",
               "type": "color",
               "description": "Use for lime backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -1053,7 +1053,7 @@
             }
           },
           "subtle": {
-            "rest": {
+            "standard": {
               "value": "{color.lime.40}",
               "type": "color",
               "description": "Use for vibrant lime backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -1070,7 +1070,7 @@
             }
           },
           "bolder": {
-            "rest": {
+            "standard": {
               "value": "{color.lime.70}",
               "type": "color",
               "description": "Use for lime backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
@@ -1089,7 +1089,7 @@
         },
         "green": {
           "subtlest": {
-            "rest": {
+            "standard": {
               "value": "{color.green.10}",
               "type": "color",
               "description": "Use for green backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
@@ -1106,7 +1106,7 @@
             }
           },
           "subtler": {
-            "rest": {
+            "standard": {
               "value": "{color.green.20}",
               "type": "color",
               "description": "Use for green backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -1123,7 +1123,7 @@
             }
           },
           "subtle": {
-            "rest": {
+            "standard": {
               "value": "{color.green.40}",
               "type": "color",
               "description": "Use for vibrant green backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -1140,7 +1140,7 @@
             }
           },
           "bolder": {
-            "rest": {
+            "standard": {
               "value": "{color.green.70}",
               "type": "color",
               "description": "Use for green backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
@@ -1159,7 +1159,7 @@
         },
         "teal": {
           "subtlest": {
-            "rest": {
+            "standard": {
               "value": "{color.teal.10}",
               "type": "color",
               "description": "Use for teal backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
@@ -1176,7 +1176,7 @@
             }
           },
           "subtler": {
-            "rest": {
+            "standard": {
               "value": "{color.teal.20}",
               "type": "color",
               "description": "Use for teal backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -1193,7 +1193,7 @@
             }
           },
           "subtle": {
-            "rest": {
+            "standard": {
               "value": "{color.teal.40}",
               "type": "color",
               "description": "Use for vibrant teal backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -1210,7 +1210,7 @@
             }
           },
           "bolder": {
-            "rest": {
+            "standard": {
               "value": "{color.teal.70}",
               "type": "color",
               "description": "Use for teal backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
@@ -1229,7 +1229,7 @@
         },
         "blue": {
           "subtlest": {
-            "rest": {
+            "standard": {
               "value": "{color.blue.10}",
               "type": "color",
               "description": "Use for blue backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
@@ -1246,7 +1246,7 @@
             }
           },
           "subtler": {
-            "rest": {
+            "standard": {
               "value": "{color.blue.20}",
               "type": "color",
               "description": "Use for blue backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -1263,7 +1263,7 @@
             }
           },
           "subtle": {
-            "rest": {
+            "standard": {
               "value": "{color.blue.40}",
               "type": "color",
               "description": "Use for vibrant blue backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -1280,7 +1280,7 @@
             }
           },
           "bolder": {
-            "rest": {
+            "standard": {
               "value": "{color.blue.70}",
               "type": "color",
               "description": "Use for blue backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
@@ -1299,7 +1299,7 @@
         },
         "purple": {
           "subtlest": {
-            "rest": {
+            "standard": {
               "value": "{color.purple.10}",
               "type": "color",
               "description": "Use for purple backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
@@ -1316,7 +1316,7 @@
             }
           },
           "subtler": {
-            "rest": {
+            "standard": {
               "value": "{color.purple.20}",
               "type": "color",
               "description": "Use for purple backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -1333,7 +1333,7 @@
             }
           },
           "subtle": {
-            "rest": {
+            "standard": {
               "value": "{color.purple.40}",
               "type": "color",
               "description": "Use for vibrant purple backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -1350,7 +1350,7 @@
             }
           },
           "bolder": {
-            "rest": {
+            "standard": {
               "value": "{color.purple.70}",
               "type": "color",
               "description": "Use for purple backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
@@ -1369,7 +1369,7 @@
         },
         "magenta": {
           "subtlest": {
-            "rest": {
+            "standard": {
               "value": "{color.magenta.10}",
               "type": "color",
               "description": "Use for magenta backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
@@ -1386,7 +1386,7 @@
             }
           },
           "subtler": {
-            "rest": {
+            "standard": {
               "value": "{color.magenta.20}",
               "type": "color",
               "description": "Use for magenta backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -1403,7 +1403,7 @@
             }
           },
           "subtle": {
-            "rest": {
+            "standard": {
               "value": "{color.magenta.40}",
               "type": "color",
               "description": "Use for vibrant magenta backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -1420,7 +1420,7 @@
             }
           },
           "bolder": {
-            "rest": {
+            "standard": {
               "value": "{color.magenta.70}",
               "type": "color",
               "description": "Use for magenta backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
@@ -1439,7 +1439,7 @@
         },
         "gray": {
           "subtlest": {
-            "rest": {
+            "standard": {
               "value": "{color.neutral.20}",
               "type": "color",
               "description": "Use for neutral backgrounds when there is no meaning tied to the color. Reserved for when you only want a hint of color."
@@ -1456,7 +1456,7 @@
             }
           },
           "subtler": {
-            "rest": {
+            "standard": {
               "value": "{color.neutral.30}",
               "type": "color",
               "description": "Use for neutral backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -1473,7 +1473,7 @@
             }
           },
           "subtle": {
-            "rest": {
+            "standard": {
               "value": "{color.neutral.50}",
               "type": "color",
               "description": "Use for vibrant neutral backgrounds when there is no meaning tied to the color, such as colored tags."
@@ -1490,7 +1490,7 @@
             }
           },
           "bolder": {
-            "rest": {
+            "standard": {
               "value": "{color.neutral.70}",
               "type": "color",
               "description": "Use for neutral backgrounds when there is no meaning tied to the color, and the background needs to pass min 3:1 contrast requirements."
@@ -1509,12 +1509,12 @@
         }
       },
       "disabled": {
-        "value": "{color.neutral.10A}",
+        "value": "{color.neutral.10a}",
         "type": "color",
         "description": "Use for backgrounds of elements in a disabled state."
       },
       "input": {
-        "rest": {
+        "standard": {
           "value": "{color.neutral.0}",
           "type": "color",
           "description": "Use for background of form UI elements, such as text fields, checkboxes, and radio buttons."
@@ -1532,7 +1532,7 @@
       },
       "inverse": {
         "subtle": {
-          "rest": {
+          "standard": {
             "value": "#00000029",
             "type": "color",
             "description": "Use for backgrounds of elements on a bold background, such as in the buttons on spotlight cards."
@@ -1550,40 +1550,40 @@
         }
       },
       "neutral": {
-        "rest": {
-          "value": "{color.neutral.20A}",
+        "standard": {
+          "value": "{color.neutral.20a}",
           "type": "color",
           "description": "The default background for neutral elements, such as default buttons."
         },
         "hovered": {
-          "value": "{color.neutral.30A}",
+          "value": "{color.neutral.30a}",
           "type": "color",
           "description": "The default background for neutral elements, such as default buttons in a hovered state."
         },
         "pressed": {
-          "value": "{color.neutral.40A}",
+          "value": "{color.neutral.40a}",
           "type": "color",
           "description": "The default background for neutral elements, such as default buttons in a pressed state."
         },
         "subtle": {
-          "rest": {
+          "standard": {
             "value": "#00000000",
             "type": "color",
             "description": "Use for the background of elements that appear to have no background in a resting state, such as subtle buttons and menu items."
           },
           "hovered": {
-            "value": "{color.neutral.20A}",
+            "value": "{color.neutral.20a}",
             "type": "color",
             "description": "Use for the background while hovering elements that appear to have no background in a resting state, such as subtle buttons and menu items."
           },
           "pressed": {
-            "value": "{color.neutral.30A}",
+            "value": "{color.neutral.30a}",
             "type": "color",
             "description": "Use for the background while pressing elements that appear to have no background in a resting state, such as subtle buttons and menu items."
           }
         },
         "bold": {
-          "rest": {
+          "standard": {
             "value": "{color.neutral.95}",
             "type": "color",
             "description": "A vibrant background option for neutral UI elements, such as announcement banners."
@@ -1601,7 +1601,7 @@
         }
       },
       "selected": {
-        "rest": {
+        "standard": {
           "value": "{color.brand.primary.10}",
           "type": "color",
           "description": "Use for the background of elements in a selected state, such as in opened dropdown buttons."
@@ -1617,7 +1617,7 @@
           "description": "Use for the background of elements in a selected state while pressing, such as in opened dropdown buttons."
         },
         "bold": {
-          "rest": {
+          "standard": {
             "value": "{color.brand.primary.70}",
             "type": "color",
             "description": "Use for the backgrounds of elements in a selected state, such as checkboxes and radio buttons."
@@ -1636,7 +1636,7 @@
       },
       "brand": {
         "subtlest": {
-          "rest": {
+          "standard": {
             "value": "{color.brand.primary.10}",
             "type": "color",
             "description": "Use for the background of elements used to reinforce our brand, but with less emphasis."
@@ -1653,7 +1653,7 @@
           }
         },
         "bold": {
-          "rest": {
+          "standard": {
             "value": "{color.brand.primary.70}",
             "type": "color",
             "description": "Use for the background of elements used to reinforce our brand, but with more emphasis."
@@ -1670,7 +1670,7 @@
           }
         },
         "boldest": {
-          "rest": {
+          "standard": {
             "value": "{color.brand.primary.100}",
             "type": "color",
             "description": "Use for the background of elements used to reinforce our brand that needs to stand out a lot."
@@ -1688,7 +1688,7 @@
         }
       },
       "danger": {
-        "rest": {
+        "standard": {
           "value": "{color.red.10}",
           "type": "color",
           "description": "Use for backgrounds communicating critical information, such in error section messages."
@@ -1704,7 +1704,7 @@
           "description": "Use for backgrounds communicating critical information, such in error section messages in a pressed state."
         },
         "subtler": {
-          "rest": {
+          "standard": {
             "value": "{color.red.20}",
             "type": "color",
             "description": "Use for backgrounds of danger lozenges and badges to ensure accessibility and desired visual appearance."
@@ -1721,7 +1721,7 @@
           }
         },
         "bold": {
-          "rest": {
+          "standard": {
             "value": "{color.red.70}",
             "type": "color",
             "description": "A vibrant background option for communicating critical information, such as in danger buttons and error banners."
@@ -1739,7 +1739,7 @@
         }
       },
       "warning": {
-        "rest": {
+        "standard": {
           "value": "{color.orange.10}",
           "type": "color",
           "description": "Use for backgrounds communicating caution, such as in warning section messages."
@@ -1755,7 +1755,7 @@
           "description": "Use for backgrounds communicating caution, such as in warning section messages in a pressed state."
         },
         "subtler": {
-          "rest": {
+          "standard": {
             "value": "{color.orange.20}",
             "type": "color",
             "description": "Use for backgrounds of warning lozenges and badges to ensure accessibility and desired visual appearance."
@@ -1772,7 +1772,7 @@
           }
         },
         "bold": {
-          "rest": {
+          "standard": {
             "value": "{color.orange.30}",
             "type": "color",
             "description": "A vibrant background option for communicating caution, such as in warning buttons and warning banners."
@@ -1790,7 +1790,7 @@
         }
       },
       "success": {
-        "rest": {
+        "standard": {
           "value": "{color.green.10}",
           "type": "color",
           "description": "Use for backgrounds communicating a favorable outcome, such as in success section messages."
@@ -1806,7 +1806,7 @@
           "description": "Use for backgrounds communicating a favorable outcome, such as in success section messages in a pressed state."
         },
         "subtler": {
-          "rest": {
+          "standard": {
             "value": "{color.green.20}",
             "type": "color",
             "description": "Use for backgrounds of success lozenges and badges to ensure accessibility and desired visual appearance."
@@ -1823,7 +1823,7 @@
           }
         },
         "bold": {
-          "rest": {
+          "standard": {
             "value": "{color.green.70}",
             "type": "color",
             "description": "A vibrant background option for communicating a favorable outcome, such as in checked toggles."
@@ -1841,7 +1841,7 @@
         }
       },
       "info": {
-        "rest": {
+        "standard": {
           "value": "{color.blue.10}",
           "type": "color",
           "description": "Use for backgrounds communicating information or something in-progress, such as in information section messages."
@@ -1857,7 +1857,7 @@
           "description": "Use for backgrounds communicating information or something in-progress, such as in information section messages in a pressed state."
         },
         "subtler": {
-          "rest": {
+          "standard": {
             "value": "{color.blue.20}",
             "type": "color",
             "description": "Use for backgrounds of information lozenges and badges to ensure accessibility and desired visual appearance."
@@ -1874,7 +1874,7 @@
           }
         },
         "bold": {
-          "rest": {
+          "standard": {
             "value": "{color.blue.70}",
             "type": "color",
             "description": "A vibrant background option for communicating information or something in-progress."
@@ -1893,8 +1893,8 @@
       }
     },
     "blanket": {
-      "rest": {
-        "value": "{color.neutral.50A}",
+      "standard": {
+        "value": "{color.neutral.50a}",
         "type": "color",
         "description": "Use for the screen overlay that appears with modal dialogs."
       },
@@ -1922,13 +1922,13 @@
       }
     },
     "skeleton": {
-      "rest": {
-        "value": "{color.neutral.20A}",
+      "standard": {
+        "value": "{color.neutral.20a}",
         "type": "color",
         "description": "Use for skeleton loading states."
       },
       "subtle": {
-        "value": "{color.neutral.10A}",
+        "value": "{color.neutral.10a}",
         "type": "color",
         "description": "Use for the pulse or shimmer effect in skeleton loading states."
       }
@@ -1936,7 +1936,7 @@
   },
   "elevation": {
     "surface": {
-      "rest": {
+      "standard": {
         "value": "{color.neutral.0}",
         "type": "color",
         "description": "Use as the primary background for the UI."
@@ -1957,7 +1957,7 @@
         "description": "A secondary background for the UI commonly used for grouping items, such as Jira cards in columns."
       },
       "overlay": {
-        "rest": {
+        "standard": {
           "value": "{color.neutral.0}",
           "type": "color",
           "description": "Use for the background of elements that sit on top of the UI, such as modals, dialogs, dropdown menus, floating toolbars, and floating single-action buttons. Also use for the background of raised cards in a dragged state. Combine with elevation.shadow.overlay."
@@ -1974,7 +1974,7 @@
         }
       },
       "raised": {
-        "rest": {
+        "standard": {
           "value": "{color.neutral.0}",
           "type": "color",
           "description": "Use for the background of cards that can be moved, such as Jira cards on a Kanban board. Combine with elevation.shadow.raised."
@@ -1993,7 +1993,7 @@
     },
     "shadow": {
       "overflow": {
-        "default": {
+        "standard": {
           "value": [
             {
               "x": "0",

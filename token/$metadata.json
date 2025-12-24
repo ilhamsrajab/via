@@ -1,10 +1,6 @@
 {
   "tokenSetOrder": [
-    "core/global",
-    "core/density/density-compact",
-    "core/density/density-default",
-    "core/density/density-cozy",
-    "core/density/density-spacious",
+    "core",
     "brand/default/light",
     "brand/default/dark",
     "brand/tiketux",
@@ -12,6 +8,7 @@
     "brand/baraya",
     "brand/cgtrans",
     "brand/putra-remaja",
-    "brand/kruzz"
+    "brand/kruzz",
+    "style/style1"
   ]
 }

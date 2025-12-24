@@ -49,23 +49,23 @@
         "value": "#1E1F21",
         "type": "color"
       },
-      "10A": {
+      "10a": {
         "value": "#17171708",
         "type": "color"
       },
-      "20A": {
+      "20a": {
         "value": "#0515240F",
         "type": "color"
       },
-      "30A": {
+      "30a": {
         "value": "#0B120E24",
         "type": "color"
       },
-      "40A": {
+      "40a": {
         "value": "#080F214A",
         "type": "color"
       },
-      "50A": {
+      "50a": {
         "value": "#050C1F75",
         "type": "color"
       }
@@ -131,35 +131,35 @@
         "value": "#111213",
         "type": "color"
       },
-      "-10A": {
+      "-10a": {
         "value": "#01040475",
         "type": "color"
       },
-      "10A": {
+      "10a": {
         "value": "#BDBDBD0A",
         "type": "color"
       },
-      "20A": {
+      "20a": {
         "value": "#CECED912",
         "type": "color"
       },
-      "25A": {
+      "25a": {
         "value": "#D9DAE71A",
         "type": "color"
       },
-      "30A": {
+      "30a": {
         "value": "#E3E4F21F",
         "type": "color"
       },
-      "35A": {
+      "35a": {
         "value": "#E8EDFD2E",
         "type": "color"
       },
-      "40A": {
+      "40a": {
         "value": "#E5E9F640",
         "type": "color"
       },
-      "50A": {
+      "50a": {
         "value": "#E9F0FB5C",
         "type": "color"
       }
@@ -833,35 +833,35 @@
   },
   "rotate": {
     "0": {
-      "value": "0",
+      "value": 0,
       "type": "number"
     },
     "30": {
-      "value": "30",
+      "value": 30,
       "type": "number"
     },
     "45": {
-      "value": "45",
+      "value": 45,
       "type": "number"
     },
     "90": {
-      "value": "90",
+      "value": 90,
       "type": "number"
     },
     "180": {
-      "value": "180",
+      "value": 180,
       "type": "number"
     },
     "270": {
-      "value": "270",
+      "value": 270,
       "type": "number"
     },
     "315": {
-      "value": "315",
+      "value": 315,
       "type": "number"
     },
     "330": {
-      "value": "330",
+      "value": 330,
       "type": "number"
     }
   },
@@ -951,68 +951,6 @@
       "type": "opacity"
     }
   },
-  "dimensions": {
-    "0": {
-      "value": "{dimensions.base} * 0",
-      "type": "dimension"
-    },
-    "1": {
-      "value": "{dimensions.base} * 0.125",
-      "type": "dimension"
-    },
-    "2": {
-      "value": "{dimensions.base} * 0.25",
-      "type": "dimension"
-    },
-    "5": {
-      "value": "{dimensions.base} * 0.5",
-      "type": "dimension"
-    },
-    "7": {
-      "value": "{dimensions.base} * 0.75",
-      "type": "dimension"
-    },
-    "10": {
-      "value": "{dimensions.base} * 1",
-      "type": "dimension"
-    },
-    "12": {
-      "value": "{dimensions.base} * 1.25",
-      "type": "dimension"
-    },
-    "15": {
-      "value": "{dimensions.base} * 1.5",
-      "type": "dimension"
-    },
-    "20": {
-      "value": "{dimensions.base} * 2",
-      "type": "dimension"
-    },
-    "25": {
-      "value": "{dimensions.base} * 2.5",
-      "type": "dimension"
-    },
-    "30": {
-      "value": "{dimensions.base} * 3",
-      "type": "dimension"
-    },
-    "40": {
-      "value": "{dimensions.base} * 4",
-      "type": "dimension"
-    },
-    "50": {
-      "value": "{dimensions.base} * 5",
-      "type": "dimension"
-    },
-    "60": {
-      "value": "{dimensions.base} * 6",
-      "type": "dimension"
-    },
-    "80": {
-      "value": "{dimensions.base} * 8",
-      "type": "dimension"
-    }
-  },
   "size": {
     "2": {
       "value": "2px",
@@ -1064,121 +1002,129 @@
     }
   },
   "space": {
+    "0": {
+      "value": "0",
+      "type": "spacing"
+    },
     "1": {
-      "value": "{dimensions.1}",
+      "value": "1",
       "type": "spacing"
     },
     "2": {
-      "value": "{dimensions.2}",
+      "value": "2",
       "type": "spacing"
     },
     "4": {
-      "value": "{dimensions.5}",
+      "value": "4",
       "type": "spacing"
     },
     "6": {
-      "value": "{dimensions.7}",
+      "value": "6",
       "type": "spacing"
     },
     "8": {
-      "value": "{dimensions.10}",
+      "value": "8",
       "type": "spacing"
     },
     "10": {
-      "value": "{dimensions.12}",
+      "value": "10",
       "type": "spacing"
     },
     "12": {
-      "value": "{dimensions.15}",
+      "value": "12",
       "type": "spacing"
     },
     "16": {
-      "value": "{dimensions.20}",
+      "value": "16",
       "type": "spacing"
     },
     "20": {
-      "value": "{dimensions.25}",
+      "value": "20",
       "type": "spacing"
     },
     "24": {
-      "value": "{dimensions.30}",
+      "value": "24",
       "type": "spacing"
     },
     "32": {
-      "value": "{dimensions.40}",
+      "value": "32",
       "type": "spacing"
     },
     "40": {
-      "value": "{dimensions.50}",
+      "value": "40",
       "type": "spacing"
     },
     "48": {
-      "value": "{dimensions.60}",
+      "value": "48",
       "type": "spacing"
     },
     "64": {
-      "value": "{dimensions.80}",
+      "value": "64",
       "type": "spacing"
     },
-    "none": {
-      "value": "{dimensions.0}",
+    "80": {
+      "value": "80",
       "type": "spacing"
     },
     "negative": {
       "1": {
-        "value": "{dimensions.1} * -1",
+        "value": "{space.1} * -1",
         "type": "spacing"
       },
       "2": {
-        "value": "{dimensions.2} * -1",
+        "value": "{space.2} * -1",
         "type": "spacing"
       },
       "4": {
-        "value": "{dimensions.5} * -1",
+        "value": "{space.4} * -1",
         "type": "spacing"
       },
       "6": {
-        "value": "{dimensions.7} * -1",
+        "value": "{space.6} * -1",
         "type": "spacing"
       },
       "8": {
-        "value": "{dimensions.10} * -1",
+        "value": "{space.8} * -1",
         "type": "spacing"
       },
       "10": {
-        "value": "{dimensions.12} * -1",
+        "value": "{space.10} * -1",
         "type": "spacing"
       },
       "12": {
-        "value": "{dimensions.15} * -1",
+        "value": "{space.12} * -1",
         "type": "spacing"
       },
       "16": {
-        "value": "{dimensions.20} * -1",
+        "value": "{space.16} * -1",
         "type": "spacing"
       },
       "20": {
-        "value": "{dimensions.25} * -1",
+        "value": "{space.20} * -1",
         "type": "spacing"
       },
       "24": {
-        "value": "{dimensions.30} * -1",
+        "value": "{space.24} * -1",
         "type": "spacing"
       },
       "32": {
-        "value": "{dimensions.40} * -1",
+        "value": "{space.32} * -1",
         "type": "spacing"
       },
       "40": {
-        "value": "{dimensions.50} * -1",
+        "value": "{space.40} * -1",
         "type": "spacing"
       },
       "48": {
-        "value": "{dimensions.60} * -1",
+        "value": "{space.48} * -1",
         "type": "spacing"
       },
       "64": {
-        "value": "{dimensions.80} * -1",
+        "value": "{space.64} * -1",
+        "type": "spacing"
+      },
+      "80": {
+        "value": "{space.80} * -1",
         "type": "spacing"
       }
     }
@@ -1281,12 +1227,16 @@
       }
     }
   },
-  "code": {
-    "value": "for (int i = 0; i < 26; i++) {\t\tprintf(\"Quick brown fox jumps over lazy dog %d times.\\n\", i);\t\tprintf(\"1234567890\"); }",
-    "type": "text"
-  },
-  "Sans": {
-    "value": "Lorem ipsum dolor sit amet, ini adalah teks biasa untuk keperluan testing agar dapat melihat bagaimana sistem memproses token.",
-    "type": "text"
+  "note": {
+    "placeholder": {
+      "code": {
+        "value": "for (int i = 0; i < 26; i++) {\t\tprintf(\"Quick brown fox jumps over lazy dog %d times.\\n\", i);\t\tprintf(\"1234567890\"); }",
+        "type": "text"
+      },
+      "lorem-ipsum": {
+        "value": "Lorem ipsum dolor sit amet, ini adalah teks biasa untuk keperluan testing agar dapat melihat bagaimana sistem memproses token.",
+        "type": "text"
+      }
+    }
   }
 }
