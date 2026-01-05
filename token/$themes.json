@@ -94,7 +94,7 @@
   },
   {
     "id": "8eb6dd0c4ec923429719dbbb1bf5a07bf567ffca",
-    "name": "Default-Light",
+    "name": "Default - Light",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "brand/default/light": "enabled",
@@ -104,7 +104,7 @@
   },
   {
     "id": "a0cc6ebe92b72a39941c8e88a266d2dc89e4b390",
-    "name": "Default-Dark",
+    "name": "Default - Dark",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "brand/default/light": "enabled",
@@ -114,97 +114,48 @@
     "group": "Brand"
   },
   {
-    "id": "Brand-Default",
-    "name": "Default",
-    "selectedTokenSets": {
-      "brand/default/light": "enabled",
-      "core": "source"
-    },
-    "$figmaStyleReferences": {
-      "brand-text.headline.small": "S:6979dfdaa1198a3f117538a48bd03b7458c47a33,",
-      "brand-text.headline.medium": "S:6ceda981a483788c170d3c0f8878986b9eae4d40,",
-      "brand-text.headline.large": "S:f0871ceaabfd833aa1f2d821e43f8daf1d56ad23,",
-      "brand-text.title.small": "S:8cd27658dfeca1c90c7f8f45a15ea57d4ac427b3,",
-      "brand-text.title.large": "S:ec9167841b7bdc067f81376a23d4acc7779699d8,",
-      "brand-text.subtitle.small": "S:ad62bed84ed85bf164471636a959ba129c3b87fa,",
-      "brand-text.subtitle.large": "S:d6a884f64872adb4889b26307bf6e2810325ea32,",
-      "brand-text.body.small": "S:c371acb09fb3524a314f6140bfadf52593f450e4,",
-      "brand-text.body.large": "S:3f4eaa230642c6b5d0f58de04cc20765c944ccb7,",
-      "brand-text.label.default": "S:f108dd53b7f8759994c6a493b6247873e2c36973,",
-      "brand-text.caption.small": "S:cf56175744ee1fac7be294e6bdbdff16157b18c7,",
-      "brand-text.caption.large": "S:344f067361eb6e8e0af93bfa17264d4710eddf4d,",
-      "brand-elevation.shadow.default": "S:fe83c0e4cb2d1d96d85d614efb9197475095827b,",
-      "brand-elevation.shadow.high": "S:b07971a7f21a872f2b2e2dfd13e357c279dffb8e,"
-    },
-    "$figmaVariableReferences": {},
-    "$figmaCollectionId": "VariableCollectionId:9759:3683",
-    "$figmaModeId": "9759:5",
-    "group": "Brand"
-  },
-  {
-    "id": "Brand-Tiketux",
-    "name": "Tiketux",
-    "selectedTokenSets": {
-      "brand/tiketux": "enabled",
-      "brand/default/light": "enabled"
-    },
+    "id": "809ed712106d0d492bda7a61c0dd76a63151d5b5",
+    "name": "Standard",
     "$figmaStyleReferences": {},
-    "$figmaVariableReferences": {},
-    "$figmaCollectionId": "VariableCollectionId:9759:3683",
-    "$figmaModeId": "9759:6",
-    "group": "Brand"
+    "selectedTokenSets": {
+      "style/standard": "enabled"
+    },
+    "group": "Style"
   },
   {
-    "id": "Brand-Aragon",
-    "name": "Aragon",
-    "selectedTokenSets": {
-      "brand/aragon": "enabled",
-      "brand/default/light": "enabled"
-    },
+    "id": "0ff4fc328aa9833e9416c7cdac3157673d5ab7b0",
+    "name": "Express",
     "$figmaStyleReferences": {},
-    "$figmaVariableReferences": {},
-    "$figmaCollectionId": "VariableCollectionId:9759:3683",
-    "$figmaModeId": "9759:7",
-    "group": "Brand"
+    "selectedTokenSets": {
+      "style/express": "enabled"
+    },
+    "group": "Style"
   },
   {
-    "id": "Brand-Baraya Travel",
-    "name": "Baraya Travel",
+    "id": "30737c131445d710f3289ad150d98e4359a45e88",
+    "name": "Spacious",
+    "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "brand/baraya": "enabled",
-      "brand/default/light": "enabled"
+      "style/spacious": "enabled"
     },
-    "$figmaStyleReferences": {
-      "brand-text.headline.small": "S:10c16d6a9b5e14b6d5442f0d2ab48c73a7b1c1a5,",
-      "brand-text.headline.medium": "S:48de31e226eff04b6efe1a896a2f216317c275a1,",
-      "brand-text.headline.large": "S:8f584bb23e11cbd4e909b7c805288500ff1ded52,",
-      "brand-text.title.small": "S:a894ce1bf880f5d236a781dd48557b55880b2bc6,",
-      "brand-text.title.large": "S:cf4a726b44583fd35993615dfef675f306b04aba,",
-      "brand-text.subtitle.small": "S:fa3c4a7e6e642ca4d96da6fd7df71c4eba0f8f16,",
-      "brand-text.subtitle.large": "S:4fe50844431fc35c09173cc5f2817f11d55bf351,",
-      "brand-text.body.small": "S:5fa9bf75fb184f87cbdd5ba977a33a5a5b6f7134,",
-      "brand-text.body.large": "S:2220a577a149c74e08171d3d7e18b3a26458e7bb,",
-      "brand-text.label.default": "S:8b082a005e4697b4ee906a5d03e27b2a7b35e255,",
-      "brand-text.caption.small": "S:0b7ce3f2b1a7738b37076bb3233e986b95cfc081,",
-      "brand-text.caption.large": "S:a59e8541d837129608521b305de3f734336700db,",
-      "brand-elevation.shadow.default": "S:b66fa87a4bd8e65cbc6f2bd25050dbcc81bfd440,",
-      "brand-elevation.shadow.high": "S:364fb0110e700ec6228b1b4662bf92814bc79062,",
-      "brand-typography.headline.small": "S:87d275dab63b667ad5c2f286eb60a48cb7eb8e9e,",
-      "brand-typography.headline.medium": "S:0e215d13ae4db62377c3ca76fd5f5b7b4dfca1e0,",
-      "brand-typography.headline.large": "S:7aa0196144a9fbb634adc5600b3040bedb967615,",
-      "brand-typography.title.small": "S:0203ed06bea24d8b2936a1ba06afff7c7a81e8a7,",
-      "brand-typography.title.large": "S:e9dd856a4329c1249f800239ce7b16daed472071,",
-      "brand-typography.subtitle.small": "S:5234c9f05253f7c6e0c3fed55ba77bb6aa7893d9,",
-      "brand-typography.subtitle.large": "S:12e5b308e593623533e88102e70f9781e79bd6a1,",
-      "brand-typography.body.small": "S:657dbbd4e0c6a70f794b23634f274a1b8ba938a4,",
-      "brand-typography.body.large": "S:4976d4c9304423cf6f095a2989e87fa8cee613e1,",
-      "brand-typography.label.default": "S:b5570cecc5199584d34b4d0948f9405279ab672c,",
-      "brand-typography.caption.small": "S:8d1315b9a544a89fb7517305dcbd14af001a8281,",
-      "brand-typography.caption.large": "S:43175d5e5781cad4ba02ef3f074f5c65101e358d,"
+    "group": "Style"
+  },
+  {
+    "id": "a84766144139092bd1f337ae9608f0b2e92e44c6",
+    "name": "Structured",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "style/structured": "enabled"
     },
-    "$figmaVariableReferences": {},
-    "$figmaCollectionId": "VariableCollectionId:9759:3683",
-    "$figmaModeId": "9759:8",
-    "group": "Brand"
+    "group": "Style"
+  },
+  {
+    "id": "3ff8a939aa1b818939b30ce9b2630aac0b687f73",
+    "name": "Compact",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "style/compact": "enabled"
+    },
+    "group": "Style"
   }
 ]
