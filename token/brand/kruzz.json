@@ -178,7 +178,7 @@
       "container": {
         "default": {
           "brand": {
-            "value": "{border.width.none}",
+            "value": "{border.width.0}",
             "description": "Brand-standard border thickness for action components such as buttons.",
             "type": "borderWidth"
           }
