@@ -117,45 +117,35 @@
     "id": "809ed712106d0d492bda7a61c0dd76a63151d5b5",
     "name": "Standard",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "style/standard": "enabled"
-    },
+    "selectedTokenSets": {},
     "group": "Style"
   },
   {
     "id": "0ff4fc328aa9833e9416c7cdac3157673d5ab7b0",
     "name": "Express",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "style/express": "enabled"
-    },
+    "selectedTokenSets": {},
     "group": "Style"
   },
   {
     "id": "30737c131445d710f3289ad150d98e4359a45e88",
     "name": "Spacious",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "style/spacious": "enabled"
-    },
+    "selectedTokenSets": {},
     "group": "Style"
   },
   {
     "id": "a84766144139092bd1f337ae9608f0b2e92e44c6",
     "name": "Structured",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "style/structured": "enabled"
-    },
+    "selectedTokenSets": {},
     "group": "Style"
   },
   {
     "id": "3ff8a939aa1b818939b30ce9b2630aac0b687f73",
     "name": "Compact",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "style/compact": "enabled"
-    },
+    "selectedTokenSets": {},
     "group": "Style"
   }
 ]
